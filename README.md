@@ -7,7 +7,6 @@ A SwiftUI App That Will Show Information On Each Doctor Who Episode With The Abi
 - macOS App
 - Info On Classic Episodes
 - Add Notes
-- Add Favourites
 - Share Wiki Link
 - Share Images
 - Info On New Episodes
