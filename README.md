@@ -1,4 +1,4 @@
-# DW-Episode-Guide
+# DW Episode Guide
 
 A SwiftUI App That Will Show Information On Each Doctor Who Episode With The Ability To Share The Info, Images And Links.
 
