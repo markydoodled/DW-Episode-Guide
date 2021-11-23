@@ -1,0 +1,2182 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D57832DB27381A18007CD57E /* DW_Episode_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */; };
+		D57832DD27381A18007CD57E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DC27381A18007CD57E /* ContentView.swift */; };
+		D57832DF27381A1C007CD57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57832DE27381A1C007CD57E /* Assets.xcassets */; };
+		D57832E227381A1C007CD57E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57832E127381A1C007CD57E /* Preview Assets.xcassets */; };
+		D57832EA27381A66007CD57E /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832E927381A66007CD57E /* SettingsView.swift */; };
+		D57832EE27381ED4007CD57E /* ClassicSeries1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832ED27381ED4007CD57E /* ClassicSeries1.swift */; };
+		D57832F027381EDC007CD57E /* ClassicSeries2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832EF27381EDC007CD57E /* ClassicSeries2.swift */; };
+		D57832F227381EE3007CD57E /* ClassicSeries3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832F127381EE3007CD57E /* ClassicSeries3.swift */; };
+		D57832F427381EF0007CD57E /* ClassicSeries4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832F327381EF0007CD57E /* ClassicSeries4.swift */; };
+		D57832F627381F15007CD57E /* ClassicSeries5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832F527381F15007CD57E /* ClassicSeries5.swift */; };
+		D57832F827381F1C007CD57E /* ClassicSeries6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832F727381F1C007CD57E /* ClassicSeries6.swift */; };
+		D57832FA27381F22007CD57E /* ClassicSeries7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832F927381F22007CD57E /* ClassicSeries7.swift */; };
+		D57832FC27381F28007CD57E /* ClassicSeries8.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832FB27381F28007CD57E /* ClassicSeries8.swift */; };
+		D57832FE27381F33007CD57E /* ClassicSeries9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832FD27381F33007CD57E /* ClassicSeries9.swift */; };
+		D578330027381F4E007CD57E /* ClassicSeries10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832FF27381F4E007CD57E /* ClassicSeries10.swift */; };
+		D578330227381F56007CD57E /* ClassicSeries11.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330127381F56007CD57E /* ClassicSeries11.swift */; };
+		D578330427381F69007CD57E /* ClassicSeries12.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330327381F69007CD57E /* ClassicSeries12.swift */; };
+		D578330627381F72007CD57E /* ClassicSeries13.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330527381F72007CD57E /* ClassicSeries13.swift */; };
+		D578330827381F98007CD57E /* ClassicSeries14.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330727381F98007CD57E /* ClassicSeries14.swift */; };
+		D578330A27381FB5007CD57E /* ClassicSeries15.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330927381FB5007CD57E /* ClassicSeries15.swift */; };
+		D578330C27381FBB007CD57E /* ClassicSeries16.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330B27381FBB007CD57E /* ClassicSeries16.swift */; };
+		D578330E27381FC3007CD57E /* ClassicSeries17.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330D27381FC3007CD57E /* ClassicSeries17.swift */; };
+		D578331027382011007CD57E /* ClassicSeries18.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330F27382011007CD57E /* ClassicSeries18.swift */; };
+		D578331227382017007CD57E /* ClassicSeries19.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331127382017007CD57E /* ClassicSeries19.swift */; };
+		D57833142738201F007CD57E /* ClassicSeries20.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833132738201F007CD57E /* ClassicSeries20.swift */; };
+		D578331627382029007CD57E /* ClassicSeries21.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331527382029007CD57E /* ClassicSeries21.swift */; };
+		D578331827382033007CD57E /* ClassicSeries22.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331727382033007CD57E /* ClassicSeries22.swift */; };
+		D578331A27382040007CD57E /* ClassicSeries23.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331927382040007CD57E /* ClassicSeries23.swift */; };
+		D578331C27382048007CD57E /* ClassicSeries24.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331B27382048007CD57E /* ClassicSeries24.swift */; };
+		D578331E27382052007CD57E /* ClassicSeries25.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331D27382052007CD57E /* ClassicSeries25.swift */; };
+		D57833202738205C007CD57E /* ClassicSeries26.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331F2738205C007CD57E /* ClassicSeries26.swift */; };
+		D57833232738208A007CD57E /* NewSeries1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833222738208A007CD57E /* NewSeries1.swift */; };
+		D57833252738208F007CD57E /* NewSeries2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833242738208F007CD57E /* NewSeries2.swift */; };
+		D578332727382097007CD57E /* NewSeries3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578332627382097007CD57E /* NewSeries3.swift */; };
+		D57833292738209F007CD57E /* NewSeries4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833282738209F007CD57E /* NewSeries4.swift */; };
+		D578332B273820A9007CD57E /* NewSeries5.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578332A273820A9007CD57E /* NewSeries5.swift */; };
+		D578332D273820C2007CD57E /* NewSeries6.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578332C273820C2007CD57E /* NewSeries6.swift */; };
+		D578332F273820CD007CD57E /* NewSeries7.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578332E273820CD007CD57E /* NewSeries7.swift */; };
+		D5783331273820EC007CD57E /* NewSeries8.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783330273820EC007CD57E /* NewSeries8.swift */; };
+		D5783333273820F3007CD57E /* NewSeries9.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783332273820F3007CD57E /* NewSeries9.swift */; };
+		D5783335273820FB007CD57E /* NewSeries10.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783334273820FB007CD57E /* NewSeries10.swift */; };
+		D578333727382101007CD57E /* NewSeries11.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578333627382101007CD57E /* NewSeries11.swift */; };
+		D578333927382106007CD57E /* NewSeries12.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578333827382106007CD57E /* NewSeries12.swift */; };
+		D578333B2738210E007CD57E /* NewSeries13.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578333A2738210E007CD57E /* NewSeries13.swift */; };
+		D5783340273822D9007CD57E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578333F273822D9007CD57E /* Persistence.swift */; };
+		D578334627382849007CD57E /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D578334427382849007CD57E /* Main.xcdatamodeld */; };
+		D5783390273873C4007CD57E /* AnUnearthlyChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578338F273873C4007CD57E /* AnUnearthlyChild.swift */; };
+		D5783392273873C9007CD57E /* TheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783391273873C9007CD57E /* TheDaleks.swift */; };
+		D5783394273873D4007CD57E /* TheEdgeOfDestruction.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783393273873D4007CD57E /* TheEdgeOfDestruction.swift */; };
+		D5783396273873DD007CD57E /* MarcoPolo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783395273873DD007CD57E /* MarcoPolo.swift */; };
+		D578339827387408007CD57E /* TheKeysOfMarinus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339727387408007CD57E /* TheKeysOfMarinus.swift */; };
+		D578339A27387413007CD57E /* TheAztecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339927387413007CD57E /* TheAztecs.swift */; };
+		D578339C27387420007CD57E /* TheSensorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339B27387420007CD57E /* TheSensorites.swift */; };
+		D578339E27387433007CD57E /* TheReignOfTerror.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339D27387433007CD57E /* TheReignOfTerror.swift */; };
+		D57833A02739A041007CD57E /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339F2739A041007CD57E /* TVMovie.swift */; };
+		D57833A2273AE4EF007CD57E /* PlanetOfGiants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A1273AE4EF007CD57E /* PlanetOfGiants.swift */; };
+		D57833A4273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A3273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift */; };
+		D57833A6273AE50D007CD57E /* TheRescue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A5273AE50D007CD57E /* TheRescue.swift */; };
+		D57833A8273AE519007CD57E /* TheRomans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A7273AE519007CD57E /* TheRomans.swift */; };
+		D57833AA273AE524007CD57E /* TheWebPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A9273AE524007CD57E /* TheWebPlanet.swift */; };
+		D57833AC273AE52B007CD57E /* TheCrusade.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833AB273AE52B007CD57E /* TheCrusade.swift */; };
+		D57833AE273AE53F007CD57E /* TheSpaceMuseum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833AD273AE53F007CD57E /* TheSpaceMuseum.swift */; };
+		D57833B0273B2000007CD57E /* TheChase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833AF273B2000007CD57E /* TheChase.swift */; };
+		D57833B2273B2011007CD57E /* TheTimeMeddler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833B1273B2011007CD57E /* TheTimeMeddler.swift */; };
+		D57833B4273B2024007CD57E /* Galaxy4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833B3273B2024007CD57E /* Galaxy4.swift */; };
+		D57833B6273B210A007CD57E /* MissionToTheUnknown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833B5273B210A007CD57E /* MissionToTheUnknown.swift */; };
+		D57833B8273B2118007CD57E /* TheMythMakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833B7273B2118007CD57E /* TheMythMakers.swift */; };
+		D57833BA273B2128007CD57E /* TheDaleksMasterPlan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833B9273B2128007CD57E /* TheDaleksMasterPlan.swift */; };
+		D57833BC273B213D007CD57E /* TheMassacre.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833BB273B213D007CD57E /* TheMassacre.swift */; };
+		D57833BE273B2145007CD57E /* TheArk.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833BD273B2145007CD57E /* TheArk.swift */; };
+		D57833C0273B2197007CD57E /* TheCelestialToymaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833BF273B2197007CD57E /* TheCelestialToymaker.swift */; };
+		D57833C2273B21A4007CD57E /* TheGunfighters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833C1273B21A4007CD57E /* TheGunfighters.swift */; };
+		D57833C4273B21B9007CD57E /* TheSavages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833C3273B21B9007CD57E /* TheSavages.swift */; };
+		D57833C6273B21C9007CD57E /* TheWarMachines.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833C5273B21C9007CD57E /* TheWarMachines.swift */; };
+		D57833C8273B21D9007CD57E /* TheSmugglers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833C7273B21D9007CD57E /* TheSmugglers.swift */; };
+		D57833CA273B21E8007CD57E /* TheTenthPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833C9273B21E8007CD57E /* TheTenthPlanet.swift */; };
+		D57833CC273B21FB007CD57E /* ThePowerOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833CB273B21FB007CD57E /* ThePowerOfTheDaleks.swift */; };
+		D57833CE273B2244007CD57E /* TheHighlanders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833CD273B2244007CD57E /* TheHighlanders.swift */; };
+		D57833D0273B2293007CD57E /* TheUnderwaterMenace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833CF273B2293007CD57E /* TheUnderwaterMenace.swift */; };
+		D57833D2273B229F007CD57E /* TheMoonbase.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833D1273B229F007CD57E /* TheMoonbase.swift */; };
+		D57833D4273B22AC007CD57E /* TheMacraTerror.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833D3273B22AC007CD57E /* TheMacraTerror.swift */; };
+		D57833D6273B22B7007CD57E /* TheFacelessOnes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833D5273B22B7007CD57E /* TheFacelessOnes.swift */; };
+		D57833D8273B22CD007CD57E /* TheEvilOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833D7273B22CD007CD57E /* TheEvilOfTheDaleks.swift */; };
+		D57833DA273B233E007CD57E /* TheTombOfTheCybermen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833D9273B233E007CD57E /* TheTombOfTheCybermen.swift */; };
+		D57833DC273B234D007CD57E /* TheAbominableSnowmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833DB273B234D007CD57E /* TheAbominableSnowmen.swift */; };
+		D57833DE273B235A007CD57E /* TheIceWarriors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833DD273B235A007CD57E /* TheIceWarriors.swift */; };
+		D57833E0273B237B007CD57E /* TheEnemyOfTheWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833DF273B237B007CD57E /* TheEnemyOfTheWorld.swift */; };
+		D57833E2273B2398007CD57E /* TheWebOfFear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833E1273B2398007CD57E /* TheWebOfFear.swift */; };
+		D57833E4273B23D6007CD57E /* FuryFromTheDeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833E3273B23D6007CD57E /* FuryFromTheDeep.swift */; };
+		D57833E6273B23E4007CD57E /* TheWheelInSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833E5273B23E4007CD57E /* TheWheelInSpace.swift */; };
+		D57833E8273B24CC007CD57E /* TheDominators.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833E7273B24CC007CD57E /* TheDominators.swift */; };
+		D57833EA273B24D8007CD57E /* TheMindRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833E9273B24D8007CD57E /* TheMindRobber.swift */; };
+		D57833EC273B24E2007CD57E /* TheInvasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833EB273B24E2007CD57E /* TheInvasion.swift */; };
+		D57833EE273B24EE007CD57E /* TheKrotons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833ED273B24EE007CD57E /* TheKrotons.swift */; };
+		D57833F0273B2507007CD57E /* TheSeedsOfDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833EF273B2507007CD57E /* TheSeedsOfDeath.swift */; };
+		D57833F2273B2516007CD57E /* TheSpacePirates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833F1273B2516007CD57E /* TheSpacePirates.swift */; };
+		D57833F4273B2521007CD57E /* TheWarGames.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833F3273B2521007CD57E /* TheWarGames.swift */; };
+		D57833F6273B259D007CD57E /* SpearheadFromSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833F5273B259D007CD57E /* SpearheadFromSpace.swift */; };
+		D57833F8273B25AA007CD57E /* AndTheSilurians.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833F7273B25AA007CD57E /* AndTheSilurians.swift */; };
+		D57833FA273B25BA007CD57E /* TheAmbassadorsOfDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833F9273B25BA007CD57E /* TheAmbassadorsOfDeath.swift */; };
+		D57833FC273B25C7007CD57E /* Inferno.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833FB273B25C7007CD57E /* Inferno.swift */; };
+		D57833FE273B25DD007CD57E /* TerrorOfTheAutons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833FD273B25DD007CD57E /* TerrorOfTheAutons.swift */; };
+		D5783400273B25EF007CD57E /* TheMindOfEvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833FF273B25EF007CD57E /* TheMindOfEvil.swift */; };
+		D5783402273B25FE007CD57E /* TheClawsOfAxos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783401273B25FE007CD57E /* TheClawsOfAxos.swift */; };
+		D5783404273B2612007CD57E /* ColonyInSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783403273B2612007CD57E /* ColonyInSpace.swift */; };
+		D5783406273B261C007CD57E /* TheDaemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783405273B261C007CD57E /* TheDaemons.swift */; };
+		D5783408273B2691007CD57E /* DayOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783407273B2691007CD57E /* DayOfTheDaleks.swift */; };
+		D578340A273B26AA007CD57E /* TheCurseOfPeladon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783409273B26AA007CD57E /* TheCurseOfPeladon.swift */; };
+		D578340C273B26B6007CD57E /* TheSeaDevils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578340B273B26B6007CD57E /* TheSeaDevils.swift */; };
+		D578340E273B26C0007CD57E /* TheMutants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578340D273B26C0007CD57E /* TheMutants.swift */; };
+		D5783410273B26CB007CD57E /* TheTimeMonster.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578340F273B26CB007CD57E /* TheTimeMonster.swift */; };
+		D5783412273B274F007CD57E /* TheThreeDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783411273B274F007CD57E /* TheThreeDoctors.swift */; };
+		D5783414273B27C9007CD57E /* CarnivalOfMonsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783413273B27C9007CD57E /* CarnivalOfMonsters.swift */; };
+		D5783416273B27D7007CD57E /* FrontierInSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783415273B27D7007CD57E /* FrontierInSpace.swift */; };
+		D5783418273B2828007CD57E /* PlanetOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783417273B2828007CD57E /* PlanetOfTheDaleks.swift */; };
+		D578341A273B2830007CD57E /* TheGreenDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783419273B2830007CD57E /* TheGreenDeath.swift */; };
+		D578341C273B2845007CD57E /* TheTimeWarrior.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578341B273B2845007CD57E /* TheTimeWarrior.swift */; };
+		D578341E273B2853007CD57E /* InvasionOfTheDinosaurs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578341D273B2853007CD57E /* InvasionOfTheDinosaurs.swift */; };
+		D5783420273B2864007CD57E /* DeathToTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578341F273B2864007CD57E /* DeathToTheDaleks.swift */; };
+		D5783422273B2881007CD57E /* TheMonsterOfPeladon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783421273B2881007CD57E /* TheMonsterOfPeladon.swift */; };
+		D5783424273B2891007CD57E /* PlanetOfTheSpiders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5783423273B2891007CD57E /* PlanetOfTheSpiders.swift */; };
+		D57EAFEC273D99050032DF75 /* Robot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFEB273D99050032DF75 /* Robot.swift */; };
+		D57EAFEE273D990F0032DF75 /* TheArkInSpace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFED273D990F0032DF75 /* TheArkInSpace.swift */; };
+		D57EAFF0273D991E0032DF75 /* TheSontaranExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFEF273D991E0032DF75 /* TheSontaranExperiment.swift */; };
+		D57EAFF2273D99690032DF75 /* GenesisOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFF1273D99690032DF75 /* GenesisOfTheDaleks.swift */; };
+		D57EAFF4273D99740032DF75 /* RevengeOfTheCybermen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFF3273D99740032DF75 /* RevengeOfTheCybermen.swift */; };
+		D57EAFF6273D99850032DF75 /* TerrorOfTheZygons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFF5273D99850032DF75 /* TerrorOfTheZygons.swift */; };
+		D57EAFF8273D998C0032DF75 /* PlanetOfEvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFF7273D998C0032DF75 /* PlanetOfEvil.swift */; };
+		D57EAFFA273D99B00032DF75 /* PyramidsOfMars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFF9273D99B00032DF75 /* PyramidsOfMars.swift */; };
+		D57EAFFC273D99BE0032DF75 /* TheAndroidInvasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFFB273D99BE0032DF75 /* TheAndroidInvasion.swift */; };
+		D57EAFFE273D99D30032DF75 /* TheBrainOfMorbius.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFFD273D99D30032DF75 /* TheBrainOfMorbius.swift */; };
+		D57EB000273D99DC0032DF75 /* TheSeedsOfDoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EAFFF273D99DC0032DF75 /* TheSeedsOfDoom.swift */; };
+		D57EB002273D99F80032DF75 /* TheMasqueOfMandragora.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB001273D99F80032DF75 /* TheMasqueOfMandragora.swift */; };
+		D57EB004273D9A090032DF75 /* TheHandOfFear.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB003273D9A090032DF75 /* TheHandOfFear.swift */; };
+		D57EB006273D9A820032DF75 /* TheDeadlyAssassin.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB005273D9A820032DF75 /* TheDeadlyAssassin.swift */; };
+		D57EB008273D9A890032DF75 /* TheFaceOfEvil.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB007273D9A890032DF75 /* TheFaceOfEvil.swift */; };
+		D57EB00A273D9A930032DF75 /* TheRobotsOfDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB009273D9A930032DF75 /* TheRobotsOfDeath.swift */; };
+		D57EB00C273D9AA10032DF75 /* TheTalonsOfWengChiang.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB00B273D9AA10032DF75 /* TheTalonsOfWengChiang.swift */; };
+		D57EB00E273D9AC20032DF75 /* HorrorOfFangRock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB00D273D9AC20032DF75 /* HorrorOfFangRock.swift */; };
+		D57EB010273D9AE70032DF75 /* TheInvisibleEnemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB00F273D9AE70032DF75 /* TheInvisibleEnemy.swift */; };
+		D57EB012273D9AF80032DF75 /* ImageOfTheFendahl.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB011273D9AF80032DF75 /* ImageOfTheFendahl.swift */; };
+		D57EB014273D9B010032DF75 /* TheSunMakers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB013273D9B010032DF75 /* TheSunMakers.swift */; };
+		D57EB016273D9B080032DF75 /* Underworld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB015273D9B080032DF75 /* Underworld.swift */; };
+		D57EB018273D9B150032DF75 /* TheInvasionOfTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB017273D9B150032DF75 /* TheInvasionOfTime.swift */; };
+		D57EB01A273D9B260032DF75 /* TheRibosOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB019273D9B260032DF75 /* TheRibosOperation.swift */; };
+		D57EB01C273D9B4D0032DF75 /* TheStonesOfBlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB01B273D9B4D0032DF75 /* TheStonesOfBlood.swift */; };
+		D57EB01E273D9B5A0032DF75 /* TheAndroidsOfTara.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB01D273D9B5A0032DF75 /* TheAndroidsOfTara.swift */; };
+		D57EB020273D9B690032DF75 /* ThePowerOfKroll.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB01F273D9B690032DF75 /* ThePowerOfKroll.swift */; };
+		D57EB022273D9B780032DF75 /* TheArmageddonFactor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB021273D9B780032DF75 /* TheArmageddonFactor.swift */; };
+		D57EB024273D9B8A0032DF75 /* DestinyOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB023273D9B8A0032DF75 /* DestinyOfTheDaleks.swift */; };
+		D57EB026273D9B930032DF75 /* CityOfDeath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB025273D9B930032DF75 /* CityOfDeath.swift */; };
+		D57EB028273D9BD30032DF75 /* TheCreatureFromThePit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB027273D9BD30032DF75 /* TheCreatureFromThePit.swift */; };
+		D57EB02A273D9BDE0032DF75 /* NightmareOfEden.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB029273D9BDE0032DF75 /* NightmareOfEden.swift */; };
+		D57EB02C273D9BE70032DF75 /* TheHornsOfNimon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB02B273D9BE70032DF75 /* TheHornsOfNimon.swift */; };
+		D57EB02E273D9BEF0032DF75 /* Shada.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB02D273D9BEF0032DF75 /* Shada.swift */; };
+		D57EB030273D9C040032DF75 /* TheLeisureHive.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB02F273D9C040032DF75 /* TheLeisureHive.swift */; };
+		D57EB032273D9C0B0032DF75 /* Meglos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB031273D9C0B0032DF75 /* Meglos.swift */; };
+		D57EB034273D9C220032DF75 /* FullCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB033273D9C220032DF75 /* FullCircle.swift */; };
+		D57EB036273D9C2A0032DF75 /* StateOfDecay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB035273D9C2A0032DF75 /* StateOfDecay.swift */; };
+		D57EB038273D9C370032DF75 /* WarriorsGate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB037273D9C370032DF75 /* WarriorsGate.swift */; };
+		D57EB03A273D9C420032DF75 /* TheKeeperOfTraken.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB039273D9C420032DF75 /* TheKeeperOfTraken.swift */; };
+		D57EB03C273D9C4C0032DF75 /* Logopolis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB03B273D9C4C0032DF75 /* Logopolis.swift */; };
+		D57EB03E273D9C5E0032DF75 /* Castrovalva.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB03D273D9C5E0032DF75 /* Castrovalva.swift */; };
+		D57EB040273D9C690032DF75 /* FourToDoomsday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB03F273D9C690032DF75 /* FourToDoomsday.swift */; };
+		D57EB042273ED4CD0032DF75 /* Kinda.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB041273ED4CD0032DF75 /* Kinda.swift */; };
+		D57EB044273ED4DA0032DF75 /* TheVisitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB043273ED4DA0032DF75 /* TheVisitation.swift */; };
+		D57EB046273ED4EE0032DF75 /* BlackOrchid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB045273ED4EE0032DF75 /* BlackOrchid.swift */; };
+		D57EB048273ED5530032DF75 /* Earthshock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB047273ED5530032DF75 /* Earthshock.swift */; };
+		D57EB04A273ED5600032DF75 /* TimeFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB049273ED5600032DF75 /* TimeFlight.swift */; };
+		D57EB04C273ED5840032DF75 /* ArcOfInfinity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB04B273ED5840032DF75 /* ArcOfInfinity.swift */; };
+		D57EB04E273ED5980032DF75 /* Snakedance.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB04D273ED5980032DF75 /* Snakedance.swift */; };
+		D57EB050273ED5A40032DF75 /* MawdrynUndead.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB04F273ED5A40032DF75 /* MawdrynUndead.swift */; };
+		D57EB052273ED5D50032DF75 /* Terminus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB051273ED5D50032DF75 /* Terminus.swift */; };
+		D57EB054273ED5E00032DF75 /* Enlightenment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB053273ED5E00032DF75 /* Enlightenment.swift */; };
+		D57EB056273ED5EA0032DF75 /* TheKingsDemons.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB055273ED5EA0032DF75 /* TheKingsDemons.swift */; };
+		D57EB058273ED60D0032DF75 /* TheFiveDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB057273ED60D0032DF75 /* TheFiveDoctors.swift */; };
+		D57EB05A273ED61C0032DF75 /* WarriorsOfTheDeep.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB059273ED61C0032DF75 /* WarriorsOfTheDeep.swift */; };
+		D57EB05C273ED62B0032DF75 /* TheAwakening.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB05B273ED62B0032DF75 /* TheAwakening.swift */; };
+		D57EB060273ED64B0032DF75 /* Frontios.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB05F273ED64B0032DF75 /* Frontios.swift */; };
+		D57EB062273ED6F60032DF75 /* ResurrectionOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB061273ED6F60032DF75 /* ResurrectionOfTheDaleks.swift */; };
+		D57EB064273ED7170032DF75 /* PlanetOfFire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB063273ED7170032DF75 /* PlanetOfFire.swift */; };
+		D57EB066273ED7250032DF75 /* TheCavesOfAndrozani.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB065273ED7250032DF75 /* TheCavesOfAndrozani.swift */; };
+		D57EB068273ED72F0032DF75 /* TheTwinDilemma.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB067273ED72F0032DF75 /* TheTwinDilemma.swift */; };
+		D57EB06A273ED7410032DF75 /* AttackOfTheCybermen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB069273ED7410032DF75 /* AttackOfTheCybermen.swift */; };
+		D57EB06C273ED7550032DF75 /* VengeanceOnVaros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB06B273ED7550032DF75 /* VengeanceOnVaros.swift */; };
+		D57EB06E273ED7610032DF75 /* TheMarkOfTheRani.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB06D273ED7610032DF75 /* TheMarkOfTheRani.swift */; };
+		D57EB070273ED76C0032DF75 /* TheTwoDoctors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB06F273ED76C0032DF75 /* TheTwoDoctors.swift */; };
+		D57EB072273ED7730032DF75 /* Timelash.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB071273ED7730032DF75 /* Timelash.swift */; };
+		D57EB074273ED7830032DF75 /* RevelationOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB073273ED7830032DF75 /* RevelationOfTheDaleks.swift */; };
+		D57EB076273ED8B40032DF75 /* TheMysteriousPlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB075273ED8B40032DF75 /* TheMysteriousPlanet.swift */; };
+		D57EB078273ED8BB0032DF75 /* Mindwarp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB077273ED8BB0032DF75 /* Mindwarp.swift */; };
+		D57EB07A273ED8CB0032DF75 /* TerrorOfTheVervoids.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB079273ED8CB0032DF75 /* TerrorOfTheVervoids.swift */; };
+		D57EB07C273ED8D60032DF75 /* TheUltimateFoe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB07B273ED8D60032DF75 /* TheUltimateFoe.swift */; };
+		D57EB07E273ED8EB0032DF75 /* TimeAndTheRani.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB07D273ED8EB0032DF75 /* TimeAndTheRani.swift */; };
+		D57EB08027410E060032DF75 /* ParadiseTowers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB07F27410E060032DF75 /* ParadiseTowers.swift */; };
+		D57EB08227410E7F0032DF75 /* DeltaAndTheBannermen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08127410E7F0032DF75 /* DeltaAndTheBannermen.swift */; };
+		D57EB08427410E920032DF75 /* Dragonfire.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08327410E920032DF75 /* Dragonfire.swift */; };
+		D57EB08627410EA40032DF75 /* RememberanceOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08527410EA40032DF75 /* RememberanceOfTheDaleks.swift */; };
+		D57EB08827410EAF0032DF75 /* TheHappinessPatrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08727410EAF0032DF75 /* TheHappinessPatrol.swift */; };
+		D57EB08A27410EB80032DF75 /* SilverNemesis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08927410EB80032DF75 /* SilverNemesis.swift */; };
+		D57EB08C27410EC90032DF75 /* TheGreatestShowInTheGalaxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08B27410EC90032DF75 /* TheGreatestShowInTheGalaxy.swift */; };
+		D57EB08E2741112D0032DF75 /* Battlefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08D2741112D0032DF75 /* Battlefield.swift */; };
+		D57EB0902741113A0032DF75 /* GhostLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08F2741113A0032DF75 /* GhostLight.swift */; };
+		D57EB0922741114F0032DF75 /* TheCurseOfFenric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0912741114F0032DF75 /* TheCurseOfFenric.swift */; };
+		D57EB094274111570032DF75 /* Survival.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB093274111570032DF75 /* Survival.swift */; };
+		D57EB09627419F360032DF75 /* ThePiratePlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB09527419F360032DF75 /* ThePiratePlanet.swift */; };
+		D57EB098274420D60032DF75 /* Rose.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB097274420D60032DF75 /* Rose.swift */; };
+		D57EB09A2744216E0032DF75 /* TheEndOfTheWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0992744216E0032DF75 /* TheEndOfTheWorld.swift */; };
+		D57EB09C274421790032DF75 /* TheUnquietDead.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB09B274421790032DF75 /* TheUnquietDead.swift */; };
+		D57EB09E274421830032DF75 /* AliensOfLondon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB09D274421830032DF75 /* AliensOfLondon.swift */; };
+		D57EB0A02744218D0032DF75 /* WorldWarThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB09F2744218D0032DF75 /* WorldWarThree.swift */; };
+		D57EB0A2274422D00032DF75 /* Dalek.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A1274422D00032DF75 /* Dalek.swift */; };
+		D57EB0A4274422D70032DF75 /* TheLongGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A3274422D70032DF75 /* TheLongGame.swift */; };
+		D57EB0A6274422E40032DF75 /* FathersDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A5274422E40032DF75 /* FathersDay.swift */; };
+		D57EB0A8274423590032DF75 /* TheEmptyChild.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A7274423590032DF75 /* TheEmptyChild.swift */; };
+		D57EB0AA274423600032DF75 /* TheDoctorDances.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A9274423600032DF75 /* TheDoctorDances.swift */; };
+		D57EB0AC2744236A0032DF75 /* BoomTown.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0AB2744236A0032DF75 /* BoomTown.swift */; };
+		D57EB0AE274423700032DF75 /* BadWolf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0AD274423700032DF75 /* BadWolf.swift */; };
+		D57EB0B02744237C0032DF75 /* ThePartingOfTheWays.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0AF2744237C0032DF75 /* ThePartingOfTheWays.swift */; };
+		D57EB0B227443E810032DF75 /* TheChristmasInvasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0B127443E810032DF75 /* TheChristmasInvasion.swift */; };
+		D57EB0B427443E910032DF75 /* NewEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0B327443E910032DF75 /* NewEarth.swift */; };
+		D57EB0B627443E9A0032DF75 /* ToothAndClaw.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0B527443E9A0032DF75 /* ToothAndClaw.swift */; };
+		D57EB0B827443EA80032DF75 /* SchoolReunion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0B727443EA80032DF75 /* SchoolReunion.swift */; };
+		D57EB0BA27443EC20032DF75 /* TheGirlInTheFireplace.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0B927443EC20032DF75 /* TheGirlInTheFireplace.swift */; };
+		D57EB0BC27443EE00032DF75 /* RiseOfTheCybermen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0BB27443EE00032DF75 /* RiseOfTheCybermen.swift */; };
+		D57EB0BE27443EEC0032DF75 /* TheAgeOfSteel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0BD27443EEC0032DF75 /* TheAgeOfSteel.swift */; };
+		D57EB0C027443EFA0032DF75 /* TheIdiotsLantern.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0BF27443EFA0032DF75 /* TheIdiotsLantern.swift */; };
+		D57EB0C227443F070032DF75 /* TheImpossiblePlanet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0C127443F070032DF75 /* TheImpossiblePlanet.swift */; };
+		D57EB0C427443F130032DF75 /* TheSatanPit.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0C327443F130032DF75 /* TheSatanPit.swift */; };
+		D57EB0C627443F1E0032DF75 /* Love&Monsters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0C527443F1E0032DF75 /* Love&Monsters.swift */; };
+		D57EB0CA27443F330032DF75 /* FearHer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0C927443F330032DF75 /* FearHer.swift */; };
+		D57EB0CC27443F3F0032DF75 /* ArmyOfGhosts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0CB27443F3F0032DF75 /* ArmyOfGhosts.swift */; };
+		D57EB0CE27443F480032DF75 /* Doomsday.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0CD27443F480032DF75 /* Doomsday.swift */; };
+		D57EB0D0274441220032DF75 /* TheRunawayBride.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0CF274441220032DF75 /* TheRunawayBride.swift */; };
+		D57EB0D2274441560032DF75 /* SmithAndJones.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0D1274441560032DF75 /* SmithAndJones.swift */; };
+		D57EB0D4274441660032DF75 /* TheShakespeareCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0D3274441660032DF75 /* TheShakespeareCode.swift */; };
+		D57EB0D62744416E0032DF75 /* Gridlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0D52744416E0032DF75 /* Gridlock.swift */; };
+		D57EB0D8274441860032DF75 /* DaleksInManhattan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0D7274441860032DF75 /* DaleksInManhattan.swift */; };
+		D57EB0DA274441F60032DF75 /* EvolutionOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0D9274441F60032DF75 /* EvolutionOfTheDaleks.swift */; };
+		D57EB0DC274442170032DF75 /* TheLazarusExperiment.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0DB274442170032DF75 /* TheLazarusExperiment.swift */; };
+		D57EB0E0274442540032DF75 /* _42.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0DF274442540032DF75 /* _42.swift */; };
+		D57EB0E2274442630032DF75 /* HumanNature.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0E1274442630032DF75 /* HumanNature.swift */; };
+		D57EB0E42744426F0032DF75 /* TheFamilyOfBlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0E32744426F0032DF75 /* TheFamilyOfBlood.swift */; };
+		D57EB0E6274442AA0032DF75 /* Blink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0E5274442AA0032DF75 /* Blink.swift */; };
+		D57EB0E8274442C20032DF75 /* Utopia.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0E7274442C20032DF75 /* Utopia.swift */; };
+		D57EB0EA274442D10032DF75 /* TheSoundOfDrums.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0E9274442D10032DF75 /* TheSoundOfDrums.swift */; };
+		D57EB0EC274442DD0032DF75 /* LastOfTheTimeLords.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0EB274442DD0032DF75 /* LastOfTheTimeLords.swift */; };
+		D57EB0EE274447A40032DF75 /* VoyageOfTheDamned.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0ED274447A40032DF75 /* VoyageOfTheDamned.swift */; };
+		D57EB0F0274447B10032DF75 /* PartnersInCrime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0EF274447B10032DF75 /* PartnersInCrime.swift */; };
+		D57EB0F2274449C70032DF75 /* TheFiresOfPompeii.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0F1274449C70032DF75 /* TheFiresOfPompeii.swift */; };
+		D57EB0F427444A260032DF75 /* PlanetOfTheOod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0F327444A260032DF75 /* PlanetOfTheOod.swift */; };
+		D57EB0F627444A370032DF75 /* TheSontaranStratagem.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0F527444A370032DF75 /* TheSontaranStratagem.swift */; };
+		D57EB0F827444A400032DF75 /* ThePoisonSky.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0F727444A400032DF75 /* ThePoisonSky.swift */; };
+		D57EB0FA27444A7C0032DF75 /* TheDoctorsDaughter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0F927444A7C0032DF75 /* TheDoctorsDaughter.swift */; };
+		D57EB0FC27444A8B0032DF75 /* TheUnicornAndTheWasp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0FB27444A8B0032DF75 /* TheUnicornAndTheWasp.swift */; };
+		D57EB0FE27444A990032DF75 /* SilenceInTheLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0FD27444A990032DF75 /* SilenceInTheLibrary.swift */; };
+		D57EB10027444AA70032DF75 /* ForestOfTheDead.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0FF27444AA70032DF75 /* ForestOfTheDead.swift */; };
+		D57EB10227444AAD0032DF75 /* Midnight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10127444AAD0032DF75 /* Midnight.swift */; };
+		D57EB10427444AB30032DF75 /* TurnLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10327444AB30032DF75 /* TurnLeft.swift */; };
+		D57EB10627444AC10032DF75 /* TheStolenEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10527444AC10032DF75 /* TheStolenEarth.swift */; };
+		D57EB10827444AEB0032DF75 /* JourneysEnd.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10727444AEB0032DF75 /* JourneysEnd.swift */; };
+		D57EB10A27444AF30032DF75 /* TheNextDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10927444AF30032DF75 /* TheNextDoctor.swift */; };
+		D57EB10C27444AFB0032DF75 /* PlanetOfTheDead.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10B27444AFB0032DF75 /* PlanetOfTheDead.swift */; };
+		D57EB10E27444B040032DF75 /* TheWatersOfMars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10D27444B040032DF75 /* TheWatersOfMars.swift */; };
+		D57EB11027444B100032DF75 /* TheEndOfTimePart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB10F27444B100032DF75 /* TheEndOfTimePart1.swift */; };
+		D57EB11227444B1D0032DF75 /* TheEndOfTimePart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11127444B1D0032DF75 /* TheEndOfTimePart2.swift */; };
+		D57EB11427444D090032DF75 /* TheEleventhHour.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11327444D090032DF75 /* TheEleventhHour.swift */; };
+		D57EB11627444D130032DF75 /* TheBeastBelow.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11527444D130032DF75 /* TheBeastBelow.swift */; };
+		D57EB11827444D240032DF75 /* VictoryOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11727444D240032DF75 /* VictoryOfTheDaleks.swift */; };
+		D57EB11A27444D330032DF75 /* TheTimeOfAngels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11927444D330032DF75 /* TheTimeOfAngels.swift */; };
+		D57EB11C27444E2A0032DF75 /* FleshAndStone.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11B27444E2A0032DF75 /* FleshAndStone.swift */; };
+		D57EB11E27444E420032DF75 /* TheVampiresOfVenice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11D27444E420032DF75 /* TheVampiresOfVenice.swift */; };
+		D57EB12027444EE50032DF75 /* AmysChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB11F27444EE50032DF75 /* AmysChoice.swift */; };
+		D57EB12227444F470032DF75 /* TheHungryEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB12127444F470032DF75 /* TheHungryEarth.swift */; };
+		D57EB12427444FC30032DF75 /* ColdBlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB12327444FC30032DF75 /* ColdBlood.swift */; };
+		D57EB126274450340032DF75 /* VincentAndTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB125274450340032DF75 /* VincentAndTheDoctor.swift */; };
+		D57EB1282744503B0032DF75 /* TheLodger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1272744503B0032DF75 /* TheLodger.swift */; };
+		D57EB12A274450470032DF75 /* ThePandoricaOpens.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB129274450470032DF75 /* ThePandoricaOpens.swift */; };
+		D57EB12C274458AA0032DF75 /* TheBigBang.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB12B274458AA0032DF75 /* TheBigBang.swift */; };
+		D57EB12E27456DCF0032DF75 /* AChristmasCarol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB12D27456DCF0032DF75 /* AChristmasCarol.swift */; };
+		D57EB13027456DE50032DF75 /* TheImpossibleAstronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB12F27456DE50032DF75 /* TheImpossibleAstronaut.swift */; };
+		D57EB13227456DEE0032DF75 /* DayOfTheMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13127456DEE0032DF75 /* DayOfTheMoon.swift */; };
+		D57EB13427456DFE0032DF75 /* TheCurseOfTheBlackSpot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13327456DFE0032DF75 /* TheCurseOfTheBlackSpot.swift */; };
+		D57EB13627456E080032DF75 /* TheDoctorsWife.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13527456E080032DF75 /* TheDoctorsWife.swift */; };
+		D57EB13827456E130032DF75 /* TheRebelFlesh.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13727456E130032DF75 /* TheRebelFlesh.swift */; };
+		D57EB13A27456E2B0032DF75 /* TheAlmostPeople.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13927456E2B0032DF75 /* TheAlmostPeople.swift */; };
+		D57EB13C27456E360032DF75 /* AGoodManGoesToWar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13B27456E360032DF75 /* AGoodManGoesToWar.swift */; };
+		D57EB13E27456E3F0032DF75 /* LetsKillHitler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13D27456E3F0032DF75 /* LetsKillHitler.swift */; };
+		D57EB14027456E4A0032DF75 /* NightTerrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB13F27456E4A0032DF75 /* NightTerrors.swift */; };
+		D57EB14227456E550032DF75 /* TheGirlWhoWaited.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14127456E550032DF75 /* TheGirlWhoWaited.swift */; };
+		D57EB14427456E5E0032DF75 /* TheGodComplex.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14327456E5E0032DF75 /* TheGodComplex.swift */; };
+		D57EB14627456E6B0032DF75 /* ClosingTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14527456E6B0032DF75 /* ClosingTime.swift */; };
+		D57EB14827456E7B0032DF75 /* TheWeddingOfRiverSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14727456E7B0032DF75 /* TheWeddingOfRiverSong.swift */; };
+		D57EB14A27456F630032DF75 /* TheDoctorTheWidowAndTheWardrobe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14927456F630032DF75 /* TheDoctorTheWidowAndTheWardrobe.swift */; };
+		D57EB14C274585650032DF75 /* AsylumOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14B274585650032DF75 /* AsylumOfTheDaleks.swift */; };
+		D57EB14E2745B0020032DF75 /* DinosaursOnASpaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14D2745B0020032DF75 /* DinosaursOnASpaceship.swift */; };
+		D57EB1502745B0100032DF75 /* ATownCalledMercy.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB14F2745B0100032DF75 /* ATownCalledMercy.swift */; };
+		D57EB1522745B01B0032DF75 /* ThePowerOfThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1512745B01B0032DF75 /* ThePowerOfThree.swift */; };
+		D57EB1542745B02C0032DF75 /* TheAngelsTakeManhattan.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1532745B02C0032DF75 /* TheAngelsTakeManhattan.swift */; };
+		D57EB1562745B0340032DF75 /* TheSnowmen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1552745B0340032DF75 /* TheSnowmen.swift */; };
+		D57EB1582745B0430032DF75 /* TheBellsOfSaintJohn.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1572745B0430032DF75 /* TheBellsOfSaintJohn.swift */; };
+		D57EB15A2745B0500032DF75 /* TheRingsOfAkhaten.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1592745B0500032DF75 /* TheRingsOfAkhaten.swift */; };
+		D57EB15C2745B0590032DF75 /* ColdWar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB15B2745B0590032DF75 /* ColdWar.swift */; };
+		D57EB15E2745B05E0032DF75 /* Hide.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB15D2745B05E0032DF75 /* Hide.swift */; };
+		D57EB1602745B0750032DF75 /* JourneyToTheCentreOfTheTARDIS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB15F2745B0750032DF75 /* JourneyToTheCentreOfTheTARDIS.swift */; };
+		D57EB1622745B0880032DF75 /* TheCrimsonHorror.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1612745B0880032DF75 /* TheCrimsonHorror.swift */; };
+		D57EB1642745B0930032DF75 /* NightmareInSilver.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1632745B0930032DF75 /* NightmareInSilver.swift */; };
+		D57EB1662745B09E0032DF75 /* TheNameOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1652745B09E0032DF75 /* TheNameOfTheDoctor.swift */; };
+		D57EB1682745B0A90032DF75 /* TheDayOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1672745B0A90032DF75 /* TheDayOfTheDoctor.swift */; };
+		D57EB16A2745B0B20032DF75 /* TheTimeOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1692745B0B20032DF75 /* TheTimeOfTheDoctor.swift */; };
+		D57EB16C2745B1340032DF75 /* DeepBreath.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB16B2745B1340032DF75 /* DeepBreath.swift */; };
+		D57EB16E2745B13C0032DF75 /* IntoTheDalek.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB16D2745B13C0032DF75 /* IntoTheDalek.swift */; };
+		D57EB1702745B1470032DF75 /* RobotOfSherwood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB16F2745B1470032DF75 /* RobotOfSherwood.swift */; };
+		D57EB1722745B14F0032DF75 /* Listen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1712745B14F0032DF75 /* Listen.swift */; };
+		D57EB1742745B15C0032DF75 /* TimeHeist.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1732745B15C0032DF75 /* TimeHeist.swift */; };
+		D57EB1762745B1650032DF75 /* TheCaretaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1752745B1650032DF75 /* TheCaretaker.swift */; };
+		D57EB1782745B16F0032DF75 /* KillTheMoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1772745B16F0032DF75 /* KillTheMoon.swift */; };
+		D57EB17A2745B17A0032DF75 /* MummyOnTheOrientExpress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1792745B17A0032DF75 /* MummyOnTheOrientExpress.swift */; };
+		D57EB17C2745B1830032DF75 /* Flatline.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB17B2745B1830032DF75 /* Flatline.swift */; };
+		D57EB17E2745B1940032DF75 /* InTheForestOfTheNight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB17D2745B1940032DF75 /* InTheForestOfTheNight.swift */; };
+		D57EB1802745B19D0032DF75 /* DarkWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB17F2745B19D0032DF75 /* DarkWater.swift */; };
+		D57EB1822745B1A40032DF75 /* DeathInHeaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1812745B1A40032DF75 /* DeathInHeaven.swift */; };
+		D57EB1842745B20E0032DF75 /* LastChristmas.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1832745B20E0032DF75 /* LastChristmas.swift */; };
+		D57EB1862745B21F0032DF75 /* TheMagiciansApprentice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1852745B21F0032DF75 /* TheMagiciansApprentice.swift */; };
+		D57EB1882745B22E0032DF75 /* TheWitchsFamiliar.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1872745B22E0032DF75 /* TheWitchsFamiliar.swift */; };
+		D57EB18A2745B23C0032DF75 /* UnderTheLake.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1892745B23C0032DF75 /* UnderTheLake.swift */; };
+		D57EB18C2745B2460032DF75 /* BeforeTheFlood.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB18B2745B2460032DF75 /* BeforeTheFlood.swift */; };
+		D57EB18E2745B2510032DF75 /* TheGirlWhoDied.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB18D2745B2510032DF75 /* TheGirlWhoDied.swift */; };
+		D57EB1902745B25B0032DF75 /* TheWomanWhoLived.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB18F2745B25B0032DF75 /* TheWomanWhoLived.swift */; };
+		D57EB1922745B2680032DF75 /* TheZygonInvasion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1912745B2680032DF75 /* TheZygonInvasion.swift */; };
+		D57EB1942745B2710032DF75 /* TheZygonInversion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1932745B2710032DF75 /* TheZygonInversion.swift */; };
+		D57EB1962745B27C0032DF75 /* SleepNoMore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1952745B27C0032DF75 /* SleepNoMore.swift */; };
+		D57EB1982745B2840032DF75 /* FaceTheRaven.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1972745B2840032DF75 /* FaceTheRaven.swift */; };
+		D57EB19A2745B28E0032DF75 /* HeavenSent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1992745B28E0032DF75 /* HeavenSent.swift */; };
+		D57EB19C2745B2950032DF75 /* HellBent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB19B2745B2950032DF75 /* HellBent.swift */; };
+		D57EB19E2745B2A40032DF75 /* TheHusbandsOfRiverSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB19D2745B2A40032DF75 /* TheHusbandsOfRiverSong.swift */; };
+		D57EB1A02745B3130032DF75 /* TheReturnOfDoctorMysterio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB19F2745B3130032DF75 /* TheReturnOfDoctorMysterio.swift */; };
+		D57EB1A22745B31C0032DF75 /* ThePilot.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1A12745B31C0032DF75 /* ThePilot.swift */; };
+		D57EB1A42745B3210032DF75 /* Smile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1A32745B3210032DF75 /* Smile.swift */; };
+		D57EB1A62745B3270032DF75 /* ThinIce.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1A52745B3270032DF75 /* ThinIce.swift */; };
+		D57EB1A82745B3330032DF75 /* KnockKnock.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1A72745B3330032DF75 /* KnockKnock.swift */; };
+		D57EB1AA2745B33E0032DF75 /* Oxygen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1A92745B33E0032DF75 /* Oxygen.swift */; };
+		D57EB1AC2745B3430032DF75 /* Extremis.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1AB2745B3430032DF75 /* Extremis.swift */; };
+		D57EB1AE2745B3530032DF75 /* ThePyramidAtTheEndOfTheWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1AD2745B3530032DF75 /* ThePyramidAtTheEndOfTheWorld.swift */; };
+		D57EB1B02745B3610032DF75 /* TheLieOfTheLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1AF2745B3610032DF75 /* TheLieOfTheLand.swift */; };
+		D57EB1B22745B36C0032DF75 /* EmpressOfMars.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1B12745B36C0032DF75 /* EmpressOfMars.swift */; };
+		D57EB1B42745B3780032DF75 /* TheEatersOfLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1B32745B3780032DF75 /* TheEatersOfLight.swift */; };
+		D57EB1B62745B3840032DF75 /* WorldEnoughAndTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1B52745B3840032DF75 /* WorldEnoughAndTime.swift */; };
+		D57EB1B82745B38F0032DF75 /* TheDoctorFalls.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1B72745B38F0032DF75 /* TheDoctorFalls.swift */; };
+		D57EB1BA2745B39C0032DF75 /* TwiceUponATime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1B92745B39C0032DF75 /* TwiceUponATime.swift */; };
+		D57EB1BC2745B4090032DF75 /* TheWomanWhoFellToEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1BB2745B4090032DF75 /* TheWomanWhoFellToEarth.swift */; };
+		D57EB1BE2745B4120032DF75 /* TheGhostMonument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1BD2745B4120032DF75 /* TheGhostMonument.swift */; };
+		D57EB1C02745B41A0032DF75 /* Rosa.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1BF2745B41A0032DF75 /* Rosa.swift */; };
+		D57EB1C22745B42C0032DF75 /* ArachnidsInTheUK.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1C12745B42C0032DF75 /* ArachnidsInTheUK.swift */; };
+		D57EB1C42745B4530032DF75 /* TheTsurangaConundrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1C32745B4530032DF75 /* TheTsurangaConundrum.swift */; };
+		D57EB1C62745B4680032DF75 /* DemonsOfThePunjab.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1C52745B4680032DF75 /* DemonsOfThePunjab.swift */; };
+		D57EB1C82745B4720032DF75 /* Kerblam.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1C72745B4720032DF75 /* Kerblam.swift */; };
+		D57EB1CA2745B47E0032DF75 /* TheWitchfinders.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1C92745B47E0032DF75 /* TheWitchfinders.swift */; };
+		D57EB1CC2745B4870032DF75 /* ItTakesYouAway.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1CB2745B4870032DF75 /* ItTakesYouAway.swift */; };
+		D57EB1CE2748114A0032DF75 /* TheBattleOfRanskoorAvKolos.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1CD2748114A0032DF75 /* TheBattleOfRanskoorAvKolos.swift */; };
+		D57EB1D02748115C0032DF75 /* Resolution.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1CF2748115C0032DF75 /* Resolution.swift */; };
+		D57EB1D2274812FA0032DF75 /* SpyfallPart1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1D1274812FA0032DF75 /* SpyfallPart1.swift */; };
+		D57EB1D4274813010032DF75 /* SpyfallPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1D3274813010032DF75 /* SpyfallPart2.swift */; };
+		D57EB1D6274813090032DF75 /* Orphan55.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1D5274813090032DF75 /* Orphan55.swift */; };
+		D57EB1D82748131C0032DF75 /* NikolaTeslasNightOfTerror.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1D72748131C0032DF75 /* NikolaTeslasNightOfTerror.swift */; };
+		D57EB1DA2748132E0032DF75 /* FugitiveOfTheJudoon.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1D92748132E0032DF75 /* FugitiveOfTheJudoon.swift */; };
+		D57EB1DC274813370032DF75 /* Praxeus.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1DB274813370032DF75 /* Praxeus.swift */; };
+		D57EB1DE274813420032DF75 /* CanYouHearMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1DD274813420032DF75 /* CanYouHearMe.swift */; };
+		D57EB1E0274813550032DF75 /* TheHauntingOfVillaDiodati.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1DF274813550032DF75 /* TheHauntingOfVillaDiodati.swift */; };
+		D57EB1E2274813680032DF75 /* AscensionOfTheCybermen.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1E1274813680032DF75 /* AscensionOfTheCybermen.swift */; };
+		D57EB1E4274813730032DF75 /* TheTimelessChildren.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1E3274813730032DF75 /* TheTimelessChildren.swift */; };
+		D57EB1E6274813820032DF75 /* RevolutionOfTheDaleks .swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1E5274813820032DF75 /* RevolutionOfTheDaleks .swift */; };
+		D57EB1E827495A8A0032DF75 /* TheHalloweenApocalypse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1E727495A8A0032DF75 /* TheHalloweenApocalypse.swift */; };
+		D57EB1EA27495AA30032DF75 /* WarOfTheSontarans.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1E927495AA30032DF75 /* WarOfTheSontarans.swift */; };
+		D57EB1EC27495AB60032DF75 /* OnceUponTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1EB27495AB50032DF75 /* OnceUponTime.swift */; };
+		D57EB1EE27495ACA0032DF75 /* VillageOfTheAngels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */; };
+		D57EB1F027495ADA0032DF75 /* SurvivorsOfTheFlux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */; };
+		D57EB1F227495AE50032DF75 /* TheVanquishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1F127495AE50032DF75 /* TheVanquishers.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D57832D727381A18007CD57E /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_Episode_GuideApp.swift; sourceTree = "<group>"; };
+		D57832DC27381A18007CD57E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D57832DE27381A1C007CD57E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D57832E127381A1C007CD57E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D57832E327381A1C007CD57E /* DW_Episode_Guide.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DW_Episode_Guide.entitlements; sourceTree = "<group>"; };
+		D57832E927381A66007CD57E /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		D57832ED27381ED4007CD57E /* ClassicSeries1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries1.swift; sourceTree = "<group>"; };
+		D57832EF27381EDC007CD57E /* ClassicSeries2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries2.swift; sourceTree = "<group>"; };
+		D57832F127381EE3007CD57E /* ClassicSeries3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries3.swift; sourceTree = "<group>"; };
+		D57832F327381EF0007CD57E /* ClassicSeries4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries4.swift; sourceTree = "<group>"; };
+		D57832F527381F15007CD57E /* ClassicSeries5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries5.swift; sourceTree = "<group>"; };
+		D57832F727381F1C007CD57E /* ClassicSeries6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries6.swift; sourceTree = "<group>"; };
+		D57832F927381F22007CD57E /* ClassicSeries7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries7.swift; sourceTree = "<group>"; };
+		D57832FB27381F28007CD57E /* ClassicSeries8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries8.swift; sourceTree = "<group>"; };
+		D57832FD27381F33007CD57E /* ClassicSeries9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries9.swift; sourceTree = "<group>"; };
+		D57832FF27381F4E007CD57E /* ClassicSeries10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries10.swift; sourceTree = "<group>"; };
+		D578330127381F56007CD57E /* ClassicSeries11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries11.swift; sourceTree = "<group>"; };
+		D578330327381F69007CD57E /* ClassicSeries12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries12.swift; sourceTree = "<group>"; };
+		D578330527381F72007CD57E /* ClassicSeries13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries13.swift; sourceTree = "<group>"; };
+		D578330727381F98007CD57E /* ClassicSeries14.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries14.swift; sourceTree = "<group>"; };
+		D578330927381FB5007CD57E /* ClassicSeries15.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries15.swift; sourceTree = "<group>"; };
+		D578330B27381FBB007CD57E /* ClassicSeries16.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries16.swift; sourceTree = "<group>"; };
+		D578330D27381FC3007CD57E /* ClassicSeries17.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries17.swift; sourceTree = "<group>"; };
+		D578330F27382011007CD57E /* ClassicSeries18.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries18.swift; sourceTree = "<group>"; };
+		D578331127382017007CD57E /* ClassicSeries19.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries19.swift; sourceTree = "<group>"; };
+		D57833132738201F007CD57E /* ClassicSeries20.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries20.swift; sourceTree = "<group>"; };
+		D578331527382029007CD57E /* ClassicSeries21.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries21.swift; sourceTree = "<group>"; };
+		D578331727382033007CD57E /* ClassicSeries22.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries22.swift; sourceTree = "<group>"; };
+		D578331927382040007CD57E /* ClassicSeries23.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries23.swift; sourceTree = "<group>"; };
+		D578331B27382048007CD57E /* ClassicSeries24.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries24.swift; sourceTree = "<group>"; };
+		D578331D27382052007CD57E /* ClassicSeries25.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries25.swift; sourceTree = "<group>"; };
+		D578331F2738205C007CD57E /* ClassicSeries26.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicSeries26.swift; sourceTree = "<group>"; };
+		D57833222738208A007CD57E /* NewSeries1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries1.swift; sourceTree = "<group>"; };
+		D57833242738208F007CD57E /* NewSeries2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries2.swift; sourceTree = "<group>"; };
+		D578332627382097007CD57E /* NewSeries3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries3.swift; sourceTree = "<group>"; };
+		D57833282738209F007CD57E /* NewSeries4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries4.swift; sourceTree = "<group>"; };
+		D578332A273820A9007CD57E /* NewSeries5.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries5.swift; sourceTree = "<group>"; };
+		D578332C273820C2007CD57E /* NewSeries6.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries6.swift; sourceTree = "<group>"; };
+		D578332E273820CD007CD57E /* NewSeries7.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries7.swift; sourceTree = "<group>"; };
+		D5783330273820EC007CD57E /* NewSeries8.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries8.swift; sourceTree = "<group>"; };
+		D5783332273820F3007CD57E /* NewSeries9.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries9.swift; sourceTree = "<group>"; };
+		D5783334273820FB007CD57E /* NewSeries10.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries10.swift; sourceTree = "<group>"; };
+		D578333627382101007CD57E /* NewSeries11.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries11.swift; sourceTree = "<group>"; };
+		D578333827382106007CD57E /* NewSeries12.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries12.swift; sourceTree = "<group>"; };
+		D578333A2738210E007CD57E /* NewSeries13.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewSeries13.swift; sourceTree = "<group>"; };
+		D578333F273822D9007CD57E /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D578334527382849007CD57E /* Main.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Main.xcdatamodel; sourceTree = "<group>"; };
+		D578338F273873C4007CD57E /* AnUnearthlyChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnUnearthlyChild.swift; sourceTree = "<group>"; };
+		D5783391273873C9007CD57E /* TheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDaleks.swift; sourceTree = "<group>"; };
+		D5783393273873D4007CD57E /* TheEdgeOfDestruction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEdgeOfDestruction.swift; sourceTree = "<group>"; };
+		D5783395273873DD007CD57E /* MarcoPolo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarcoPolo.swift; sourceTree = "<group>"; };
+		D578339727387408007CD57E /* TheKeysOfMarinus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKeysOfMarinus.swift; sourceTree = "<group>"; };
+		D578339927387413007CD57E /* TheAztecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAztecs.swift; sourceTree = "<group>"; };
+		D578339B27387420007CD57E /* TheSensorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSensorites.swift; sourceTree = "<group>"; };
+		D578339D27387433007CD57E /* TheReignOfTerror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheReignOfTerror.swift; sourceTree = "<group>"; };
+		D578339F2739A041007CD57E /* TVMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMovie.swift; sourceTree = "<group>"; };
+		D57833A1273AE4EF007CD57E /* PlanetOfGiants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfGiants.swift; sourceTree = "<group>"; };
+		D57833A3273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDalekInvasionOfEarth.swift; sourceTree = "<group>"; };
+		D57833A5273AE50D007CD57E /* TheRescue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRescue.swift; sourceTree = "<group>"; };
+		D57833A7273AE519007CD57E /* TheRomans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRomans.swift; sourceTree = "<group>"; };
+		D57833A9273AE524007CD57E /* TheWebPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWebPlanet.swift; sourceTree = "<group>"; };
+		D57833AB273AE52B007CD57E /* TheCrusade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCrusade.swift; sourceTree = "<group>"; };
+		D57833AD273AE53F007CD57E /* TheSpaceMuseum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSpaceMuseum.swift; sourceTree = "<group>"; };
+		D57833AF273B2000007CD57E /* TheChase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheChase.swift; sourceTree = "<group>"; };
+		D57833B1273B2011007CD57E /* TheTimeMeddler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTimeMeddler.swift; sourceTree = "<group>"; };
+		D57833B3273B2024007CD57E /* Galaxy4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Galaxy4.swift; sourceTree = "<group>"; };
+		D57833B5273B210A007CD57E /* MissionToTheUnknown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionToTheUnknown.swift; sourceTree = "<group>"; };
+		D57833B7273B2118007CD57E /* TheMythMakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMythMakers.swift; sourceTree = "<group>"; };
+		D57833B9273B2128007CD57E /* TheDaleksMasterPlan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDaleksMasterPlan.swift; sourceTree = "<group>"; };
+		D57833BB273B213D007CD57E /* TheMassacre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMassacre.swift; sourceTree = "<group>"; };
+		D57833BD273B2145007CD57E /* TheArk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheArk.swift; sourceTree = "<group>"; };
+		D57833BF273B2197007CD57E /* TheCelestialToymaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCelestialToymaker.swift; sourceTree = "<group>"; };
+		D57833C1273B21A4007CD57E /* TheGunfighters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGunfighters.swift; sourceTree = "<group>"; };
+		D57833C3273B21B9007CD57E /* TheSavages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSavages.swift; sourceTree = "<group>"; };
+		D57833C5273B21C9007CD57E /* TheWarMachines.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWarMachines.swift; sourceTree = "<group>"; };
+		D57833C7273B21D9007CD57E /* TheSmugglers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSmugglers.swift; sourceTree = "<group>"; };
+		D57833C9273B21E8007CD57E /* TheTenthPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTenthPlanet.swift; sourceTree = "<group>"; };
+		D57833CB273B21FB007CD57E /* ThePowerOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePowerOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57833CD273B2244007CD57E /* TheHighlanders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHighlanders.swift; sourceTree = "<group>"; };
+		D57833CF273B2293007CD57E /* TheUnderwaterMenace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUnderwaterMenace.swift; sourceTree = "<group>"; };
+		D57833D1273B229F007CD57E /* TheMoonbase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMoonbase.swift; sourceTree = "<group>"; };
+		D57833D3273B22AC007CD57E /* TheMacraTerror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMacraTerror.swift; sourceTree = "<group>"; };
+		D57833D5273B22B7007CD57E /* TheFacelessOnes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFacelessOnes.swift; sourceTree = "<group>"; };
+		D57833D7273B22CD007CD57E /* TheEvilOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEvilOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57833D9273B233E007CD57E /* TheTombOfTheCybermen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTombOfTheCybermen.swift; sourceTree = "<group>"; };
+		D57833DB273B234D007CD57E /* TheAbominableSnowmen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAbominableSnowmen.swift; sourceTree = "<group>"; };
+		D57833DD273B235A007CD57E /* TheIceWarriors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheIceWarriors.swift; sourceTree = "<group>"; };
+		D57833DF273B237B007CD57E /* TheEnemyOfTheWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEnemyOfTheWorld.swift; sourceTree = "<group>"; };
+		D57833E1273B2398007CD57E /* TheWebOfFear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWebOfFear.swift; sourceTree = "<group>"; };
+		D57833E3273B23D6007CD57E /* FuryFromTheDeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FuryFromTheDeep.swift; sourceTree = "<group>"; };
+		D57833E5273B23E4007CD57E /* TheWheelInSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWheelInSpace.swift; sourceTree = "<group>"; };
+		D57833E7273B24CC007CD57E /* TheDominators.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDominators.swift; sourceTree = "<group>"; };
+		D57833E9273B24D8007CD57E /* TheMindRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMindRobber.swift; sourceTree = "<group>"; };
+		D57833EB273B24E2007CD57E /* TheInvasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInvasion.swift; sourceTree = "<group>"; };
+		D57833ED273B24EE007CD57E /* TheKrotons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKrotons.swift; sourceTree = "<group>"; };
+		D57833EF273B2507007CD57E /* TheSeedsOfDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSeedsOfDeath.swift; sourceTree = "<group>"; };
+		D57833F1273B2516007CD57E /* TheSpacePirates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSpacePirates.swift; sourceTree = "<group>"; };
+		D57833F3273B2521007CD57E /* TheWarGames.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWarGames.swift; sourceTree = "<group>"; };
+		D57833F5273B259D007CD57E /* SpearheadFromSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpearheadFromSpace.swift; sourceTree = "<group>"; };
+		D57833F7273B25AA007CD57E /* AndTheSilurians.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndTheSilurians.swift; sourceTree = "<group>"; };
+		D57833F9273B25BA007CD57E /* TheAmbassadorsOfDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAmbassadorsOfDeath.swift; sourceTree = "<group>"; };
+		D57833FB273B25C7007CD57E /* Inferno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Inferno.swift; sourceTree = "<group>"; };
+		D57833FD273B25DD007CD57E /* TerrorOfTheAutons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrorOfTheAutons.swift; sourceTree = "<group>"; };
+		D57833FF273B25EF007CD57E /* TheMindOfEvil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMindOfEvil.swift; sourceTree = "<group>"; };
+		D5783401273B25FE007CD57E /* TheClawsOfAxos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheClawsOfAxos.swift; sourceTree = "<group>"; };
+		D5783403273B2612007CD57E /* ColonyInSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColonyInSpace.swift; sourceTree = "<group>"; };
+		D5783405273B261C007CD57E /* TheDaemons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDaemons.swift; sourceTree = "<group>"; };
+		D5783407273B2691007CD57E /* DayOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTheDaleks.swift; sourceTree = "<group>"; };
+		D5783409273B26AA007CD57E /* TheCurseOfPeladon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCurseOfPeladon.swift; sourceTree = "<group>"; };
+		D578340B273B26B6007CD57E /* TheSeaDevils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSeaDevils.swift; sourceTree = "<group>"; };
+		D578340D273B26C0007CD57E /* TheMutants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMutants.swift; sourceTree = "<group>"; };
+		D578340F273B26CB007CD57E /* TheTimeMonster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTimeMonster.swift; sourceTree = "<group>"; };
+		D5783411273B274F007CD57E /* TheThreeDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheThreeDoctors.swift; sourceTree = "<group>"; };
+		D5783413273B27C9007CD57E /* CarnivalOfMonsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarnivalOfMonsters.swift; sourceTree = "<group>"; };
+		D5783415273B27D7007CD57E /* FrontierInSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontierInSpace.swift; sourceTree = "<group>"; };
+		D5783417273B2828007CD57E /* PlanetOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfTheDaleks.swift; sourceTree = "<group>"; };
+		D5783419273B2830007CD57E /* TheGreenDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGreenDeath.swift; sourceTree = "<group>"; };
+		D578341B273B2845007CD57E /* TheTimeWarrior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTimeWarrior.swift; sourceTree = "<group>"; };
+		D578341D273B2853007CD57E /* InvasionOfTheDinosaurs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvasionOfTheDinosaurs.swift; sourceTree = "<group>"; };
+		D578341F273B2864007CD57E /* DeathToTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathToTheDaleks.swift; sourceTree = "<group>"; };
+		D5783421273B2881007CD57E /* TheMonsterOfPeladon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMonsterOfPeladon.swift; sourceTree = "<group>"; };
+		D5783423273B2891007CD57E /* PlanetOfTheSpiders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfTheSpiders.swift; sourceTree = "<group>"; };
+		D57EAFEB273D99050032DF75 /* Robot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Robot.swift; sourceTree = "<group>"; };
+		D57EAFED273D990F0032DF75 /* TheArkInSpace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheArkInSpace.swift; sourceTree = "<group>"; };
+		D57EAFEF273D991E0032DF75 /* TheSontaranExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSontaranExperiment.swift; sourceTree = "<group>"; };
+		D57EAFF1273D99690032DF75 /* GenesisOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenesisOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EAFF3273D99740032DF75 /* RevengeOfTheCybermen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevengeOfTheCybermen.swift; sourceTree = "<group>"; };
+		D57EAFF5273D99850032DF75 /* TerrorOfTheZygons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrorOfTheZygons.swift; sourceTree = "<group>"; };
+		D57EAFF7273D998C0032DF75 /* PlanetOfEvil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfEvil.swift; sourceTree = "<group>"; };
+		D57EAFF9273D99B00032DF75 /* PyramidsOfMars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidsOfMars.swift; sourceTree = "<group>"; };
+		D57EAFFB273D99BE0032DF75 /* TheAndroidInvasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAndroidInvasion.swift; sourceTree = "<group>"; };
+		D57EAFFD273D99D30032DF75 /* TheBrainOfMorbius.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBrainOfMorbius.swift; sourceTree = "<group>"; };
+		D57EAFFF273D99DC0032DF75 /* TheSeedsOfDoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSeedsOfDoom.swift; sourceTree = "<group>"; };
+		D57EB001273D99F80032DF75 /* TheMasqueOfMandragora.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMasqueOfMandragora.swift; sourceTree = "<group>"; };
+		D57EB003273D9A090032DF75 /* TheHandOfFear.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHandOfFear.swift; sourceTree = "<group>"; };
+		D57EB005273D9A820032DF75 /* TheDeadlyAssassin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDeadlyAssassin.swift; sourceTree = "<group>"; };
+		D57EB007273D9A890032DF75 /* TheFaceOfEvil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFaceOfEvil.swift; sourceTree = "<group>"; };
+		D57EB009273D9A930032DF75 /* TheRobotsOfDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRobotsOfDeath.swift; sourceTree = "<group>"; };
+		D57EB00B273D9AA10032DF75 /* TheTalonsOfWengChiang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTalonsOfWengChiang.swift; sourceTree = "<group>"; };
+		D57EB00D273D9AC20032DF75 /* HorrorOfFangRock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorrorOfFangRock.swift; sourceTree = "<group>"; };
+		D57EB00F273D9AE70032DF75 /* TheInvisibleEnemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInvisibleEnemy.swift; sourceTree = "<group>"; };
+		D57EB011273D9AF80032DF75 /* ImageOfTheFendahl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageOfTheFendahl.swift; sourceTree = "<group>"; };
+		D57EB013273D9B010032DF75 /* TheSunMakers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSunMakers.swift; sourceTree = "<group>"; };
+		D57EB015273D9B080032DF75 /* Underworld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Underworld.swift; sourceTree = "<group>"; };
+		D57EB017273D9B150032DF75 /* TheInvasionOfTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheInvasionOfTime.swift; sourceTree = "<group>"; };
+		D57EB019273D9B260032DF75 /* TheRibosOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRibosOperation.swift; sourceTree = "<group>"; };
+		D57EB01B273D9B4D0032DF75 /* TheStonesOfBlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheStonesOfBlood.swift; sourceTree = "<group>"; };
+		D57EB01D273D9B5A0032DF75 /* TheAndroidsOfTara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAndroidsOfTara.swift; sourceTree = "<group>"; };
+		D57EB01F273D9B690032DF75 /* ThePowerOfKroll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePowerOfKroll.swift; sourceTree = "<group>"; };
+		D57EB021273D9B780032DF75 /* TheArmageddonFactor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheArmageddonFactor.swift; sourceTree = "<group>"; };
+		D57EB023273D9B8A0032DF75 /* DestinyOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DestinyOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB025273D9B930032DF75 /* CityOfDeath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityOfDeath.swift; sourceTree = "<group>"; };
+		D57EB027273D9BD30032DF75 /* TheCreatureFromThePit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCreatureFromThePit.swift; sourceTree = "<group>"; };
+		D57EB029273D9BDE0032DF75 /* NightmareOfEden.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightmareOfEden.swift; sourceTree = "<group>"; };
+		D57EB02B273D9BE70032DF75 /* TheHornsOfNimon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHornsOfNimon.swift; sourceTree = "<group>"; };
+		D57EB02D273D9BEF0032DF75 /* Shada.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shada.swift; sourceTree = "<group>"; };
+		D57EB02F273D9C040032DF75 /* TheLeisureHive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLeisureHive.swift; sourceTree = "<group>"; };
+		D57EB031273D9C0B0032DF75 /* Meglos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meglos.swift; sourceTree = "<group>"; };
+		D57EB033273D9C220032DF75 /* FullCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullCircle.swift; sourceTree = "<group>"; };
+		D57EB035273D9C2A0032DF75 /* StateOfDecay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateOfDecay.swift; sourceTree = "<group>"; };
+		D57EB037273D9C370032DF75 /* WarriorsGate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarriorsGate.swift; sourceTree = "<group>"; };
+		D57EB039273D9C420032DF75 /* TheKeeperOfTraken.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKeeperOfTraken.swift; sourceTree = "<group>"; };
+		D57EB03B273D9C4C0032DF75 /* Logopolis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logopolis.swift; sourceTree = "<group>"; };
+		D57EB03D273D9C5E0032DF75 /* Castrovalva.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Castrovalva.swift; sourceTree = "<group>"; };
+		D57EB03F273D9C690032DF75 /* FourToDoomsday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourToDoomsday.swift; sourceTree = "<group>"; };
+		D57EB041273ED4CD0032DF75 /* Kinda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kinda.swift; sourceTree = "<group>"; };
+		D57EB043273ED4DA0032DF75 /* TheVisitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheVisitation.swift; sourceTree = "<group>"; };
+		D57EB045273ED4EE0032DF75 /* BlackOrchid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlackOrchid.swift; sourceTree = "<group>"; };
+		D57EB047273ED5530032DF75 /* Earthshock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Earthshock.swift; sourceTree = "<group>"; };
+		D57EB049273ED5600032DF75 /* TimeFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeFlight.swift; sourceTree = "<group>"; };
+		D57EB04B273ED5840032DF75 /* ArcOfInfinity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcOfInfinity.swift; sourceTree = "<group>"; };
+		D57EB04D273ED5980032DF75 /* Snakedance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Snakedance.swift; sourceTree = "<group>"; };
+		D57EB04F273ED5A40032DF75 /* MawdrynUndead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MawdrynUndead.swift; sourceTree = "<group>"; };
+		D57EB051273ED5D50032DF75 /* Terminus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Terminus.swift; sourceTree = "<group>"; };
+		D57EB053273ED5E00032DF75 /* Enlightenment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enlightenment.swift; sourceTree = "<group>"; };
+		D57EB055273ED5EA0032DF75 /* TheKingsDemons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheKingsDemons.swift; sourceTree = "<group>"; };
+		D57EB057273ED60D0032DF75 /* TheFiveDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFiveDoctors.swift; sourceTree = "<group>"; };
+		D57EB059273ED61C0032DF75 /* WarriorsOfTheDeep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarriorsOfTheDeep.swift; sourceTree = "<group>"; };
+		D57EB05B273ED62B0032DF75 /* TheAwakening.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAwakening.swift; sourceTree = "<group>"; };
+		D57EB05F273ED64B0032DF75 /* Frontios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frontios.swift; sourceTree = "<group>"; };
+		D57EB061273ED6F60032DF75 /* ResurrectionOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResurrectionOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB063273ED7170032DF75 /* PlanetOfFire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfFire.swift; sourceTree = "<group>"; };
+		D57EB065273ED7250032DF75 /* TheCavesOfAndrozani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCavesOfAndrozani.swift; sourceTree = "<group>"; };
+		D57EB067273ED72F0032DF75 /* TheTwinDilemma.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTwinDilemma.swift; sourceTree = "<group>"; };
+		D57EB069273ED7410032DF75 /* AttackOfTheCybermen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttackOfTheCybermen.swift; sourceTree = "<group>"; };
+		D57EB06B273ED7550032DF75 /* VengeanceOnVaros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VengeanceOnVaros.swift; sourceTree = "<group>"; };
+		D57EB06D273ED7610032DF75 /* TheMarkOfTheRani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMarkOfTheRani.swift; sourceTree = "<group>"; };
+		D57EB06F273ED76C0032DF75 /* TheTwoDoctors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTwoDoctors.swift; sourceTree = "<group>"; };
+		D57EB071273ED7730032DF75 /* Timelash.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timelash.swift; sourceTree = "<group>"; };
+		D57EB073273ED7830032DF75 /* RevelationOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevelationOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB075273ED8B40032DF75 /* TheMysteriousPlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMysteriousPlanet.swift; sourceTree = "<group>"; };
+		D57EB077273ED8BB0032DF75 /* Mindwarp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mindwarp.swift; sourceTree = "<group>"; };
+		D57EB079273ED8CB0032DF75 /* TerrorOfTheVervoids.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerrorOfTheVervoids.swift; sourceTree = "<group>"; };
+		D57EB07B273ED8D60032DF75 /* TheUltimateFoe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUltimateFoe.swift; sourceTree = "<group>"; };
+		D57EB07D273ED8EB0032DF75 /* TimeAndTheRani.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeAndTheRani.swift; sourceTree = "<group>"; };
+		D57EB07F27410E060032DF75 /* ParadiseTowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParadiseTowers.swift; sourceTree = "<group>"; };
+		D57EB08127410E7F0032DF75 /* DeltaAndTheBannermen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeltaAndTheBannermen.swift; sourceTree = "<group>"; };
+		D57EB08327410E920032DF75 /* Dragonfire.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dragonfire.swift; sourceTree = "<group>"; };
+		D57EB08527410EA40032DF75 /* RememberanceOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RememberanceOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB08727410EAF0032DF75 /* TheHappinessPatrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHappinessPatrol.swift; sourceTree = "<group>"; };
+		D57EB08927410EB80032DF75 /* SilverNemesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverNemesis.swift; sourceTree = "<group>"; };
+		D57EB08B27410EC90032DF75 /* TheGreatestShowInTheGalaxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGreatestShowInTheGalaxy.swift; sourceTree = "<group>"; };
+		D57EB08D2741112D0032DF75 /* Battlefield.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Battlefield.swift; sourceTree = "<group>"; };
+		D57EB08F2741113A0032DF75 /* GhostLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GhostLight.swift; sourceTree = "<group>"; };
+		D57EB0912741114F0032DF75 /* TheCurseOfFenric.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCurseOfFenric.swift; sourceTree = "<group>"; };
+		D57EB093274111570032DF75 /* Survival.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Survival.swift; sourceTree = "<group>"; };
+		D57EB09527419F360032DF75 /* ThePiratePlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePiratePlanet.swift; sourceTree = "<group>"; };
+		D57EB097274420D60032DF75 /* Rose.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rose.swift; sourceTree = "<group>"; };
+		D57EB0992744216E0032DF75 /* TheEndOfTheWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEndOfTheWorld.swift; sourceTree = "<group>"; };
+		D57EB09B274421790032DF75 /* TheUnquietDead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUnquietDead.swift; sourceTree = "<group>"; };
+		D57EB09D274421830032DF75 /* AliensOfLondon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AliensOfLondon.swift; sourceTree = "<group>"; };
+		D57EB09F2744218D0032DF75 /* WorldWarThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldWarThree.swift; sourceTree = "<group>"; };
+		D57EB0A1274422D00032DF75 /* Dalek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dalek.swift; sourceTree = "<group>"; };
+		D57EB0A3274422D70032DF75 /* TheLongGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLongGame.swift; sourceTree = "<group>"; };
+		D57EB0A5274422E40032DF75 /* FathersDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FathersDay.swift; sourceTree = "<group>"; };
+		D57EB0A7274423590032DF75 /* TheEmptyChild.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEmptyChild.swift; sourceTree = "<group>"; };
+		D57EB0A9274423600032DF75 /* TheDoctorDances.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDoctorDances.swift; sourceTree = "<group>"; };
+		D57EB0AB2744236A0032DF75 /* BoomTown.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoomTown.swift; sourceTree = "<group>"; };
+		D57EB0AD274423700032DF75 /* BadWolf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadWolf.swift; sourceTree = "<group>"; };
+		D57EB0AF2744237C0032DF75 /* ThePartingOfTheWays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePartingOfTheWays.swift; sourceTree = "<group>"; };
+		D57EB0B127443E810032DF75 /* TheChristmasInvasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheChristmasInvasion.swift; sourceTree = "<group>"; };
+		D57EB0B327443E910032DF75 /* NewEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewEarth.swift; sourceTree = "<group>"; };
+		D57EB0B527443E9A0032DF75 /* ToothAndClaw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToothAndClaw.swift; sourceTree = "<group>"; };
+		D57EB0B727443EA80032DF75 /* SchoolReunion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolReunion.swift; sourceTree = "<group>"; };
+		D57EB0B927443EC20032DF75 /* TheGirlInTheFireplace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGirlInTheFireplace.swift; sourceTree = "<group>"; };
+		D57EB0BB27443EE00032DF75 /* RiseOfTheCybermen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RiseOfTheCybermen.swift; sourceTree = "<group>"; };
+		D57EB0BD27443EEC0032DF75 /* TheAgeOfSteel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAgeOfSteel.swift; sourceTree = "<group>"; };
+		D57EB0BF27443EFA0032DF75 /* TheIdiotsLantern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheIdiotsLantern.swift; sourceTree = "<group>"; };
+		D57EB0C127443F070032DF75 /* TheImpossiblePlanet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheImpossiblePlanet.swift; sourceTree = "<group>"; };
+		D57EB0C327443F130032DF75 /* TheSatanPit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSatanPit.swift; sourceTree = "<group>"; };
+		D57EB0C527443F1E0032DF75 /* Love&Monsters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Love&Monsters.swift"; sourceTree = "<group>"; };
+		D57EB0C927443F330032DF75 /* FearHer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FearHer.swift; sourceTree = "<group>"; };
+		D57EB0CB27443F3F0032DF75 /* ArmyOfGhosts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmyOfGhosts.swift; sourceTree = "<group>"; };
+		D57EB0CD27443F480032DF75 /* Doomsday.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Doomsday.swift; sourceTree = "<group>"; };
+		D57EB0CF274441220032DF75 /* TheRunawayBride.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRunawayBride.swift; sourceTree = "<group>"; };
+		D57EB0D1274441560032DF75 /* SmithAndJones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmithAndJones.swift; sourceTree = "<group>"; };
+		D57EB0D3274441660032DF75 /* TheShakespeareCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheShakespeareCode.swift; sourceTree = "<group>"; };
+		D57EB0D52744416E0032DF75 /* Gridlock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gridlock.swift; sourceTree = "<group>"; };
+		D57EB0D7274441860032DF75 /* DaleksInManhattan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaleksInManhattan.swift; sourceTree = "<group>"; };
+		D57EB0D9274441F60032DF75 /* EvolutionOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvolutionOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB0DB274442170032DF75 /* TheLazarusExperiment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLazarusExperiment.swift; sourceTree = "<group>"; };
+		D57EB0DF274442540032DF75 /* _42.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _42.swift; sourceTree = "<group>"; };
+		D57EB0E1274442630032DF75 /* HumanNature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HumanNature.swift; sourceTree = "<group>"; };
+		D57EB0E32744426F0032DF75 /* TheFamilyOfBlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFamilyOfBlood.swift; sourceTree = "<group>"; };
+		D57EB0E5274442AA0032DF75 /* Blink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Blink.swift; sourceTree = "<group>"; };
+		D57EB0E7274442C20032DF75 /* Utopia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utopia.swift; sourceTree = "<group>"; };
+		D57EB0E9274442D10032DF75 /* TheSoundOfDrums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSoundOfDrums.swift; sourceTree = "<group>"; };
+		D57EB0EB274442DD0032DF75 /* LastOfTheTimeLords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastOfTheTimeLords.swift; sourceTree = "<group>"; };
+		D57EB0ED274447A40032DF75 /* VoyageOfTheDamned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoyageOfTheDamned.swift; sourceTree = "<group>"; };
+		D57EB0EF274447B10032DF75 /* PartnersInCrime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PartnersInCrime.swift; sourceTree = "<group>"; };
+		D57EB0F1274449C70032DF75 /* TheFiresOfPompeii.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheFiresOfPompeii.swift; sourceTree = "<group>"; };
+		D57EB0F327444A260032DF75 /* PlanetOfTheOod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfTheOod.swift; sourceTree = "<group>"; };
+		D57EB0F527444A370032DF75 /* TheSontaranStratagem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSontaranStratagem.swift; sourceTree = "<group>"; };
+		D57EB0F727444A400032DF75 /* ThePoisonSky.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePoisonSky.swift; sourceTree = "<group>"; };
+		D57EB0F927444A7C0032DF75 /* TheDoctorsDaughter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDoctorsDaughter.swift; sourceTree = "<group>"; };
+		D57EB0FB27444A8B0032DF75 /* TheUnicornAndTheWasp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheUnicornAndTheWasp.swift; sourceTree = "<group>"; };
+		D57EB0FD27444A990032DF75 /* SilenceInTheLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilenceInTheLibrary.swift; sourceTree = "<group>"; };
+		D57EB0FF27444AA70032DF75 /* ForestOfTheDead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForestOfTheDead.swift; sourceTree = "<group>"; };
+		D57EB10127444AAD0032DF75 /* Midnight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Midnight.swift; sourceTree = "<group>"; };
+		D57EB10327444AB30032DF75 /* TurnLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TurnLeft.swift; sourceTree = "<group>"; };
+		D57EB10527444AC10032DF75 /* TheStolenEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheStolenEarth.swift; sourceTree = "<group>"; };
+		D57EB10727444AEB0032DF75 /* JourneysEnd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneysEnd.swift; sourceTree = "<group>"; };
+		D57EB10927444AF30032DF75 /* TheNextDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNextDoctor.swift; sourceTree = "<group>"; };
+		D57EB10B27444AFB0032DF75 /* PlanetOfTheDead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfTheDead.swift; sourceTree = "<group>"; };
+		D57EB10D27444B040032DF75 /* TheWatersOfMars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWatersOfMars.swift; sourceTree = "<group>"; };
+		D57EB10F27444B100032DF75 /* TheEndOfTimePart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEndOfTimePart1.swift; sourceTree = "<group>"; };
+		D57EB11127444B1D0032DF75 /* TheEndOfTimePart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEndOfTimePart2.swift; sourceTree = "<group>"; };
+		D57EB11327444D090032DF75 /* TheEleventhHour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEleventhHour.swift; sourceTree = "<group>"; };
+		D57EB11527444D130032DF75 /* TheBeastBelow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBeastBelow.swift; sourceTree = "<group>"; };
+		D57EB11727444D240032DF75 /* VictoryOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VictoryOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB11927444D330032DF75 /* TheTimeOfAngels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTimeOfAngels.swift; sourceTree = "<group>"; };
+		D57EB11B27444E2A0032DF75 /* FleshAndStone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FleshAndStone.swift; sourceTree = "<group>"; };
+		D57EB11D27444E420032DF75 /* TheVampiresOfVenice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheVampiresOfVenice.swift; sourceTree = "<group>"; };
+		D57EB11F27444EE50032DF75 /* AmysChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmysChoice.swift; sourceTree = "<group>"; };
+		D57EB12127444F470032DF75 /* TheHungryEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHungryEarth.swift; sourceTree = "<group>"; };
+		D57EB12327444FC30032DF75 /* ColdBlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdBlood.swift; sourceTree = "<group>"; };
+		D57EB125274450340032DF75 /* VincentAndTheDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VincentAndTheDoctor.swift; sourceTree = "<group>"; };
+		D57EB1272744503B0032DF75 /* TheLodger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLodger.swift; sourceTree = "<group>"; };
+		D57EB129274450470032DF75 /* ThePandoricaOpens.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePandoricaOpens.swift; sourceTree = "<group>"; };
+		D57EB12B274458AA0032DF75 /* TheBigBang.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBigBang.swift; sourceTree = "<group>"; };
+		D57EB12D27456DCF0032DF75 /* AChristmasCarol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AChristmasCarol.swift; sourceTree = "<group>"; };
+		D57EB12F27456DE50032DF75 /* TheImpossibleAstronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheImpossibleAstronaut.swift; sourceTree = "<group>"; };
+		D57EB13127456DEE0032DF75 /* DayOfTheMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTheMoon.swift; sourceTree = "<group>"; };
+		D57EB13327456DFE0032DF75 /* TheCurseOfTheBlackSpot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCurseOfTheBlackSpot.swift; sourceTree = "<group>"; };
+		D57EB13527456E080032DF75 /* TheDoctorsWife.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDoctorsWife.swift; sourceTree = "<group>"; };
+		D57EB13727456E130032DF75 /* TheRebelFlesh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRebelFlesh.swift; sourceTree = "<group>"; };
+		D57EB13927456E2B0032DF75 /* TheAlmostPeople.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAlmostPeople.swift; sourceTree = "<group>"; };
+		D57EB13B27456E360032DF75 /* AGoodManGoesToWar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGoodManGoesToWar.swift; sourceTree = "<group>"; };
+		D57EB13D27456E3F0032DF75 /* LetsKillHitler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetsKillHitler.swift; sourceTree = "<group>"; };
+		D57EB13F27456E4A0032DF75 /* NightTerrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightTerrors.swift; sourceTree = "<group>"; };
+		D57EB14127456E550032DF75 /* TheGirlWhoWaited.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGirlWhoWaited.swift; sourceTree = "<group>"; };
+		D57EB14327456E5E0032DF75 /* TheGodComplex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGodComplex.swift; sourceTree = "<group>"; };
+		D57EB14527456E6B0032DF75 /* ClosingTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosingTime.swift; sourceTree = "<group>"; };
+		D57EB14727456E7B0032DF75 /* TheWeddingOfRiverSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWeddingOfRiverSong.swift; sourceTree = "<group>"; };
+		D57EB14927456F630032DF75 /* TheDoctorTheWidowAndTheWardrobe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDoctorTheWidowAndTheWardrobe.swift; sourceTree = "<group>"; };
+		D57EB14B274585650032DF75 /* AsylumOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsylumOfTheDaleks.swift; sourceTree = "<group>"; };
+		D57EB14D2745B0020032DF75 /* DinosaursOnASpaceship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinosaursOnASpaceship.swift; sourceTree = "<group>"; };
+		D57EB14F2745B0100032DF75 /* ATownCalledMercy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATownCalledMercy.swift; sourceTree = "<group>"; };
+		D57EB1512745B01B0032DF75 /* ThePowerOfThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePowerOfThree.swift; sourceTree = "<group>"; };
+		D57EB1532745B02C0032DF75 /* TheAngelsTakeManhattan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAngelsTakeManhattan.swift; sourceTree = "<group>"; };
+		D57EB1552745B0340032DF75 /* TheSnowmen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSnowmen.swift; sourceTree = "<group>"; };
+		D57EB1572745B0430032DF75 /* TheBellsOfSaintJohn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBellsOfSaintJohn.swift; sourceTree = "<group>"; };
+		D57EB1592745B0500032DF75 /* TheRingsOfAkhaten.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRingsOfAkhaten.swift; sourceTree = "<group>"; };
+		D57EB15B2745B0590032DF75 /* ColdWar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdWar.swift; sourceTree = "<group>"; };
+		D57EB15D2745B05E0032DF75 /* Hide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hide.swift; sourceTree = "<group>"; };
+		D57EB15F2745B0750032DF75 /* JourneyToTheCentreOfTheTARDIS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JourneyToTheCentreOfTheTARDIS.swift; sourceTree = "<group>"; };
+		D57EB1612745B0880032DF75 /* TheCrimsonHorror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCrimsonHorror.swift; sourceTree = "<group>"; };
+		D57EB1632745B0930032DF75 /* NightmareInSilver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NightmareInSilver.swift; sourceTree = "<group>"; };
+		D57EB1652745B09E0032DF75 /* TheNameOfTheDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheNameOfTheDoctor.swift; sourceTree = "<group>"; };
+		D57EB1672745B0A90032DF75 /* TheDayOfTheDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDayOfTheDoctor.swift; sourceTree = "<group>"; };
+		D57EB1692745B0B20032DF75 /* TheTimeOfTheDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTimeOfTheDoctor.swift; sourceTree = "<group>"; };
+		D57EB16B2745B1340032DF75 /* DeepBreath.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepBreath.swift; sourceTree = "<group>"; };
+		D57EB16D2745B13C0032DF75 /* IntoTheDalek.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntoTheDalek.swift; sourceTree = "<group>"; };
+		D57EB16F2745B1470032DF75 /* RobotOfSherwood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotOfSherwood.swift; sourceTree = "<group>"; };
+		D57EB1712745B14F0032DF75 /* Listen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Listen.swift; sourceTree = "<group>"; };
+		D57EB1732745B15C0032DF75 /* TimeHeist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeHeist.swift; sourceTree = "<group>"; };
+		D57EB1752745B1650032DF75 /* TheCaretaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheCaretaker.swift; sourceTree = "<group>"; };
+		D57EB1772745B16F0032DF75 /* KillTheMoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KillTheMoon.swift; sourceTree = "<group>"; };
+		D57EB1792745B17A0032DF75 /* MummyOnTheOrientExpress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MummyOnTheOrientExpress.swift; sourceTree = "<group>"; };
+		D57EB17B2745B1830032DF75 /* Flatline.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flatline.swift; sourceTree = "<group>"; };
+		D57EB17D2745B1940032DF75 /* InTheForestOfTheNight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InTheForestOfTheNight.swift; sourceTree = "<group>"; };
+		D57EB17F2745B19D0032DF75 /* DarkWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkWater.swift; sourceTree = "<group>"; };
+		D57EB1812745B1A40032DF75 /* DeathInHeaven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeathInHeaven.swift; sourceTree = "<group>"; };
+		D57EB1832745B20E0032DF75 /* LastChristmas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LastChristmas.swift; sourceTree = "<group>"; };
+		D57EB1852745B21F0032DF75 /* TheMagiciansApprentice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheMagiciansApprentice.swift; sourceTree = "<group>"; };
+		D57EB1872745B22E0032DF75 /* TheWitchsFamiliar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWitchsFamiliar.swift; sourceTree = "<group>"; };
+		D57EB1892745B23C0032DF75 /* UnderTheLake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderTheLake.swift; sourceTree = "<group>"; };
+		D57EB18B2745B2460032DF75 /* BeforeTheFlood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeforeTheFlood.swift; sourceTree = "<group>"; };
+		D57EB18D2745B2510032DF75 /* TheGirlWhoDied.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGirlWhoDied.swift; sourceTree = "<group>"; };
+		D57EB18F2745B25B0032DF75 /* TheWomanWhoLived.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWomanWhoLived.swift; sourceTree = "<group>"; };
+		D57EB1912745B2680032DF75 /* TheZygonInvasion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheZygonInvasion.swift; sourceTree = "<group>"; };
+		D57EB1932745B2710032DF75 /* TheZygonInversion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheZygonInversion.swift; sourceTree = "<group>"; };
+		D57EB1952745B27C0032DF75 /* SleepNoMore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepNoMore.swift; sourceTree = "<group>"; };
+		D57EB1972745B2840032DF75 /* FaceTheRaven.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceTheRaven.swift; sourceTree = "<group>"; };
+		D57EB1992745B28E0032DF75 /* HeavenSent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeavenSent.swift; sourceTree = "<group>"; };
+		D57EB19B2745B2950032DF75 /* HellBent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HellBent.swift; sourceTree = "<group>"; };
+		D57EB19D2745B2A40032DF75 /* TheHusbandsOfRiverSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHusbandsOfRiverSong.swift; sourceTree = "<group>"; };
+		D57EB19F2745B3130032DF75 /* TheReturnOfDoctorMysterio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheReturnOfDoctorMysterio.swift; sourceTree = "<group>"; };
+		D57EB1A12745B31C0032DF75 /* ThePilot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePilot.swift; sourceTree = "<group>"; };
+		D57EB1A32745B3210032DF75 /* Smile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Smile.swift; sourceTree = "<group>"; };
+		D57EB1A52745B3270032DF75 /* ThinIce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThinIce.swift; sourceTree = "<group>"; };
+		D57EB1A72745B3330032DF75 /* KnockKnock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KnockKnock.swift; sourceTree = "<group>"; };
+		D57EB1A92745B33E0032DF75 /* Oxygen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oxygen.swift; sourceTree = "<group>"; };
+		D57EB1AB2745B3430032DF75 /* Extremis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extremis.swift; sourceTree = "<group>"; };
+		D57EB1AD2745B3530032DF75 /* ThePyramidAtTheEndOfTheWorld.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePyramidAtTheEndOfTheWorld.swift; sourceTree = "<group>"; };
+		D57EB1AF2745B3610032DF75 /* TheLieOfTheLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLieOfTheLand.swift; sourceTree = "<group>"; };
+		D57EB1B12745B36C0032DF75 /* EmpressOfMars.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmpressOfMars.swift; sourceTree = "<group>"; };
+		D57EB1B32745B3780032DF75 /* TheEatersOfLight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheEatersOfLight.swift; sourceTree = "<group>"; };
+		D57EB1B52745B3840032DF75 /* WorldEnoughAndTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldEnoughAndTime.swift; sourceTree = "<group>"; };
+		D57EB1B72745B38F0032DF75 /* TheDoctorFalls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDoctorFalls.swift; sourceTree = "<group>"; };
+		D57EB1B92745B39C0032DF75 /* TwiceUponATime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwiceUponATime.swift; sourceTree = "<group>"; };
+		D57EB1BB2745B4090032DF75 /* TheWomanWhoFellToEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWomanWhoFellToEarth.swift; sourceTree = "<group>"; };
+		D57EB1BD2745B4120032DF75 /* TheGhostMonument.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheGhostMonument.swift; sourceTree = "<group>"; };
+		D57EB1BF2745B41A0032DF75 /* Rosa.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rosa.swift; sourceTree = "<group>"; };
+		D57EB1C12745B42C0032DF75 /* ArachnidsInTheUK.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArachnidsInTheUK.swift; sourceTree = "<group>"; };
+		D57EB1C32745B4530032DF75 /* TheTsurangaConundrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTsurangaConundrum.swift; sourceTree = "<group>"; };
+		D57EB1C52745B4680032DF75 /* DemonsOfThePunjab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemonsOfThePunjab.swift; sourceTree = "<group>"; };
+		D57EB1C72745B4720032DF75 /* Kerblam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Kerblam.swift; sourceTree = "<group>"; };
+		D57EB1C92745B47E0032DF75 /* TheWitchfinders.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheWitchfinders.swift; sourceTree = "<group>"; };
+		D57EB1CB2745B4870032DF75 /* ItTakesYouAway.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItTakesYouAway.swift; sourceTree = "<group>"; };
+		D57EB1CD2748114A0032DF75 /* TheBattleOfRanskoorAvKolos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheBattleOfRanskoorAvKolos.swift; sourceTree = "<group>"; };
+		D57EB1CF2748115C0032DF75 /* Resolution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolution.swift; sourceTree = "<group>"; };
+		D57EB1D1274812FA0032DF75 /* SpyfallPart1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyfallPart1.swift; sourceTree = "<group>"; };
+		D57EB1D3274813010032DF75 /* SpyfallPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpyfallPart2.swift; sourceTree = "<group>"; };
+		D57EB1D5274813090032DF75 /* Orphan55.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Orphan55.swift; sourceTree = "<group>"; };
+		D57EB1D72748131C0032DF75 /* NikolaTeslasNightOfTerror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NikolaTeslasNightOfTerror.swift; sourceTree = "<group>"; };
+		D57EB1D92748132E0032DF75 /* FugitiveOfTheJudoon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FugitiveOfTheJudoon.swift; sourceTree = "<group>"; };
+		D57EB1DB274813370032DF75 /* Praxeus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Praxeus.swift; sourceTree = "<group>"; };
+		D57EB1DD274813420032DF75 /* CanYouHearMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CanYouHearMe.swift; sourceTree = "<group>"; };
+		D57EB1DF274813550032DF75 /* TheHauntingOfVillaDiodati.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHauntingOfVillaDiodati.swift; sourceTree = "<group>"; };
+		D57EB1E1274813680032DF75 /* AscensionOfTheCybermen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AscensionOfTheCybermen.swift; sourceTree = "<group>"; };
+		D57EB1E3274813730032DF75 /* TheTimelessChildren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheTimelessChildren.swift; sourceTree = "<group>"; };
+		D57EB1E5274813820032DF75 /* RevolutionOfTheDaleks .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RevolutionOfTheDaleks .swift"; sourceTree = "<group>"; };
+		D57EB1E727495A8A0032DF75 /* TheHalloweenApocalypse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheHalloweenApocalypse.swift; sourceTree = "<group>"; };
+		D57EB1E927495AA30032DF75 /* WarOfTheSontarans.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WarOfTheSontarans.swift; sourceTree = "<group>"; };
+		D57EB1EB27495AB50032DF75 /* OnceUponTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnceUponTime.swift; sourceTree = "<group>"; };
+		D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillageOfTheAngels.swift; sourceTree = "<group>"; };
+		D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivorsOfTheFlux.swift; sourceTree = "<group>"; };
+		D57EB1F127495AE50032DF75 /* TheVanquishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheVanquishers.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D57832D427381A18007CD57E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D57832CE27381A18007CD57E = {
+			isa = PBXGroup;
+			children = (
+				D57832D927381A18007CD57E /* DW Episode Guide */,
+				D57832D827381A18007CD57E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D57832D827381A18007CD57E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D57832D727381A18007CD57E /* DW Episode Guide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D57832D927381A18007CD57E /* DW Episode Guide */ = {
+			isa = PBXGroup;
+			children = (
+				D57832EB27381EAB007CD57E /* ClassicSeries */,
+				D578332127382080007CD57E /* NewSeries */,
+				D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */,
+				D57832DC27381A18007CD57E /* ContentView.swift */,
+				D578334427382849007CD57E /* Main.xcdatamodeld */,
+				D57832DE27381A1C007CD57E /* Assets.xcassets */,
+				D57832E327381A1C007CD57E /* DW_Episode_Guide.entitlements */,
+				D57832E027381A1C007CD57E /* Preview Content */,
+				D57832E927381A66007CD57E /* SettingsView.swift */,
+				D578333F273822D9007CD57E /* Persistence.swift */,
+			);
+			path = "DW Episode Guide";
+			sourceTree = "<group>";
+		};
+		D57832E027381A1C007CD57E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D57832E127381A1C007CD57E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D57832EB27381EAB007CD57E /* ClassicSeries */ = {
+			isa = PBXGroup;
+			children = (
+				D57833812738718B007CD57E /* ClassicSeries26 */,
+				D578338027387184007CD57E /* ClassicSeries25 */,
+				D578337F2738717D007CD57E /* ClassicSeries24 */,
+				D578337E27387175007CD57E /* ClassicSeries23 */,
+				D578337D2738716E007CD57E /* ClassicSeries22 */,
+				D578337C27387158007CD57E /* ClassicSeries21 */,
+				D578337B2738714F007CD57E /* ClassicSeries20 */,
+				D578337A27387094007CD57E /* ClassicSeries19 */,
+				D57833792738708C007CD57E /* ClassicSeries18 */,
+				D578337827387086007CD57E /* ClassicSeries17 */,
+				D578337727387081007CD57E /* ClassicSeries16 */,
+				D57833762738707B007CD57E /* ClassicSeries15 */,
+				D578337527387074007CD57E /* ClassicSeries14 */,
+				D578337427387062007CD57E /* ClassicSeries13 */,
+				D57833732738702F007CD57E /* ClassicSeries12 */,
+				D578337227387029007CD57E /* ClassicSeries11 */,
+				D578337127387023007CD57E /* ClassicSeries10 */,
+				D57833702738701E007CD57E /* ClassicSeries9 */,
+				D578336F27387017007CD57E /* ClassicSeries8 */,
+				D578336E27386FD6007CD57E /* ClassicSeries7 */,
+				D578336D27386FC9007CD57E /* ClassicSeries6 */,
+				D578336C27386FC0007CD57E /* ClassicSeries5 */,
+				D578336B27386F87007CD57E /* ClassicSeries4 */,
+				D578336A27386F83007CD57E /* ClassicSeries3 */,
+				D578336827386F32007CD57E /* ClassicSeries2 */,
+				D578336727386F26007CD57E /* ClassicSeries1 */,
+				D57832ED27381ED4007CD57E /* ClassicSeries1.swift */,
+				D57832EF27381EDC007CD57E /* ClassicSeries2.swift */,
+				D57832F127381EE3007CD57E /* ClassicSeries3.swift */,
+				D57832F327381EF0007CD57E /* ClassicSeries4.swift */,
+				D57832F527381F15007CD57E /* ClassicSeries5.swift */,
+				D57832F727381F1C007CD57E /* ClassicSeries6.swift */,
+				D57832F927381F22007CD57E /* ClassicSeries7.swift */,
+				D57832FB27381F28007CD57E /* ClassicSeries8.swift */,
+				D57832FD27381F33007CD57E /* ClassicSeries9.swift */,
+				D57832FF27381F4E007CD57E /* ClassicSeries10.swift */,
+				D578330127381F56007CD57E /* ClassicSeries11.swift */,
+				D578330327381F69007CD57E /* ClassicSeries12.swift */,
+				D578330527381F72007CD57E /* ClassicSeries13.swift */,
+				D578330727381F98007CD57E /* ClassicSeries14.swift */,
+				D578330927381FB5007CD57E /* ClassicSeries15.swift */,
+				D578330B27381FBB007CD57E /* ClassicSeries16.swift */,
+				D578330D27381FC3007CD57E /* ClassicSeries17.swift */,
+				D578330F27382011007CD57E /* ClassicSeries18.swift */,
+				D578331127382017007CD57E /* ClassicSeries19.swift */,
+				D57833132738201F007CD57E /* ClassicSeries20.swift */,
+				D578331527382029007CD57E /* ClassicSeries21.swift */,
+				D578331727382033007CD57E /* ClassicSeries22.swift */,
+				D578331927382040007CD57E /* ClassicSeries23.swift */,
+				D578331B27382048007CD57E /* ClassicSeries24.swift */,
+				D578331D27382052007CD57E /* ClassicSeries25.swift */,
+				D578331F2738205C007CD57E /* ClassicSeries26.swift */,
+				D578339F2739A041007CD57E /* TVMovie.swift */,
+			);
+			path = ClassicSeries;
+			sourceTree = "<group>";
+		};
+		D578332127382080007CD57E /* NewSeries */ = {
+			isa = PBXGroup;
+			children = (
+				D578338E273872DD007CD57E /* NewSeries13 */,
+				D578338D273872D9007CD57E /* NewSeries12 */,
+				D578338C273872D5007CD57E /* NewSeries11 */,
+				D578338B273872CE007CD57E /* NewSeries10 */,
+				D578338A27387231007CD57E /* NewSeries9 */,
+				D57833892738722C007CD57E /* NewSeries8 */,
+				D578338827387228007CD57E /* NewSeries7 */,
+				D5783387273871E8007CD57E /* NewSeries6 */,
+				D5783386273871DB007CD57E /* NewSeries5 */,
+				D5783385273871D5007CD57E /* NewSeries4 */,
+				D5783384273871D0007CD57E /* NewSeries3 */,
+				D5783383273871CC007CD57E /* NewSeries2 */,
+				D5783382273871C6007CD57E /* NewSeries1 */,
+				D57833222738208A007CD57E /* NewSeries1.swift */,
+				D57833242738208F007CD57E /* NewSeries2.swift */,
+				D578332627382097007CD57E /* NewSeries3.swift */,
+				D57833282738209F007CD57E /* NewSeries4.swift */,
+				D578332A273820A9007CD57E /* NewSeries5.swift */,
+				D578332C273820C2007CD57E /* NewSeries6.swift */,
+				D578332E273820CD007CD57E /* NewSeries7.swift */,
+				D5783330273820EC007CD57E /* NewSeries8.swift */,
+				D5783332273820F3007CD57E /* NewSeries9.swift */,
+				D5783334273820FB007CD57E /* NewSeries10.swift */,
+				D578333627382101007CD57E /* NewSeries11.swift */,
+				D578333827382106007CD57E /* NewSeries12.swift */,
+				D578333A2738210E007CD57E /* NewSeries13.swift */,
+			);
+			path = NewSeries;
+			sourceTree = "<group>";
+		};
+		D578336727386F26007CD57E /* ClassicSeries1 */ = {
+			isa = PBXGroup;
+			children = (
+				D578338F273873C4007CD57E /* AnUnearthlyChild.swift */,
+				D5783391273873C9007CD57E /* TheDaleks.swift */,
+				D5783393273873D4007CD57E /* TheEdgeOfDestruction.swift */,
+				D5783395273873DD007CD57E /* MarcoPolo.swift */,
+				D578339727387408007CD57E /* TheKeysOfMarinus.swift */,
+				D578339927387413007CD57E /* TheAztecs.swift */,
+				D578339B27387420007CD57E /* TheSensorites.swift */,
+				D578339D27387433007CD57E /* TheReignOfTerror.swift */,
+			);
+			path = ClassicSeries1;
+			sourceTree = "<group>";
+		};
+		D578336827386F32007CD57E /* ClassicSeries2 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833A1273AE4EF007CD57E /* PlanetOfGiants.swift */,
+				D57833A3273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift */,
+				D57833A5273AE50D007CD57E /* TheRescue.swift */,
+				D57833A7273AE519007CD57E /* TheRomans.swift */,
+				D57833A9273AE524007CD57E /* TheWebPlanet.swift */,
+				D57833AB273AE52B007CD57E /* TheCrusade.swift */,
+				D57833AD273AE53F007CD57E /* TheSpaceMuseum.swift */,
+				D57833AF273B2000007CD57E /* TheChase.swift */,
+				D57833B1273B2011007CD57E /* TheTimeMeddler.swift */,
+			);
+			path = ClassicSeries2;
+			sourceTree = "<group>";
+		};
+		D578336A27386F83007CD57E /* ClassicSeries3 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833B3273B2024007CD57E /* Galaxy4.swift */,
+				D57833B5273B210A007CD57E /* MissionToTheUnknown.swift */,
+				D57833B7273B2118007CD57E /* TheMythMakers.swift */,
+				D57833B9273B2128007CD57E /* TheDaleksMasterPlan.swift */,
+				D57833BB273B213D007CD57E /* TheMassacre.swift */,
+				D57833BD273B2145007CD57E /* TheArk.swift */,
+				D57833BF273B2197007CD57E /* TheCelestialToymaker.swift */,
+				D57833C1273B21A4007CD57E /* TheGunfighters.swift */,
+				D57833C3273B21B9007CD57E /* TheSavages.swift */,
+				D57833C5273B21C9007CD57E /* TheWarMachines.swift */,
+			);
+			path = ClassicSeries3;
+			sourceTree = "<group>";
+		};
+		D578336B27386F87007CD57E /* ClassicSeries4 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833C7273B21D9007CD57E /* TheSmugglers.swift */,
+				D57833C9273B21E8007CD57E /* TheTenthPlanet.swift */,
+				D57833CB273B21FB007CD57E /* ThePowerOfTheDaleks.swift */,
+				D57833CD273B2244007CD57E /* TheHighlanders.swift */,
+				D57833CF273B2293007CD57E /* TheUnderwaterMenace.swift */,
+				D57833D1273B229F007CD57E /* TheMoonbase.swift */,
+				D57833D3273B22AC007CD57E /* TheMacraTerror.swift */,
+				D57833D5273B22B7007CD57E /* TheFacelessOnes.swift */,
+				D57833D7273B22CD007CD57E /* TheEvilOfTheDaleks.swift */,
+			);
+			path = ClassicSeries4;
+			sourceTree = "<group>";
+		};
+		D578336C27386FC0007CD57E /* ClassicSeries5 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833D9273B233E007CD57E /* TheTombOfTheCybermen.swift */,
+				D57833DB273B234D007CD57E /* TheAbominableSnowmen.swift */,
+				D57833DD273B235A007CD57E /* TheIceWarriors.swift */,
+				D57833DF273B237B007CD57E /* TheEnemyOfTheWorld.swift */,
+				D57833E1273B2398007CD57E /* TheWebOfFear.swift */,
+				D57833E3273B23D6007CD57E /* FuryFromTheDeep.swift */,
+				D57833E5273B23E4007CD57E /* TheWheelInSpace.swift */,
+			);
+			path = ClassicSeries5;
+			sourceTree = "<group>";
+		};
+		D578336D27386FC9007CD57E /* ClassicSeries6 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833E7273B24CC007CD57E /* TheDominators.swift */,
+				D57833E9273B24D8007CD57E /* TheMindRobber.swift */,
+				D57833EB273B24E2007CD57E /* TheInvasion.swift */,
+				D57833ED273B24EE007CD57E /* TheKrotons.swift */,
+				D57833EF273B2507007CD57E /* TheSeedsOfDeath.swift */,
+				D57833F1273B2516007CD57E /* TheSpacePirates.swift */,
+				D57833F3273B2521007CD57E /* TheWarGames.swift */,
+			);
+			path = ClassicSeries6;
+			sourceTree = "<group>";
+		};
+		D578336E27386FD6007CD57E /* ClassicSeries7 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833F5273B259D007CD57E /* SpearheadFromSpace.swift */,
+				D57833F7273B25AA007CD57E /* AndTheSilurians.swift */,
+				D57833F9273B25BA007CD57E /* TheAmbassadorsOfDeath.swift */,
+				D57833FB273B25C7007CD57E /* Inferno.swift */,
+			);
+			path = ClassicSeries7;
+			sourceTree = "<group>";
+		};
+		D578336F27387017007CD57E /* ClassicSeries8 */ = {
+			isa = PBXGroup;
+			children = (
+				D57833FD273B25DD007CD57E /* TerrorOfTheAutons.swift */,
+				D57833FF273B25EF007CD57E /* TheMindOfEvil.swift */,
+				D5783401273B25FE007CD57E /* TheClawsOfAxos.swift */,
+				D5783403273B2612007CD57E /* ColonyInSpace.swift */,
+				D5783405273B261C007CD57E /* TheDaemons.swift */,
+			);
+			path = ClassicSeries8;
+			sourceTree = "<group>";
+		};
+		D57833702738701E007CD57E /* ClassicSeries9 */ = {
+			isa = PBXGroup;
+			children = (
+				D5783407273B2691007CD57E /* DayOfTheDaleks.swift */,
+				D5783409273B26AA007CD57E /* TheCurseOfPeladon.swift */,
+				D578340B273B26B6007CD57E /* TheSeaDevils.swift */,
+				D578340D273B26C0007CD57E /* TheMutants.swift */,
+				D578340F273B26CB007CD57E /* TheTimeMonster.swift */,
+			);
+			path = ClassicSeries9;
+			sourceTree = "<group>";
+		};
+		D578337127387023007CD57E /* ClassicSeries10 */ = {
+			isa = PBXGroup;
+			children = (
+				D5783411273B274F007CD57E /* TheThreeDoctors.swift */,
+				D5783413273B27C9007CD57E /* CarnivalOfMonsters.swift */,
+				D5783415273B27D7007CD57E /* FrontierInSpace.swift */,
+				D5783417273B2828007CD57E /* PlanetOfTheDaleks.swift */,
+				D5783419273B2830007CD57E /* TheGreenDeath.swift */,
+			);
+			path = ClassicSeries10;
+			sourceTree = "<group>";
+		};
+		D578337227387029007CD57E /* ClassicSeries11 */ = {
+			isa = PBXGroup;
+			children = (
+				D578341B273B2845007CD57E /* TheTimeWarrior.swift */,
+				D578341D273B2853007CD57E /* InvasionOfTheDinosaurs.swift */,
+				D578341F273B2864007CD57E /* DeathToTheDaleks.swift */,
+				D5783421273B2881007CD57E /* TheMonsterOfPeladon.swift */,
+				D5783423273B2891007CD57E /* PlanetOfTheSpiders.swift */,
+			);
+			path = ClassicSeries11;
+			sourceTree = "<group>";
+		};
+		D57833732738702F007CD57E /* ClassicSeries12 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EAFEB273D99050032DF75 /* Robot.swift */,
+				D57EAFED273D990F0032DF75 /* TheArkInSpace.swift */,
+				D57EAFEF273D991E0032DF75 /* TheSontaranExperiment.swift */,
+				D57EAFF1273D99690032DF75 /* GenesisOfTheDaleks.swift */,
+				D57EAFF3273D99740032DF75 /* RevengeOfTheCybermen.swift */,
+			);
+			path = ClassicSeries12;
+			sourceTree = "<group>";
+		};
+		D578337427387062007CD57E /* ClassicSeries13 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EAFF5273D99850032DF75 /* TerrorOfTheZygons.swift */,
+				D57EAFF7273D998C0032DF75 /* PlanetOfEvil.swift */,
+				D57EAFF9273D99B00032DF75 /* PyramidsOfMars.swift */,
+				D57EAFFB273D99BE0032DF75 /* TheAndroidInvasion.swift */,
+				D57EAFFD273D99D30032DF75 /* TheBrainOfMorbius.swift */,
+				D57EAFFF273D99DC0032DF75 /* TheSeedsOfDoom.swift */,
+			);
+			path = ClassicSeries13;
+			sourceTree = "<group>";
+		};
+		D578337527387074007CD57E /* ClassicSeries14 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB001273D99F80032DF75 /* TheMasqueOfMandragora.swift */,
+				D57EB003273D9A090032DF75 /* TheHandOfFear.swift */,
+				D57EB005273D9A820032DF75 /* TheDeadlyAssassin.swift */,
+				D57EB007273D9A890032DF75 /* TheFaceOfEvil.swift */,
+				D57EB009273D9A930032DF75 /* TheRobotsOfDeath.swift */,
+				D57EB00B273D9AA10032DF75 /* TheTalonsOfWengChiang.swift */,
+			);
+			path = ClassicSeries14;
+			sourceTree = "<group>";
+		};
+		D57833762738707B007CD57E /* ClassicSeries15 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB00D273D9AC20032DF75 /* HorrorOfFangRock.swift */,
+				D57EB00F273D9AE70032DF75 /* TheInvisibleEnemy.swift */,
+				D57EB011273D9AF80032DF75 /* ImageOfTheFendahl.swift */,
+				D57EB013273D9B010032DF75 /* TheSunMakers.swift */,
+				D57EB015273D9B080032DF75 /* Underworld.swift */,
+				D57EB017273D9B150032DF75 /* TheInvasionOfTime.swift */,
+			);
+			path = ClassicSeries15;
+			sourceTree = "<group>";
+		};
+		D578337727387081007CD57E /* ClassicSeries16 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB019273D9B260032DF75 /* TheRibosOperation.swift */,
+				D57EB09527419F360032DF75 /* ThePiratePlanet.swift */,
+				D57EB01B273D9B4D0032DF75 /* TheStonesOfBlood.swift */,
+				D57EB01D273D9B5A0032DF75 /* TheAndroidsOfTara.swift */,
+				D57EB01F273D9B690032DF75 /* ThePowerOfKroll.swift */,
+				D57EB021273D9B780032DF75 /* TheArmageddonFactor.swift */,
+			);
+			path = ClassicSeries16;
+			sourceTree = "<group>";
+		};
+		D578337827387086007CD57E /* ClassicSeries17 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB023273D9B8A0032DF75 /* DestinyOfTheDaleks.swift */,
+				D57EB025273D9B930032DF75 /* CityOfDeath.swift */,
+				D57EB027273D9BD30032DF75 /* TheCreatureFromThePit.swift */,
+				D57EB029273D9BDE0032DF75 /* NightmareOfEden.swift */,
+				D57EB02B273D9BE70032DF75 /* TheHornsOfNimon.swift */,
+				D57EB02D273D9BEF0032DF75 /* Shada.swift */,
+			);
+			path = ClassicSeries17;
+			sourceTree = "<group>";
+		};
+		D57833792738708C007CD57E /* ClassicSeries18 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB02F273D9C040032DF75 /* TheLeisureHive.swift */,
+				D57EB031273D9C0B0032DF75 /* Meglos.swift */,
+				D57EB033273D9C220032DF75 /* FullCircle.swift */,
+				D57EB035273D9C2A0032DF75 /* StateOfDecay.swift */,
+				D57EB037273D9C370032DF75 /* WarriorsGate.swift */,
+				D57EB039273D9C420032DF75 /* TheKeeperOfTraken.swift */,
+				D57EB03B273D9C4C0032DF75 /* Logopolis.swift */,
+			);
+			path = ClassicSeries18;
+			sourceTree = "<group>";
+		};
+		D578337A27387094007CD57E /* ClassicSeries19 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB03D273D9C5E0032DF75 /* Castrovalva.swift */,
+				D57EB03F273D9C690032DF75 /* FourToDoomsday.swift */,
+				D57EB041273ED4CD0032DF75 /* Kinda.swift */,
+				D57EB043273ED4DA0032DF75 /* TheVisitation.swift */,
+				D57EB045273ED4EE0032DF75 /* BlackOrchid.swift */,
+				D57EB047273ED5530032DF75 /* Earthshock.swift */,
+				D57EB049273ED5600032DF75 /* TimeFlight.swift */,
+			);
+			path = ClassicSeries19;
+			sourceTree = "<group>";
+		};
+		D578337B2738714F007CD57E /* ClassicSeries20 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB04B273ED5840032DF75 /* ArcOfInfinity.swift */,
+				D57EB04D273ED5980032DF75 /* Snakedance.swift */,
+				D57EB04F273ED5A40032DF75 /* MawdrynUndead.swift */,
+				D57EB051273ED5D50032DF75 /* Terminus.swift */,
+				D57EB053273ED5E00032DF75 /* Enlightenment.swift */,
+				D57EB055273ED5EA0032DF75 /* TheKingsDemons.swift */,
+				D57EB057273ED60D0032DF75 /* TheFiveDoctors.swift */,
+			);
+			path = ClassicSeries20;
+			sourceTree = "<group>";
+		};
+		D578337C27387158007CD57E /* ClassicSeries21 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB059273ED61C0032DF75 /* WarriorsOfTheDeep.swift */,
+				D57EB05B273ED62B0032DF75 /* TheAwakening.swift */,
+				D57EB05F273ED64B0032DF75 /* Frontios.swift */,
+				D57EB061273ED6F60032DF75 /* ResurrectionOfTheDaleks.swift */,
+				D57EB063273ED7170032DF75 /* PlanetOfFire.swift */,
+				D57EB065273ED7250032DF75 /* TheCavesOfAndrozani.swift */,
+				D57EB067273ED72F0032DF75 /* TheTwinDilemma.swift */,
+			);
+			path = ClassicSeries21;
+			sourceTree = "<group>";
+		};
+		D578337D2738716E007CD57E /* ClassicSeries22 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB069273ED7410032DF75 /* AttackOfTheCybermen.swift */,
+				D57EB06B273ED7550032DF75 /* VengeanceOnVaros.swift */,
+				D57EB06D273ED7610032DF75 /* TheMarkOfTheRani.swift */,
+				D57EB06F273ED76C0032DF75 /* TheTwoDoctors.swift */,
+				D57EB071273ED7730032DF75 /* Timelash.swift */,
+				D57EB073273ED7830032DF75 /* RevelationOfTheDaleks.swift */,
+			);
+			path = ClassicSeries22;
+			sourceTree = "<group>";
+		};
+		D578337E27387175007CD57E /* ClassicSeries23 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB075273ED8B40032DF75 /* TheMysteriousPlanet.swift */,
+				D57EB077273ED8BB0032DF75 /* Mindwarp.swift */,
+				D57EB079273ED8CB0032DF75 /* TerrorOfTheVervoids.swift */,
+				D57EB07B273ED8D60032DF75 /* TheUltimateFoe.swift */,
+			);
+			path = ClassicSeries23;
+			sourceTree = "<group>";
+		};
+		D578337F2738717D007CD57E /* ClassicSeries24 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB07D273ED8EB0032DF75 /* TimeAndTheRani.swift */,
+				D57EB07F27410E060032DF75 /* ParadiseTowers.swift */,
+				D57EB08127410E7F0032DF75 /* DeltaAndTheBannermen.swift */,
+				D57EB08327410E920032DF75 /* Dragonfire.swift */,
+			);
+			path = ClassicSeries24;
+			sourceTree = "<group>";
+		};
+		D578338027387184007CD57E /* ClassicSeries25 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB08527410EA40032DF75 /* RememberanceOfTheDaleks.swift */,
+				D57EB08727410EAF0032DF75 /* TheHappinessPatrol.swift */,
+				D57EB08927410EB80032DF75 /* SilverNemesis.swift */,
+				D57EB08B27410EC90032DF75 /* TheGreatestShowInTheGalaxy.swift */,
+			);
+			path = ClassicSeries25;
+			sourceTree = "<group>";
+		};
+		D57833812738718B007CD57E /* ClassicSeries26 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB08D2741112D0032DF75 /* Battlefield.swift */,
+				D57EB08F2741113A0032DF75 /* GhostLight.swift */,
+				D57EB0912741114F0032DF75 /* TheCurseOfFenric.swift */,
+				D57EB093274111570032DF75 /* Survival.swift */,
+			);
+			path = ClassicSeries26;
+			sourceTree = "<group>";
+		};
+		D5783382273871C6007CD57E /* NewSeries1 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB097274420D60032DF75 /* Rose.swift */,
+				D57EB0992744216E0032DF75 /* TheEndOfTheWorld.swift */,
+				D57EB09B274421790032DF75 /* TheUnquietDead.swift */,
+				D57EB09D274421830032DF75 /* AliensOfLondon.swift */,
+				D57EB09F2744218D0032DF75 /* WorldWarThree.swift */,
+				D57EB0A1274422D00032DF75 /* Dalek.swift */,
+				D57EB0A3274422D70032DF75 /* TheLongGame.swift */,
+				D57EB0A5274422E40032DF75 /* FathersDay.swift */,
+				D57EB0A7274423590032DF75 /* TheEmptyChild.swift */,
+				D57EB0A9274423600032DF75 /* TheDoctorDances.swift */,
+				D57EB0AB2744236A0032DF75 /* BoomTown.swift */,
+				D57EB0AD274423700032DF75 /* BadWolf.swift */,
+				D57EB0AF2744237C0032DF75 /* ThePartingOfTheWays.swift */,
+			);
+			path = NewSeries1;
+			sourceTree = "<group>";
+		};
+		D5783383273871CC007CD57E /* NewSeries2 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB0B127443E810032DF75 /* TheChristmasInvasion.swift */,
+				D57EB0B327443E910032DF75 /* NewEarth.swift */,
+				D57EB0B527443E9A0032DF75 /* ToothAndClaw.swift */,
+				D57EB0B727443EA80032DF75 /* SchoolReunion.swift */,
+				D57EB0B927443EC20032DF75 /* TheGirlInTheFireplace.swift */,
+				D57EB0BB27443EE00032DF75 /* RiseOfTheCybermen.swift */,
+				D57EB0BD27443EEC0032DF75 /* TheAgeOfSteel.swift */,
+				D57EB0BF27443EFA0032DF75 /* TheIdiotsLantern.swift */,
+				D57EB0C127443F070032DF75 /* TheImpossiblePlanet.swift */,
+				D57EB0C327443F130032DF75 /* TheSatanPit.swift */,
+				D57EB0C527443F1E0032DF75 /* Love&Monsters.swift */,
+				D57EB0C927443F330032DF75 /* FearHer.swift */,
+				D57EB0CB27443F3F0032DF75 /* ArmyOfGhosts.swift */,
+				D57EB0CD27443F480032DF75 /* Doomsday.swift */,
+			);
+			path = NewSeries2;
+			sourceTree = "<group>";
+		};
+		D5783384273871D0007CD57E /* NewSeries3 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB0CF274441220032DF75 /* TheRunawayBride.swift */,
+				D57EB0D1274441560032DF75 /* SmithAndJones.swift */,
+				D57EB0D3274441660032DF75 /* TheShakespeareCode.swift */,
+				D57EB0D52744416E0032DF75 /* Gridlock.swift */,
+				D57EB0D7274441860032DF75 /* DaleksInManhattan.swift */,
+				D57EB0D9274441F60032DF75 /* EvolutionOfTheDaleks.swift */,
+				D57EB0DB274442170032DF75 /* TheLazarusExperiment.swift */,
+				D57EB0DF274442540032DF75 /* _42.swift */,
+				D57EB0E1274442630032DF75 /* HumanNature.swift */,
+				D57EB0E32744426F0032DF75 /* TheFamilyOfBlood.swift */,
+				D57EB0E5274442AA0032DF75 /* Blink.swift */,
+				D57EB0E7274442C20032DF75 /* Utopia.swift */,
+				D57EB0E9274442D10032DF75 /* TheSoundOfDrums.swift */,
+				D57EB0EB274442DD0032DF75 /* LastOfTheTimeLords.swift */,
+			);
+			path = NewSeries3;
+			sourceTree = "<group>";
+		};
+		D5783385273871D5007CD57E /* NewSeries4 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB0ED274447A40032DF75 /* VoyageOfTheDamned.swift */,
+				D57EB0EF274447B10032DF75 /* PartnersInCrime.swift */,
+				D57EB0F1274449C70032DF75 /* TheFiresOfPompeii.swift */,
+				D57EB0F327444A260032DF75 /* PlanetOfTheOod.swift */,
+				D57EB0F527444A370032DF75 /* TheSontaranStratagem.swift */,
+				D57EB0F727444A400032DF75 /* ThePoisonSky.swift */,
+				D57EB0F927444A7C0032DF75 /* TheDoctorsDaughter.swift */,
+				D57EB0FB27444A8B0032DF75 /* TheUnicornAndTheWasp.swift */,
+				D57EB0FD27444A990032DF75 /* SilenceInTheLibrary.swift */,
+				D57EB0FF27444AA70032DF75 /* ForestOfTheDead.swift */,
+				D57EB10127444AAD0032DF75 /* Midnight.swift */,
+				D57EB10327444AB30032DF75 /* TurnLeft.swift */,
+				D57EB10527444AC10032DF75 /* TheStolenEarth.swift */,
+				D57EB10727444AEB0032DF75 /* JourneysEnd.swift */,
+				D57EB10927444AF30032DF75 /* TheNextDoctor.swift */,
+				D57EB10D27444B040032DF75 /* TheWatersOfMars.swift */,
+				D57EB10B27444AFB0032DF75 /* PlanetOfTheDead.swift */,
+				D57EB10F27444B100032DF75 /* TheEndOfTimePart1.swift */,
+				D57EB11127444B1D0032DF75 /* TheEndOfTimePart2.swift */,
+			);
+			path = NewSeries4;
+			sourceTree = "<group>";
+		};
+		D5783386273871DB007CD57E /* NewSeries5 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB11327444D090032DF75 /* TheEleventhHour.swift */,
+				D57EB11527444D130032DF75 /* TheBeastBelow.swift */,
+				D57EB11727444D240032DF75 /* VictoryOfTheDaleks.swift */,
+				D57EB11927444D330032DF75 /* TheTimeOfAngels.swift */,
+				D57EB11B27444E2A0032DF75 /* FleshAndStone.swift */,
+				D57EB11D27444E420032DF75 /* TheVampiresOfVenice.swift */,
+				D57EB11F27444EE50032DF75 /* AmysChoice.swift */,
+				D57EB12127444F470032DF75 /* TheHungryEarth.swift */,
+				D57EB12327444FC30032DF75 /* ColdBlood.swift */,
+				D57EB125274450340032DF75 /* VincentAndTheDoctor.swift */,
+				D57EB1272744503B0032DF75 /* TheLodger.swift */,
+				D57EB129274450470032DF75 /* ThePandoricaOpens.swift */,
+				D57EB12B274458AA0032DF75 /* TheBigBang.swift */,
+			);
+			path = NewSeries5;
+			sourceTree = "<group>";
+		};
+		D5783387273871E8007CD57E /* NewSeries6 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB12D27456DCF0032DF75 /* AChristmasCarol.swift */,
+				D57EB12F27456DE50032DF75 /* TheImpossibleAstronaut.swift */,
+				D57EB13127456DEE0032DF75 /* DayOfTheMoon.swift */,
+				D57EB13327456DFE0032DF75 /* TheCurseOfTheBlackSpot.swift */,
+				D57EB13527456E080032DF75 /* TheDoctorsWife.swift */,
+				D57EB13727456E130032DF75 /* TheRebelFlesh.swift */,
+				D57EB13927456E2B0032DF75 /* TheAlmostPeople.swift */,
+				D57EB13B27456E360032DF75 /* AGoodManGoesToWar.swift */,
+				D57EB13D27456E3F0032DF75 /* LetsKillHitler.swift */,
+				D57EB13F27456E4A0032DF75 /* NightTerrors.swift */,
+				D57EB14127456E550032DF75 /* TheGirlWhoWaited.swift */,
+				D57EB14327456E5E0032DF75 /* TheGodComplex.swift */,
+				D57EB14527456E6B0032DF75 /* ClosingTime.swift */,
+				D57EB14727456E7B0032DF75 /* TheWeddingOfRiverSong.swift */,
+			);
+			path = NewSeries6;
+			sourceTree = "<group>";
+		};
+		D578338827387228007CD57E /* NewSeries7 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB14927456F630032DF75 /* TheDoctorTheWidowAndTheWardrobe.swift */,
+				D57EB14B274585650032DF75 /* AsylumOfTheDaleks.swift */,
+				D57EB14D2745B0020032DF75 /* DinosaursOnASpaceship.swift */,
+				D57EB14F2745B0100032DF75 /* ATownCalledMercy.swift */,
+				D57EB1512745B01B0032DF75 /* ThePowerOfThree.swift */,
+				D57EB1532745B02C0032DF75 /* TheAngelsTakeManhattan.swift */,
+				D57EB1552745B0340032DF75 /* TheSnowmen.swift */,
+				D57EB1572745B0430032DF75 /* TheBellsOfSaintJohn.swift */,
+				D57EB1592745B0500032DF75 /* TheRingsOfAkhaten.swift */,
+				D57EB15B2745B0590032DF75 /* ColdWar.swift */,
+				D57EB15D2745B05E0032DF75 /* Hide.swift */,
+				D57EB15F2745B0750032DF75 /* JourneyToTheCentreOfTheTARDIS.swift */,
+				D57EB1612745B0880032DF75 /* TheCrimsonHorror.swift */,
+				D57EB1632745B0930032DF75 /* NightmareInSilver.swift */,
+				D57EB1652745B09E0032DF75 /* TheNameOfTheDoctor.swift */,
+				D57EB1672745B0A90032DF75 /* TheDayOfTheDoctor.swift */,
+				D57EB1692745B0B20032DF75 /* TheTimeOfTheDoctor.swift */,
+			);
+			path = NewSeries7;
+			sourceTree = "<group>";
+		};
+		D57833892738722C007CD57E /* NewSeries8 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB16B2745B1340032DF75 /* DeepBreath.swift */,
+				D57EB16D2745B13C0032DF75 /* IntoTheDalek.swift */,
+				D57EB16F2745B1470032DF75 /* RobotOfSherwood.swift */,
+				D57EB1712745B14F0032DF75 /* Listen.swift */,
+				D57EB1732745B15C0032DF75 /* TimeHeist.swift */,
+				D57EB1752745B1650032DF75 /* TheCaretaker.swift */,
+				D57EB1772745B16F0032DF75 /* KillTheMoon.swift */,
+				D57EB1792745B17A0032DF75 /* MummyOnTheOrientExpress.swift */,
+				D57EB17B2745B1830032DF75 /* Flatline.swift */,
+				D57EB17D2745B1940032DF75 /* InTheForestOfTheNight.swift */,
+				D57EB17F2745B19D0032DF75 /* DarkWater.swift */,
+				D57EB1812745B1A40032DF75 /* DeathInHeaven.swift */,
+			);
+			path = NewSeries8;
+			sourceTree = "<group>";
+		};
+		D578338A27387231007CD57E /* NewSeries9 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB1832745B20E0032DF75 /* LastChristmas.swift */,
+				D57EB1852745B21F0032DF75 /* TheMagiciansApprentice.swift */,
+				D57EB1872745B22E0032DF75 /* TheWitchsFamiliar.swift */,
+				D57EB1892745B23C0032DF75 /* UnderTheLake.swift */,
+				D57EB18B2745B2460032DF75 /* BeforeTheFlood.swift */,
+				D57EB18D2745B2510032DF75 /* TheGirlWhoDied.swift */,
+				D57EB18F2745B25B0032DF75 /* TheWomanWhoLived.swift */,
+				D57EB1912745B2680032DF75 /* TheZygonInvasion.swift */,
+				D57EB1932745B2710032DF75 /* TheZygonInversion.swift */,
+				D57EB1952745B27C0032DF75 /* SleepNoMore.swift */,
+				D57EB1972745B2840032DF75 /* FaceTheRaven.swift */,
+				D57EB1992745B28E0032DF75 /* HeavenSent.swift */,
+				D57EB19B2745B2950032DF75 /* HellBent.swift */,
+				D57EB19D2745B2A40032DF75 /* TheHusbandsOfRiverSong.swift */,
+			);
+			path = NewSeries9;
+			sourceTree = "<group>";
+		};
+		D578338B273872CE007CD57E /* NewSeries10 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB19F2745B3130032DF75 /* TheReturnOfDoctorMysterio.swift */,
+				D57EB1A12745B31C0032DF75 /* ThePilot.swift */,
+				D57EB1A32745B3210032DF75 /* Smile.swift */,
+				D57EB1A52745B3270032DF75 /* ThinIce.swift */,
+				D57EB1A72745B3330032DF75 /* KnockKnock.swift */,
+				D57EB1A92745B33E0032DF75 /* Oxygen.swift */,
+				D57EB1AB2745B3430032DF75 /* Extremis.swift */,
+				D57EB1AD2745B3530032DF75 /* ThePyramidAtTheEndOfTheWorld.swift */,
+				D57EB1AF2745B3610032DF75 /* TheLieOfTheLand.swift */,
+				D57EB1B12745B36C0032DF75 /* EmpressOfMars.swift */,
+				D57EB1B32745B3780032DF75 /* TheEatersOfLight.swift */,
+				D57EB1B52745B3840032DF75 /* WorldEnoughAndTime.swift */,
+				D57EB1B72745B38F0032DF75 /* TheDoctorFalls.swift */,
+				D57EB1B92745B39C0032DF75 /* TwiceUponATime.swift */,
+			);
+			path = NewSeries10;
+			sourceTree = "<group>";
+		};
+		D578338C273872D5007CD57E /* NewSeries11 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB1BB2745B4090032DF75 /* TheWomanWhoFellToEarth.swift */,
+				D57EB1BD2745B4120032DF75 /* TheGhostMonument.swift */,
+				D57EB1BF2745B41A0032DF75 /* Rosa.swift */,
+				D57EB1C12745B42C0032DF75 /* ArachnidsInTheUK.swift */,
+				D57EB1C32745B4530032DF75 /* TheTsurangaConundrum.swift */,
+				D57EB1C52745B4680032DF75 /* DemonsOfThePunjab.swift */,
+				D57EB1C72745B4720032DF75 /* Kerblam.swift */,
+				D57EB1C92745B47E0032DF75 /* TheWitchfinders.swift */,
+				D57EB1CB2745B4870032DF75 /* ItTakesYouAway.swift */,
+				D57EB1CD2748114A0032DF75 /* TheBattleOfRanskoorAvKolos.swift */,
+				D57EB1CF2748115C0032DF75 /* Resolution.swift */,
+			);
+			path = NewSeries11;
+			sourceTree = "<group>";
+		};
+		D578338D273872D9007CD57E /* NewSeries12 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB1D1274812FA0032DF75 /* SpyfallPart1.swift */,
+				D57EB1D3274813010032DF75 /* SpyfallPart2.swift */,
+				D57EB1D5274813090032DF75 /* Orphan55.swift */,
+				D57EB1D72748131C0032DF75 /* NikolaTeslasNightOfTerror.swift */,
+				D57EB1D92748132E0032DF75 /* FugitiveOfTheJudoon.swift */,
+				D57EB1DB274813370032DF75 /* Praxeus.swift */,
+				D57EB1DD274813420032DF75 /* CanYouHearMe.swift */,
+				D57EB1DF274813550032DF75 /* TheHauntingOfVillaDiodati.swift */,
+				D57EB1E1274813680032DF75 /* AscensionOfTheCybermen.swift */,
+				D57EB1E3274813730032DF75 /* TheTimelessChildren.swift */,
+				D57EB1E5274813820032DF75 /* RevolutionOfTheDaleks .swift */,
+			);
+			path = NewSeries12;
+			sourceTree = "<group>";
+		};
+		D578338E273872DD007CD57E /* NewSeries13 */ = {
+			isa = PBXGroup;
+			children = (
+				D57EB1E727495A8A0032DF75 /* TheHalloweenApocalypse.swift */,
+				D57EB1E927495AA30032DF75 /* WarOfTheSontarans.swift */,
+				D57EB1EB27495AB50032DF75 /* OnceUponTime.swift */,
+				D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */,
+				D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */,
+				D57EB1F127495AE50032DF75 /* TheVanquishers.swift */,
+			);
+			path = NewSeries13;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D57832D627381A18007CD57E /* DW Episode Guide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D57832E627381A1C007CD57E /* Build configuration list for PBXNativeTarget "DW Episode Guide" */;
+			buildPhases = (
+				D57832D327381A18007CD57E /* Sources */,
+				D57832D427381A18007CD57E /* Frameworks */,
+				D57832D527381A18007CD57E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DW Episode Guide";
+			productName = "DW Episode Guide";
+			productReference = D57832D727381A18007CD57E /* DW Episode Guide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D57832CF27381A18007CD57E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					D57832D627381A18007CD57E = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = D57832D227381A18007CD57E /* Build configuration list for PBXProject "DW Episode Guide" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D57832CE27381A18007CD57E;
+			productRefGroup = D57832D827381A18007CD57E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D57832D627381A18007CD57E /* DW Episode Guide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D57832D527381A18007CD57E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57832E227381A1C007CD57E /* Preview Assets.xcassets in Resources */,
+				D57832DF27381A1C007CD57E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D57832D327381A18007CD57E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D57EB16A2745B0B20032DF75 /* TheTimeOfTheDoctor.swift in Sources */,
+				D57EB13C27456E360032DF75 /* AGoodManGoesToWar.swift in Sources */,
+				D578341E273B2853007CD57E /* InvasionOfTheDinosaurs.swift in Sources */,
+				D57833F6273B259D007CD57E /* SpearheadFromSpace.swift in Sources */,
+				D57EB1BC2745B4090032DF75 /* TheWomanWhoFellToEarth.swift in Sources */,
+				D57EB0EE274447A40032DF75 /* VoyageOfTheDamned.swift in Sources */,
+				D57EB05A273ED61C0032DF75 /* WarriorsOfTheDeep.swift in Sources */,
+				D57EB1E4274813730032DF75 /* TheTimelessChildren.swift in Sources */,
+				D57EB03C273D9C4C0032DF75 /* Logopolis.swift in Sources */,
+				D57833292738209F007CD57E /* NewSeries4.swift in Sources */,
+				D57EB030273D9C040032DF75 /* TheLeisureHive.swift in Sources */,
+				D57EB11A27444D330032DF75 /* TheTimeOfAngels.swift in Sources */,
+				D57EB00A273D9A930032DF75 /* TheRobotsOfDeath.swift in Sources */,
+				D57832EA27381A66007CD57E /* SettingsView.swift in Sources */,
+				D57833E0273B237B007CD57E /* TheEnemyOfTheWorld.swift in Sources */,
+				D57833D0273B2293007CD57E /* TheUnderwaterMenace.swift in Sources */,
+				D57EAFF6273D99850032DF75 /* TerrorOfTheZygons.swift in Sources */,
+				D57EB0B827443EA80032DF75 /* SchoolReunion.swift in Sources */,
+				D57EB0FC27444A8B0032DF75 /* TheUnicornAndTheWasp.swift in Sources */,
+				D57EB09A2744216E0032DF75 /* TheEndOfTheWorld.swift in Sources */,
+				D57833A8273AE519007CD57E /* TheRomans.swift in Sources */,
+				D57EB0922741114F0032DF75 /* TheCurseOfFenric.swift in Sources */,
+				D57EB024273D9B8A0032DF75 /* DestinyOfTheDaleks.swift in Sources */,
+				D578330627381F72007CD57E /* ClassicSeries13.swift in Sources */,
+				D57EB0CC27443F3F0032DF75 /* ArmyOfGhosts.swift in Sources */,
+				D57EB1D2274812FA0032DF75 /* SpyfallPart1.swift in Sources */,
+				D57EB072273ED7730032DF75 /* Timelash.swift in Sources */,
+				D57EB0BC27443EE00032DF75 /* RiseOfTheCybermen.swift in Sources */,
+				D57EB1BA2745B39C0032DF75 /* TwiceUponATime.swift in Sources */,
+				D57EB1C82745B4720032DF75 /* Kerblam.swift in Sources */,
+				D578332F273820CD007CD57E /* NewSeries7.swift in Sources */,
+				D57EB10C27444AFB0032DF75 /* PlanetOfTheDead.swift in Sources */,
+				D57EB1A82745B3330032DF75 /* KnockKnock.swift in Sources */,
+				D57833CE273B2244007CD57E /* TheHighlanders.swift in Sources */,
+				D57EB08A27410EB80032DF75 /* SilverNemesis.swift in Sources */,
+				D57EB11827444D240032DF75 /* VictoryOfTheDaleks.swift in Sources */,
+				D57833202738205C007CD57E /* ClassicSeries26.swift in Sources */,
+				D57833E8273B24CC007CD57E /* TheDominators.swift in Sources */,
+				D57EB08027410E060032DF75 /* ParadiseTowers.swift in Sources */,
+				D57EB1EE27495ACA0032DF75 /* VillageOfTheAngels.swift in Sources */,
+				D57EB0AE274423700032DF75 /* BadWolf.swift in Sources */,
+				D57833232738208A007CD57E /* NewSeries1.swift in Sources */,
+				D57EB08827410EAF0032DF75 /* TheHappinessPatrol.swift in Sources */,
+				D57EB0A2274422D00032DF75 /* Dalek.swift in Sources */,
+				D57EB12427444FC30032DF75 /* ColdBlood.swift in Sources */,
+				D5783396273873DD007CD57E /* MarcoPolo.swift in Sources */,
+				D57EB1842745B20E0032DF75 /* LastChristmas.swift in Sources */,
+				D57EB046273ED4EE0032DF75 /* BlackOrchid.swift in Sources */,
+				D578330C27381FBB007CD57E /* ClassicSeries16.swift in Sources */,
+				D57EB17E2745B1940032DF75 /* InTheForestOfTheNight.swift in Sources */,
+				D57833AC273AE52B007CD57E /* TheCrusade.swift in Sources */,
+				D57EB08227410E7F0032DF75 /* DeltaAndTheBannermen.swift in Sources */,
+				D57832FE27381F33007CD57E /* ClassicSeries9.swift in Sources */,
+				D57EB042273ED4CD0032DF75 /* Kinda.swift in Sources */,
+				D57EB1EC27495AB60032DF75 /* OnceUponTime.swift in Sources */,
+				D57EB0CE27443F480032DF75 /* Doomsday.swift in Sources */,
+				D57EB01C273D9B4D0032DF75 /* TheStonesOfBlood.swift in Sources */,
+				D57EB18A2745B23C0032DF75 /* UnderTheLake.swift in Sources */,
+				D5783424273B2891007CD57E /* PlanetOfTheSpiders.swift in Sources */,
+				D57EB0F427444A260032DF75 /* PlanetOfTheOod.swift in Sources */,
+				D57EB0F0274447B10032DF75 /* PartnersInCrime.swift in Sources */,
+				D57EB044273ED4DA0032DF75 /* TheVisitation.swift in Sources */,
+				D578331827382033007CD57E /* ClassicSeries22.swift in Sources */,
+				D57EB062273ED6F60032DF75 /* ResurrectionOfTheDaleks.swift in Sources */,
+				D57EB1AA2745B33E0032DF75 /* Oxygen.swift in Sources */,
+				D578341C273B2845007CD57E /* TheTimeWarrior.swift in Sources */,
+				D57EB050273ED5A40032DF75 /* MawdrynUndead.swift in Sources */,
+				D57EB1C62745B4680032DF75 /* DemonsOfThePunjab.swift in Sources */,
+				D57833AE273AE53F007CD57E /* TheSpaceMuseum.swift in Sources */,
+				D578340C273B26B6007CD57E /* TheSeaDevils.swift in Sources */,
+				D57EB03E273D9C5E0032DF75 /* Castrovalva.swift in Sources */,
+				D57EB032273D9C0B0032DF75 /* Meglos.swift in Sources */,
+				D57EB05C273ED62B0032DF75 /* TheAwakening.swift in Sources */,
+				D57833A6273AE50D007CD57E /* TheRescue.swift in Sources */,
+				D578339E27387433007CD57E /* TheReignOfTerror.swift in Sources */,
+				D57EB0E2274442630032DF75 /* HumanNature.swift in Sources */,
+				D57EB08E2741112D0032DF75 /* Battlefield.swift in Sources */,
+				D5783420273B2864007CD57E /* DeathToTheDaleks.swift in Sources */,
+				D578332D273820C2007CD57E /* NewSeries6.swift in Sources */,
+				D57833DE273B235A007CD57E /* TheIceWarriors.swift in Sources */,
+				D57EB066273ED7250032DF75 /* TheCavesOfAndrozani.swift in Sources */,
+				D57EB1B82745B38F0032DF75 /* TheDoctorFalls.swift in Sources */,
+				D57EAFFC273D99BE0032DF75 /* TheAndroidInvasion.swift in Sources */,
+				D57EB1542745B02C0032DF75 /* TheAngelsTakeManhattan.swift in Sources */,
+				D57EB004273D9A090032DF75 /* TheHandOfFear.swift in Sources */,
+				D5783400273B25EF007CD57E /* TheMindOfEvil.swift in Sources */,
+				D57EB058273ED60D0032DF75 /* TheFiveDoctors.swift in Sources */,
+				D57833BA273B2128007CD57E /* TheDaleksMasterPlan.swift in Sources */,
+				D578339A27387413007CD57E /* TheAztecs.swift in Sources */,
+				D57EB054273ED5E00032DF75 /* Enlightenment.swift in Sources */,
+				D57EB074273ED7830032DF75 /* RevelationOfTheDaleks.swift in Sources */,
+				D57EB0B627443E9A0032DF75 /* ToothAndClaw.swift in Sources */,
+				D57EB1C22745B42C0032DF75 /* ArachnidsInTheUK.swift in Sources */,
+				D57EB1722745B14F0032DF75 /* Listen.swift in Sources */,
+				D57EB1902745B25B0032DF75 /* TheWomanWhoLived.swift in Sources */,
+				D57EB14427456E5E0032DF75 /* TheGodComplex.swift in Sources */,
+				D57EB1762745B1650032DF75 /* TheCaretaker.swift in Sources */,
+				D57EB1F227495AE50032DF75 /* TheVanquishers.swift in Sources */,
+				D57EB13627456E080032DF75 /* TheDoctorsWife.swift in Sources */,
+				D57EB1B02745B3610032DF75 /* TheLieOfTheLand.swift in Sources */,
+				D57EB18C2745B2460032DF75 /* BeforeTheFlood.swift in Sources */,
+				D57EB008273D9A890032DF75 /* TheFaceOfEvil.swift in Sources */,
+				D57EB1922745B2680032DF75 /* TheZygonInvasion.swift in Sources */,
+				D57EB07C273ED8D60032DF75 /* TheUltimateFoe.swift in Sources */,
+				D57EB02A273D9BDE0032DF75 /* NightmareOfEden.swift in Sources */,
+				D57EB0A4274422D70032DF75 /* TheLongGame.swift in Sources */,
+				D57EB1EA27495AA30032DF75 /* WarOfTheSontarans.swift in Sources */,
+				D57EB1DE274813420032DF75 /* CanYouHearMe.swift in Sources */,
+				D578333927382106007CD57E /* NewSeries12.swift in Sources */,
+				D57833C0273B2197007CD57E /* TheCelestialToymaker.swift in Sources */,
+				D57EB1782745B16F0032DF75 /* KillTheMoon.swift in Sources */,
+				D57EAFFE273D99D30032DF75 /* TheBrainOfMorbius.swift in Sources */,
+				D57EB11227444B1D0032DF75 /* TheEndOfTimePart2.swift in Sources */,
+				D57EB1962745B27C0032DF75 /* SleepNoMore.swift in Sources */,
+				D57EB1E6274813820032DF75 /* RevolutionOfTheDaleks .swift in Sources */,
+				D57EB16C2745B1340032DF75 /* DeepBreath.swift in Sources */,
+				D578340E273B26C0007CD57E /* TheMutants.swift in Sources */,
+				D57EB06C273ED7550032DF75 /* VengeanceOnVaros.swift in Sources */,
+				D57833FA273B25BA007CD57E /* TheAmbassadorsOfDeath.swift in Sources */,
+				D57833A2273AE4EF007CD57E /* PlanetOfGiants.swift in Sources */,
+				D57833FE273B25DD007CD57E /* TerrorOfTheAutons.swift in Sources */,
+				D57EB1822745B1A40032DF75 /* DeathInHeaven.swift in Sources */,
+				D57EB06A273ED7410032DF75 /* AttackOfTheCybermen.swift in Sources */,
+				D57832F627381F15007CD57E /* ClassicSeries5.swift in Sources */,
+				D5783390273873C4007CD57E /* AnUnearthlyChild.swift in Sources */,
+				D57EB076273ED8B40032DF75 /* TheMysteriousPlanet.swift in Sources */,
+				D57EB13427456DFE0032DF75 /* TheCurseOfTheBlackSpot.swift in Sources */,
+				D57EB006273D9A820032DF75 /* TheDeadlyAssassin.swift in Sources */,
+				D57833CA273B21E8007CD57E /* TheTenthPlanet.swift in Sources */,
+				D57EB15A2745B0500032DF75 /* TheRingsOfAkhaten.swift in Sources */,
+				D57EB10A27444AF30032DF75 /* TheNextDoctor.swift in Sources */,
+				D57EB1A22745B31C0032DF75 /* ThePilot.swift in Sources */,
+				D578330027381F4E007CD57E /* ClassicSeries10.swift in Sources */,
+				D57EB034273D9C220032DF75 /* FullCircle.swift in Sources */,
+				D57EB0A8274423590032DF75 /* TheEmptyChild.swift in Sources */,
+				D57EB068273ED72F0032DF75 /* TheTwinDilemma.swift in Sources */,
+				D5783402273B25FE007CD57E /* TheClawsOfAxos.swift in Sources */,
+				D57EB0F2274449C70032DF75 /* TheFiresOfPompeii.swift in Sources */,
+				D57832F827381F1C007CD57E /* ClassicSeries6.swift in Sources */,
+				D57833D6273B22B7007CD57E /* TheFacelessOnes.swift in Sources */,
+				D57EB1A42745B3210032DF75 /* Smile.swift in Sources */,
+				D57EB028273D9BD30032DF75 /* TheCreatureFromThePit.swift in Sources */,
+				D57EB1C02745B41A0032DF75 /* Rosa.swift in Sources */,
+				D57EB1DA2748132E0032DF75 /* FugitiveOfTheJudoon.swift in Sources */,
+				D57EB1942745B2710032DF75 /* TheZygonInversion.swift in Sources */,
+				D57EB0AA274423600032DF75 /* TheDoctorDances.swift in Sources */,
+				D57EB10427444AB30032DF75 /* TurnLeft.swift in Sources */,
+				D57833E4273B23D6007CD57E /* FuryFromTheDeep.swift in Sources */,
+				D57833142738201F007CD57E /* ClassicSeries20.swift in Sources */,
+				D57EB1B22745B36C0032DF75 /* EmpressOfMars.swift in Sources */,
+				D5783410273B26CB007CD57E /* TheTimeMonster.swift in Sources */,
+				D57833E6273B23E4007CD57E /* TheWheelInSpace.swift in Sources */,
+				D57EB0BA27443EC20032DF75 /* TheGirlInTheFireplace.swift in Sources */,
+				D57833FC273B25C7007CD57E /* Inferno.swift in Sources */,
+				D57EB0C027443EFA0032DF75 /* TheIdiotsLantern.swift in Sources */,
+				D57833D4273B22AC007CD57E /* TheMacraTerror.swift in Sources */,
+				D57EB13827456E130032DF75 /* TheRebelFlesh.swift in Sources */,
+				D5783394273873D4007CD57E /* TheEdgeOfDestruction.swift in Sources */,
+				D57EB048273ED5530032DF75 /* Earthshock.swift in Sources */,
+				D5783406273B261C007CD57E /* TheDaemons.swift in Sources */,
+				D57EB14627456E6B0032DF75 /* ClosingTime.swift in Sources */,
+				D57EB1502745B0100032DF75 /* ATownCalledMercy.swift in Sources */,
+				D57EB12A274450470032DF75 /* ThePandoricaOpens.swift in Sources */,
+				D57EB0B02744237C0032DF75 /* ThePartingOfTheWays.swift in Sources */,
+				D57EB010273D9AE70032DF75 /* TheInvisibleEnemy.swift in Sources */,
+				D57833F2273B2516007CD57E /* TheSpacePirates.swift in Sources */,
+				D57833EA273B24D8007CD57E /* TheMindRobber.swift in Sources */,
+				D578330427381F69007CD57E /* ClassicSeries12.swift in Sources */,
+				D57EB1A02745B3130032DF75 /* TheReturnOfDoctorMysterio.swift in Sources */,
+				D57EB08C27410EC90032DF75 /* TheGreatestShowInTheGalaxy.swift in Sources */,
+				D578331A27382040007CD57E /* ClassicSeries23.swift in Sources */,
+				D57EB13E27456E3F0032DF75 /* LetsKillHitler.swift in Sources */,
+				D57EB0B427443E910032DF75 /* NewEarth.swift in Sources */,
+				D57EB040273D9C690032DF75 /* FourToDoomsday.swift in Sources */,
+				D5783408273B2691007CD57E /* DayOfTheDaleks.swift in Sources */,
+				D57EB1CE2748114A0032DF75 /* TheBattleOfRanskoorAvKolos.swift in Sources */,
+				D57EAFF0273D991E0032DF75 /* TheSontaranExperiment.swift in Sources */,
+				D578331027382011007CD57E /* ClassicSeries18.swift in Sources */,
+				D57EB1DC274813370032DF75 /* Praxeus.swift in Sources */,
+				D57EB12C274458AA0032DF75 /* TheBigBang.swift in Sources */,
+				D578331E27382052007CD57E /* ClassicSeries25.swift in Sources */,
+				D57EB09627419F360032DF75 /* ThePiratePlanet.swift in Sources */,
+				D57EB1CC2745B4870032DF75 /* ItTakesYouAway.swift in Sources */,
+				D57EB01A273D9B260032DF75 /* TheRibosOperation.swift in Sources */,
+				D57EB0D4274441660032DF75 /* TheShakespeareCode.swift in Sources */,
+				D57833A02739A041007CD57E /* TVMovie.swift in Sources */,
+				D57EB1B62745B3840032DF75 /* WorldEnoughAndTime.swift in Sources */,
+				D57EB04C273ED5840032DF75 /* ArcOfInfinity.swift in Sources */,
+				D57EB078273ED8BB0032DF75 /* Mindwarp.swift in Sources */,
+				D57EB1562745B0340032DF75 /* TheSnowmen.swift in Sources */,
+				D57EB1D6274813090032DF75 /* Orphan55.swift in Sources */,
+				D57EB094274111570032DF75 /* Survival.swift in Sources */,
+				D57EB026273D9B930032DF75 /* CityOfDeath.swift in Sources */,
+				D57EB018273D9B150032DF75 /* TheInvasionOfTime.swift in Sources */,
+				D57EB08427410E920032DF75 /* Dragonfire.swift in Sources */,
+				D57EB0E6274442AA0032DF75 /* Blink.swift in Sources */,
+				D57EB02E273D9BEF0032DF75 /* Shada.swift in Sources */,
+				D57EB1802745B19D0032DF75 /* DarkWater.swift in Sources */,
+				D57833BC273B213D007CD57E /* TheMassacre.swift in Sources */,
+				D57833DC273B234D007CD57E /* TheAbominableSnowmen.swift in Sources */,
+				D57EB0E42744426F0032DF75 /* TheFamilyOfBlood.swift in Sources */,
+				D578339C27387420007CD57E /* TheSensorites.swift in Sources */,
+				D57EB12E27456DCF0032DF75 /* AChristmasCarol.swift in Sources */,
+				D57EB11027444B100032DF75 /* TheEndOfTimePart1.swift in Sources */,
+				D57EB0C227443F070032DF75 /* TheImpossiblePlanet.swift in Sources */,
+				D5783414273B27C9007CD57E /* CarnivalOfMonsters.swift in Sources */,
+				D57833EC273B24E2007CD57E /* TheInvasion.swift in Sources */,
+				D57EB10E27444B040032DF75 /* TheWatersOfMars.swift in Sources */,
+				D5783416273B27D7007CD57E /* FrontierInSpace.swift in Sources */,
+				D57833252738208F007CD57E /* NewSeries2.swift in Sources */,
+				D57833A4273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift in Sources */,
+				D57EB1A62745B3270032DF75 /* ThinIce.swift in Sources */,
+				D57EB1AE2745B3530032DF75 /* ThePyramidAtTheEndOfTheWorld.swift in Sources */,
+				D57EB070273ED76C0032DF75 /* TheTwoDoctors.swift in Sources */,
+				D57EB00E273D9AC20032DF75 /* HorrorOfFangRock.swift in Sources */,
+				D57833B4273B2024007CD57E /* Galaxy4.swift in Sources */,
+				D578332B273820A9007CD57E /* NewSeries5.swift in Sources */,
+				D57833AA273AE524007CD57E /* TheWebPlanet.swift in Sources */,
+				D57EB19A2745B28E0032DF75 /* HeavenSent.swift in Sources */,
+				D578331227382017007CD57E /* ClassicSeries19.swift in Sources */,
+				D57EB1522745B01B0032DF75 /* ThePowerOfThree.swift in Sources */,
+				D5783333273820F3007CD57E /* NewSeries9.swift in Sources */,
+				D57EB15C2745B0590032DF75 /* ColdWar.swift in Sources */,
+				D57832F027381EDC007CD57E /* ClassicSeries2.swift in Sources */,
+				D57EB1CA2745B47E0032DF75 /* TheWitchfinders.swift in Sources */,
+				D57EB12227444F470032DF75 /* TheHungryEarth.swift in Sources */,
+				D57833DA273B233E007CD57E /* TheTombOfTheCybermen.swift in Sources */,
+				D57EB14227456E550032DF75 /* TheGirlWhoWaited.swift in Sources */,
+				D57833C6273B21C9007CD57E /* TheWarMachines.swift in Sources */,
+				D57EB0EA274442D10032DF75 /* TheSoundOfDrums.swift in Sources */,
+				D57EB1E827495A8A0032DF75 /* TheHalloweenApocalypse.swift in Sources */,
+				D57EB1F027495ADA0032DF75 /* SurvivorsOfTheFlux.swift in Sources */,
+				D57832EE27381ED4007CD57E /* ClassicSeries1.swift in Sources */,
+				D57EB10227444AAD0032DF75 /* Midnight.swift in Sources */,
+				D57EB18E2745B2510032DF75 /* TheGirlWhoDied.swift in Sources */,
+				D578341A273B2830007CD57E /* TheGreenDeath.swift in Sources */,
+				D57833D8273B22CD007CD57E /* TheEvilOfTheDaleks.swift in Sources */,
+				D57833BE273B2145007CD57E /* TheArk.swift in Sources */,
+				D578332727382097007CD57E /* NewSeries3.swift in Sources */,
+				D57EB10827444AEB0032DF75 /* JourneysEnd.swift in Sources */,
+				D57EB1862745B21F0032DF75 /* TheMagiciansApprentice.swift in Sources */,
+				D57EB0C627443F1E0032DF75 /* Love&Monsters.swift in Sources */,
+				D57EB0DC274442170032DF75 /* TheLazarusExperiment.swift in Sources */,
+				D57EB04E273ED5980032DF75 /* Snakedance.swift in Sources */,
+				D578330A27381FB5007CD57E /* ClassicSeries15.swift in Sources */,
+				D57833C4273B21B9007CD57E /* TheSavages.swift in Sources */,
+				D57833B6273B210A007CD57E /* MissionToTheUnknown.swift in Sources */,
+				D57EAFF4273D99740032DF75 /* RevengeOfTheCybermen.swift in Sources */,
+				D57EB1BE2745B4120032DF75 /* TheGhostMonument.swift in Sources */,
+				D57833F4273B2521007CD57E /* TheWarGames.swift in Sources */,
+				D57EB0D0274441220032DF75 /* TheRunawayBride.swift in Sources */,
+				D578330227381F56007CD57E /* ClassicSeries11.swift in Sources */,
+				D578331C27382048007CD57E /* ClassicSeries24.swift in Sources */,
+				D57EB052273ED5D50032DF75 /* Terminus.swift in Sources */,
+				D5783422273B2881007CD57E /* TheMonsterOfPeladon.swift in Sources */,
+				D57EB1982745B2840032DF75 /* FaceTheRaven.swift in Sources */,
+				D578339827387408007CD57E /* TheKeysOfMarinus.swift in Sources */,
+				D57EB10027444AA70032DF75 /* ForestOfTheDead.swift in Sources */,
+				D57832FA27381F22007CD57E /* ClassicSeries7.swift in Sources */,
+				D578331627382029007CD57E /* ClassicSeries21.swift in Sources */,
+				D57833B2273B2011007CD57E /* TheTimeMeddler.swift in Sources */,
+				D57EB1B42745B3780032DF75 /* TheEatersOfLight.swift in Sources */,
+				D57EB11E27444E420032DF75 /* TheVampiresOfVenice.swift in Sources */,
+				D57833E2273B2398007CD57E /* TheWebOfFear.swift in Sources */,
+				D57EB0AC2744236A0032DF75 /* BoomTown.swift in Sources */,
+				D57EB15E2745B05E0032DF75 /* Hide.swift in Sources */,
+				D57EB1D82748131C0032DF75 /* NikolaTeslasNightOfTerror.swift in Sources */,
+				D578333B2738210E007CD57E /* NewSeries13.swift in Sources */,
+				D57EB0D62744416E0032DF75 /* Gridlock.swift in Sources */,
+				D57EB13A27456E2B0032DF75 /* TheAlmostPeople.swift in Sources */,
+				D57EB1682745B0A90032DF75 /* TheDayOfTheDoctor.swift in Sources */,
+				D57EB11627444D130032DF75 /* TheBeastBelow.swift in Sources */,
+				D57EB000273D99DC0032DF75 /* TheSeedsOfDoom.swift in Sources */,
+				D57833CC273B21FB007CD57E /* ThePowerOfTheDaleks.swift in Sources */,
+				D57EB1D02748115C0032DF75 /* Resolution.swift in Sources */,
+				D57EB0CA27443F330032DF75 /* FearHer.swift in Sources */,
+				D57EB13027456DE50032DF75 /* TheImpossibleAstronaut.swift in Sources */,
+				D57EB1AC2745B3430032DF75 /* Extremis.swift in Sources */,
+				D5783340273822D9007CD57E /* Persistence.swift in Sources */,
+				D57EB1702745B1470032DF75 /* RobotOfSherwood.swift in Sources */,
+				D57EB0C427443F130032DF75 /* TheSatanPit.swift in Sources */,
+				D57EB0F827444A400032DF75 /* ThePoisonSky.swift in Sources */,
+				D57EAFFA273D99B00032DF75 /* PyramidsOfMars.swift in Sources */,
+				D57833B8273B2118007CD57E /* TheMythMakers.swift in Sources */,
+				D578330827381F98007CD57E /* ClassicSeries14.swift in Sources */,
+				D57EB06E273ED7610032DF75 /* TheMarkOfTheRani.swift in Sources */,
+				D5783392273873C9007CD57E /* TheDaleks.swift in Sources */,
+				D5783335273820FB007CD57E /* NewSeries10.swift in Sources */,
+				D57EAFF8273D998C0032DF75 /* PlanetOfEvil.swift in Sources */,
+				D57EB0B227443E810032DF75 /* TheChristmasInvasion.swift in Sources */,
+				D57EB04A273ED5600032DF75 /* TimeFlight.swift in Sources */,
+				D57EAFEE273D990F0032DF75 /* TheArkInSpace.swift in Sources */,
+				D57EB038273D9C370032DF75 /* WarriorsGate.swift in Sources */,
+				D57EB00C273D9AA10032DF75 /* TheTalonsOfWengChiang.swift in Sources */,
+				D5783412273B274F007CD57E /* TheThreeDoctors.swift in Sources */,
+				D57EB060273ED64B0032DF75 /* Frontios.swift in Sources */,
+				D57EB1C42745B4530032DF75 /* TheTsurangaConundrum.swift in Sources */,
+				D57EB08627410EA40032DF75 /* RememberanceOfTheDaleks.swift in Sources */,
+				D57EB1662745B09E0032DF75 /* TheNameOfTheDoctor.swift in Sources */,
+				D57EAFEC273D99050032DF75 /* Robot.swift in Sources */,
+				D57EB098274420D60032DF75 /* Rose.swift in Sources */,
+				D57EB1E2274813680032DF75 /* AscensionOfTheCybermen.swift in Sources */,
+				D57832F227381EE3007CD57E /* ClassicSeries3.swift in Sources */,
+				D57EB012273D9AF80032DF75 /* ImageOfTheFendahl.swift in Sources */,
+				D57EB1882745B22E0032DF75 /* TheWitchsFamiliar.swift in Sources */,
+				D57EAFF2273D99690032DF75 /* GenesisOfTheDaleks.swift in Sources */,
+				D57EB11427444D090032DF75 /* TheEleventhHour.swift in Sources */,
+				D57EB002273D99F80032DF75 /* TheMasqueOfMandragora.swift in Sources */,
+				D57EB0EC274442DD0032DF75 /* LastOfTheTimeLords.swift in Sources */,
+				D57EB1282744503B0032DF75 /* TheLodger.swift in Sources */,
+				D57EB10627444AC10032DF75 /* TheStolenEarth.swift in Sources */,
+				D57833C2273B21A4007CD57E /* TheGunfighters.swift in Sources */,
+				D57833B0273B2000007CD57E /* TheChase.swift in Sources */,
+				D57832F427381EF0007CD57E /* ClassicSeries4.swift in Sources */,
+				D57EB16E2745B13C0032DF75 /* IntoTheDalek.swift in Sources */,
+				D57EB14E2745B0020032DF75 /* DinosaursOnASpaceship.swift in Sources */,
+				D57EB0D2274441560032DF75 /* SmithAndJones.swift in Sources */,
+				D57EB0902741113A0032DF75 /* GhostLight.swift in Sources */,
+				D57832FC27381F28007CD57E /* ClassicSeries8.swift in Sources */,
+				D57EB14C274585650032DF75 /* AsylumOfTheDaleks.swift in Sources */,
+				D578340A273B26AA007CD57E /* TheCurseOfPeladon.swift in Sources */,
+				D57EB11C27444E2A0032DF75 /* FleshAndStone.swift in Sources */,
+				D57EB1D4274813010032DF75 /* SpyfallPart2.swift in Sources */,
+				D578333727382101007CD57E /* NewSeries11.swift in Sources */,
+				D57EB0A02744218D0032DF75 /* WorldWarThree.swift in Sources */,
+				D57EB0E8274442C20032DF75 /* Utopia.swift in Sources */,
+				D57EB17A2745B17A0032DF75 /* MummyOnTheOrientExpress.swift in Sources */,
+				D57EB0FE27444A990032DF75 /* SilenceInTheLibrary.swift in Sources */,
+				D57EB1642745B0930032DF75 /* NightmareInSilver.swift in Sources */,
+				D57EB014273D9B010032DF75 /* TheSunMakers.swift in Sources */,
+				D57833EE273B24EE007CD57E /* TheKrotons.swift in Sources */,
+				D578330E27381FC3007CD57E /* ClassicSeries17.swift in Sources */,
+				D57EB02C273D9BE70032DF75 /* TheHornsOfNimon.swift in Sources */,
+				D57EB09E274421830032DF75 /* AliensOfLondon.swift in Sources */,
+				D57EB1E0274813550032DF75 /* TheHauntingOfVillaDiodati.swift in Sources */,
+				D57EB1742745B15C0032DF75 /* TimeHeist.swift in Sources */,
+				D57EB0A6274422E40032DF75 /* FathersDay.swift in Sources */,
+				D57EB13227456DEE0032DF75 /* DayOfTheMoon.swift in Sources */,
+				D57EB0D8274441860032DF75 /* DaleksInManhattan.swift in Sources */,
+				D57832DD27381A18007CD57E /* ContentView.swift in Sources */,
+				D57EB14827456E7B0032DF75 /* TheWeddingOfRiverSong.swift in Sources */,
+				D57832DB27381A18007CD57E /* DW_Episode_GuideApp.swift in Sources */,
+				D57EB09C274421790032DF75 /* TheUnquietDead.swift in Sources */,
+				D57EB036273D9C2A0032DF75 /* StateOfDecay.swift in Sources */,
+				D57EB0BE27443EEC0032DF75 /* TheAgeOfSteel.swift in Sources */,
+				D57EB022273D9B780032DF75 /* TheArmageddonFactor.swift in Sources */,
+				D57833F0273B2507007CD57E /* TheSeedsOfDeath.swift in Sources */,
+				D57EB17C2745B1830032DF75 /* Flatline.swift in Sources */,
+				D5783418273B2828007CD57E /* PlanetOfTheDaleks.swift in Sources */,
+				D57EB0FA27444A7C0032DF75 /* TheDoctorsDaughter.swift in Sources */,
+				D57833F8273B25AA007CD57E /* AndTheSilurians.swift in Sources */,
+				D57EB126274450340032DF75 /* VincentAndTheDoctor.swift in Sources */,
+				D57EB07A273ED8CB0032DF75 /* TerrorOfTheVervoids.swift in Sources */,
+				D57EB056273ED5EA0032DF75 /* TheKingsDemons.swift in Sources */,
+				D57EB12027444EE50032DF75 /* AmysChoice.swift in Sources */,
+				D57EB01E273D9B5A0032DF75 /* TheAndroidsOfTara.swift in Sources */,
+				D57EB1602745B0750032DF75 /* JourneyToTheCentreOfTheTARDIS.swift in Sources */,
+				D57EB1582745B0430032DF75 /* TheBellsOfSaintJohn.swift in Sources */,
+				D57EB19E2745B2A40032DF75 /* TheHusbandsOfRiverSong.swift in Sources */,
+				D57EB020273D9B690032DF75 /* ThePowerOfKroll.swift in Sources */,
+				D57EB064273ED7170032DF75 /* PlanetOfFire.swift in Sources */,
+				D57EB016273D9B080032DF75 /* Underworld.swift in Sources */,
+				D578334627382849007CD57E /* Main.xcdatamodeld in Sources */,
+				D57833C8273B21D9007CD57E /* TheSmugglers.swift in Sources */,
+				D5783331273820EC007CD57E /* NewSeries8.swift in Sources */,
+				D57EB07E273ED8EB0032DF75 /* TimeAndTheRani.swift in Sources */,
+				D57833D2273B229F007CD57E /* TheMoonbase.swift in Sources */,
+				D57EB14A27456F630032DF75 /* TheDoctorTheWidowAndTheWardrobe.swift in Sources */,
+				D57EB1622745B0880032DF75 /* TheCrimsonHorror.swift in Sources */,
+				D57EB0DA274441F60032DF75 /* EvolutionOfTheDaleks.swift in Sources */,
+				D57EB14027456E4A0032DF75 /* NightTerrors.swift in Sources */,
+				D57EB0F627444A370032DF75 /* TheSontaranStratagem.swift in Sources */,
+				D57EB0E0274442540032DF75 /* _42.swift in Sources */,
+				D57EB03A273D9C420032DF75 /* TheKeeperOfTraken.swift in Sources */,
+				D57EB19C2745B2950032DF75 /* HellBent.swift in Sources */,
+				D5783404273B2612007CD57E /* ColonyInSpace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D57832E427381A1C007CD57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D57832E527381A1C007CD57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D57832E727381A1C007CD57E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DW Episode Guide/DW_Episode_Guide.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D57832E827381A1C007CD57E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "DW Episode Guide/DW_Episode_Guide.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide/Preview Content\"";
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D57832D227381A18007CD57E /* Build configuration list for PBXProject "DW Episode Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57832E427381A1C007CD57E /* Debug */,
+				D57832E527381A1C007CD57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D57832E627381A1C007CD57E /* Build configuration list for PBXNativeTarget "DW Episode Guide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D57832E727381A1C007CD57E /* Debug */,
+				D57832E827381A1C007CD57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D578334427382849007CD57E /* Main.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D578334527382849007CD57E /* Main.xcdatamodel */,
+			);
+			currentVersion = D578334527382849007CD57E /* Main.xcdatamodel */;
+			path = Main.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D57832CF27381A18007CD57E /* Project object */;
+}

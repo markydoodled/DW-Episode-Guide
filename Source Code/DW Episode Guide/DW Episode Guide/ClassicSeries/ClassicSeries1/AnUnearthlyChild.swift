@@ -1,0 +1,154 @@
+//
+//  AnUnearthlyChild.swift
+//  DW Episode Guide
+//
+//  Created by Mark Howard on 07/11/2021.
+//
+
+import SwiftUI
+
+struct AnUnearthlyChild: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+    @FetchRequest(entity: AnUnearthlyChildClass.entity(),
+        sortDescriptors: [],
+        animation: .default)
+    private var items: FetchedResults<AnUnearthlyChildClass>
+    @State var showingShare = false
+    @AppStorage("AnUnearthlyChildNotes") var notes = ""
+    var body: some View {
+        ForEach(items) { item in
+            ScrollView {
+                HStack {
+                    Spacer()
+                    Image("AnUnearthlyChild")
+                        .resizable()
+                        .scaledToFill()
+                        .cornerRadius(25)
+                        .frame(width: 150, height: 150)
+                        .contextMenu {
+                            Button(action: {let pasteboard = NSPasteboard.general
+                                pasteboard.clearContents()
+                                pasteboard.writeObjects([NSImage(named: "AnUnearthlyChild")!])
+                            }) {
+                                Text("Copy")
+                            }
+                        }
+                    Spacer()
+                    VStack {
+                    Text("\(item.title!)")
+                            .bold()
+                            .font(.title)
+                            .padding()
+                    Text("Story No. 1")
+                            .font(.title3)
+                }
+                    Spacer()
+                }
+                .padding()
+                Divider()
+                HStack {
+                    Spacer()
+                    GroupBox(label: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
+                        Text("\(item.broadcast!)")
+                    }
+                    Spacer()
+                    GroupBox(label: Label("Companions", systemImage: "person.2.fill")) {
+                        Text("\(item.companions!)")
+                    }
+                    Spacer()
+                }
+                .padding()
+                Divider()
+                HStack {
+                    Spacer()
+                    GroupBox(label: Label("Director", systemImage: "camera.fill")) {
+                        Text("\(item.director!)")
+                    }
+                    Spacer()
+                    GroupBox(label: Label("Producer", systemImage: "person.text.rectangle")) {
+                        Text("\(item.producer!)")
+                    }
+                    Spacer()
+                }
+                .padding()
+                Divider()
+                HStack {
+                    Spacer()
+                    GroupBox(label: Label("Doctor", systemImage: "person.crop.square.filled.and.at.rectangle")) {
+                        Text("\(item.doctor!)")
+                    }
+                    Spacer()
+                    GroupBox(label: Label("Length", systemImage: "clock.arrow.circlepath")) {
+                        Text("\(item.length!)")
+                    }
+                    Spacer()
+                }
+                .padding()
+                Divider()
+                HStack {
+                    Spacer()
+                    GroupBox(label: Label("Notes", systemImage: "note.text")) {
+                    TextEditor(text: $notes)
+                            .frame(height: 200)
+                    }
+                    Spacer()
+                }
+                .padding()
+            }
+            .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                    Button(action: {self.showingShare = true}) {
+                        Image(systemName: "square.and.arrow.up")
+                    }
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/An_Unearthly_Child")!]))
+                }
+            }
+            .navigationTitle("\(item.title!)")
+    }
+    }
+}
+
+struct AnUnearthlyChild_Previews: PreviewProvider {
+    static var previews: some View {
+        AnUnearthlyChild()
+    }
+}
+
+struct SharingsPicker: NSViewRepresentable {
+    @Binding var isPresented: Bool
+    var sharingItems: [Any] = []
+
+    func makeNSView(context: Context) -> NSView {
+        let view = NSView()
+        return view
+    }
+
+    func updateNSView(_ nsView: NSView, context: Context) {
+        if isPresented {
+            let picker = NSSharingServicePicker(items: sharingItems)
+            picker.delegate = context.coordinator
+
+            DispatchQueue.main.async {
+                picker.show(relativeTo: .zero, of: nsView, preferredEdge: .minY)
+            }
+        }
+    }
+
+    func makeCoordinator() -> Coordinator {
+        Coordinator(owner: self)
+    }
+
+    class Coordinator: NSObject, NSSharingServicePickerDelegate {
+        let owner: SharingsPicker
+
+        init(owner: SharingsPicker) {
+            self.owner = owner
+        }
+
+        func sharingServicePicker(_ sharingServicePicker: NSSharingServicePicker, didChoose service: NSSharingService?) {
+            sharingServicePicker.delegate = nil
+            self.owner.isPresented = false
+        }
+    }
+}

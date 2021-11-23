@@ -1,0 +1,1610 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="AndTheSiluriansClass" representedClassName="AndTheSiluriansClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="AnUnearthlyChildClass" representedClassName="AnUnearthlyChildClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ArcOfInfinityClass" representedClassName="ArcOfInfinityClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="AttackOfTheCybermenClass" representedClassName="AttackOfTheCybermenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BattlefieldClass" representedClassName="BattlefieldClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="BlackOrchidClass" representedClassName="BlackOrchidClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CarnivalOfMonstersClass" representedClassName="CarnivalOfMonstersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CastrovalvaClass" representedClassName="CastrovalvaClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CityOfDeathClass" representedClassName="CityOfDeathClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ColonyInSpaceClass" representedClassName="ColonyInSpaceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DayOfTheDaleksClass" representedClassName="DayOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeathToTheDaleksClass" representedClassName="DeathToTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DeltaAndTheBannermenClass" representedClassName="DeltaAndTheBannermenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DestinyOfTheDaleksClass" representedClassName="DestinyOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="DragonfireClass" representedClassName="DragonfireClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EarthshockClass" representedClassName="EarthshockClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="EnlightenmentClass" representedClassName="EnlightenmentClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FourToDoomsdayClass" representedClassName="FourToDoomsdayClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FrontierInSpaceClass" representedClassName="FrontierInSpaceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FrontiosClass" representedClassName="FrontiosClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FullCircleClass" representedClassName="FullCircleClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="FuryFromTheDeepClass" representedClassName="FuryFromTheDeepClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="Galaxy4Class" representedClassName="Galaxy4Class" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GenesisOfTheDaleksClass" representedClassName="GenesisOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="GhostLightClass" representedClassName="GhostLightClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="HorrorOfFangRockClass" representedClassName="HorrorOfFangRockClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ImageOfTheFendahlClass" representedClassName="ImageOfTheFendahlClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InfernoClass" representedClassName="InfernoClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="InvasionOfTheDinosaursClass" representedClassName="InvasionOfTheDinosaursClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="KindaClass" representedClassName="KindaClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="LogopolisClass" representedClassName="LogopolisClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MarcoPoloClass" representedClassName="MarcoPoloClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MawdrynUndeadClass" representedClassName="MawdrynUndeadClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MeglosClass" representedClassName="MeglosClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MindwarpClass" representedClassName="MindwarpClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MissionToTheUnknownClass" representedClassName="MissionToTheUnknownClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="NightmareOfEdenClass" representedClassName="NightmareOfEdenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ParadiseTowersClass" representedClassName="ParadiseTowersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanetOfEvilClass" representedClassName="PlanetOfEvilClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanetOfFireClass" representedClassName="PlanetOfFireClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanetOfGiantsClass" representedClassName="PlanetOfGiantsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanetOfTheDaleksClass" representedClassName="PlanetOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PlanetOfTheSpidersClass" representedClassName="PlanetOfTheSpidersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ProgrammingLanguage" representedClassName="ProgrammingLanguage" syncable="YES" codeGenerationType="class">
+        <attribute name="creator" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="PyramidsOfMarsClass" representedClassName="PyramidsOfMarsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RememranceOfTheDaleksClass" representedClassName="RememranceOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ResurrectionOfTheDaleksClass" representedClassName="ResurrectionOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RevelationOfTheDaleksClass" representedClassName="RevelationOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RevengeOfTheCybermenClass" representedClassName="RevengeOfTheCybermenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="RobotClass" representedClassName="RobotClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ShadaClass" representedClassName="ShadaClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SilverNemesisClass" representedClassName="SilverNemesisClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SnakedanceClass" representedClassName="SnakedanceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SpearheadFromSpaceClass" representedClassName="SpearheadFromSpaceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="StateOfDecayClass" representedClassName="StateOfDecayClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SurvivalClass" representedClassName="SurvivalClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TerminusClass" representedClassName="TerminusClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TerrorOfTheAutonsClass" representedClassName="TerrorOfTheAutonsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TerrorOfTheVervoidsClass" representedClassName="TerrorOfTheVervoidsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TerrorOfTheZygonsClass" representedClassName="TerrorOfTheZygonsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheAbominableSnowmenClass" representedClassName="TheAbominableSnowmenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheAmbassadorsOfDeathClass" representedClassName="TheAmbassadorsOfDeathClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheAndroidInvasionClass" representedClassName="TheAndroidInvasionClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheAndroidsOfTaraClass" representedClassName="TheAndroidsOfTaraClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheArkClass" representedClassName="TheArkClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheArkInSpaceClass" representedClassName="TheArkInSpaceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheArmageddonFactorClass" representedClassName="TheArmageddonFactorClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheAwakeningClass" representedClassName="TheAwakeningClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheAztecsClass" representedClassName="TheAztecsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheBrainOfMorbiusClass" representedClassName="TheBrainOfMorbiusClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheCavesOfAndrozaniClass" representedClassName="TheCavesOfAndrozaniClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheCelestialToymakerClass" representedClassName="TheCelestialToymakerClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheChaseClass" representedClassName="TheChaseClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheClawsOfAxosClass" representedClassName="TheClawsOfAxosClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheCreatureFromThePitClass" representedClassName="TheCreatureFromThePitClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheCrusadeClass" representedClassName="TheCrusadeClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheCurseOfFenricClass" representedClassName="TheCurseOfFenricClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheCurseOfPeladonClass" representedClassName="TheCurseOfPeladonClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheDaemonsClass" representedClassName="TheDaemonsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheDalekInvasionOfEarthClass" representedClassName="TheDalekInvasionOfEarthClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheDaleksClass" representedClassName="TheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheDaleksMasterPlanClass" representedClassName="TheDaleksMasterPlanClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheDeadlyAssassinClass" representedClassName="TheDeadlyAssassinClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheDominatorsClass" representedClassName="TheDominatorsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheEdgeOfDestructionClass" representedClassName="TheEdgeOfDestructionClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheEnemyOfTheWorldClass" representedClassName="TheEnemyOfTheWorldClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheEvilOfTheDaleksClass" representedClassName="TheEvilOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheFacelessOnesClass" representedClassName="TheFacelessOnesClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheFaceOfEvilClass" representedClassName="TheFaceOfEvilClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheFiveDoctorsClass" representedClassName="TheFiveDoctorsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheGreatestShowInTheGalaxyClass" representedClassName="TheGreatestShowInTheGalaxyClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheGreenDeathClass" representedClassName="TheGreenDeathClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheGunfightersClass" representedClassName="TheGunfightersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheHandOfFearClass" representedClassName="TheHandOfFearClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheHappinessPatrolClass" representedClassName="TheHappinessPatrolClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheHighlandersClass" representedClassName="TheHighlandersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheHornsOfNimonClass" representedClassName="TheHornsOfNimonClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheIceWarriorsClass" representedClassName="TheIceWarriorsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheInvasionClass" representedClassName="TheInvasionClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheInvasionOfTimeClass" representedClassName="TheInvasionOfTimeClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheInvisibleEnemyClass" representedClassName="TheInvisibleEnemyClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheKeeperOfTrakenClass" representedClassName="TheKeeperOfTrakenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheKeysOfMarinusClass" representedClassName="TheKeysOfMarinusClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheKingsDemonsClass" representedClassName="TheKingsDemonsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheKrotonsClass" representedClassName="TheKrotonsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheLeisureHiveClass" representedClassName="TheLeisureHiveClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMacraTerrorClass" representedClassName="TheMacraTerrorClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMarkOfTheRaniClass" representedClassName="TheMarkOfTheRaniClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMasqueOfMandragoraClass" representedClassName="TheMasqueOfMandragoraClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMassacreClass" representedClassName="TheMassacreClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMindOfEvilClass" representedClassName="TheMindOfEvilClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMindRobberClass" representedClassName="TheMindRobberClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMonsterOfPeladonClass" representedClassName="TheMonsterOfPeladonClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMoonbaseClass" representedClassName="TheMoonbaseClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMutantsClass" representedClassName="TheMutantsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMysteriousPlanetClass" representedClassName="TheMysteriousPlanetClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheMythMakersClass" representedClassName="TheMythMakersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ThePiratePlanetClass" representedClassName="ThePiratePlanetClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ThePowerOfKrollClass" representedClassName="ThePowerOfKrollClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="ThePowerOfTheDaleksClass" representedClassName="ThePowerOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheReignOfTerrorClass" representedClassName="TheReignOfTerrorClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheRescueClass" representedClassName="TheRescueClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheRibosOperationClass" representedClassName="TheRibosOperationClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheRobotsOfDeathClass" representedClassName="TheRobotsOfDeathClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheRomansClass" representedClassName="TheRomansClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSavagesClass" representedClassName="TheSavagesClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSeaDevilsClass" representedClassName="TheSeaDevilsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSeedsOfDeathClass" representedClassName="TheSeedsOfDeathClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSeedsOfDoomClass" representedClassName="TheSeedsOfDoomClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSensoritesClass" representedClassName="TheSensoritesClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSmugglersClass" representedClassName="TheSmugglersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSontaranExperimentClass" representedClassName="TheSontaranExperimentClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSpaceMuseumClass" representedClassName="TheSpaceMuseumClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSpacePiratesClass" representedClassName="TheSpacePiratesClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheStonesOfBloodClass" representedClassName="TheStonesOfBloodClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheSunMakersClass" representedClassName="TheSunMakersClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTalonsOfWengChiangClass" representedClassName="TheTalonsOfWengChiangClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTenthPlanetClass" representedClassName="TheTenthPlanetClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheThreeDoctorsClass" representedClassName="TheThreeDoctorsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTimeMeddlerClass" representedClassName="TheTimeMeddlerClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTimeMonsterClass" representedClassName="TheTimeMonsterClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTimeWarriorClass" representedClassName="TheTimeWarriorClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTombOfTheCybermenClass" representedClassName="TheTombOfTheCybermenClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTwinDilemmaClass" representedClassName="TheTwinDilemmaClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheTwoDoctorsClass" representedClassName="TheTwoDoctorsClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheUltimateFoeClass" representedClassName="TheUltimateFoeClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheUnderwaterMenaceClass" representedClassName="TheUnderwaterMenaceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheVisitationClass" representedClassName="TheVisitationClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheWarGamesClass" representedClassName="TheWarGamesClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheWarMachinesClass" representedClassName="TheWarMachinesClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheWebOfFearClass" representedClassName="TheWebOfFearClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheWebPlanetClass" representedClassName="TheWebPlanetClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TheWheelInSpaceClass" representedClassName="TheWheelInSpaceClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimeAndTheRaniClass" representedClassName="TimeAndTheRaniClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimeFlightClass" representedClassName="TimeFlightClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TimelashClass" representedClassName="TimelashClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="TVMovieClass" representedClassName="TVMovieClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UnderworldClass" representedClassName="UnderworldClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="VengeanceOnVarosClass" representedClassName="VengeanceOnVarosClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WarriorsGateClass" representedClassName="WarriorsGateClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="WarriorsOfTheDeepClass" representedClassName="WarriorsOfTheDeepClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="AndTheSiluriansClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="AnUnearthlyChildClass" positionX="-18" positionY="45" width="128" height="134"/>
+        <element name="ArcOfInfinityClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="AttackOfTheCybermenClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="BattlefieldClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="BlackOrchidClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="CarnivalOfMonstersClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="CastrovalvaClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="CityOfDeathClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="ColonyInSpaceClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="DayOfTheDaleksClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="DeathToTheDaleksClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="DeltaAndTheBannermenClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="DestinyOfTheDaleksClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="DragonfireClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="EarthshockClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="EnlightenmentClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="FourToDoomsdayClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="FrontierInSpaceClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="FrontiosClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="FullCircleClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="FuryFromTheDeepClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="Galaxy4Class" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="GenesisOfTheDaleksClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="GhostLightClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="HorrorOfFangRockClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="ImageOfTheFendahlClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="InfernoClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="InvasionOfTheDinosaursClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="KindaClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="LogopolisClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="MarcoPoloClass" positionX="0" positionY="117" width="128" height="134"/>
+        <element name="MawdrynUndeadClass" positionX="-18" positionY="144" width="128" height="134"/>
+        <element name="MeglosClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="MindwarpClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="MissionToTheUnknownClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="NightmareOfEdenClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="ParadiseTowersClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="PlanetOfEvilClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="PlanetOfFireClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="PlanetOfGiantsClass" positionX="54" positionY="162" width="128" height="134"/>
+        <element name="PlanetOfTheDaleksClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="PlanetOfTheSpidersClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="ProgrammingLanguage" positionX="-45" positionY="0" width="128" height="73"/>
+        <element name="PyramidsOfMarsClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="RememranceOfTheDaleksClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="ResurrectionOfTheDaleksClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="RevelationOfTheDaleksClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="RevengeOfTheCybermenClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="RobotClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="ShadaClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="SilverNemesisClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="SnakedanceClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="SpearheadFromSpaceClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="StateOfDecayClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="SurvivalClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TerminusClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TerrorOfTheAutonsClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TerrorOfTheVervoidsClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TerrorOfTheZygonsClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheAbominableSnowmenClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheAmbassadorsOfDeathClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheAndroidInvasionClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheAndroidsOfTaraClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheArkClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheArkInSpaceClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheArmageddonFactorClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheAwakeningClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheAztecsClass" positionX="18" positionY="135" width="128" height="134"/>
+        <element name="TheBrainOfMorbiusClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheCavesOfAndrozaniClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheCelestialToymakerClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheChaseClass" positionX="-9" positionY="198" width="128" height="134"/>
+        <element name="TheClawsOfAxosClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheCreatureFromThePitClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheCrusadeClass" positionX="-27" positionY="171" width="128" height="134"/>
+        <element name="TheCurseOfFenricClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheCurseOfPeladonClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheDaemonsClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheDalekInvasionOfEarthClass" positionX="-182.2342529296875" positionY="158.0216369628906" width="139.656005859375" height="134"/>
+        <element name="TheDaleksClass" positionX="9" positionY="108" width="128" height="134"/>
+        <element name="TheDaleksMasterPlanClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheDeadlyAssassinClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheDominatorsClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheEdgeOfDestructionClass" positionX="45" positionY="162" width="128" height="134"/>
+        <element name="TheEnemyOfTheWorldClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheEvilOfTheDaleksClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheFacelessOnesClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheFaceOfEvilClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheFiveDoctorsClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheGreatestShowInTheGalaxyClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheGreenDeathClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheGunfightersClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheHandOfFearClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheHappinessPatrolClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheHighlandersClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheHornsOfNimonClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheIceWarriorsClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheInvasionClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheInvasionOfTimeClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheInvisibleEnemyClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheKeeperOfTrakenClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheKeysOfMarinusClass" positionX="9" positionY="126" width="128" height="134"/>
+        <element name="TheKingsDemonsClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheKrotonsClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheLeisureHiveClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheMacraTerrorClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheMarkOfTheRaniClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheMasqueOfMandragoraClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheMassacreClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheMindOfEvilClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheMindRobberClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheMonsterOfPeladonClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheMoonbaseClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheMutantsClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheMysteriousPlanetClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheMythMakersClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="ThePiratePlanetClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="ThePowerOfKrollClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="ThePowerOfTheDaleksClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheReignOfTerrorClass" positionX="36" positionY="153" width="128" height="134"/>
+        <element name="TheRescueClass" positionX="-54" positionY="144" width="128" height="134"/>
+        <element name="TheRibosOperationClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheRobotsOfDeathClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheRomansClass" positionX="-45" positionY="153" width="128" height="134"/>
+        <element name="TheSavagesClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheSeaDevilsClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheSeedsOfDeathClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheSeedsOfDoomClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheSensoritesClass" positionX="27" positionY="144" width="128" height="134"/>
+        <element name="TheSmugglersClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheSontaranExperimentClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheSpaceMuseumClass" positionX="-18" positionY="180" width="128" height="134"/>
+        <element name="TheSpacePiratesClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheStonesOfBloodClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheSunMakersClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheTalonsOfWengChiangClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheTenthPlanetClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheThreeDoctorsClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheTimeMeddlerClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TheTimeMonsterClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheTimeWarriorClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheTombOfTheCybermenClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheTwinDilemmaClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="TheTwoDoctorsClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TheUltimateFoeClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheUnderwaterMenaceClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TheVisitationClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheWarGamesClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TheWarMachinesClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheWebOfFearClass" positionX="-36" positionY="180" width="128" height="134"/>
+        <element name="TheWebPlanetClass" positionX="-36" positionY="162" width="128" height="134"/>
+        <element name="TheWheelInSpaceClass" positionX="-18" positionY="198" width="128" height="134"/>
+        <element name="TimeAndTheRaniClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="TimeFlightClass" positionX="-54" positionY="162" width="128" height="134"/>
+        <element name="TimelashClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="TVMovieClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="UnderworldClass" positionX="-45" positionY="171" width="128" height="134"/>
+        <element name="VengeanceOnVarosClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="WarriorsGateClass" positionX="-9" positionY="207" width="128" height="134"/>
+        <element name="WarriorsOfTheDeepClass" positionX="-36" positionY="180" width="128" height="134"/>
+    </elements>
+</model>
