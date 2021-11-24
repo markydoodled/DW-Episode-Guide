@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheWebPlanet: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+    @FetchRequest(entity: TheWebPlanetClass.entity(),
+        sortDescriptors: [],
+        animation: .default)
+    private var items: FetchedResults<TheWebPlanetClass>
+    @State var showingShare = false
+    @AppStorage("TheWebPlanetNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
