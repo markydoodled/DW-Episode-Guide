@@ -10,12 +10,12 @@ import SwiftUI
 struct TheEdgeOfDestruction: View {
 @Environment(\.managedObjectContext) private var viewContext
 
-    @FetchRequest(entity: AnUnearthlyChildClass.entity(),
+    @FetchRequest(entity: TheEdgeOfDestructionClass.entity(),
         sortDescriptors: [],
         animation: .default)
-    private var items: FetchedResults<AnUnearthlyChildClass>
+    private var items: FetchedResults<TheEdgeOfDestructionClass>
     @State var showingShare = false
-    @AppStorage("AnUnearthlyChildNotes") var notes = ""
+    @AppStorage("TheEdgeOfDestructionNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
