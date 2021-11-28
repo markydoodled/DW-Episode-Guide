@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct PlanetOfTheSpiders: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: PlanetOfTheSpidersClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<PlanetOfTheSpidersClass>
+        @State var showingShare = false
+        @AppStorage("PlanetOfTheSpidersNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

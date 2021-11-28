@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheMythMakers: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheMythMakersClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheMythMakersClass>
+        @State var showingShare = false
+        @AppStorage("TheMythMakersNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

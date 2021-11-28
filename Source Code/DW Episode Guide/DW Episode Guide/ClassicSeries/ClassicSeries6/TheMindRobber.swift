@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheMindRobber: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheMindRobberClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheMindRobberClass>
+        @State var showingShare = false
+        @AppStorage("TheMindRobberNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

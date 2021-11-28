@@ -50,11 +50,27 @@ struct AnUnearthlyChild: View {
                 HStack {
                     Spacer()
                     GroupBox(label: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
                         Text("\(item.broadcast!)")
+                                Spacer()
+                            }
+                            Spacer()
+                        }
                     }
                     Spacer()
                     GroupBox(label: Label("Companions", systemImage: "person.2.fill")) {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
                         Text("\(item.companions!)")
+                                Spacer()
+                            }
+                            Spacer()
+                        }
                     }
                     Spacer()
                 }
@@ -63,11 +79,27 @@ struct AnUnearthlyChild: View {
                 HStack {
                     Spacer()
                     GroupBox(label: Label("Director", systemImage: "camera.fill")) {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
                         Text("\(item.director!)")
+                                Spacer()
+                            }
+                            Spacer()
+                        }
                     }
                     Spacer()
                     GroupBox(label: Label("Producer", systemImage: "person.text.rectangle")) {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
                         Text("\(item.producer!)")
+                                Spacer()
+                        }
+                            Spacer()
+                        }
                     }
                     Spacer()
                 }
@@ -76,11 +108,27 @@ struct AnUnearthlyChild: View {
                 HStack {
                     Spacer()
                     GroupBox(label: Label("Doctor", systemImage: "person.crop.square.filled.and.at.rectangle")) {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
                         Text("\(item.doctor!)")
+                                Spacer()
+                        }
+                            Spacer()
+                        }
                     }
                     Spacer()
                     GroupBox(label: Label("Length", systemImage: "clock.arrow.circlepath")) {
+                        VStack {
+                            Spacer()
+                            HStack {
+                                Spacer()
                         Text("\(item.length!)")
+                                Spacer()
+                            }
+                            Spacer()
+                        }
                     }
                     Spacer()
                 }

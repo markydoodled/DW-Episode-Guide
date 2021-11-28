@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct ColonyInSpace: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: ColonyInSpaceClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<ColonyInSpaceClass>
+        @State var showingShare = false
+        @AppStorage("ColonyInSpaceNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

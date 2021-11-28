@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct Galaxy4: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: Galaxy4Class.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<Galaxy4Class>
+        @State var showingShare = false
+        @AppStorage("Galaxy4Notes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

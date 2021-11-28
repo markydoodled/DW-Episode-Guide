@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheMoonbase: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheMoonbaseClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheMoonbaseClass>
+        @State var showingShare = false
+        @AppStorage("TheMoonbaseNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

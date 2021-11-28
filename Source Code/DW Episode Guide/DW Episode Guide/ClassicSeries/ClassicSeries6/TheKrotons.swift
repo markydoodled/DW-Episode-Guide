@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheKrotons: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheKrotonsClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheKrotonsClass>
+        @State var showingShare = false
+        @AppStorage("TheKrotonsNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

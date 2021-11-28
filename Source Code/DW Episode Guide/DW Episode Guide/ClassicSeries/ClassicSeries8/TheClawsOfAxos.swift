@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheClawsOfAxos: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheClawsOfAxosClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheClawsOfAxosClass>
+        @State var showingShare = false
+        @AppStorage("TheClawsOfAxosNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

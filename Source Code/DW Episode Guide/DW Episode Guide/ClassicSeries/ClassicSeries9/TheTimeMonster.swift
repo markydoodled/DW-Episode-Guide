@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheTimeMonster: View {
+    @Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheTimeMonsterClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheTimeMonsterClass>
+        @State var showingShare = false
+        @AppStorage("TheTimeMonsterNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
