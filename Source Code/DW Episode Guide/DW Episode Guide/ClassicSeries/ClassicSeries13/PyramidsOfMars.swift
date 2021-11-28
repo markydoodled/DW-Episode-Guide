@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct PyramidsOfMars: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: PyramidsOfMarsClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<PyramidsOfMarsClass>
+        @State var showingShare = false
+        @AppStorage("PyramidsOfMarsNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

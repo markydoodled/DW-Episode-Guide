@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheSeedsOfDoom: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheSeedsOfDoomClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheSeedsOfDoomClass>
+        @State var showingShare = false
+        @AppStorage("TheSeedsOfDoomNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
