@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct Underworld: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: UnderworldClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<UnderworldClass>
+        @State var showingShare = false
+        @AppStorage("UnderworldNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

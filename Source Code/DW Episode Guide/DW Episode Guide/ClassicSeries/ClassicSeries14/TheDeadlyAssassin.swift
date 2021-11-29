@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheDeadlyAssassin: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheDeadlyAssassinClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheDeadlyAssassinClass>
+        @State var showingShare = false
+        @AppStorage("TheDeadlyAssassinNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

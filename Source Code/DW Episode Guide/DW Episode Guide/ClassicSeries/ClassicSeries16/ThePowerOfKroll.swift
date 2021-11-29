@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct ThePowerOfKroll: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: ThePowerOfKrollClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<ThePowerOfKrollClass>
+        @State var showingShare = false
+        @AppStorage("ThePowerOfKrollNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

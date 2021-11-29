@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheRibosOperation: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheRibosOperationClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheRibosOperationClass>
+        @State var showingShare = false
+        @AppStorage("TheRibosOperationNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
