@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct CityOfDeath: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: CityOfDeathClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<CityOfDeathClass>
+        @State var showingShare = false
+        @AppStorage("CityOfDeathNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
