@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct Meglos: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: MeglosClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<MeglosClass>
+        @State var showingShare = false
+        @AppStorage("MeglosNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
