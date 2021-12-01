@@ -10,10 +10,10 @@ import SwiftUI
 struct RememberanceOfTheDaleks: View {
 @Environment(\.managedObjectContext) private var viewContext
 
-        @FetchRequest(entity: RememberanceOfTheDaleksClass.entity(),
+        @FetchRequest(entity: RememranceOfTheDaleksClass.entity(),
             sortDescriptors: [],
             animation: .default)
-        private var items: FetchedResults<RememberanceOfTheDaleksClass>
+        private var items: FetchedResults<RememranceOfTheDaleksClass>
         @State var showingShare = false
         @AppStorage("RememberanceOfTheDaleksNotes") var notes = ""
     var body: some View {

@@ -42,6 +42,8 @@ struct AnUnearthlyChild: View {
                             .padding()
                     Text("Story No. 1")
                             .font(.title3)
+                        Text("Written By - Anthony Coburn")
+                            .font(.title3)
                 }
                     Spacer()
                 }

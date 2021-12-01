@@ -10,7 +10,7 @@ import SwiftUI
 struct DeltaAndTheBannermen: View {
 @Environment(\.managedObjectContext) private var viewContext
 
-        @FetchRequest(entity: DeltaAndTheBannermenpClass.entity(),
+        @FetchRequest(entity: DeltaAndTheBannermenClass.entity(),
             sortDescriptors: [],
             animation: .default)
         private var items: FetchedResults<DeltaAndTheBannermenClass>
