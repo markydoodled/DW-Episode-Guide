@@ -10,6 +10,7 @@ A SwiftUI App That Will Show Information On Each Doctor Who Episode With The Abi
 - Share Wiki Link
 - Share Images
 - Info On New Episodes
+- Episode Ratings
 
 ## Incoming Features
 
