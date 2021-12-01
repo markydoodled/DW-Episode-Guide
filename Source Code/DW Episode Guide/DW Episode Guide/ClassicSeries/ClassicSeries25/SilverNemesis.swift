@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct SilverNemesis: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: SilverNemesisClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<SilverNemesisClass>
+        @State var showingShare = false
+        @AppStorage("SilverNemesisNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

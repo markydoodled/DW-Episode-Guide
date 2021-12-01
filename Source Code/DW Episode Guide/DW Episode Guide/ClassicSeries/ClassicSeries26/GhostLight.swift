@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct GhostLight: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: GhostLightClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<GhostLightClass>
+        @State var showingShare = false
+        @AppStorage("GhostLightNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
