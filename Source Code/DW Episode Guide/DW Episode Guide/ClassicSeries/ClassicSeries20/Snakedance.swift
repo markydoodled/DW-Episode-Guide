@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct Snakedance: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: SnakedanceClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<SnakedanceClass>
+        @State var showingShare = false
+        @AppStorage("SnakedanceNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct Terminus: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TerminusClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TerminusClass>
+        @State var showingShare = false
+        @AppStorage("TerminusNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
