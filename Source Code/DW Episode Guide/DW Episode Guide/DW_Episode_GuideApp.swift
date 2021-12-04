@@ -14,7 +14,7 @@ struct DW_Episode_GuideApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .frame(minWidth: 850, maxWidth: .infinity, minHeight: 420, maxHeight: .infinity)
+                .frame(minWidth: 950, maxWidth: .infinity, minHeight: 480, maxHeight: .infinity)
                 //.environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
         }
