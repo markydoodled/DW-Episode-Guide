@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheLodger: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheLodgerClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheLodgerClass>
+        @State var showingShare = false
+        @AppStorage("TheLodgerNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
