@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheWeddingOfRiverSong: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheWeddingOfRiverSongClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheWeddingOfRiverSongClass>
+        @State var showingShare = false
+        @AppStorage("TheWeddingOfRiverSongNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }

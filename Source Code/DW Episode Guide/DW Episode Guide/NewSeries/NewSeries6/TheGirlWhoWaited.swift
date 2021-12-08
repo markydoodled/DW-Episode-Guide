@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheGirlWhoWaited: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheGirlWhoWaitedClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheGirlWhoWaitedClass>
+        @State var showingShare = false
+        @AppStorage("TheGirlWhoWaitedNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
