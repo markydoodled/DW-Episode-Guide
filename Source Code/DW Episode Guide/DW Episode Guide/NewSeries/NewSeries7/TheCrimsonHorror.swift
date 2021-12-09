@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct TheCrimsonHorror: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: TheCrimsonHorrorClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<TheCrimsonHorrorClass>
+        @State var showingShare = false
+        @AppStorage("TheCrimsonHorrorNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
