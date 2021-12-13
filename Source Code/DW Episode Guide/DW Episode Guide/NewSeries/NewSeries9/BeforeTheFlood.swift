@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct BeforeTheFlood: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: BeforeTheFloodClass.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<BeforeTheFloodClass>
+        @State var showingShare = false
+        @AppStorage("BeforeTheFloodNotes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
