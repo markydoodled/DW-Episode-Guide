@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct SpyfallPart2: View {
+@Environment(\.managedObjectContext) private var viewContext
+
+        @FetchRequest(entity: SpyfallPart2Class.entity(),
+            sortDescriptors: [],
+            animation: .default)
+        private var items: FetchedResults<SpyfallPart2Class>
+        @State var showingShare = false
+        @AppStorage("SpyfallPart2Notes") var notes = ""
     var body: some View {
         Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
