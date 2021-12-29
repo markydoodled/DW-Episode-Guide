@@ -17,7 +17,7 @@ struct FrontierInSpace: View {
         @State var showingShare = false
         @AppStorage("FrontierInSpaceNotes") var notes = ""
     var body: some View {
-        TForEach(items) { item in
+        ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()

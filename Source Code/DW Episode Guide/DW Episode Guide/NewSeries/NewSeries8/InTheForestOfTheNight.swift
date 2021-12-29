@@ -13,7 +13,7 @@ struct InTheForestOfTheNight: View {
         @FetchRequest(entity: InTheForestOfTheNightClass.entity(),
             sortDescriptors: [],
             animation: .default)
-        private var items: FetchedResults<InTheForestOnTheNightClass>
+        private var items: FetchedResults<InTheForestOfTheNightClass>
         @State var showingShare = false
         @AppStorage("InTheForestOfTheNightNotes") var notes = ""
     var body: some View {
