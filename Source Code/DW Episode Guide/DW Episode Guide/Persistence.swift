@@ -239,18 +239,94 @@ struct PersistenceController {
         thewarmachines.length = ""
         thewarmachines.producer = ""
         //Classic Series 4
+        let thesmugglers = TheSmugglersClass(context: viewContext)
+        let thetenthplanet = TheTenthPlanetClass(context: viewContext)
+        let thepowerofthedaleks = ThePowerOfTheDaleks(context: viewContext)
+        let thehighlanders = TheHighlandersClass(context: viewContext)
+        let theunderwatermenace = TheUnderwatrerMenaceClass(context: viewContext)
+        let themoonbase = TheMoonbaseClass(context: viewContext)
+        let themacraterror = TheMacraTerrorClass(context: viewContext)
+        let thefacelessones = TheFacelessOnesClass(context: viewContext)
+        let theevilofthedaleks = TheEvilOfTheDaleksClass(context: viewContext)
         //Classic Series 5
+        let thetombofthecybermen = TheTombOfTheCybermenClass(context: ViewContext)
+        let theabominablesnowmen = TheAbominableSnowmenClass(context: viewContext)
+        let theicewarriors = TheIceWarriorsClass(context: viewContext)
+        let theenemyoftheworld = TheEnemyOfTheWorldClass(context: viewContext)
+        let theweboffear = TheWebOfFearClass(context: viewContext)
+        let furyfromthedeep = FuryFromTheDeepClass(context: viewContext)
+        let thewheelinspace = TheWheelInSpaceClass(context: viewContext)
         //Classic Series 6
+        let thedominators = TheDominatorsClass(context: viewContext)
+        let themindrobber = TheMindRobberClass(context: viewContext)
+        let theinvasion = TheInvasionClass(context: viewContext)
+        let thekrotons = TheKrotonsClass(context: viewContext)
+        let theseedsofdeath = TheSeedsOfDeathClass(context: viewContext)
+        let thespacepirates = TheSpacePiratesClass(context: viewContext)
+        let thewargames = TheWarGamesClass(context: viewContext)
         //Classic Series 7
+        let spearheadfromspace = SpearheadFromSpaceClass(context: viewContext)
+        let andthesilurians = AndTheSiluriansClass(context: viewContext)
+        let theambassadorsofdeath = TheAmbassadorsOfDeathClass(context: viewContext)
+        let inferno = InfernoClass(context: viewContext)
         //Classic Series 8
+        let terroroftheautons = TerrorOfTheAutonsClass(context: viewContext)
+        let themindofevil = TheMindOfEvilClass(context: viewContext)
+        let theclawsofaxos = TheClawsOfAxosClass(context: viewContext)
+        let colonyinspace = ColonyInSpaceClass(context: viewContext)
+        let thedaemons = TheDaemonsClass(context: viewContext)
         //Classic Series 9
+        let dayofthedaleks = DayOfTheDaleksClass(context: viewContext)
+        let thecurseofpeladon = TheCurseOfPeladonClass(context: viewContext)
+        let theseadevils = TheSeaDevilsClass(context: viewContext)
+        let themutants = TheMutantsClass(context: viewContext)
+        let thetimemonster = TheTimeMonsterClass(context: viewContext)
         //Classic Series 10
+        let thethreedoctors = TheThreeDoctorsClass(context: viewContext)
+        let carnivalofmonsters = CarnivalOfMonstersClass(context: viewContext)
+        let frontierinspace = FrontierInSpaceClass(context: viewContext)
+        let planetofthedaleks = PlanetOfTheDaleksClass(context: viewContext)
+        let thegreendeath = TheGreenDeathClass(context: viewContext)
         //Classic Series 11
+        let thetimewarrior = TheTimeWarriorClass(context: viewContext)
+        let invasionofthedinosaurs = InvasionOfTheDinosaursClass(context: viewContext)
+        let deathtothedaleks = DeathToTheDaleksClass(context: viewContext)
+        let themonsterofpeladon = TheMonsterOfPeladonClass(context: viewContext)
+        let planetofthespiders = PlanetOfTheSpidersClass(context: viewContext)
         //Classic Series 12
+        let robot = RobotClass(context: viewContext)
+        let thearkinspace = TheArkInSpaceClass(context: viewContext)
+        let thesontaranexperiment = TheSontaranExperimentClass(context: viewContext)
+        let genesisofthedaleks = GenesisOfTheDaleksClass(context: viewContext)
+        let revengeofthecybermen = RevengeOfTheCybermen(context: viewContext)
         //Classic Series 13
+        let terrorofthezygons = TerrorOfTheZygonsClass(context: viewContext)
+        let planetofevil = PlanetOfEvilClass(context: viewContext)
+        let pyramidsofmars = PyramidsOfMarsClass(context: viewContext)
+        let theandroidinvasion = TheAndroidInvasionClass(context: viewContext)
+        let thebrainofmorbius = TheBrainOfMorbiusClass(context: viewContext)
+        let theseedsofdoom = TheSeedsOfDoomClass(context: viewContext)
         //Classic Series 14
+        let themasqueofmandragora = TheMasqueOfMandragoraClass(context: viewContext)
+        let thehandoffear = TheHandOfFear(context: viewContext)
+        let thedeadlyassassin = TheDeadlyAssassinClass(context: viewContext)
+        let thefaceofevil = TheFaceOfEvilClass(context: viewContext)
+        let therobotsofdeath = TheRobotsOfDeathClass(context: viewContext)
+        let thetalonsofwengchiang = TheTalonsOfWengChiang(context: viewContext)
         //Classic Series 15
+        let thehorroroffangrock = TheHorrorOfFangRockClass(context: viewContext)
+        let theinvisibleenemy = TheInvisibleEnemyClass(context: viewContext)
+        let imageofthefendahl = ImageOfTheFendahlClass(context: viewContext)
+        let thesunmakers = TheSunMakersClass(context: viewContext)
+        let underworld = UnderworldClass(context: viewContext)
+        let theinvasionoftime = TheInvasionOfTimeClass(context: viewContext)
         //Classic Series 16
+        let theribosoperation = TheRibosOperationClass(context: viewContext)
+        let thepirateplanet = ThePiratePlanetClass(context: viewContext)
+        let thestonesofblood = TheStonesOfBloodClass(context: viewContext)
+        let theandroidsoftara = TheAndroidsOfTaraClass(context: viewContext)
+        let thepowerofkroll = ThePowerOfKrollClass(context: viewContext)
+        let thearmageddonfactor = TheArmageddonFactorClass(context: viewContext)
         //Classic Series 17
         //Classic Series 18
         //Classic Series 19
