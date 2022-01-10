@@ -328,15 +328,72 @@ struct PersistenceController {
         let thepowerofkroll = ThePowerOfKrollClass(context: viewContext)
         let thearmageddonfactor = TheArmageddonFactorClass(context: viewContext)
         //Classic Series 17
+        let destinyofthedaleks = DestinyOfTheDaleksClass(context: viewContext)
+        let cityofdeath = CityOfDeathClass(context: viewContext)
+        let thecreaturefromthepit = ThewCreatureFromThePitClass(context: viewContext)
+        let nightmareoneden = NightmareOnEdenClass(context: viewContext)
+        let thehornsofnimon = TheHornsOfNimonClass(context: viewContext)
+        let shada = ShadaClass(context: viewContext)
         //Classic Series 18
+        let theleisurehive = TheLeisureHiveClass(context: viewContext)
+        let meglos = MeglosClass(context: viewContext)
+        let fullcircle = FullCircleClass(context: viewContext)
+        let stateofdecay = StateOfDecayClass(context: viewContext)
+        let warriorsgate = WarriorsGateClass(context: viewContext)
+        let thekeeperoftraken = TheKeeperOfTrakenClass(context: viewContext)
+        let logopolis = LogopolisClass(context: viewContext)
         //Classic Series 19
+        let castrovalva = CastrovalvaClass(context: viewContext)
+        let fourtodoomsday = FourToDoomsdayClass(context: viewContext)
+        let kinda = kindaClass(context: viewContext)
+        let thevisitation = TheVisitationClass(context: viewContext)
+        let blackorchid = BlackOrchidClass(context: viewContext)
+        let earthshock = EarthshockClass(context: viewContext)
+        let timeflight = TimeFlightClass(context: viewContext)
         //Classic Series 20
+        let arcofinfinity = ArcOfInfinityClass(context: viewContext)
+        let snakedance = SnakednaceClass(context: viewContext)
+        let mawdrynundead = MawdrynUndeadClass(context: viewContext)
+        let terminus = TerminusClass(context: viewContext)
+        let enlightenment = EnlightenmentClass(context: viewContext)
+        let thekingsdemons = TheKingsDemonsClass(context: viewContext)
+        let thefivedoctors = TheFiveDoctorsClass(context: viewContext)
         //Classic Series 21
+        let warriorsofthedeep = WarriorsOfTheDeepClass(context: viewContext)
+        let theawakening = TheAwakeningClass(context: viewContext)
+        let frontios = FrontiosClass(context: viewContext)
+        let resurrectionofthedaleks = ResurrectionOfTheDaleksClass(context: viewContext)
+        let planetoffire = PlanetOfFireClass(context: viewContext)
+        let thecavesofandrozani = TheCavesOfAndrozaniClass(context: viewContext)
+        let thetwindilemma = TheTwinDilemmaClass(context: viewContext)
         //Classic Series 22
+        let attackofthecybermen = AttackOfTheCybermenClass(context: viewContext)
+        let vengeanceonvaros = VengeanceOnVarosClass(context: viewContext)
+        let themarkoftherani = TheMarkOfTheRaniClass(context: viewContext)
+        let thetwodoctors = TheTwoDoctorsClass(context: viewContext)
+        let timelash = TimelashClass(context: viewContext)
+        let revelationofthedaleks = RevelationOfTheDaleksClass(context: viewContext)
         //Classic Series 23
+        let themysteriousplanet = TheMysteriousPlanetClass(context: viewContext)
+        let mindwarp = MindwarpClass(context: viewContext)
+        let terrorofthevervoids = TerrorOfTheVervoidsClass(context: viewContext)
+        let theultimatefoe = TheUltimateFoeClass(context: viewContext)
         //Classic Series 24
+        let timeandtherani = TimeAndTheRaniClass(context: viewContext)
+        let paradisetowers = ParadiseTowersClass(context: viewContext)
+        let deltaandthebannermen = DeltaAndTheBannermenClass(context: viewContext)
+        let dragonfire = DragonfireClass(context: viewContext)
         //Classic Series 25
+        let remembranceofthedaleks = RemembranceOfTheDaleksClass(context: viewContext)
+        let thehappinesspatrol = TheHappinessPatrolClass(context: viewContext)
+        let silvernemesis = SilverNemesisClass(context: viewContext)
+        let thegreatestshowinthegalaxy = TheGreatestShowInTheGalaxyClass(context: viewContext)
         //Classic Series 26
+        let battlefield = BattlefieldClass(context: viewContext)
+        let ghostlight = GhostLightClass(context: viewContext)
+        let thecurseoffenric = TheCurseOfFenricClass(context: viewContext)
+        let survival = SurvivalClass(context: viewContext)
+        let tvmovie = TVMovieClass(context: viewContext)
         //New Series 1
         //New Series 2
         //New Series 3
