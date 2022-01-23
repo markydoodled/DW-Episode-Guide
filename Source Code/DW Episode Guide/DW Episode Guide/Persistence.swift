@@ -1326,9 +1326,49 @@ struct PersistenceController {
         tvmovie.length = ""
         tvmovie.producer = ""
         //New Series 1
+        let rose = RoseClass(context: viewContext)
+        let theednofthworld = TheEndOfTheWorldClass(context: viewContext)
+        let theunquietdead = TheUnquietDeadClass(context: viewContext)
+        let aliensoflondon = AliensOfLondonClass(context: viewContext)
+        let worldwarthree = WorldWarThreeClass(context: viewContext)
+        let dalek = DalekClass(context: viewContext)
+        let thelonggame = TheLongGameClass(context: viewContext)
+        let fathersday = FathersDay(context: viewContext)
+        let theemptychild = TheEmptyChildClass(context: viewContext)
+        let thedoctordances = TheDoctorDancesClass(context: viewContext)
+        let boomtown = BoomTownClass(context: viewContext)
+        let badwolf = BadWolfClass(context: viewContext)
         //New Series 2
+        let thechristmasinvasion = TheChristmasInvasionClass(context: viewContext)
+        let newearth = NewEarthClass(context: viewContext)
+        let toothandclaw = ToothAndClawClass(context: viewContext)
+        let schoolreunion = SchoolReunionClass(context: viewContext)
+        let thegirlinthefireplace = TheGirlInTheFireplaceClass(context: viewContext)
+        let riseofthecybermen = RiseOfTheCybermenClass(context: viewContext)
+        let theageofsteel = TheAgeOfSteel(context: viewContext)
+        let theidiotslantern = TheIdiotsLanternClass(context: viewContext)
+        let theimpossibleplanet = TheImpossiblePlanetClass(context: viewContext)
+        let thesatanpit = TheSatanPitClass(context: viewContext)
+        let loveandmonsters = LoveAndMonstersClass(context: viewContext)
+        let fearher = FearHerClass(context: viewContext)
+        let armyofghosts = ArmyOfGhostsClass(context: viewContext)
+        let doomsday = DoomsdayClass(context: viewContext)
         //New Series 3
+        let therunawaybride = TheRunawayBrideClass(context: viewContext)
+        let smithandjones = SmithAndJonesClass(context: viewContext)
+        let gridlock = GridlockClass(context: viewContext)
+        let daleksinmanhattan = DaleksInManhattanClass(context: viewContext)
+        let evolutionofthedaleks = EvolutionOfTheDaleksClass(context: viewContext)
+        let thelazarusexperiment = TheLazarusExperimentClass(context: viewContext)
+        let fortytwo = FortyTwoClass(context: viewContext)
+        let humannature = HumanNatureClass(context: viewContext)
+        let thefamilyofblood = TheFamilyOfBloodClass(context: viewContext)
+        let blink = BlinkClass(context: viewContext)
+        let utopia = UtopiaClass(context: viewContext)
+        let thesoundofdrums = TheSoundOfDrumsClass(context: viewContext)
+        let lastofthetimelords = LastOfTheTimeLordsClass(context: viewContext)
         //New Series 4
+        
         //New Series 5
         //New Series 6
         //New Series 7
