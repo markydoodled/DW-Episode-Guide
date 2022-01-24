@@ -1368,8 +1368,27 @@ struct PersistenceController {
         let thesoundofdrums = TheSoundOfDrumsClass(context: viewContext)
         let lastofthetimelords = LastOfTheTimeLordsClass(context: viewContext)
         //New Series 4
-        
+        let voyageofthedamned = VoyageOfTheDamnedClass(context: viewContext)
+        let partnersincrime = PartnersInCrimeClass(context: viewContext)
+        let thefiresofpompeii = TheFiresOfPompeiiClass(context: viewContext)
+        let planetoftheood = PlanetOfTheOodClass(context: viewContext)
+        let thesontaranstratagem = TheSontaranStratagemClass(context: viewContext)
+        let thepoisonsky = ThePoisonSkyClass(context: viewContext)
+        let thedoctorsdaughter = TheDoctorsDaughterClass(context: viewContext)
+        let theunicornandthewasp = TheUnicornAndTheWaspClass(context: viewContext)
+        let silenceinthelibrary = SilenceInTheLibraryClass(context: viewContext)
+        let forestofthedead = ForestOfTheDeadClass(context: viewContext)
+        let midnight = MidnightClass(context: viewContext)
+        let turnleft = TurnLeftClass(context: viewContext)
+        let thestolenearth = TheStolenEarthClass(context: viewContext)
+        let journeysend = JourneysEndClass(context: viewContext)
+        let thenextdoctor = TheNextDoctorClass(context: viewContext)
+        let planetofthedead = PlanetOfTheDeadClass(context: viewContext)
+        let thewatersofmars = TheWatersOfMarsClass(context: viewContext)
+        let theendoftimepart1 = TheEndOfTimePart1Class(context: viewContext)
+        let theendoftimepart2 = TheEndOfTimePart2Class(context: viewContext)
         //New Series 5
+        
         //New Series 6
         //New Series 7
         //New Series 8
