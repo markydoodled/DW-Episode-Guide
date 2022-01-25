@@ -1388,8 +1388,21 @@ struct PersistenceController {
         let theendoftimepart1 = TheEndOfTimePart1Class(context: viewContext)
         let theendoftimepart2 = TheEndOfTimePart2Class(context: viewContext)
         //New Series 5
-        
+        let theeleventhhour = TheEleventhHourClass(context: viewContext)
+        let thebeastbelow = TheBeastBelowClass(context: viewContext)
+        let victoryofthedaleks = VictoryOfTheDaleksClass(context: viewContext)
+        let thetimeofangels = TheTimeOfAngelsClass(context: viewContext)
+        let fleshandstone = FleshAndStoneClass(context: viewContext)
+        let thevampiresofvenice = TheVampiresOfVeniceClass(context: viewContext)
+        let amyschoice = AmysChoiceClass(context: viewContext)
+        let thehungryearth = TheHungryEarthClass(context: viewContext)
+        let coldblood = ColdBloodClass(context: viewContext)
+        let vincentandthedoctor = VincentAndTheDoctorClass(context: viewContext)
+        let thelodger = TheLodgerClass(context: viewContext)
+        let thepandoricaopens = ThePandoricaOpensClass(context: viewContext)
+        let thebigbang = TheBigBangClass(context: viewContext)
         //New Series 6
+        
         //New Series 7
         //New Series 8
         //New Series 9
