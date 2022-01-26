@@ -1402,8 +1402,22 @@ struct PersistenceController {
         let thepandoricaopens = ThePandoricaOpensClass(context: viewContext)
         let thebigbang = TheBigBangClass(context: viewContext)
         //New Series 6
-        
+        let achristmascarol = AChristmasCarolClass(context: viewContext)
+        let theimpossibleastronaut = TheImpossibleAstronautClass(context: viewContext)
+        let dayofthemoon = DayOfTheMoonClass(context: viewContext)
+        let thecurseoftheblackspot = TheCurseOfTheBlackSpoClass(context: viewContext)
+        let thedoctorswife = TheDoctorsWifeClass(context: viewContext)
+        let therebelflesh = TheRebelFleshClass(context: viewContext)
+        let thealmostpeople = TheAlmostPeopleClass(context: viewContext)
+        let agoodmangoestowar = AGoodManGoesToWarClass(context: viewContext)
+        let letskillhitler = LetsKillHitlerClass(context: viewContext)
+        let nightterrors = NightTerrorsClass(context: viewContext)
+        let thegirlwhowaited = TheGirlWhoWaitedClass(context: viewContext)
+        let thegodcomplex = TheGodComplexClass(context: viewContext)
+        let closingtime = ClosingTimeClass(context: viewContext)
+        let theweddingofriversong = TheWeddingOfRiverSongClass(context: viewContext)
         //New Series 7
+        
         //New Series 8
         //New Series 9
         //New Series 10
