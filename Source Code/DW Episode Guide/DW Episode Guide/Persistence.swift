@@ -1417,7 +1417,23 @@ struct PersistenceController {
         let closingtime = ClosingTimeClass(context: viewContext)
         let theweddingofriversong = TheWeddingOfRiverSongClass(context: viewContext)
         //New Series 7
-        
+        let thedoctorthewidowandthewardrobe = TheDoctorTheWidowAndTheWardrobeClass(context: viewContext)
+        let asylumofthedaleks = AsylumOfTheDaleksClass(context: viewContext)
+        let dinosaursonaspaceship = DinosaursOnASpaceship
+        let atowncalledmercy = ATownCalledMercyClass(context: viewContext)
+        let thepowerofthree = ThePowerOfThreeClass(context: viewContext)
+        let theangelstakemanhattan = TheAngelsTakeManhattanClass(context: viewContext)
+        let thesnowmen = TheSnowmenClass(context: viewContext)
+        let thebellsofsaintjohn = TheBellsOfSaintJohnClass(context: viewContext)
+        let theringsofakhaten = TheRingsOfAkhatenClass(context: viewContext)
+        let coldwar = ColdWarClass(context: viewContext)
+        let hide = HideClass(context: viewContext)
+        let journeytothecentreofthetardis = JourneyToTheCentreOfTheTARDISClass(context: viewContext)
+        let thecrimsonhorror = TheCrimsonHorrorClass(context: viewContext)
+        let nightmareinsilver = NightmareInSilverClass(context: viewContext)
+        let thenameofthedoctor = TheNameOfTheDoctorClass(context: viewContext)
+        let thedayofthedoctor = TheDayOfTheDoctorClass(context: viewContext)
+        let thetimeofthedoctor = TheTimeOfTheDoctorClass(context: viewContext)
         //New Series 8
         //New Series 9
         //New Series 10
