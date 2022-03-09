@@ -40,7 +40,7 @@ struct PersistenceController {
         theedgeofdestruction.broadcast = ""
         theedgeofdestruction.companions = ""
         theedgeofdestruction.director = ""
-        theedgeofdestruction.doctor = ""
+        theedgeofdestruction.doctor = "1st Doctor\n(William Hartnell)"
         theedgeofdestruction.length = ""
         theedgeofdestruction.producer = ""
         let marcopolo = MarcoPoloClass(context: viewContext)
@@ -48,7 +48,7 @@ struct PersistenceController {
         marcopolo.broadcast = ""
         marcopolo.companions = ""
         marcopolo.director = ""
-        marcopolo.doctor = ""
+        marcopolo.doctor = "1st Doctor\n(William Hartnell)"
         marcopolo.length = ""
         marcopolo.producer = ""
         let thekeysofmarinus = TheKeysOfMarinusClass(context: viewContext)
@@ -56,7 +56,7 @@ struct PersistenceController {
         thekeysofmarinus.broadcast = ""
         thekeysofmarinus.companions = ""
         thekeysofmarinus.director = ""
-        thekeysofmarinus.doctor = ""
+        thekeysofmarinus.doctor = "1st Doctor\n(William Hartnell)"
         thekeysofmarinus.length = ""
         thekeysofmarinus.producer = ""
         let theaztecs = TheAztecsClass(context: viewContext)
@@ -64,7 +64,7 @@ struct PersistenceController {
         theaztecs.broadcast = ""
         theaztecs.companions = ""
         theaztecs.director = ""
-        theaztecs.doctor = ""
+        theaztecs.doctor = "1st Doctor\n(William Hartnell)"
         theaztecs.length = ""
         theaztecs.producer = ""
         let thesensorites = TheSensoritesClass(context: viewContext)
@@ -72,7 +72,7 @@ struct PersistenceController {
         thesensorites.broadcast = ""
         thesensorites.companions = ""
         thesensorites.director = ""
-        thesensorites.doctor = ""
+        thesensorites.doctor = "1st Doctor\n(William Hartnell)"
         thesensorites.length = ""
         thesensorites.producer = ""
         let thereignofterror = TheReignOfTerrorClass(context: viewContext)
@@ -80,7 +80,7 @@ struct PersistenceController {
         thereignofterror.broadcast = ""
         thereignofterror.companions = ""
         thereignofterror.director = ""
-        thereignofterror.doctor = ""
+        thereignofterror.doctor = "1st Doctor\n(William Hartnell)"
         thereignofterror.length = ""
         thereignofterror.producer = ""
         //Classic Series 2
@@ -89,7 +89,7 @@ struct PersistenceController {
         planetofgiants.broadcast = ""
         planetofgiants.companions = ""
         planetofgiants.director = ""
-        planetofgiants.doctor = ""
+        planetofgiants.doctor = "1st Doctor\n(William Hartnell)"
         planetofgiants.length = ""
         planetofgiants.producer = ""
         let thedalekinvasionofearth = TheDalekInvasionOfEarthClass(context: viewContext)
@@ -97,7 +97,7 @@ struct PersistenceController {
         thedalekinvasionofearth.broadcast = ""
         thedalekinvasionofearth.companions = ""
         thedalekinvasionofearth.director = ""
-        thedalekinvasionofearth.doctor = ""
+        thedalekinvasionofearth.doctor = "1st Doctor\n(William Hartnell)"
         thedalekinvasionofearth.length = ""
         thedalekinvasionofearth.producer = ""
         let therescue = TheRescueClass(context: viewContext)
@@ -105,7 +105,7 @@ struct PersistenceController {
         therescue.broadcast = ""
         therescue.companions = ""
         therescue.director = ""
-        therescue.doctor = ""
+        therescue.doctor = "1st Doctor\n(William Hartnell)"
         therescue.length = ""
         therescue.producer = ""
         let theromans = TheRomansClass(context: viewContext)
@@ -113,7 +113,7 @@ struct PersistenceController {
         theromans.broadcast = ""
         theromans.companions = ""
         theromans.director = ""
-        theromans.doctor = ""
+        theromans.doctor = "1st Doctor\n(William Hartnell)"
         theromans.length = ""
         theromans.producer = ""
         let thewebplanet = TheWebPlanetClass(context: viewContext)
@@ -121,7 +121,7 @@ struct PersistenceController {
         thewebplanet.broadcast = ""
         thewebplanet.companions = ""
         thewebplanet.director = ""
-        thewebplanet.doctor = ""
+        thewebplanet.doctor = "1st Doctor\n(William Hartnell)"
         thewebplanet.length = ""
         thewebplanet.producer = ""
         let thecrusade = TheCrusadeClass(context: viewContext)
@@ -129,7 +129,7 @@ struct PersistenceController {
         thecrusade.broadcast = ""
         thecrusade.companions = ""
         thecrusade.director = ""
-        thecrusade.doctor = ""
+        thecrusade.doctor = "1st Doctor\n(William Hartnell)"
         thecrusade.length = ""
         thecrusade.producer = ""
         let thespacemuseum = TheSpaceMuseumClass(context: viewContext)
@@ -137,7 +137,7 @@ struct PersistenceController {
         thespacemuseum.broadcast = ""
         thespacemuseum.companions = ""
         thespacemuseum.director = ""
-        thespacemuseum.doctor = ""
+        thespacemuseum.doctor = "1st Doctor\n(William Hartnell)"
         thespacemuseum.length = ""
         thespacemuseum.producer = ""
         let thechase = TheChaseClass(context: viewContext)
@@ -145,7 +145,7 @@ struct PersistenceController {
         thechase.broadcast = ""
         thechase.companions = ""
         thechase.director = ""
-        thechase.doctor = ""
+        thechase.doctor = "1st Doctor\n(William Hartnell)"
         thechase.length = ""
         thechase.producer = ""
         let thetimemeddler = TheTimeMeddlerClass(context: viewContext)
@@ -153,7 +153,7 @@ struct PersistenceController {
         thetimemeddler.broadcast = ""
         thetimemeddler.companions = ""
         thetimemeddler.director = ""
-        thetimemeddler.doctor = ""
+        thetimemeddler.doctor = "1st Doctor\n(William Hartnell)"
         thetimemeddler.length = ""
         thetimemeddler.producer = ""
         //Classic Series 3
@@ -162,7 +162,7 @@ struct PersistenceController {
         galaxy4.broadcast = ""
         galaxy4.companions = ""
         galaxy4.director = ""
-        galaxy4.doctor = ""
+        galaxy4.doctor = "1st Doctor\n(William Hartnell)"
         galaxy4.length = ""
         galaxy4.producer = ""
         let missiontotheunknown = MissionToTheUnknownClass(context: viewContext)
@@ -170,7 +170,7 @@ struct PersistenceController {
         missiontotheunknown.broadcast = ""
         missiontotheunknown.companions = ""
         missiontotheunknown.director = ""
-        missiontotheunknown.doctor = ""
+        missiontotheunknown.doctor = "1st Doctor\n(William Hartnell)"
         missiontotheunknown.length = ""
         missiontotheunknown.producer = ""
         let themythmakers = TheMythMakersClass(context: viewContext)
@@ -178,7 +178,7 @@ struct PersistenceController {
         themythmakers.broadcast = ""
         themythmakers.companions = ""
         themythmakers.director = ""
-        themythmakers.doctor = ""
+        themythmakers.doctor = "1st Doctor\n(William Hartnell)"
         themythmakers.length = ""
         themythmakers.producer = ""
         let thedaleksmasterplan = TheDaleksMasterPlanClass(context: viewContext)
@@ -186,7 +186,7 @@ struct PersistenceController {
         thedaleksmasterplan.broadcast = ""
         thedaleksmasterplan.companions = ""
         thedaleksmasterplan.director = ""
-        thedaleksmasterplan.doctor = ""
+        thedaleksmasterplan.doctor = "1st Doctor\n(William Hartnell)"
         thedaleksmasterplan.length = ""
         thedaleksmasterplan.producer = ""
         let themassacre = TheMassacreClass(context: viewContext)
@@ -194,7 +194,7 @@ struct PersistenceController {
         themassacre.broadcast = ""
         themassacre.companions = ""
         themassacre.director = ""
-        themassacre.doctor = ""
+        themassacre.doctor = "1st Doctor\n(William Hartnell)"
         themassacre.length = ""
         themassacre.producer = ""
         let theark = TheArkClass(context: viewContext)
@@ -202,7 +202,7 @@ struct PersistenceController {
         theark.broadcast = ""
         theark.companions = ""
         theark.director = ""
-        theark.doctor = ""
+        theark.doctor = "1st Doctor\n(William Hartnell)"
         theark.length = ""
         theark.producer = ""
         let thecelestialtoymaker = TheCelestialToymakerClass(context: viewContext)
@@ -210,7 +210,7 @@ struct PersistenceController {
         thecelestialtoymaker.broadcast = ""
         thecelestialtoymaker.companions = ""
         thecelestialtoymaker.director = ""
-        thecelestialtoymaker.doctor = ""
+        thecelestialtoymaker.doctor = "1st Doctor\n(William Hartnell)"
         thecelestialtoymaker.length = ""
         thecelestialtoymaker.producer = ""
         let thegunfighters = TheGunfightersClass(context: viewContext)
@@ -218,7 +218,7 @@ struct PersistenceController {
         thegunfighters.broadcast = ""
         thegunfighters.companions = ""
         thegunfighters.director = ""
-        thegunfighters.doctor = ""
+        thegunfighters.doctor = "1st Doctor\n(William Hartnell)"
         thegunfighters.length = ""
         thegunfighters.producer = ""
         let thesavages = TheSavagesClass(context: viewContext)
@@ -226,7 +226,7 @@ struct PersistenceController {
         thesavages.broadcast = ""
         thesavages.companions = ""
         thesavages.director = ""
-        thesavages.doctor = ""
+        thesavages.doctor = "1st Doctor\n(William Hartnell)"
         thesavages.length = ""
         thesavages.producer = ""
         let thewarmachines = TheWarMachinesClass(context: viewContext)
@@ -234,7 +234,7 @@ struct PersistenceController {
         thewarmachines.broadcast = ""
         thewarmachines.companions = ""
         thewarmachines.director = ""
-        thewarmachines.doctor = ""
+        thewarmachines.doctor = "1st Doctor\n(William Hartnell)"
         thewarmachines.length = ""
         thewarmachines.producer = ""
         //Classic Series 4
@@ -243,7 +243,7 @@ struct PersistenceController {
         thesmugglers.broadcast = ""
         thesmugglers.companions = ""
         thesmugglers.director = ""
-        thesmugglers.doctor = ""
+        thesmugglers.doctor = "1st Doctor\n(William Hartnell)"
         thesmugglers.length = ""
         thesmugglers.producer = ""
         let thetenthplanet = TheTenthPlanetClass(context: viewContext)
@@ -251,7 +251,7 @@ struct PersistenceController {
         thetenthplanet.broadcast = ""
         thetenthplanet.companions = ""
         thetenthplanet.director = ""
-        thetenthplanet.doctor = ""
+        thetenthplanet.doctor = "1st Doctor\n(William Hartnell)"
         thetenthplanet.length = ""
         thetenthplanet.producer = ""
         let thepowerofthedaleks = ThePowerOfTheDaleksClass(context: viewContext)
@@ -259,7 +259,7 @@ struct PersistenceController {
         thepowerofthedaleks.broadcast = ""
         thepowerofthedaleks.companions = ""
         thepowerofthedaleks.director = ""
-        thepowerofthedaleks.doctor = ""
+        thepowerofthedaleks.doctor = "2nd Doctor\n(Patrick Troughton)"
         thepowerofthedaleks.length = ""
         thepowerofthedaleks.producer = ""
         let thehighlanders = TheHighlandersClass(context: viewContext)
@@ -267,7 +267,7 @@ struct PersistenceController {
         thehighlanders.broadcast = ""
         thehighlanders.companions = ""
         thehighlanders.director = ""
-        thehighlanders.doctor = ""
+        thehighlanders.doctor = "2nd Doctor\n(Patrick Troughton)"
         thehighlanders.length = ""
         thehighlanders.producer = ""
         let theunderwatermenace = TheUnderwaterMenaceClass(context: viewContext)
@@ -275,7 +275,7 @@ struct PersistenceController {
         theunderwatermenace.broadcast = ""
         theunderwatermenace.companions = ""
         theunderwatermenace.director = ""
-        theunderwatermenace.doctor = ""
+        theunderwatermenace.doctor = "2nd Doctor\n(Patrick Troughton)"
         theunderwatermenace.length = ""
         theunderwatermenace.producer = ""
         let themoonbase = TheMoonbaseClass(context: viewContext)
@@ -283,7 +283,7 @@ struct PersistenceController {
         themoonbase.broadcast = ""
         themoonbase.companions = ""
         themoonbase.director = ""
-        themoonbase.doctor = ""
+        themoonbase.doctor = "2nd Doctor\n(Patrick Troughton)"
         themoonbase.length = ""
         themoonbase.producer = ""
         let themacraterror = TheMacraTerrorClass(context: viewContext)
@@ -291,7 +291,7 @@ struct PersistenceController {
         themacraterror.broadcast = ""
         themacraterror.companions = ""
         themacraterror.director = ""
-        themacraterror.doctor = ""
+        themacraterror.doctor = "2nd Doctor\n(Patrick Troughton)"
         themacraterror.length = ""
         themacraterror.producer = ""
         let thefacelessones = TheFacelessOnesClass(context: viewContext)
@@ -299,7 +299,7 @@ struct PersistenceController {
         thefacelessones.broadcast = ""
         thefacelessones.companions = ""
         thefacelessones.director = ""
-        thefacelessones.doctor = ""
+        thefacelessones.doctor = "2nd Doctor\n(Patrick Troughton)"
         thefacelessones.length = ""
         thefacelessones.producer = ""
         let theevilofthedaleks = TheEvilOfTheDaleksClass(context: viewContext)
@@ -307,7 +307,7 @@ struct PersistenceController {
         theevilofthedaleks.broadcast = ""
         theevilofthedaleks.companions = ""
         theevilofthedaleks.director = ""
-        theevilofthedaleks.doctor = ""
+        theevilofthedaleks.doctor = "2nd Doctor\n(Patrick Troughton)"
         theevilofthedaleks.length = ""
         theevilofthedaleks.producer = ""
         //Classic Series 5
@@ -316,7 +316,7 @@ struct PersistenceController {
         thetombofthecybermen.broadcast = ""
         thetombofthecybermen.companions = ""
         thetombofthecybermen.director = ""
-        thetombofthecybermen.doctor = ""
+        thetombofthecybermen.doctor = "2nd Doctor\n(Patrick Troughton)"
         thetombofthecybermen.length = ""
         thetombofthecybermen.producer = ""
         let theabominablesnowmen = TheAbominableSnowmenClass(context: viewContext)
@@ -324,7 +324,7 @@ struct PersistenceController {
         theabominablesnowmen.broadcast = ""
         theabominablesnowmen.companions = ""
         theabominablesnowmen.director = ""
-        theabominablesnowmen.doctor = ""
+        theabominablesnowmen.doctor = "2nd Doctor\n(Patrick Troughton)"
         theabominablesnowmen.length = ""
         theabominablesnowmen.producer = ""
         let theicewarriors = TheIceWarriorsClass(context: viewContext)
@@ -332,7 +332,7 @@ struct PersistenceController {
         theicewarriors.broadcast = ""
         theicewarriors.companions = ""
         theicewarriors.director = ""
-        theicewarriors.doctor = ""
+        theicewarriors.doctor = "2nd Doctor\n(Patrick Troughton)"
         theicewarriors.length = ""
         theicewarriors.producer = ""
         let theenemyoftheworld = TheEnemyOfTheWorldClass(context: viewContext)
@@ -340,7 +340,7 @@ struct PersistenceController {
         theenemyoftheworld.broadcast = ""
         theenemyoftheworld.companions = ""
         theenemyoftheworld.director = ""
-        theenemyoftheworld.doctor = ""
+        theenemyoftheworld.doctor = "2nd Doctor\n(Patrick Troughton)"
         theenemyoftheworld.length = ""
         theenemyoftheworld.producer = ""
         let theweboffear = TheWebOfFearClass(context: viewContext)
@@ -348,7 +348,7 @@ struct PersistenceController {
         theweboffear.broadcast = ""
         theweboffear.companions = ""
         theweboffear.director = ""
-        theweboffear.doctor = ""
+        theweboffear.doctor = "2nd Doctor\n(Patrick Troughton)"
         theweboffear.length = ""
         theweboffear.producer = ""
         let furyfromthedeep = FuryFromTheDeepClass(context: viewContext)
@@ -356,7 +356,7 @@ struct PersistenceController {
         furyfromthedeep.broadcast = ""
         furyfromthedeep.companions = ""
         furyfromthedeep.director = ""
-        furyfromthedeep.doctor = ""
+        furyfromthedeep.doctor = "2nd Doctor\n(Patrick Troughton)"
         furyfromthedeep.length = ""
         furyfromthedeep.producer = ""
         let thewheelinspace = TheWheelInSpaceClass(context: viewContext)
@@ -364,7 +364,7 @@ struct PersistenceController {
         thewheelinspace.broadcast = ""
         thewheelinspace.companions = ""
         thewheelinspace.director = ""
-        thewheelinspace.doctor = ""
+        thewheelinspace.doctor = "2nd Doctor\n(Patrick Troughton)"
         thewheelinspace.length = ""
         thewheelinspace.producer = ""
         //Classic Series 6
@@ -373,7 +373,7 @@ struct PersistenceController {
         thedominators.broadcast = ""
         thedominators.companions = ""
         thedominators.director = ""
-        thedominators.doctor = ""
+        thedominators.doctor = "2nd Doctor\n(Patrick Troughton)"
         thedominators.length = ""
         thedominators.producer = ""
         let themindrobber = TheMindRobberClass(context: viewContext)
@@ -381,7 +381,7 @@ struct PersistenceController {
         themindrobber.broadcast = ""
         themindrobber.companions = ""
         themindrobber.director = ""
-        themindrobber.doctor = ""
+        themindrobber.doctor = "2nd Doctor\n(Patrick Troughton)"
         themindrobber.length = ""
         themindrobber.producer = ""
         let theinvasion = TheInvasionClass(context: viewContext)
@@ -389,7 +389,7 @@ struct PersistenceController {
         theinvasion.broadcast = ""
         theinvasion.companions = ""
         theinvasion.director = ""
-        theinvasion.doctor = ""
+        theinvasion.doctor = "2nd Doctor\n(Patrick Troughton)"
         theinvasion.length = ""
         theinvasion.producer = ""
         let thekrotons = TheKrotonsClass(context: viewContext)
@@ -397,7 +397,7 @@ struct PersistenceController {
         thekrotons.broadcast = ""
         thekrotons.companions = ""
         thekrotons.director = ""
-        thekrotons.doctor = ""
+        thekrotons.doctor = "2nd Doctor\n(Patrick Troughton)"
         thekrotons.length = ""
         thekrotons.producer = ""
         let theseedsofdeath = TheSeedsOfDeathClass(context: viewContext)
@@ -405,7 +405,7 @@ struct PersistenceController {
         theseedsofdeath.broadcast = ""
         theseedsofdeath.companions = ""
         theseedsofdeath.director = ""
-        theseedsofdeath.doctor = ""
+        theseedsofdeath.doctor = "2nd Doctor\n(Patrick Troughton)"
         theseedsofdeath.length = ""
         theseedsofdeath.producer = ""
         let thespacepirates = TheSpacePiratesClass(context: viewContext)
@@ -413,7 +413,7 @@ struct PersistenceController {
         thespacepirates.broadcast = ""
         thespacepirates.companions = ""
         thespacepirates.director = ""
-        thespacepirates.doctor = ""
+        thespacepirates.doctor = "2nd Doctor\n(Patrick Troughton)"
         thespacepirates.length = ""
         thespacepirates.producer = ""
         let thewargames = TheWarGamesClass(context: viewContext)
@@ -421,7 +421,7 @@ struct PersistenceController {
         thewargames.broadcast = ""
         thewargames.companions = ""
         thewargames.director = ""
-        thewargames.doctor = ""
+        thewargames.doctor = "2nd Doctor\n(Patrick Troughton)"
         thewargames.length = ""
         thewargames.producer = ""
         //Classic Series 7
@@ -430,7 +430,7 @@ struct PersistenceController {
         spearheadfromspace.broadcast = ""
         spearheadfromspace.companions = ""
         spearheadfromspace.director = ""
-        spearheadfromspace.doctor = ""
+        spearheadfromspace.doctor = "3rd Doctor\n(Jon Pertwee)"
         spearheadfromspace.length = ""
         spearheadfromspace.producer = ""
         let andthesilurians = AndTheSiluriansClass(context: viewContext)
@@ -438,7 +438,7 @@ struct PersistenceController {
         andthesilurians.broadcast = ""
         andthesilurians.companions = ""
         andthesilurians.director = ""
-        andthesilurians.doctor = ""
+        andthesilurians.doctor = "3rd Doctor\n(Jon Pertwee)"
         andthesilurians.length = ""
         andthesilurians.producer = ""
         let theambassadorsofdeath = TheAmbassadorsOfDeathClass(context: viewContext)
@@ -446,7 +446,7 @@ struct PersistenceController {
         theambassadorsofdeath.broadcast = ""
         theambassadorsofdeath.companions = ""
         theambassadorsofdeath.director = ""
-        theambassadorsofdeath.doctor = ""
+        theambassadorsofdeath.doctor = "3rd Doctor\n(Jon Pertwee)"
         theambassadorsofdeath.length = ""
         theambassadorsofdeath.producer = ""
         let inferno = InfernoClass(context: viewContext)
@@ -454,7 +454,7 @@ struct PersistenceController {
         inferno.broadcast = ""
         inferno.companions = ""
         inferno.director = ""
-        inferno.doctor = ""
+        inferno.doctor = "3rd Doctor\n(Jon Pertwee)"
         inferno.length = ""
         inferno.producer = ""
         //Classic Series 8
@@ -463,7 +463,7 @@ struct PersistenceController {
         terroroftheautons.broadcast = ""
         terroroftheautons.companions = ""
         terroroftheautons.director = ""
-        terroroftheautons.doctor = ""
+        terroroftheautons.doctor = "3rd Doctor\n(Jon Pertwee)"
         terroroftheautons.length = ""
         terroroftheautons.producer = ""
         let themindofevil = TheMindOfEvilClass(context: viewContext)
@@ -471,7 +471,7 @@ struct PersistenceController {
         themindofevil.broadcast = ""
         themindofevil.companions = ""
         themindofevil.director = ""
-        themindofevil.doctor = ""
+        themindofevil.doctor = "3rd Doctor\n(Jon Pertwee)"
         themindofevil.length = ""
         themindofevil.producer = ""
         let theclawsofaxos = TheClawsOfAxosClass(context: viewContext)
@@ -479,7 +479,7 @@ struct PersistenceController {
         theclawsofaxos.broadcast = ""
         theclawsofaxos.companions = ""
         theclawsofaxos.director = ""
-        theclawsofaxos.doctor = ""
+        theclawsofaxos.doctor = "3rd Doctor\n(Jon Pertwee)"
         theclawsofaxos.length = ""
         theclawsofaxos.producer = ""
         let colonyinspace = ColonyInSpaceClass(context: viewContext)
@@ -487,7 +487,7 @@ struct PersistenceController {
         colonyinspace.broadcast = ""
         colonyinspace.companions = ""
         colonyinspace.director = ""
-        colonyinspace.doctor = ""
+        colonyinspace.doctor = "3rd Doctor\n(Jon Pertwee)"
         colonyinspace.length = ""
         colonyinspace.producer = ""
         let thedaemons = TheDaemonsClass(context: viewContext)
@@ -495,7 +495,7 @@ struct PersistenceController {
         thedaemons.broadcast = ""
         thedaemons.companions = ""
         thedaemons.director = ""
-        thedaemons.doctor = ""
+        thedaemons.doctor = "3rd Doctor\n(Jon Pertwee)"
         thedaemons.length = ""
         thedaemons.producer = ""
         //Classic Series 9
@@ -504,7 +504,7 @@ struct PersistenceController {
         dayofthedaleks.broadcast = ""
         dayofthedaleks.companions = ""
         dayofthedaleks.director = ""
-        dayofthedaleks.doctor = ""
+        dayofthedaleks.doctor = "3rd Doctor\n(Jon Pertwee)"
         dayofthedaleks.length = ""
         dayofthedaleks.producer = ""
         let thecurseofpeladon = TheCurseOfPeladonClass(context: viewContext)
@@ -512,7 +512,7 @@ struct PersistenceController {
         thecurseofpeladon.broadcast = ""
         thecurseofpeladon.companions = ""
         thecurseofpeladon.director = ""
-        thecurseofpeladon.doctor = ""
+        thecurseofpeladon.doctor = "3rd Doctor\n(Jon Pertwee)"
         thecurseofpeladon.length = ""
         thecurseofpeladon.producer = ""
         let theseadevils = TheSeaDevilsClass(context: viewContext)
@@ -520,7 +520,7 @@ struct PersistenceController {
         theseadevils.broadcast = ""
         theseadevils.companions = ""
         theseadevils.director = ""
-        theseadevils.doctor = ""
+        theseadevils.doctor = "3rd Doctor\n(Jon Pertwee)"
         theseadevils.length = ""
         theseadevils.producer = ""
         let themutants = TheMutantsClass(context: viewContext)
@@ -528,7 +528,7 @@ struct PersistenceController {
         themutants.broadcast = ""
         themutants.companions = ""
         themutants.director = ""
-        themutants.doctor = ""
+        themutants.doctor = "3rd Doctor\n(Jon Pertwee)"
         themutants.length = ""
         themutants.producer = ""
         let thetimemonster = TheTimeMonsterClass(context: viewContext)
@@ -536,7 +536,7 @@ struct PersistenceController {
         thetimemonster.broadcast = ""
         thetimemonster.companions = ""
         thetimemonster.director = ""
-        thetimemonster.doctor = ""
+        thetimemonster.doctor = "3rd Doctor\n(Jon Pertwee)"
         thetimemonster.length = ""
         thetimemonster.producer = ""
         //Classic Series 10
@@ -545,7 +545,7 @@ struct PersistenceController {
         thethreedoctors.broadcast = ""
         thethreedoctors.companions = ""
         thethreedoctors.director = ""
-        thethreedoctors.doctor = ""
+        thethreedoctors.doctor = "3rd Doctor\n(Jon Pertwee)"
         thethreedoctors.length = ""
         thethreedoctors.producer = ""
         let carnivalofmonsters = CarnivalOfMonstersClass(context: viewContext)
@@ -553,7 +553,7 @@ struct PersistenceController {
         carnivalofmonsters.broadcast = ""
         carnivalofmonsters.companions = ""
         carnivalofmonsters.director = ""
-        carnivalofmonsters.doctor = ""
+        carnivalofmonsters.doctor = "3rd Doctor\n(Jon Pertwee)"
         carnivalofmonsters.length = ""
         carnivalofmonsters.producer = ""
         let frontierinspace = FrontierInSpaceClass(context: viewContext)
@@ -561,7 +561,7 @@ struct PersistenceController {
         frontierinspace.broadcast = ""
         frontierinspace.companions = ""
         frontierinspace.director = ""
-        frontierinspace.doctor = ""
+        frontierinspace.doctor = "3rd Doctor\n(Jon Pertwee)"
         frontierinspace.length = ""
         frontierinspace.producer = ""
         let planetofthedaleks = PlanetOfTheDaleksClass(context: viewContext)
@@ -569,7 +569,7 @@ struct PersistenceController {
         planetofthedaleks.broadcast = ""
         planetofthedaleks.companions = ""
         planetofthedaleks.director = ""
-        planetofthedaleks.doctor = ""
+        planetofthedaleks.doctor = "3rd Doctor\n(Jon Pertwee)"
         planetofthedaleks.length = ""
         planetofthedaleks.producer = ""
         let thegreendeath = TheGreenDeathClass(context: viewContext)
@@ -577,7 +577,7 @@ struct PersistenceController {
         thegreendeath.broadcast = ""
         thegreendeath.companions = ""
         thegreendeath.director = ""
-        thegreendeath.doctor = ""
+        thegreendeath.doctor = "3rd Doctor\n(Jon Pertwee)"
         thegreendeath.length = ""
         thegreendeath.producer = ""
         //Classic Series 11
@@ -586,7 +586,7 @@ struct PersistenceController {
         thetimewarrior.broadcast = ""
         thetimewarrior.companions = ""
         thetimewarrior.director = ""
-        thetimewarrior.doctor = ""
+        thetimewarrior.doctor = "3rd Doctor\n(Jon Pertwee)"
         thetimewarrior.length = ""
         thetimewarrior.producer = ""
         let invasionofthedinosaurs = InvasionOfTheDinosaursClass(context: viewContext)
@@ -594,7 +594,7 @@ struct PersistenceController {
         invasionofthedinosaurs.broadcast = ""
         invasionofthedinosaurs.companions = ""
         invasionofthedinosaurs.director = ""
-        invasionofthedinosaurs.doctor = ""
+        invasionofthedinosaurs.doctor = "3rd Doctor\n(Jon Pertwee)"
         invasionofthedinosaurs.length = ""
         invasionofthedinosaurs.producer = ""
         let deathtothedaleks = DeathToTheDaleksClass(context: viewContext)
@@ -602,7 +602,7 @@ struct PersistenceController {
         deathtothedaleks.broadcast = ""
         deathtothedaleks.companions = ""
         deathtothedaleks.director = ""
-        deathtothedaleks.doctor = ""
+        deathtothedaleks.doctor = "3rd Doctor\n(Jon Pertwee)"
         deathtothedaleks.length = ""
         deathtothedaleks.producer = ""
         let themonsterofpeladon = TheMonsterOfPeladonClass(context: viewContext)
@@ -610,7 +610,7 @@ struct PersistenceController {
         themonsterofpeladon.broadcast = ""
         themonsterofpeladon.companions = ""
         themonsterofpeladon.director = ""
-        themonsterofpeladon.doctor = ""
+        themonsterofpeladon.doctor = "3rd Doctor\n(Jon Pertwee)"
         themonsterofpeladon.length = ""
         themonsterofpeladon.producer = ""
         let planetofthespiders = PlanetOfTheSpidersClass(context: viewContext)
@@ -618,7 +618,7 @@ struct PersistenceController {
         planetofthespiders.broadcast = ""
         planetofthespiders.companions = ""
         planetofthespiders.director = ""
-        planetofthespiders.doctor = ""
+        planetofthespiders.doctor = "3rd Doctor\n(Jon Pertwee)"
         planetofthespiders.length = ""
         planetofthespiders.producer = ""
         //Classic Series 12
@@ -627,7 +627,7 @@ struct PersistenceController {
         robot.broadcast = ""
         robot.companions = ""
         robot.director = ""
-        robot.doctor = ""
+        robot.doctor = "4th Doctor\n(Tom Baker)"
         robot.length = ""
         robot.producer = ""
         let thearkinspace = TheArkInSpaceClass(context: viewContext)
@@ -635,7 +635,7 @@ struct PersistenceController {
         thearkinspace.broadcast = ""
         thearkinspace.companions = ""
         thearkinspace.director = ""
-        thearkinspace.doctor = ""
+        thearkinspace.doctor = "4th Doctor\n(Tom Baker)"
         thearkinspace.length = ""
         thearkinspace.producer = ""
         let thesontaranexperiment = TheSontaranExperimentClass(context: viewContext)
@@ -643,7 +643,7 @@ struct PersistenceController {
         thesontaranexperiment.broadcast = ""
         thesontaranexperiment.companions = ""
         thesontaranexperiment.director = ""
-        thesontaranexperiment.doctor = ""
+        thesontaranexperiment.doctor = "4th Doctor\n(Tom Baker)"
         thesontaranexperiment.length = ""
         thesontaranexperiment.producer = ""
         let genesisofthedaleks = GenesisOfTheDaleksClass(context: viewContext)
@@ -651,7 +651,7 @@ struct PersistenceController {
         genesisofthedaleks.broadcast = ""
         genesisofthedaleks.companions = ""
         genesisofthedaleks.director = ""
-        genesisofthedaleks.doctor = ""
+        genesisofthedaleks.doctor = "4th Doctor\n(Tom Baker)"
         genesisofthedaleks.length = ""
         genesisofthedaleks.producer = ""
         let revengeofthecybermen = RevengeOfTheCybermenClass(context: viewContext)
@@ -659,7 +659,7 @@ struct PersistenceController {
         revengeofthecybermen.broadcast = ""
         revengeofthecybermen.companions = ""
         revengeofthecybermen.director = ""
-        revengeofthecybermen.doctor = ""
+        revengeofthecybermen.doctor = "4th Doctor\n(Tom Baker)"
         revengeofthecybermen.length = ""
         revengeofthecybermen.producer = ""
         //Classic Series 13
@@ -668,7 +668,7 @@ struct PersistenceController {
         terrorofthezygons.broadcast = ""
         terrorofthezygons.companions = ""
         terrorofthezygons.director = ""
-        terrorofthezygons.doctor = ""
+        terrorofthezygons.doctor = "4th Doctor\n(Tom Baker)"
         terrorofthezygons.length = ""
         terrorofthezygons.producer = ""
         let planetofevil = PlanetOfEvilClass(context: viewContext)
@@ -676,7 +676,7 @@ struct PersistenceController {
         planetofevil.broadcast = ""
         planetofevil.companions = ""
         planetofevil.director = ""
-        planetofevil.doctor = ""
+        planetofevil.doctor = "4th Doctor\n(Tom Baker)"
         planetofevil.length = ""
         planetofevil.producer = ""
         let pyramidsofmars = PyramidsOfMarsClass(context: viewContext)
@@ -684,7 +684,7 @@ struct PersistenceController {
         pyramidsofmars.broadcast = ""
         pyramidsofmars.companions = ""
         pyramidsofmars.director = ""
-        pyramidsofmars.doctor = ""
+        pyramidsofmars.doctor = "4th Doctor\n(Tom Baker)"
         pyramidsofmars.length = ""
         pyramidsofmars.producer = ""
         let theandroidinvasion = TheAndroidInvasionClass(context: viewContext)
@@ -692,7 +692,7 @@ struct PersistenceController {
         theandroidinvasion.broadcast = ""
         theandroidinvasion.companions = ""
         theandroidinvasion.director = ""
-        theandroidinvasion.doctor = ""
+        theandroidinvasion.doctor = "4th Doctor\n(Tom Baker)"
         theandroidinvasion.length = ""
         theandroidinvasion.producer = ""
         let thebrainofmorbius = TheBrainOfMorbiusClass(context: viewContext)
@@ -700,7 +700,7 @@ struct PersistenceController {
         thebrainofmorbius.broadcast = ""
         thebrainofmorbius.companions = ""
         thebrainofmorbius.director = ""
-        thebrainofmorbius.doctor = ""
+        thebrainofmorbius.doctor = "4th Doctor\n(Tom Baker)"
         thebrainofmorbius.length = ""
         thebrainofmorbius.producer = ""
         let theseedsofdoom = TheSeedsOfDoomClass(context: viewContext)
@@ -708,7 +708,7 @@ struct PersistenceController {
         theseedsofdoom.broadcast = ""
         theseedsofdoom.companions = ""
         theseedsofdoom.director = ""
-        theseedsofdoom.doctor = ""
+        theseedsofdoom.doctor = "4th Doctor\n(Tom Baker)"
         theseedsofdoom.length = ""
         theseedsofdoom.producer = ""
         //Classic Series 14
@@ -717,7 +717,7 @@ struct PersistenceController {
         themasqueofmandragora.broadcast = ""
         themasqueofmandragora.companions = ""
         themasqueofmandragora.director = ""
-        themasqueofmandragora.doctor = ""
+        themasqueofmandragora.doctor = "4th Doctor\n(Tom Baker)"
         themasqueofmandragora.length = ""
         themasqueofmandragora.producer = ""
         let thehandoffear = TheHandOfFearClass(context: viewContext)
@@ -725,7 +725,7 @@ struct PersistenceController {
         thehandoffear.broadcast = ""
         thehandoffear.companions = ""
         thehandoffear.director = ""
-        thehandoffear.doctor = ""
+        thehandoffear.doctor = "4th Doctor\n(Tom Baker)"
         thehandoffear.length = ""
         thehandoffear.producer = ""
         let thedeadlyassassin = TheDeadlyAssassinClass(context: viewContext)
@@ -733,7 +733,7 @@ struct PersistenceController {
         thedeadlyassassin.broadcast = ""
         thedeadlyassassin.companions = ""
         thedeadlyassassin.director = ""
-        thedeadlyassassin.doctor = ""
+        thedeadlyassassin.doctor = "4th Doctor\n(Tom Baker)"
         thedeadlyassassin.length = ""
         thedeadlyassassin.producer = ""
         let thefaceofevil = TheFaceOfEvilClass(context: viewContext)
@@ -741,7 +741,7 @@ struct PersistenceController {
         thefaceofevil.broadcast = ""
         thefaceofevil.companions = ""
         thefaceofevil.director = ""
-        thefaceofevil.doctor = ""
+        thefaceofevil.doctor = "4th Doctor\n(Tom Baker)"
         thefaceofevil.length = ""
         thefaceofevil.producer = ""
         let therobotsofdeath = TheRobotsOfDeathClass(context: viewContext)
@@ -749,7 +749,7 @@ struct PersistenceController {
         therobotsofdeath.broadcast = ""
         therobotsofdeath.companions = ""
         therobotsofdeath.director = ""
-        therobotsofdeath.doctor = ""
+        therobotsofdeath.doctor = "4th Doctor\n(Tom Baker)"
         therobotsofdeath.length = ""
         therobotsofdeath.producer = ""
         let thetalonsofwengchiang = TheTalonsOfWengChiangClass(context: viewContext)
@@ -757,7 +757,7 @@ struct PersistenceController {
         therobotsofdeath.broadcast = ""
         therobotsofdeath.companions = ""
         therobotsofdeath.director = ""
-        therobotsofdeath.doctor = ""
+        therobotsofdeath.doctor = "4th Doctor\n(Tom Baker)"
         therobotsofdeath.length = ""
         therobotsofdeath.producer = ""
         //Classic Series 15
@@ -766,7 +766,7 @@ struct PersistenceController {
         horroroffangrock.broadcast = ""
         horroroffangrock.companions = ""
         horroroffangrock.director = ""
-        horroroffangrock.doctor = ""
+        horroroffangrock.doctor = "4th Doctor\n(Tom Baker)"
         horroroffangrock.length = ""
         horroroffangrock.producer = ""
         let theinvisibleenemy = TheInvisibleEnemyClass(context: viewContext)
@@ -774,7 +774,7 @@ struct PersistenceController {
         theinvisibleenemy.broadcast = ""
         theinvisibleenemy.companions = ""
         theinvisibleenemy.director = ""
-        theinvisibleenemy.doctor = ""
+        theinvisibleenemy.doctor = "4th Doctor\n(Tom Baker)"
         theinvisibleenemy.length = ""
         theinvisibleenemy.producer = ""
         let imageofthefendahl = ImageOfTheFendahlClass(context: viewContext)
@@ -782,7 +782,7 @@ struct PersistenceController {
         imageofthefendahl.broadcast = ""
         imageofthefendahl.companions = ""
         imageofthefendahl.director = ""
-        imageofthefendahl.doctor = ""
+        imageofthefendahl.doctor = "4th Doctor\n(Tom Baker)"
         imageofthefendahl.length = ""
         imageofthefendahl.producer = ""
         let thesunmakers = TheSunMakersClass(context: viewContext)
@@ -790,7 +790,7 @@ struct PersistenceController {
         thesunmakers.broadcast = ""
         thesunmakers.companions = ""
         thesunmakers.director = ""
-        thesunmakers.doctor = ""
+        thesunmakers.doctor = "4th Doctor\n(Tom Baker)"
         thesunmakers.length = ""
         thesunmakers.producer = ""
         let underworld = UnderworldClass(context: viewContext)
@@ -798,7 +798,7 @@ struct PersistenceController {
         underworld.broadcast = ""
         underworld.companions = ""
         underworld.director = ""
-        underworld.doctor = ""
+        underworld.doctor = "4th Doctor\n(Tom Baker)"
         underworld.length = ""
         underworld.producer = ""
         let theinvasionoftime = TheInvasionOfTimeClass(context: viewContext)
@@ -806,7 +806,7 @@ struct PersistenceController {
         theinvasionoftime.broadcast = ""
         theinvasionoftime.companions = ""
         theinvasionoftime.director = ""
-        theinvasionoftime.doctor = ""
+        theinvasionoftime.doctor = "4th Doctor\n(Tom Baker)"
         theinvasionoftime.length = ""
         theinvasionoftime.producer = ""
         //Classic Series 16
@@ -815,7 +815,7 @@ struct PersistenceController {
         theribosoperation.broadcast = ""
         theribosoperation.companions = ""
         theribosoperation.director = ""
-        theribosoperation.doctor = ""
+        theribosoperation.doctor = "4th Doctor\n(Tom Baker)"
         theribosoperation.length = ""
         theribosoperation.producer = ""
         let thepirateplanet = ThePiratePlanetClass(context: viewContext)
@@ -823,7 +823,7 @@ struct PersistenceController {
         thepirateplanet.broadcast = ""
         thepirateplanet.companions = ""
         thepirateplanet.director = ""
-        thepirateplanet.doctor = ""
+        thepirateplanet.doctor = "4th Doctor\n(Tom Baker)"
         thepirateplanet.length = ""
         thepirateplanet.producer = ""
         let thestonesofblood = TheStonesOfBloodClass(context: viewContext)
@@ -831,7 +831,7 @@ struct PersistenceController {
         thestonesofblood.broadcast = ""
         thestonesofblood.companions = ""
         thestonesofblood.director = ""
-        thestonesofblood.doctor = ""
+        thestonesofblood.doctor = "4th Doctor\n(Tom Baker)"
         thestonesofblood.length = ""
         thestonesofblood.producer = ""
         let theandroidsoftara = TheAndroidsOfTaraClass(context: viewContext)
@@ -839,7 +839,7 @@ struct PersistenceController {
         theandroidsoftara.broadcast = ""
         theandroidsoftara.companions = ""
         theandroidsoftara.director = ""
-        theandroidsoftara.doctor = ""
+        theandroidsoftara.doctor = "4th Doctor\n(Tom Baker)"
         theandroidsoftara.length = ""
         theandroidsoftara.producer = ""
         let thepowerofkroll = ThePowerOfKrollClass(context: viewContext)
@@ -847,7 +847,7 @@ struct PersistenceController {
         thepowerofkroll.broadcast = ""
         thepowerofkroll.companions = ""
         thepowerofkroll.director = ""
-        thepowerofkroll.doctor = ""
+        thepowerofkroll.doctor = "4th Doctor\n(Tom Baker)"
         thepowerofkroll.length = ""
         thepowerofkroll.producer = ""
         let thearmageddonfactor = TheArmageddonFactorClass(context: viewContext)
@@ -855,7 +855,7 @@ struct PersistenceController {
         thearmageddonfactor.broadcast = ""
         thearmageddonfactor.companions = ""
         thearmageddonfactor.director = ""
-        thearmageddonfactor.doctor = ""
+        thearmageddonfactor.doctor = "4th Doctor\n(Tom Baker)"
         thearmageddonfactor.length = ""
         thearmageddonfactor.producer = ""
         //Classic Series 17
@@ -864,7 +864,7 @@ struct PersistenceController {
         destinyofthedaleks.broadcast = ""
         destinyofthedaleks.companions = ""
         destinyofthedaleks.director = ""
-        destinyofthedaleks.doctor = ""
+        destinyofthedaleks.doctor = "4th Doctor\n(Tom Baker)"
         destinyofthedaleks.length = ""
         destinyofthedaleks.producer = ""
         let cityofdeath = CityOfDeathClass(context: viewContext)
@@ -872,7 +872,7 @@ struct PersistenceController {
         cityofdeath.broadcast = ""
         cityofdeath.companions = ""
         cityofdeath.director = ""
-        cityofdeath.doctor = ""
+        cityofdeath.doctor = "4th Doctor\n(Tom Baker)"
         cityofdeath.length = ""
         cityofdeath.producer = ""
         let thecreaturefromthepit = TheCreatureFromThePitClass(context: viewContext)
@@ -880,7 +880,7 @@ struct PersistenceController {
         thecreaturefromthepit.broadcast = ""
         thecreaturefromthepit.companions = ""
         thecreaturefromthepit.director = ""
-        thecreaturefromthepit.doctor = ""
+        thecreaturefromthepit.doctor = "4th Doctor\n(Tom Baker)"
         thecreaturefromthepit.length = ""
         thecreaturefromthepit.producer = ""
         let nightmareofeden = NightmareOfEdenClass(context: viewContext)
@@ -888,7 +888,7 @@ struct PersistenceController {
         nightmareofeden.broadcast = ""
         nightmareofeden.companions = ""
         nightmareofeden.director = ""
-        nightmareofeden.doctor = ""
+        nightmareofeden.doctor = "4th Doctor\n(Tom Baker)"
         nightmareofeden.length = ""
         nightmareofeden.producer = ""
         let thehornsofnimon = TheHornsOfNimonClass(context: viewContext)
@@ -896,7 +896,7 @@ struct PersistenceController {
         thehornsofnimon.broadcast = ""
         thehornsofnimon.companions = ""
         thehornsofnimon.director = ""
-        thehornsofnimon.doctor = ""
+        thehornsofnimon.doctor = "4th Doctor\n(Tom Baker)"
         thehornsofnimon.length = ""
         thehornsofnimon.producer = ""
         let shada = ShadaClass(context: viewContext)
@@ -904,7 +904,7 @@ struct PersistenceController {
         shada.broadcast = ""
         shada.companions = ""
         shada.director = ""
-        shada.doctor = ""
+        shada.doctor = "4th Doctor\n(Tom Baker)"
         shada.length = ""
         shada.producer = ""
         //Classic Series 18
@@ -913,7 +913,7 @@ struct PersistenceController {
         theleisurehive.broadcast = ""
         theleisurehive.companions = ""
         theleisurehive.director = ""
-        theleisurehive.doctor = ""
+        theleisurehive.doctor = "4th Doctor\n(Tom Baker)"
         theleisurehive.length = ""
         theleisurehive.producer = ""
         let meglos = MeglosClass(context: viewContext)
@@ -921,7 +921,7 @@ struct PersistenceController {
         meglos.broadcast = ""
         meglos.companions = ""
         meglos.director = ""
-        meglos.doctor = ""
+        meglos.doctor = "4th Doctor\n(Tom Baker)"
         meglos.length = ""
         meglos.producer = ""
         let fullcircle = FullCircleClass(context: viewContext)
@@ -929,7 +929,7 @@ struct PersistenceController {
         fullcircle.broadcast = ""
         fullcircle.companions = ""
         fullcircle.director = ""
-        fullcircle.doctor = ""
+        fullcircle.doctor = "4th Doctor\n(Tom Baker)"
         fullcircle.length = ""
         fullcircle.producer = ""
         let stateofdecay = StateOfDecayClass(context: viewContext)
@@ -937,7 +937,7 @@ struct PersistenceController {
         stateofdecay.broadcast = ""
         stateofdecay.companions = ""
         stateofdecay.director = ""
-        stateofdecay.doctor = ""
+        stateofdecay.doctor = "4th Doctor\n(Tom Baker)"
         stateofdecay.length = ""
         stateofdecay.producer = ""
         let warriorsgate = WarriorsGateClass(context: viewContext)
@@ -945,7 +945,7 @@ struct PersistenceController {
         warriorsgate.broadcast = ""
         warriorsgate.companions = ""
         warriorsgate.director = ""
-        warriorsgate.doctor = ""
+        warriorsgate.doctor = "4th Doctor\n(Tom Baker)"
         warriorsgate.length = ""
         warriorsgate.producer = ""
         let thekeeperoftraken = TheKeeperOfTrakenClass(context: viewContext)
@@ -953,7 +953,7 @@ struct PersistenceController {
         thekeeperoftraken.broadcast = ""
         thekeeperoftraken.companions = ""
         thekeeperoftraken.director = ""
-        thekeeperoftraken.doctor = ""
+        thekeeperoftraken.doctor = "4th Doctor\n(Tom Baker)"
         thekeeperoftraken.length = ""
         thekeeperoftraken.producer = ""
         let logopolis = LogopolisClass(context: viewContext)
@@ -961,7 +961,7 @@ struct PersistenceController {
         logopolis.broadcast = ""
         logopolis.companions = ""
         logopolis.director = ""
-        logopolis.doctor = ""
+        logopolis.doctor = "4th Doctor\n(Tom Baker)"
         logopolis.length = ""
         logopolis.producer = ""
         //Classic Series 19
@@ -970,7 +970,7 @@ struct PersistenceController {
         castrovalva.broadcast = ""
         castrovalva.companions = ""
         castrovalva.director = ""
-        castrovalva.doctor = ""
+        castrovalva.doctor = "5th Doctor\n(Peter Davison)"
         castrovalva.length = ""
         castrovalva.producer = ""
         let fourtodoomsday = FourToDoomsdayClass(context: viewContext)
@@ -978,7 +978,7 @@ struct PersistenceController {
         fourtodoomsday.broadcast = ""
         fourtodoomsday.companions = ""
         fourtodoomsday.director = ""
-        fourtodoomsday.doctor = ""
+        fourtodoomsday.doctor = "5th Doctor\n(Peter Davison)"
         fourtodoomsday.length = ""
         fourtodoomsday.producer = ""
         let kinda = KindaClass(context: viewContext)
@@ -986,7 +986,7 @@ struct PersistenceController {
         kinda.broadcast = ""
         kinda.companions = ""
         kinda.director = ""
-        kinda.doctor = ""
+        kinda.doctor = "5th Doctor\n(Peter Davison)"
         kinda.length = ""
         kinda.producer = ""
         let thevisitation = TheVisitationClass(context: viewContext)
@@ -994,7 +994,7 @@ struct PersistenceController {
         thevisitation.broadcast = ""
         thevisitation.companions = ""
         thevisitation.director = ""
-        thevisitation.doctor = ""
+        thevisitation.doctor = "5th Doctor\n(Peter Davison)"
         thevisitation.length = ""
         thevisitation.producer = ""
         let blackorchid = BlackOrchidClass(context: viewContext)
@@ -1002,7 +1002,7 @@ struct PersistenceController {
         blackorchid.broadcast = ""
         blackorchid.companions = ""
         blackorchid.director = ""
-        blackorchid.doctor = ""
+        blackorchid.doctor = "5th Doctor\n(Peter Davison)"
         blackorchid.length = ""
         blackorchid.producer = ""
         let earthshock = EarthshockClass(context: viewContext)
@@ -1010,7 +1010,7 @@ struct PersistenceController {
         earthshock.broadcast = ""
         earthshock.companions = ""
         earthshock.director = ""
-        earthshock.doctor = ""
+        earthshock.doctor = "5th Doctor\n(Peter Davison)"
         earthshock.length = ""
         earthshock.producer = ""
         let timeflight = TimeFlightClass(context: viewContext)
@@ -1018,7 +1018,7 @@ struct PersistenceController {
         timeflight.broadcast = ""
         timeflight.companions = ""
         timeflight.director = ""
-        timeflight.doctor = ""
+        timeflight.doctor = "5th Doctor\n(Peter Davison)"
         timeflight.length = ""
         timeflight.producer = ""
         //Classic Series 20
@@ -1027,7 +1027,7 @@ struct PersistenceController {
         arcofinfinity.broadcast = ""
         arcofinfinity.companions = ""
         arcofinfinity.director = ""
-        arcofinfinity.doctor = ""
+        arcofinfinity.doctor = "5th Doctor\n(Peter Davison)"
         arcofinfinity.length = ""
         arcofinfinity.producer = ""
         let snakedance = SnakedanceClass(context: viewContext)
@@ -1035,7 +1035,7 @@ struct PersistenceController {
         snakedance.broadcast = ""
         snakedance.companions = ""
         snakedance.director = ""
-        snakedance.doctor = ""
+        snakedance.doctor = "5th Doctor\n(Peter Davison)"
         snakedance.length = ""
         snakedance.producer = ""
         let mawdrynundead = MawdrynUndeadClass(context: viewContext)
@@ -1043,7 +1043,7 @@ struct PersistenceController {
         mawdrynundead.broadcast = ""
         mawdrynundead.companions = ""
         mawdrynundead.director = ""
-        mawdrynundead.doctor = ""
+        mawdrynundead.doctor = "5th Doctor\n(Peter Davison)"
         mawdrynundead.length = ""
         mawdrynundead.producer = ""
         let terminus = TerminusClass(context: viewContext)
@@ -1051,7 +1051,7 @@ struct PersistenceController {
         terminus.broadcast = ""
         terminus.companions = ""
         terminus.director = ""
-        terminus.doctor = ""
+        terminus.doctor = "5th Doctor\n(Peter Davison)"
         terminus.length = ""
         terminus.producer = ""
         let enlightenment = EnlightenmentClass(context: viewContext)
@@ -1059,7 +1059,7 @@ struct PersistenceController {
         enlightenment.broadcast = ""
         enlightenment.companions = ""
         enlightenment.director = ""
-        enlightenment.doctor = ""
+        enlightenment.doctor = "5th Doctor\n(Peter Davison)"
         enlightenment.length = ""
         enlightenment.producer = ""
         let thekingsdemons = TheKingsDemonsClass(context: viewContext)
@@ -1067,7 +1067,7 @@ struct PersistenceController {
         thekingsdemons.broadcast = ""
         thekingsdemons.companions = ""
         thekingsdemons.director = ""
-        thekingsdemons.doctor = ""
+        thekingsdemons.doctor = "5th Doctor\n(Peter Davison)"
         thekingsdemons.length = ""
         thekingsdemons.producer = ""
         let thefivedoctors = TheFiveDoctorsClass(context: viewContext)
@@ -1075,7 +1075,7 @@ struct PersistenceController {
         thefivedoctors.broadcast = ""
         thefivedoctors.companions = ""
         thefivedoctors.director = ""
-        thefivedoctors.doctor = ""
+        thefivedoctors.doctor = "5th Doctor\n(Peter Davison)"
         thefivedoctors.length = ""
         thefivedoctors.producer = ""
         //Classic Series 21
@@ -1084,7 +1084,7 @@ struct PersistenceController {
         warriorsofthedeep.broadcast = ""
         warriorsofthedeep.companions = ""
         warriorsofthedeep.director = ""
-        warriorsofthedeep.doctor = ""
+        warriorsofthedeep.doctor = "5th Doctor\n(Peter Davison)"
         warriorsofthedeep.length = ""
         warriorsofthedeep.producer = ""
         let theawakening = TheAwakeningClass(context: viewContext)
@@ -1092,7 +1092,7 @@ struct PersistenceController {
         theawakening.broadcast = ""
         theawakening.companions = ""
         theawakening.director = ""
-        theawakening.doctor = ""
+        theawakening.doctor = "5th Doctor\n(Peter Davison)"
         theawakening.length = ""
         theawakening.producer = ""
         let frontios = FrontiosClass(context: viewContext)
@@ -1100,7 +1100,7 @@ struct PersistenceController {
         frontios.broadcast = ""
         frontios.companions = ""
         frontios.director = ""
-        frontios.doctor = ""
+        frontios.doctor = "5th Doctor\n(Peter Davison)"
         frontios.length = ""
         frontios.producer = ""
         let resurrectionofthedaleks = ResurrectionOfTheDaleksClass(context: viewContext)
@@ -1108,7 +1108,7 @@ struct PersistenceController {
         resurrectionofthedaleks.broadcast = ""
         resurrectionofthedaleks.companions = ""
         resurrectionofthedaleks.director = ""
-        resurrectionofthedaleks.doctor = ""
+        resurrectionofthedaleks.doctor = "5th Doctor\n(Peter Davison)"
         resurrectionofthedaleks.length = ""
         resurrectionofthedaleks.producer = ""
         let planetoffire = PlanetOfFireClass(context: viewContext)
@@ -1116,7 +1116,7 @@ struct PersistenceController {
         planetoffire.broadcast = ""
         planetoffire.companions = ""
         planetoffire.director = ""
-        planetoffire.doctor = ""
+        planetoffire.doctor = "5th Doctor\n(Peter Davison)"
         planetoffire.length = ""
         planetoffire.producer = ""
         let thecavesofandrozani = TheCavesOfAndrozaniClass(context: viewContext)
@@ -1124,7 +1124,7 @@ struct PersistenceController {
         thecavesofandrozani.broadcast = ""
         thecavesofandrozani.companions = ""
         thecavesofandrozani.director = ""
-        thecavesofandrozani.doctor = ""
+        thecavesofandrozani.doctor = "5th Doctor\n(Peter Davison)"
         thecavesofandrozani.length = ""
         thecavesofandrozani.producer = ""
         let thetwindilemma = TheTwinDilemmaClass(context: viewContext)
@@ -1132,7 +1132,7 @@ struct PersistenceController {
         thetwindilemma.broadcast = ""
         thetwindilemma.companions = ""
         thetwindilemma.director = ""
-        thetwindilemma.doctor = ""
+        thetwindilemma.doctor = "6th Doctor\n(Colin Baker)"
         thetwindilemma.length = ""
         thetwindilemma.producer = ""
         //Classic Series 22
@@ -1141,7 +1141,7 @@ struct PersistenceController {
         attackofthecybermen.broadcast = ""
         attackofthecybermen.companions = ""
         attackofthecybermen.director = ""
-        attackofthecybermen.doctor = ""
+        attackofthecybermen.doctor = "6th Doctor\n(Colin Baker)"
         attackofthecybermen.length = ""
         attackofthecybermen.producer = ""
         let vengeanceonvaros = VengeanceOnVarosClass(context: viewContext)
@@ -1149,7 +1149,7 @@ struct PersistenceController {
         vengeanceonvaros.broadcast = ""
         vengeanceonvaros.companions = ""
         vengeanceonvaros.director = ""
-        vengeanceonvaros.doctor = ""
+        vengeanceonvaros.doctor = "6th Doctor\n(Colin Baker)"
         vengeanceonvaros.length = ""
         vengeanceonvaros.producer = ""
         let themarkoftherani = TheMarkOfTheRaniClass(context: viewContext)
@@ -1157,7 +1157,7 @@ struct PersistenceController {
         themarkoftherani.broadcast = ""
         themarkoftherani.companions = ""
         themarkoftherani.director = ""
-        themarkoftherani.doctor = ""
+        themarkoftherani.doctor = "6th Doctor\n(Colin Baker)"
         themarkoftherani.length = ""
         themarkoftherani.producer = ""
         let thetwodoctors = TheTwoDoctorsClass(context: viewContext)
@@ -1165,7 +1165,7 @@ struct PersistenceController {
         thetwodoctors.broadcast = ""
         thetwodoctors.companions = ""
         thetwodoctors.director = ""
-        thetwodoctors.doctor = ""
+        thetwodoctors.doctor = "6th Doctor\n(Colin Baker)"
         thetwodoctors.length = ""
         thetwodoctors.producer = ""
         let timelash = TimelashClass(context: viewContext)
@@ -1173,7 +1173,7 @@ struct PersistenceController {
         timelash.broadcast = ""
         timelash.companions = ""
         timelash.director = ""
-        timelash.doctor = ""
+        timelash.doctor = "6th Doctor\n(Colin Baker)"
         timelash.length = ""
         timelash.producer = ""
         let revelationofthedaleks = RevelationOfTheDaleksClass(context: viewContext)
@@ -1181,7 +1181,7 @@ struct PersistenceController {
         revelationofthedaleks.broadcast = ""
         revelationofthedaleks.companions = ""
         revelationofthedaleks.director = ""
-        revelationofthedaleks.doctor = ""
+        revelationofthedaleks.doctor = "6th Doctor\n(Colin Baker)"
         revelationofthedaleks.length = ""
         revelationofthedaleks.producer = ""
         //Classic Series 23
@@ -1190,7 +1190,7 @@ struct PersistenceController {
         themysteriousplanet.broadcast = ""
         themysteriousplanet.companions = ""
         themysteriousplanet.director = ""
-        themysteriousplanet.doctor = ""
+        themysteriousplanet.doctor = "6th Doctor\n(Colin Baker)"
         themysteriousplanet.length = ""
         themysteriousplanet.producer = ""
         let mindwarp = MindwarpClass(context: viewContext)
@@ -1198,7 +1198,7 @@ struct PersistenceController {
         mindwarp.broadcast = ""
         mindwarp.companions = ""
         mindwarp.director = ""
-        mindwarp.doctor = ""
+        mindwarp.doctor = "6th Doctor\n(Colin Baker)"
         mindwarp.length = ""
         mindwarp.producer = ""
         let terrorofthevervoids = TerrorOfTheVervoidsClass(context: viewContext)
@@ -1206,7 +1206,7 @@ struct PersistenceController {
         terrorofthevervoids.broadcast = ""
         terrorofthevervoids.companions = ""
         terrorofthevervoids.director = ""
-        terrorofthevervoids.doctor = ""
+        terrorofthevervoids.doctor = "6th Doctor\n(Colin Baker)"
         terrorofthevervoids.length = ""
         terrorofthevervoids.producer = ""
         let theultimatefoe = TheUltimateFoeClass(context: viewContext)
@@ -1214,7 +1214,7 @@ struct PersistenceController {
         theultimatefoe.broadcast = ""
         theultimatefoe.companions = ""
         theultimatefoe.director = ""
-        theultimatefoe.doctor = ""
+        theultimatefoe.doctor = "6th Doctor\n(Colin Baker)"
         theultimatefoe.length = ""
         theultimatefoe.producer = ""
         //Classic Series 24
@@ -1223,7 +1223,7 @@ struct PersistenceController {
         timeandtherani.broadcast = ""
         timeandtherani.companions = ""
         timeandtherani.director = ""
-        timeandtherani.doctor = ""
+        timeandtherani.doctor = "7th Doctor\n(Sylvester McCoy)"
         timeandtherani.length = ""
         timeandtherani.producer = ""
         let paradisetowers = ParadiseTowersClass(context: viewContext)
@@ -1231,7 +1231,7 @@ struct PersistenceController {
         paradisetowers.broadcast = ""
         paradisetowers.companions = ""
         paradisetowers.director = ""
-        paradisetowers.doctor = ""
+        paradisetowers.doctor = "7th Doctor\n(Sylvester McCoy)"
         paradisetowers.length = ""
         paradisetowers.producer = ""
         let deltaandthebannermen = DeltaAndTheBannermenClass(context: viewContext)
@@ -1239,7 +1239,7 @@ struct PersistenceController {
         deltaandthebannermen.broadcast = ""
         deltaandthebannermen.companions = ""
         deltaandthebannermen.director = ""
-        deltaandthebannermen.doctor = ""
+        deltaandthebannermen.doctor = "7th Doctor\n(Sylvester McCoy)"
         deltaandthebannermen.length = ""
         deltaandthebannermen.producer = ""
         let dragonfire = DragonfireClass(context: viewContext)
@@ -1247,7 +1247,7 @@ struct PersistenceController {
         dragonfire.broadcast = ""
         dragonfire.companions = ""
         dragonfire.director = ""
-        dragonfire.doctor = ""
+        dragonfire.doctor = "7th Doctor\n(Sylvester McCoy)"
         dragonfire.length = ""
         dragonfire.producer = ""
         //Classic Series 25
@@ -1256,7 +1256,7 @@ struct PersistenceController {
         remembranceofthedaleks.broadcast = ""
         remembranceofthedaleks.companions = ""
         remembranceofthedaleks.director = ""
-        remembranceofthedaleks.doctor = ""
+        remembranceofthedaleks.doctor = "7th Doctor\n(Sylvester McCoy)"
         remembranceofthedaleks.length = ""
         remembranceofthedaleks.producer = ""
         let thehappinesspatrol = TheHappinessPatrolClass(context: viewContext)
@@ -1264,7 +1264,7 @@ struct PersistenceController {
         thehappinesspatrol.broadcast = ""
         thehappinesspatrol.companions = ""
         thehappinesspatrol.director = ""
-        thehappinesspatrol.doctor = ""
+        thehappinesspatrol.doctor = "7th Doctor\n(Sylvester McCoy)"
         thehappinesspatrol.length = ""
         thehappinesspatrol.producer = ""
         let silvernemesis = SilverNemesisClass(context: viewContext)
@@ -1272,7 +1272,7 @@ struct PersistenceController {
         silvernemesis.broadcast = ""
         silvernemesis.companions = ""
         silvernemesis.director = ""
-        silvernemesis.doctor = ""
+        silvernemesis.doctor = "7th Doctor\n(Sylvester McCoy)"
         silvernemesis.length = ""
         silvernemesis.producer = ""
         let thegreatestshowinthegalaxy = TheGreatestShowInTheGalaxyClass(context: viewContext)
@@ -1280,7 +1280,7 @@ struct PersistenceController {
         thegreatestshowinthegalaxy.broadcast = ""
         thegreatestshowinthegalaxy.companions = ""
         thegreatestshowinthegalaxy.director = ""
-        thegreatestshowinthegalaxy.doctor = ""
+        thegreatestshowinthegalaxy.doctor = "7th Doctor\n(Sylvester McCoy)"
         thegreatestshowinthegalaxy.length = ""
         thegreatestshowinthegalaxy.producer = ""
         //Classic Series 26
@@ -1289,7 +1289,7 @@ struct PersistenceController {
         battlefield.broadcast = ""
         battlefield.companions = ""
         battlefield.director = ""
-        battlefield.doctor = ""
+        battlefield.doctor = "7th Doctor\n(Sylvester McCoy)"
         battlefield.length = ""
         battlefield.producer = ""
         let ghostlight = GhostLightClass(context: viewContext)
@@ -1297,7 +1297,7 @@ struct PersistenceController {
         ghostlight.broadcast = ""
         ghostlight.companions = ""
         ghostlight.director = ""
-        ghostlight.doctor = ""
+        ghostlight.doctor = "7th Doctor\n(Sylvester McCoy)"
         ghostlight.length = ""
         ghostlight.producer = ""
         let thecurseoffenric = TheCurseOfFenricClass(context: viewContext)
@@ -1305,7 +1305,7 @@ struct PersistenceController {
         thecurseoffenric.broadcast = ""
         thecurseoffenric.companions = ""
         thecurseoffenric.director = ""
-        thecurseoffenric.doctor = ""
+        thecurseoffenric.doctor = "7th Doctor\n(Sylvester McCoy)"
         thecurseoffenric.length = ""
         thecurseoffenric.producer = ""
         let survival = SurvivalClass(context: viewContext)
@@ -1313,7 +1313,7 @@ struct PersistenceController {
         survival.broadcast = ""
         survival.companions = ""
         survival.director = ""
-        survival.doctor = ""
+        survival.doctor = "7th Doctor\n(Sylvester McCoy)"
         survival.length = ""
         survival.producer = ""
         let tvmovie = TVMovieClass(context: viewContext)
@@ -1321,7 +1321,7 @@ struct PersistenceController {
         tvmovie.broadcast = ""
         tvmovie.companions = ""
         tvmovie.director = ""
-        tvmovie.doctor = ""
+        tvmovie.doctor = "8th Doctor\n(Paul McGann)"
         tvmovie.length = ""
         tvmovie.producer = ""
         //New Series 1
@@ -1330,7 +1330,7 @@ struct PersistenceController {
         rose.broadcast = ""
         rose.companions = ""
         rose.director = ""
-        rose.doctor = ""
+        rose.doctor = "9th Doctor\n(Christopher Eccleston)"
         rose.length = ""
         rose.producer = ""
         let theednofthworld = TheEndOfTheWorldClass(context: viewContext)
@@ -1338,7 +1338,7 @@ struct PersistenceController {
         theednofthworld.broadcast = ""
         theednofthworld.companions = ""
         theednofthworld.director = ""
-        theednofthworld.doctor = ""
+        theednofthworld.doctor = "9th Doctor\n(Christopher Eccleston)"
         theednofthworld.length = ""
         theednofthworld.producer = ""
         let theunquietdead = TheUnquietDeadClass(context: viewContext)
@@ -1346,7 +1346,7 @@ struct PersistenceController {
         theunquietdead.broadcast = ""
         theunquietdead.companions = ""
         theunquietdead.director = ""
-        theunquietdead.doctor = ""
+        theunquietdead.doctor = "9th Doctor\n(Christopher Eccleston)"
         theunquietdead.length = ""
         theunquietdead.producer = ""
         let aliensoflondon = AliensOfLondonClass(context: viewContext)
@@ -1354,7 +1354,7 @@ struct PersistenceController {
         aliensoflondon.broadcast = ""
         aliensoflondon.companions = ""
         aliensoflondon.director = ""
-        aliensoflondon.doctor = ""
+        aliensoflondon.doctor = "9th Doctor\n(Christopher Eccleston)"
         aliensoflondon.length = ""
         aliensoflondon.producer = ""
         let worldwarthree = WorldWarThreeClass(context: viewContext)
@@ -1362,7 +1362,7 @@ struct PersistenceController {
         worldwarthree.broadcast = ""
         worldwarthree.companions = ""
         worldwarthree.director = ""
-        worldwarthree.doctor = ""
+        worldwarthree.doctor = "9th Doctor\n(Christopher Eccleston)"
         worldwarthree.length = ""
         worldwarthree.producer = ""
         let dalek = DalekClass(context: viewContext)
@@ -1370,7 +1370,7 @@ struct PersistenceController {
         dalek.broadcast = ""
         dalek.companions = ""
         dalek.director = ""
-        dalek.doctor = ""
+        dalek.doctor = "9th Doctor\n(Christopher Eccleston)"
         dalek.length = ""
         dalek.producer = ""
         let thelonggame = TheLongGameClass(context: viewContext)
@@ -1378,7 +1378,7 @@ struct PersistenceController {
         thelonggame.broadcast = ""
         thelonggame.companions = ""
         thelonggame.director = ""
-        thelonggame.doctor = ""
+        thelonggame.doctor = "9th Doctor\n(Christopher Eccleston)"
         thelonggame.length = ""
         thelonggame.producer = ""
         let fathersday = FathersDayClass(context: viewContext)
@@ -1386,7 +1386,7 @@ struct PersistenceController {
         fathersday.broadcast = ""
         fathersday.companions = ""
         fathersday.director = ""
-        fathersday.doctor = ""
+        fathersday.doctor = "9th Doctor\n(Christopher Eccleston)"
         fathersday.length = ""
         fathersday.producer = ""
         let theemptychild = TheEmptyChildClass(context: viewContext)
@@ -1394,7 +1394,7 @@ struct PersistenceController {
         theemptychild.broadcast = ""
         theemptychild.companions = ""
         theemptychild.director = ""
-        theemptychild.doctor = ""
+        theemptychild.doctor = "9th Doctor\n(Christopher Eccleston)"
         theemptychild.length = ""
         theemptychild.producer = ""
         let thedoctordances = TheDoctorDancesClass(context: viewContext)
@@ -1402,7 +1402,7 @@ struct PersistenceController {
         thedoctordances.broadcast = ""
         thedoctordances.companions = ""
         thedoctordances.director = ""
-        thedoctordances.doctor = ""
+        thedoctordances.doctor = "9th Doctor\n(Christopher Eccleston)"
         thedoctordances.length = ""
         thedoctordances.producer = ""
         let boomtown = BoomTownClass(context: viewContext)
@@ -1410,7 +1410,7 @@ struct PersistenceController {
         boomtown.broadcast = ""
         boomtown.companions = ""
         boomtown.director = ""
-        boomtown.doctor = ""
+        boomtown.doctor = "9th Doctor\n(Christopher Eccleston)"
         boomtown.length = ""
         boomtown.producer = ""
         let badwolf = BadWolfClass(context: viewContext)
@@ -1418,7 +1418,7 @@ struct PersistenceController {
         badwolf.broadcast = ""
         badwolf.companions = ""
         badwolf.director = ""
-        badwolf.doctor = ""
+        badwolf.doctor = "9th Doctor\n(Christopher Eccleston)"
         badwolf.length = ""
         badwolf.producer = ""
         //New Series 2
@@ -1427,7 +1427,7 @@ struct PersistenceController {
         thechristmasinvasion.broadcast = ""
         thechristmasinvasion.companions = ""
         thechristmasinvasion.director = ""
-        thechristmasinvasion.doctor = ""
+        thechristmasinvasion.doctor = "10th Doctor\n(David Tennant)"
         thechristmasinvasion.length = ""
         thechristmasinvasion.producer = ""
         let newearth = NewEarthClass(context: viewContext)
@@ -1435,7 +1435,7 @@ struct PersistenceController {
         newearth.broadcast = ""
         newearth.companions = ""
         newearth.director = ""
-        newearth.doctor = ""
+        newearth.doctor = "10th Doctor\n(David Tennant)"
         newearth.length = ""
         newearth.producer = ""
         let toothandclaw = ToothAndClawClass(context: viewContext)
@@ -1443,7 +1443,7 @@ struct PersistenceController {
         toothandclaw.broadcast = ""
         toothandclaw.companions = ""
         toothandclaw.director = ""
-        toothandclaw.doctor = ""
+        toothandclaw.doctor = "10th Doctor\n(David Tennant)"
         toothandclaw.length = ""
         toothandclaw.producer = ""
         let schoolreunion = SchoolReunionClass(context: viewContext)
@@ -1451,7 +1451,7 @@ struct PersistenceController {
         schoolreunion.broadcast = ""
         schoolreunion.companions = ""
         schoolreunion.director = ""
-        schoolreunion.doctor = ""
+        schoolreunion.doctor = "10th Doctor\n(David Tennant)"
         schoolreunion.length = ""
         schoolreunion.producer = ""
         let thegirlinthefireplace = TheGirlInTheFireplaceClass(context: viewContext)
@@ -1459,7 +1459,7 @@ struct PersistenceController {
         thegirlinthefireplace.broadcast = ""
         thegirlinthefireplace.companions = ""
         thegirlinthefireplace.director = ""
-        thegirlinthefireplace.doctor = ""
+        thegirlinthefireplace.doctor = "10th Doctor\n(David Tennant)"
         thegirlinthefireplace.length = ""
         thegirlinthefireplace.producer = ""
         let riseofthecybermen = RiseOfTheCybermenClass(context: viewContext)
@@ -1475,7 +1475,7 @@ struct PersistenceController {
         theageofsteel.broadcast = ""
         theageofsteel.companions = ""
         theageofsteel.director = ""
-        theageofsteel.doctor = ""
+        theageofsteel.doctor = "10th Doctor\n(David Tennant)"
         theageofsteel.length = ""
         theageofsteel.producer = ""
         let theidiotslantern = TheIdiotsLanternClass(context: viewContext)
@@ -1483,7 +1483,7 @@ struct PersistenceController {
         theidiotslantern.broadcast = ""
         theidiotslantern.companions = ""
         theidiotslantern.director = ""
-        theidiotslantern.doctor = ""
+        theidiotslantern.doctor = "10th Doctor\n(David Tennant)"
         theidiotslantern.length = ""
         theidiotslantern.producer = ""
         let theimpossibleplanet = TheImpossiblePlanetClass(context: viewContext)
@@ -1491,7 +1491,7 @@ struct PersistenceController {
         theimpossibleplanet.broadcast = ""
         theimpossibleplanet.companions = ""
         theimpossibleplanet.director = ""
-        theimpossibleplanet.doctor = ""
+        theimpossibleplanet.doctor = "10th Doctor\n(David Tennant)"
         theimpossibleplanet.length = ""
         theimpossibleplanet.producer = ""
         let thesatanpit = TheSatanPitClass(context: viewContext)
@@ -1499,7 +1499,7 @@ struct PersistenceController {
         thesatanpit.broadcast = ""
         thesatanpit.companions = ""
         thesatanpit.director = ""
-        thesatanpit.doctor = ""
+        thesatanpit.doctor = "10th Doctor\n(David Tennant)"
         thesatanpit.length = ""
         thesatanpit.producer = ""
         let loveandmonsters = LoveAndMonstersClass(context: viewContext)
@@ -1507,7 +1507,7 @@ struct PersistenceController {
         loveandmonsters.broadcast = ""
         loveandmonsters.companions = ""
         loveandmonsters.director = ""
-        loveandmonsters.doctor = ""
+        loveandmonsters.doctor = "10th Doctor\n(David Tennant)"
         loveandmonsters.length = ""
         loveandmonsters.producer = ""
         let fearher = FearHerClass(context: viewContext)
@@ -1515,7 +1515,7 @@ struct PersistenceController {
         fearher.broadcast = ""
         fearher.companions = ""
         fearher.director = ""
-        fearher.doctor = ""
+        fearher.doctor = "10th Doctor\n(David Tennant)"
         fearher.length = ""
         fearher.producer = ""
         let armyofghosts = ArmyOfGhostsClass(context: viewContext)
@@ -1523,7 +1523,7 @@ struct PersistenceController {
         armyofghosts.broadcast = ""
         armyofghosts.companions = ""
         armyofghosts.director = ""
-        armyofghosts.doctor = ""
+        armyofghosts.doctor = "10th Doctor\n(David Tennant)"
         armyofghosts.length = ""
         armyofghosts.producer = ""
         let doomsday = DoomsdayClass(context: viewContext)
@@ -1531,7 +1531,7 @@ struct PersistenceController {
         doomsday.broadcast = ""
         doomsday.companions = ""
         doomsday.director = ""
-        doomsday.doctor = ""
+        doomsday.doctor = "10th Doctor\n(David Tennant)"
         doomsday.length = ""
         doomsday.producer = ""
         //New Series 3
@@ -1540,7 +1540,7 @@ struct PersistenceController {
         therunawaybride.broadcast = ""
         therunawaybride.companions = ""
         therunawaybride.director = ""
-        therunawaybride.doctor = ""
+        therunawaybride.doctor = "10th Doctor\n(David Tennant)"
         therunawaybride.length = ""
         therunawaybride.producer = ""
         let smithandjones = SmithAndJonesClass(context: viewContext)
@@ -1548,7 +1548,7 @@ struct PersistenceController {
         smithandjones.broadcast = ""
         smithandjones.companions = ""
         smithandjones.director = ""
-        smithandjones.doctor = ""
+        smithandjones.doctor = "10th Doctor\n(David Tennant)"
         smithandjones.length = ""
         smithandjones.producer = ""
         let gridlock = GridlockClass(context: viewContext)
@@ -1556,7 +1556,7 @@ struct PersistenceController {
         gridlock.broadcast = ""
         gridlock.companions = ""
         gridlock.director = ""
-        gridlock.doctor = ""
+        gridlock.doctor = "10th Doctor\n(David Tennant)"
         gridlock.length = ""
         gridlock.producer = ""
         let daleksinmanhattan = DaleksInManhattanClass(context: viewContext)
@@ -1564,7 +1564,7 @@ struct PersistenceController {
         daleksinmanhattan.broadcast = ""
         daleksinmanhattan.companions = ""
         daleksinmanhattan.director = ""
-        daleksinmanhattan.doctor = ""
+        daleksinmanhattan.doctor = "10th Doctor\n(David Tennant)"
         daleksinmanhattan.length = ""
         daleksinmanhattan.producer = ""
         let evolutionofthedaleks = EvolutionOfTheDaleksClass(context: viewContext)
@@ -1572,7 +1572,7 @@ struct PersistenceController {
         evolutionofthedaleks.broadcast = ""
         evolutionofthedaleks.companions = ""
         evolutionofthedaleks.director = ""
-        evolutionofthedaleks.doctor = ""
+        evolutionofthedaleks.doctor = "10th Doctor\n(David Tennant)"
         evolutionofthedaleks.length = ""
         evolutionofthedaleks.producer = ""
         let thelazarusexperiment = TheLazarusExperimentClass(context: viewContext)
@@ -1580,7 +1580,7 @@ struct PersistenceController {
         thelazarusexperiment.broadcast = ""
         thelazarusexperiment.companions = ""
         thelazarusexperiment.director = ""
-        thelazarusexperiment.doctor = ""
+        thelazarusexperiment.doctor = "10th Doctor\n(David Tennant)"
         thelazarusexperiment.length = ""
         thelazarusexperiment.producer = ""
         let fortytwo = FortyTwoClass(context: viewContext)
@@ -1588,7 +1588,7 @@ struct PersistenceController {
         fortytwo.broadcast = ""
         fortytwo.companions = ""
         fortytwo.director = ""
-        fortytwo.doctor = ""
+        fortytwo.doctor = "10th Doctor\n(David Tennant)"
         fortytwo.length = ""
         fortytwo.producer = ""
         let humannature = HumanNatureClass(context: viewContext)
@@ -1596,7 +1596,7 @@ struct PersistenceController {
         humannature.broadcast = ""
         humannature.companions = ""
         humannature.director = ""
-        humannature.doctor = ""
+        humannature.doctor = "10th Doctor\n(David Tennant)"
         humannature.length = ""
         humannature.producer = ""
         let thefamilyofblood = TheFamilyOfBloodClass(context: viewContext)
@@ -1604,7 +1604,7 @@ struct PersistenceController {
         thefamilyofblood.broadcast = ""
         thefamilyofblood.companions = ""
         thefamilyofblood.director = ""
-        thefamilyofblood.doctor = ""
+        thefamilyofblood.doctor = "10th Doctor\n(David Tennant)"
         thefamilyofblood.length = ""
         thefamilyofblood.producer = ""
         let blink = BlinkClass(context: viewContext)
@@ -1612,7 +1612,7 @@ struct PersistenceController {
         blink.broadcast = ""
         blink.companions = ""
         blink.director = ""
-        blink.doctor = ""
+        blink.doctor = "10th Doctor\n(David Tennant)"
         blink.length = ""
         blink.producer = ""
         let utopia = UtopiaClass(context: viewContext)
@@ -1620,7 +1620,7 @@ struct PersistenceController {
         utopia.broadcast = ""
         utopia.companions = ""
         utopia.director = ""
-        utopia.doctor = ""
+        utopia.doctor = "10th Doctor\n(David Tennant)"
         utopia.length = ""
         utopia.producer = ""
         let thesoundofdrums = TheSoundOfDrumsClass(context: viewContext)
@@ -1628,7 +1628,7 @@ struct PersistenceController {
         thesoundofdrums.broadcast = ""
         thesoundofdrums.companions = ""
         thesoundofdrums.director = ""
-        thesoundofdrums.doctor = ""
+        thesoundofdrums.doctor = "10th Doctor\n(David Tennant)"
         thesoundofdrums.length = ""
         thesoundofdrums.producer = ""
         let lastofthetimelords = LastOfTheTimeLordsClass(context: viewContext)
@@ -1636,7 +1636,7 @@ struct PersistenceController {
         lastofthetimelords.broadcast = ""
         lastofthetimelords.companions = ""
         lastofthetimelords.director = ""
-        lastofthetimelords.doctor = ""
+        lastofthetimelords.doctor = "10th Doctor\n(David Tennant)"
         lastofthetimelords.length = ""
         lastofthetimelords.producer = ""
         //New Series 4
@@ -1645,7 +1645,7 @@ struct PersistenceController {
         voyageofthedamned.broadcast = ""
         voyageofthedamned.companions = ""
         voyageofthedamned.director = ""
-        voyageofthedamned.doctor = ""
+        voyageofthedamned.doctor = "10th Doctor\n(David Tennant)"
         voyageofthedamned.length = ""
         voyageofthedamned.producer = ""
         let partnersincrime = PartnersInCrimeClass(context: viewContext)
@@ -1653,7 +1653,7 @@ struct PersistenceController {
         partnersincrime.broadcast = ""
         partnersincrime.companions = ""
         partnersincrime.director = ""
-        partnersincrime.doctor = ""
+        partnersincrime.doctor = "10th Doctor\n(David Tennant)"
         partnersincrime.length = ""
         partnersincrime.producer = ""
         let thefiresofpompeii = TheFiresOfPompeiiClass(context: viewContext)
@@ -1661,7 +1661,7 @@ struct PersistenceController {
         thefiresofpompeii.broadcast = ""
         thefiresofpompeii.companions = ""
         thefiresofpompeii.director = ""
-        thefiresofpompeii.doctor = ""
+        thefiresofpompeii.doctor = "10th Doctor\n(David Tennant)"
         thefiresofpompeii.length = ""
         thefiresofpompeii.producer = ""
         let planetoftheood = PlanetOfTheOodClass(context: viewContext)
@@ -1669,7 +1669,7 @@ struct PersistenceController {
         planetoftheood.broadcast = ""
         planetoftheood.companions = ""
         planetoftheood.director = ""
-        planetoftheood.doctor = ""
+        planetoftheood.doctor = "10th Doctor\n(David Tennant)"
         planetoftheood.length = ""
         planetoftheood.producer = ""
         let thesontaranstratagem = TheSontaranStratagemClass(context: viewContext)
@@ -1677,7 +1677,7 @@ struct PersistenceController {
         thesontaranstratagem.broadcast = ""
         thesontaranstratagem.companions = ""
         thesontaranstratagem.director = ""
-        thesontaranstratagem.doctor = ""
+        thesontaranstratagem.doctor = "10th Doctor\n(David Tennant)"
         thesontaranstratagem.length = ""
         thesontaranstratagem.producer = ""
         let thepoisonsky = ThePoisonSkyClass(context: viewContext)
@@ -1685,7 +1685,7 @@ struct PersistenceController {
         thepoisonsky.broadcast = ""
         thepoisonsky.companions = ""
         thepoisonsky.director = ""
-        thepoisonsky.doctor = ""
+        thepoisonsky.doctor = "10th Doctor\n(David Tennant)"
         thepoisonsky.length = ""
         thepoisonsky.producer = ""
         let thedoctorsdaughter = TheDoctorsDaughterClass(context: viewContext)
@@ -1693,7 +1693,7 @@ struct PersistenceController {
         thedoctorsdaughter.broadcast = ""
         thedoctorsdaughter.companions = ""
         thedoctorsdaughter.director = ""
-        thedoctorsdaughter.doctor = ""
+        thedoctorsdaughter.doctor = "10th Doctor\n(David Tennant)"
         thedoctorsdaughter.length = ""
         thedoctorsdaughter.producer = ""
         let theunicornandthewasp = TheUnicornAndTheWaspClass(context: viewContext)
@@ -1701,7 +1701,7 @@ struct PersistenceController {
         theunicornandthewasp.broadcast = ""
         theunicornandthewasp.companions = ""
         theunicornandthewasp.director = ""
-        theunicornandthewasp.doctor = ""
+        theunicornandthewasp.doctor = "10th Doctor\n(David Tennant)"
         theunicornandthewasp.length = ""
         theunicornandthewasp.producer = ""
         let silenceinthelibrary = SilenceInTheLibraryClass(context: viewContext)
@@ -1709,7 +1709,7 @@ struct PersistenceController {
         silenceinthelibrary.broadcast = ""
         silenceinthelibrary.companions = ""
         silenceinthelibrary.director = ""
-        silenceinthelibrary.doctor = ""
+        silenceinthelibrary.doctor = "10th Doctor\n(David Tennant)"
         silenceinthelibrary.length = ""
         silenceinthelibrary.producer = ""
         let forestofthedead = ForestOfTheDeadClass(context: viewContext)
@@ -1717,7 +1717,7 @@ struct PersistenceController {
         forestofthedead.broadcast = ""
         forestofthedead.companions = ""
         forestofthedead.director = ""
-        forestofthedead.doctor = ""
+        forestofthedead.doctor = "10th Doctor\n(David Tennant)"
         forestofthedead.length = ""
         forestofthedead.producer = ""
         let midnight = MidnightClass(context: viewContext)
@@ -1725,7 +1725,7 @@ struct PersistenceController {
         midnight.broadcast = ""
         midnight.companions = ""
         midnight.director = ""
-        midnight.doctor = ""
+        midnight.doctor = "10th Doctor\n(David Tennant)"
         midnight.length = ""
         midnight.producer = ""
         let turnleft = TurnLeftClass(context: viewContext)
@@ -1733,7 +1733,7 @@ struct PersistenceController {
         turnleft.broadcast = ""
         turnleft.companions = ""
         turnleft.director = ""
-        turnleft.doctor = ""
+        turnleft.doctor = "10th Doctor\n(David Tennant)"
         turnleft.length = ""
         turnleft.producer = ""
         let thestolenearth = TheStolenEarthClass(context: viewContext)
@@ -1741,7 +1741,7 @@ struct PersistenceController {
         thestolenearth.broadcast = ""
         thestolenearth.companions = ""
         thestolenearth.director = ""
-        thestolenearth.doctor = ""
+        thestolenearth.doctor = "10th Doctor\n(David Tennant)"
         thestolenearth.length = ""
         thestolenearth.producer = ""
         let journeysend = JourneysEndClass(context: viewContext)
@@ -1749,7 +1749,7 @@ struct PersistenceController {
         journeysend.broadcast = ""
         journeysend.companions = ""
         journeysend.director = ""
-        journeysend.doctor = ""
+        journeysend.doctor = "10th Doctor\n(David Tennant)"
         journeysend.length = ""
         journeysend.producer = ""
         let thenextdoctor = TheNextDoctorClass(context: viewContext)
@@ -1757,7 +1757,7 @@ struct PersistenceController {
         thenextdoctor.broadcast = ""
         thenextdoctor.companions = ""
         thenextdoctor.director = ""
-        thenextdoctor.doctor = ""
+        thenextdoctor.doctor = "10th Doctor\n(David Tennant)"
         thenextdoctor.length = ""
         thenextdoctor.producer = ""
         let planetofthedead = PlanetOfTheDeadClass(context: viewContext)
@@ -1765,7 +1765,7 @@ struct PersistenceController {
         planetofthedead.broadcast = ""
         planetofthedead.companions = ""
         planetofthedead.director = ""
-        planetofthedead.doctor = ""
+        planetofthedead.doctor = "10th Doctor\n(David Tennant)"
         planetofthedead.length = ""
         planetofthedead.producer = ""
         let thewatersofmars = TheWatersOfMarsClass(context: viewContext)
@@ -1773,7 +1773,7 @@ struct PersistenceController {
         thewatersofmars.broadcast = ""
         thewatersofmars.companions = ""
         thewatersofmars.director = ""
-        thewatersofmars.doctor = ""
+        thewatersofmars.doctor = "10th Doctor\n(David Tennant)"
         thewatersofmars.length = ""
         thewatersofmars.producer = ""
         let theendoftimepart1 = TheEndOfTimePart1Class(context: viewContext)
@@ -1781,7 +1781,7 @@ struct PersistenceController {
         theendoftimepart1.broadcast = ""
         theendoftimepart1.companions = ""
         theendoftimepart1.director = ""
-        theendoftimepart1.doctor = ""
+        theendoftimepart1.doctor = "10th Doctor\n(David Tennant)"
         theendoftimepart1.length = ""
         theendoftimepart1.producer = ""
         let theendoftimepart2 = TheEndOfTimePart2Class(context: viewContext)
@@ -1789,7 +1789,7 @@ struct PersistenceController {
         theendoftimepart2.broadcast = ""
         theendoftimepart2.companions = ""
         theendoftimepart2.director = ""
-        theendoftimepart2.doctor = ""
+        theendoftimepart2.doctor = "10th Doctor\n(David Tennant)"
         theendoftimepart2.length = ""
         theendoftimepart2.producer = ""
         //New Series 5
@@ -1798,7 +1798,7 @@ struct PersistenceController {
         theeleventhhour.broadcast = ""
         theeleventhhour.companions = ""
         theeleventhhour.director = ""
-        theeleventhhour.doctor = ""
+        theeleventhhour.doctor = "11th Doctor\n(Matt Smith)"
         theeleventhhour.length = ""
         theeleventhhour.producer = ""
         let thebeastbelow = TheBeastBelowClass(context: viewContext)
@@ -1806,7 +1806,7 @@ struct PersistenceController {
         thebeastbelow.broadcast = ""
         thebeastbelow.companions = ""
         thebeastbelow.director = ""
-        thebeastbelow.doctor = ""
+        thebeastbelow.doctor = "11th Doctor\n(Matt Smith)"
         thebeastbelow.length = ""
         thebeastbelow.producer = ""
         let victoryofthedaleks = VictoryOfTheDaleksClass(context: viewContext)
@@ -1814,7 +1814,7 @@ struct PersistenceController {
         victoryofthedaleks.broadcast = ""
         victoryofthedaleks.companions = ""
         victoryofthedaleks.director = ""
-        victoryofthedaleks.doctor = ""
+        victoryofthedaleks.doctor = "11th Doctor\n(Matt Smith)"
         victoryofthedaleks.length = ""
         victoryofthedaleks.producer = ""
         let thetimeofangels = TheTimeOfAngelsClass(context: viewContext)
@@ -1822,7 +1822,7 @@ struct PersistenceController {
         thetimeofangels.broadcast = ""
         thetimeofangels.companions = ""
         thetimeofangels.director = ""
-        thetimeofangels.doctor = ""
+        thetimeofangels.doctor = "11th Doctor\n(Matt Smith)"
         thetimeofangels.length = ""
         thetimeofangels.producer = ""
         let fleshandstone = FleshAndStoneClass(context: viewContext)
@@ -1830,7 +1830,7 @@ struct PersistenceController {
         fleshandstone.broadcast = ""
         fleshandstone.companions = ""
         fleshandstone.director = ""
-        fleshandstone.doctor = ""
+        fleshandstone.doctor = "11th Doctor\n(Matt Smith)"
         fleshandstone.length = ""
         fleshandstone.producer = ""
         let thevampiresofvenice = TheVampiresOfVeniceClass(context: viewContext)
@@ -1838,7 +1838,7 @@ struct PersistenceController {
         thevampiresofvenice.broadcast = ""
         thevampiresofvenice.companions = ""
         thevampiresofvenice.director = ""
-        thevampiresofvenice.doctor = ""
+        thevampiresofvenice.doctor = "11th Doctor\n(Matt Smith)"
         thevampiresofvenice.length = ""
         thevampiresofvenice.producer = ""
         let amyschoice = AmysChoiceClass(context: viewContext)
@@ -1846,7 +1846,7 @@ struct PersistenceController {
         amyschoice.broadcast = ""
         amyschoice.companions = ""
         amyschoice.director = ""
-        amyschoice.doctor = ""
+        amyschoice.doctor = "11th Doctor\n(Matt Smith)"
         amyschoice.length = ""
         amyschoice.producer = ""
         let thehungryearth = TheHungryEarthClass(context: viewContext)
@@ -1854,7 +1854,7 @@ struct PersistenceController {
         thehungryearth.broadcast = ""
         thehungryearth.companions = ""
         thehungryearth.director = ""
-        thehungryearth.doctor = ""
+        thehungryearth.doctor = "11th Doctor\n(Matt Smith)"
         thehungryearth.length = ""
         thehungryearth.producer = ""
         let coldblood = ColdBloodClass(context: viewContext)
@@ -1862,7 +1862,7 @@ struct PersistenceController {
         coldblood.broadcast = ""
         coldblood.companions = ""
         coldblood.director = ""
-        coldblood.doctor = ""
+        coldblood.doctor = "11th Doctor\n(Matt Smith)"
         coldblood.length = ""
         coldblood.producer = ""
         let vincentandthedoctor = VincentAndTheDoctorClass(context: viewContext)
@@ -1870,7 +1870,7 @@ struct PersistenceController {
         vincentandthedoctor.broadcast = ""
         vincentandthedoctor.companions = ""
         vincentandthedoctor.director = ""
-        vincentandthedoctor.doctor = ""
+        vincentandthedoctor.doctor = "11th Doctor\n(Matt Smith)"
         vincentandthedoctor.length = ""
         vincentandthedoctor.producer = ""
         let thelodger = TheLodgerClass(context: viewContext)
@@ -1878,7 +1878,7 @@ struct PersistenceController {
         thelodger.broadcast = ""
         thelodger.companions = ""
         thelodger.director = ""
-        thelodger.doctor = ""
+        thelodger.doctor = "11th Doctor\n(Matt Smith)"
         thelodger.length = ""
         thelodger.producer = ""
         let thepandoricaopens = ThePandoricaOpensClass(context: viewContext)
@@ -1886,7 +1886,7 @@ struct PersistenceController {
         thepandoricaopens.broadcast = ""
         thepandoricaopens.companions = ""
         thepandoricaopens.director = ""
-        thepandoricaopens.doctor = ""
+        thepandoricaopens.doctor = "11th Doctor\n(Matt Smith)"
         thepandoricaopens.length = ""
         thepandoricaopens.producer = ""
         let thebigbang = TheBigBangClass(context: viewContext)
@@ -1894,7 +1894,7 @@ struct PersistenceController {
         thebigbang.broadcast = ""
         thebigbang.companions = ""
         thebigbang.director = ""
-        thebigbang.doctor = ""
+        thebigbang.doctor = "11th Doctor\n(Matt Smith)"
         thebigbang.length = ""
         thebigbang.producer = ""
         //New Series 6
@@ -1903,7 +1903,7 @@ struct PersistenceController {
         achristmascarol.broadcast = ""
         achristmascarol.companions = ""
         achristmascarol.director = ""
-        achristmascarol.doctor = ""
+        achristmascarol.doctor = "11th Doctor\n(Matt Smith)"
         achristmascarol.length = ""
         achristmascarol.producer = ""
         let theimpossibleastronaut = TheImpossibleAstronautClass(context: viewContext)
@@ -1911,7 +1911,7 @@ struct PersistenceController {
         theimpossibleastronaut.broadcast = ""
         theimpossibleastronaut.companions = ""
         theimpossibleastronaut.director = ""
-        theimpossibleastronaut.doctor = ""
+        theimpossibleastronaut.doctor = "11th Doctor\n(Matt Smith)"
         theimpossibleastronaut.length = ""
         theimpossibleastronaut.producer = ""
         let dayofthemoon = DayOfTheMoonClass(context: viewContext)
@@ -1919,7 +1919,7 @@ struct PersistenceController {
         dayofthemoon.broadcast = ""
         dayofthemoon.companions = ""
         dayofthemoon.director = ""
-        dayofthemoon.doctor = ""
+        dayofthemoon.doctor = "11th Doctor\n(Matt Smith)"
         dayofthemoon.length = ""
         dayofthemoon.producer = ""
         let thecurseoftheblackspot = TheCurseOfTheBlackSpoClass(context: viewContext)
@@ -1927,7 +1927,7 @@ struct PersistenceController {
         thecurseoftheblackspot.broadcast = ""
         thecurseoftheblackspot.companions = ""
         thecurseoftheblackspot.director = ""
-        thecurseoftheblackspot.doctor = ""
+        thecurseoftheblackspot.doctor = "11th Doctor\n(Matt Smith)"
         thecurseoftheblackspot.length = ""
         thecurseoftheblackspot.producer = ""
         let thedoctorswife = TheDoctorsWifeClass(context: viewContext)
@@ -1935,7 +1935,7 @@ struct PersistenceController {
         thedoctorswife.broadcast = ""
         thedoctorswife.companions = ""
         thedoctorswife.director = ""
-        thedoctorswife.doctor = ""
+        thedoctorswife.doctor = "11th Doctor\n(Matt Smith)"
         thedoctorswife.length = ""
         thedoctorswife.producer = ""
         let therebelflesh = TheRebelFleshClass(context: viewContext)
@@ -1943,7 +1943,7 @@ struct PersistenceController {
         therebelflesh.broadcast = ""
         therebelflesh.companions = ""
         therebelflesh.director = ""
-        therebelflesh.doctor = ""
+        therebelflesh.doctor = "11th Doctor\n(Matt Smith)"
         therebelflesh.length = ""
         therebelflesh.producer = ""
         let thealmostpeople = TheAlmostPeopleClass(context: viewContext)
@@ -1951,7 +1951,7 @@ struct PersistenceController {
         thealmostpeople.broadcast = ""
         thealmostpeople.companions = ""
         thealmostpeople.director = ""
-        thealmostpeople.doctor = ""
+        thealmostpeople.doctor = "11th Doctor\n(Matt Smith)"
         thealmostpeople.length = ""
         thealmostpeople.producer = ""
         let agoodmangoestowar = AGoodManGoesToWarClass(context: viewContext)
@@ -1959,7 +1959,7 @@ struct PersistenceController {
         agoodmangoestowar.broadcast = ""
         agoodmangoestowar.companions = ""
         agoodmangoestowar.director = ""
-        agoodmangoestowar.doctor = ""
+        agoodmangoestowar.doctor = "11th Doctor\n(Matt Smith)"
         agoodmangoestowar.length = ""
         agoodmangoestowar.producer = ""
         let letskillhitler = LetsKillHitlerClass(context: viewContext)
@@ -1967,7 +1967,7 @@ struct PersistenceController {
         letskillhitler.broadcast = ""
         letskillhitler.companions = ""
         letskillhitler.director = ""
-        letskillhitler.doctor = ""
+        letskillhitler.doctor = "11th Doctor\n(Matt Smith)"
         letskillhitler.length = ""
         letskillhitler.producer = ""
         let nightterrors = NightTerrorsClass(context: viewContext)
@@ -1975,7 +1975,7 @@ struct PersistenceController {
         nightterrors.broadcast = ""
         nightterrors.companions = ""
         nightterrors.director = ""
-        nightterrors.doctor = ""
+        nightterrors.doctor = "11th Doctor\n(Matt Smith)"
         nightterrors.length = ""
         nightterrors.producer = ""
         let thegirlwhowaited = TheGirlWhoWaitedClass(context: viewContext)
@@ -1983,7 +1983,7 @@ struct PersistenceController {
         thegirlwhowaited.broadcast = ""
         thegirlwhowaited.companions = ""
         thegirlwhowaited.director = ""
-        thegirlwhowaited.doctor = ""
+        thegirlwhowaited.doctor = "11th Doctor\n(Matt Smith)"
         thegirlwhowaited.length = ""
         thegirlwhowaited.producer = ""
         let thegodcomplex = TheGodComplexClass(context: viewContext)
@@ -1991,7 +1991,7 @@ struct PersistenceController {
         thegodcomplex.broadcast = ""
         thegodcomplex.companions = ""
         thegodcomplex.director = ""
-        thegodcomplex.doctor = ""
+        thegodcomplex.doctor = "11th Doctor\n(Matt Smith)"
         thegodcomplex.length = ""
         thegodcomplex.producer = ""
         let closingtime = ClosingTimeClass(context: viewContext)
@@ -1999,7 +1999,7 @@ struct PersistenceController {
         closingtime.broadcast = ""
         closingtime.companions = ""
         closingtime.director = ""
-        closingtime.doctor = ""
+        closingtime.doctor = "11th Doctor\n(Matt Smith)"
         closingtime.length = ""
         closingtime.producer = ""
         let theweddingofriversong = TheWeddingOfRiverSongClass(context: viewContext)
@@ -2007,7 +2007,7 @@ struct PersistenceController {
         theweddingofriversong.broadcast = ""
         theweddingofriversong.companions = ""
         theweddingofriversong.director = ""
-        theweddingofriversong.doctor = ""
+        theweddingofriversong.doctor = "11th Doctor\n(Matt Smith)"
         theweddingofriversong.length = ""
         theweddingofriversong.producer = ""
         //New Series 7
@@ -2016,7 +2016,7 @@ struct PersistenceController {
         thedoctorthewidowandthewardrobe.broadcast = ""
         thedoctorthewidowandthewardrobe.companions = ""
         thedoctorthewidowandthewardrobe.director = ""
-        thedoctorthewidowandthewardrobe.doctor = ""
+        thedoctorthewidowandthewardrobe.doctor = "11th Doctor\n(Matt Smith)"
         thedoctorthewidowandthewardrobe.length = ""
         thedoctorthewidowandthewardrobe.producer = ""
         let asylumofthedaleks = AsylumOfTheDaleksClass(context: viewContext)
@@ -2024,7 +2024,7 @@ struct PersistenceController {
         asylumofthedaleks.broadcast = ""
         asylumofthedaleks.companions = ""
         asylumofthedaleks.director = ""
-        asylumofthedaleks.doctor = ""
+        asylumofthedaleks.doctor = "11th Doctor\n(Matt Smith)"
         asylumofthedaleks.length = ""
         asylumofthedaleks.producer = ""
         let dinosaursonaspaceship = DinosaursOnASpaceship(context: viewContext)
@@ -2032,7 +2032,7 @@ struct PersistenceController {
         dinosaursonaspaceship.broadcast = ""
         dinosaursonaspaceship.companions = ""
         dinosaursonaspaceship.director = ""
-        dinosaursonaspaceship.doctor = ""
+        dinosaursonaspaceship.doctor = "11th Doctor\n(Matt Smith)"
         dinosaursonaspaceship.length = ""
         dinosaursonaspaceship.producer = "" 
         let atowncalledmercy = ATownCalledMercyClass(context: viewContext)
@@ -2040,7 +2040,7 @@ struct PersistenceController {
         atowncalledmercy.broadcast = ""
         atowncalledmercy.companions = ""
         atowncalledmercy.director = ""
-        atowncalledmercy.doctor = ""
+        atowncalledmercy.doctor = "11th Doctor\n(Matt Smith)"
         atowncalledmercy.length = ""
         atowncalledmercy.producer = ""
         let thepowerofthree = ThePowerOfThreeClass(context: viewContext)
@@ -2048,7 +2048,7 @@ struct PersistenceController {
         thepowerofthree.broadcast = ""
         thepowerofthree.companions = ""
         thepowerofthree.director = ""
-        thepowerofthree.doctor = ""
+        thepowerofthree.doctor = "11th Doctor\n(Matt Smith)"
         thepowerofthree.length = ""
         thepowerofthree.producer = ""
         let theangelstakemanhattan = TheAngelsTakeManhattanClass(context: viewContext)
@@ -2056,7 +2056,7 @@ struct PersistenceController {
         theangelstakemanhattan.broadcast = ""
         theangelstakemanhattan.companions = ""
         theangelstakemanhattan.director = ""
-        theangelstakemanhattan.doctor = ""
+        theangelstakemanhattan.doctor = "11th Doctor\n(Matt Smith)"
         theangelstakemanhattan.length = ""
         theangelstakemanhattan.producer = ""
         let thesnowmen = TheSnowmenClass(context: viewContext)
@@ -2064,7 +2064,7 @@ struct PersistenceController {
         thesnowmen.broadcast = ""
         thesnowmen.companions = ""
         thesnowmen.director = ""
-        thesnowmen.doctor = ""
+        thesnowmen.doctor = "11th Doctor\n(Matt Smith)"
         thesnowmen.length = ""
         thesnowmen.producer = ""
         let thebellsofsaintjohn = TheBellsOfSaintJohnClass(context: viewContext)
@@ -2072,7 +2072,7 @@ struct PersistenceController {
         thebellsofsaintjohn.broadcast = ""
         thebellsofsaintjohn.companions = ""
         thebellsofsaintjohn.director = ""
-        thebellsofsaintjohn.doctor = ""
+        thebellsofsaintjohn.doctor = "11th Doctor\n(Matt Smith)"
         thebellsofsaintjohn.length = ""
         thebellsofsaintjohn.producer = ""
         let theringsofakhaten = TheRingsOfAkhatenClass(context: viewContext)
@@ -2080,7 +2080,7 @@ struct PersistenceController {
         theringsofakhaten.broadcast = ""
         theringsofakhaten.companions = ""
         theringsofakhaten.director = ""
-        theringsofakhaten.doctor = ""
+        theringsofakhaten.doctor = "11th Doctor\n(Matt Smith)"
         theringsofakhaten.length = ""
         theringsofakhaten.producer = ""
         let coldwar = ColdWarClass(context: viewContext)
@@ -2088,7 +2088,7 @@ struct PersistenceController {
         coldwar.broadcast = ""
         coldwar.companions = ""
         coldwar.director = ""
-        coldwar.doctor = ""
+        coldwar.doctor = "11th Doctor\n(Matt Smith)"
         coldwar.length = ""
         coldwar.producer = ""
         let hide = HideClass(context: viewContext)
@@ -2096,7 +2096,7 @@ struct PersistenceController {
         hide.broadcast = ""
         hide.companions = ""
         hide.director = ""
-        hide.doctor = ""
+        hide.doctor = "11th Doctor\n(Matt Smith)"
         hide.length = ""
         hide.producer = ""
         let journeytothecentreofthetardis = JourneyToTheCentreOfTheTARDISClass(context: viewContext)
@@ -2104,7 +2104,7 @@ struct PersistenceController {
         journeytothecentreofthetardis.broadcast = ""
         journeytothecentreofthetardis.companions = ""
         journeytothecentreofthetardis.director = ""
-        journeytothecentreofthetardis.doctor = ""
+        journeytothecentreofthetardis.doctor = "11th Doctor\n(Matt Smith)"
         journeytothecentreofthetardis.length = ""
         journeytothecentreofthetardis.producer = ""
         let thecrimsonhorror = TheCrimsonHorrorClass(context: viewContext)
@@ -2112,7 +2112,7 @@ struct PersistenceController {
         thecrimsonhorror.broadcast = ""
         thecrimsonhorror.companions = ""
         thecrimsonhorror.director = ""
-        thecrimsonhorror.doctor = ""
+        thecrimsonhorror.doctor = "11th Doctor\n(Matt Smith)"
         thecrimsonhorror.length = ""
         thecrimsonhorror.producer = ""
         let nightmareinsilver = NightmareInSilverClass(context: viewContext)
@@ -2120,7 +2120,7 @@ struct PersistenceController {
         nightmareinsilver.broadcast = ""
         nightmareinsilver.companions = ""
         nightmareinsilver.director = ""
-        nightmareinsilver.doctor = ""
+        nightmareinsilver.doctor = "11th Doctor\n(Matt Smith)"
         nightmareinsilver.length = ""
         nightmareinsilver.producer = ""
         let thenameofthedoctor = TheNameOfTheDoctorClass(context: viewContext)
@@ -2128,7 +2128,7 @@ struct PersistenceController {
         thenameofthedoctor.broadcast = ""
         thenameofthedoctor.companions = ""
         thenameofthedoctor.director = ""
-        thenameofthedoctor.doctor = ""
+        thenameofthedoctor.doctor = "11th Doctor\n(Matt Smith)"
         thenameofthedoctor.length = ""
         thenameofthedoctor.producer = ""
         let thedayofthedoctor = TheDayOfTheDoctorClass(context: viewContext)
@@ -2136,7 +2136,7 @@ struct PersistenceController {
         thedayofthedoctor.broadcast = ""
         thedayofthedoctor.companions = ""
         thedayofthedoctor.director = ""
-        thedayofthedoctor.doctor = ""
+        thedayofthedoctor.doctor = "11th Doctor\n(Matt Smith)"
         thedayofthedoctor.length = ""
         thedayofthedoctor.producer = ""
         let thetimeofthedoctor = TheTimeOfTheDoctorClass(context: viewContext)
@@ -2144,7 +2144,7 @@ struct PersistenceController {
         thetimeofthedoctor.broadcast = ""
         thetimeofthedoctor.companions = ""
         thetimeofthedoctor.director = ""
-        thetimeofthedoctor.doctor = ""
+        thetimeofthedoctor.doctor = "11th Doctor\n(Matt Smith)"
         thetimeofthedoctor.length = ""
         thetimeofthedoctor.producer = ""
         //New Series 8
@@ -2153,7 +2153,7 @@ struct PersistenceController {
         deepbreath.broadcast = ""
         deepbreath.companions = ""
         deepbreath.director = ""
-        deepbreath.doctor = ""
+        deepbreath.doctor = "12th Doctor\n(Peter Capaldi)"
         deepbreath.length = ""
         deepbreath.producer = ""
         let intothedalek = IntoTheDalekClass(context: viewContext)
@@ -2161,7 +2161,7 @@ struct PersistenceController {
         intothedalek.broadcast = ""
         intothedalek.companions = ""
         intothedalek.director = ""
-        intothedalek.doctor = ""
+        intothedalek.doctor = "12th Doctor\n(Peter Capaldi)"
         intothedalek.length = ""
         intothedalek.producer = ""
         let robotofsherwood = RobotOfSherwoodClass(context: viewContext)
@@ -2169,7 +2169,7 @@ struct PersistenceController {
         robotofsherwood.broadcast = ""
         robotofsherwood.companions = ""
         robotofsherwood.director = ""
-        robotofsherwood.doctor = ""
+        robotofsherwood.doctor = "12th Doctor\n(Peter Capaldi)"
         robotofsherwood.length = ""
         robotofsherwood.producer = ""
         let listen = ListenClass(context: viewContext)
@@ -2177,7 +2177,7 @@ struct PersistenceController {
         listen.broadcast = ""
         listen.companions = ""
         listen.director = ""
-        listen.doctor = ""
+        listen.doctor = "12th Doctor\n(Peter Capaldi)"
         listen.length = ""
         listen.producer = ""
         let timeheist = TimeHeistClass(context: viewContext)
@@ -2185,7 +2185,7 @@ struct PersistenceController {
         timeheist.broadcast = ""
         timeheist.companions = ""
         timeheist.director = ""
-        timeheist.doctor = ""
+        timeheist.doctor = "12th Doctor\n(Peter Capaldi)"
         timeheist.length = ""
         timeheist.producer = ""
         let thecaretaker = TheCaretakerClass(context: viewContext)
@@ -2193,7 +2193,7 @@ struct PersistenceController {
         thecaretaker.broadcast = ""
         thecaretaker.companions = ""
         thecaretaker.director = ""
-        thecaretaker.doctor = ""
+        thecaretaker.doctor = "12th Doctor\n(Peter Capaldi)"
         thecaretaker.length = ""
         thecaretaker.producer = ""
         let killthemoon = KillTheMoonClass(context: viewContext)
@@ -2201,7 +2201,7 @@ struct PersistenceController {
         killthemoon.broadcast = ""
         killthemoon.companions = ""
         killthemoon.director = ""
-        killthemoon.doctor = ""
+        killthemoon.doctor = "12th Doctor\n(Peter Capaldi)"
         killthemoon.length = ""
         killthemoon.producer = ""
         let mummyontheorientexpress = MummyOnTheOrientExpressClass(context: viewContext)
@@ -2209,7 +2209,7 @@ struct PersistenceController {
         mummyontheorientexpress.broadcast = ""
         mummyontheorientexpress.companions = ""
         mummyontheorientexpress.director = ""
-        mummyontheorientexpress.doctor = ""
+        mummyontheorientexpress.doctor = "12th Doctor\n(Peter Capaldi)"
         mummyontheorientexpress.length = ""
         mummyontheorientexpress.producer = ""
         let flatline = FlatlineClass(context: viewContext)
@@ -2217,7 +2217,7 @@ struct PersistenceController {
         flatline.broadcast = ""
         flatline.companions = ""
         flatline.director = ""
-        flatline.doctor = ""
+        flatline.doctor = "12th Doctor\n(Peter Capaldi)"
         flatline.length = ""
         flatline.producer = ""
         let intheforestofthenight = InTheForestOfTheNightClass(context: viewContext)
@@ -2225,7 +2225,7 @@ struct PersistenceController {
         intheforestofthenight.broadcast = ""
         intheforestofthenight.companions = ""
         intheforestofthenight.director = ""
-        intheforestofthenight.doctor = ""
+        intheforestofthenight.doctor = "12th Doctor\n(Peter Capaldi)"
         intheforestofthenight.length = ""
         intheforestofthenight.producer = ""
         let darkwater = DarkWaterClass(context: viewContext)
@@ -2233,7 +2233,7 @@ struct PersistenceController {
         darkwater.broadcast = ""
         darkwater.companions = ""
         darkwater.director = ""
-        darkwater.doctor = ""
+        darkwater.doctor = "12th Doctor\n(Peter Capaldi)"
         darkwater.length = ""
         darkwater.producer = ""
         let deathinheaven = DeathInHeavenClass(context: viewContext)
@@ -2241,7 +2241,7 @@ struct PersistenceController {
         deathinheaven.broadcast = ""
         deathinheaven.companions = ""
         deathinheaven.director = ""
-        deathinheaven.doctor = ""
+        deathinheaven.doctor = "12th Doctor\n(Peter Capaldi)"
         deathinheaven.length = ""
         deathinheaven.producer = ""
         //New Series 9
@@ -2250,7 +2250,7 @@ struct PersistenceController {
         lastchristmas.broadcast = ""
         lastchristmas.companions = ""
         lastchristmas.director = ""
-        lastchristmas.doctor = ""
+        lastchristmas.doctor = "12th Doctor\n(Peter Capaldi)"
         lastchristmas.length = ""
         lastchristmas.producer = ""
         let themagiciansapprentice = TheMagiciansApprenticeClass(context: viewContext)
@@ -2258,7 +2258,7 @@ struct PersistenceController {
         themagiciansapprentice.broadcast = ""
         themagiciansapprentice.companions = ""
         themagiciansapprentice.director = ""
-        themagiciansapprentice.doctor = ""
+        themagiciansapprentice.doctor = "12th Doctor\n(Peter Capaldi)"
         themagiciansapprentice.length = ""
         themagiciansapprentice.producer = ""
         let thewitchsfamiliar = TheWitchsFamiliarClass(context: viewContext)
@@ -2266,7 +2266,7 @@ struct PersistenceController {
         thewitchsfamiliar.broadcast = ""
         thewitchsfamiliar.companions = ""
         thewitchsfamiliar.director = ""
-        thewitchsfamiliar.doctor = ""
+        thewitchsfamiliar.doctor = "12th Doctor\n(Peter Capaldi)"
         thewitchsfamiliar.length = ""
         thewitchsfamiliar.producer = ""
         let underthelake = UnderTheLakeClass(context: viewContext)
@@ -2274,7 +2274,7 @@ struct PersistenceController {
         underthelake.broadcast = ""
         underthelake.companions = ""
         underthelake.director = ""
-        underthelake.doctor = ""
+        underthelake.doctor = "12th Doctor\n(Peter Capaldi)"
         underthelake.length = ""
         underthelake.producer = ""
         let beforetheflood = BeforeTheFloodClass(context: viewContext)
@@ -2282,7 +2282,7 @@ struct PersistenceController {
         beforetheflood.broadcast = ""
         beforetheflood.companions = ""
         beforetheflood.director = ""
-        beforetheflood.doctor = ""
+        beforetheflood.doctor = "12th Doctor\n(Peter Capaldi)"
         beforetheflood.length = ""
         beforetheflood.producer = ""
         let thegirlwhodied = TheGirlWhoDiedClass(context: viewContext)
@@ -2290,7 +2290,7 @@ struct PersistenceController {
         thegirlwhodied.broadcast = ""
         thegirlwhodied.companions = ""
         thegirlwhodied.director = ""
-        thegirlwhodied.doctor = ""
+        thegirlwhodied.doctor = "12th Doctor\n(Peter Capaldi)"
         thegirlwhodied.length = ""
         thegirlwhodied.producer = ""
         let thewomanwholived = TheWomanWhoLivedClass(context: viewContext)
@@ -2298,7 +2298,7 @@ struct PersistenceController {
         thewomanwholived.broadcast = ""
         thewomanwholived.companions = ""
         thewomanwholived.director = ""
-        thewomanwholived.doctor = ""
+        thewomanwholived.doctor = "12th Doctor\n(Peter Capaldi)"
         thewomanwholived.length = ""
         thewomanwholived.producer = ""
         let thezygoninvasion = TheZygonInvasionClass(context: viewContext)
@@ -2306,7 +2306,7 @@ struct PersistenceController {
         thezygoninvasion.broadcast = ""
         thezygoninvasion.companions = ""
         thezygoninvasion.director = ""
-        thezygoninvasion.doctor = ""
+        thezygoninvasion.doctor = "12th Doctor\n(Peter Capaldi)"
         thezygoninvasion.length = ""
         thezygoninvasion.producer = ""
         let thezygoninversion = TheZygonInversionClass(context: viewContext)
@@ -2314,7 +2314,7 @@ struct PersistenceController {
         thezygoninversion.broadcast = ""
         thezygoninversion.companions = ""
         thezygoninversion.director = ""
-        thezygoninversion.doctor = ""
+        thezygoninversion.doctor = "12th Doctor\n(Peter Capaldi)"
         thezygoninversion.length = ""
         thezygoninversion.producer = ""
         let sleepnomore = SleepNoMoreClass(context: viewContext)
@@ -2322,7 +2322,7 @@ struct PersistenceController {
         sleepnomore.broadcast = ""
         sleepnomore.companions = ""
         sleepnomore.director = ""
-        sleepnomore.doctor = ""
+        sleepnomore.doctor = "12th Doctor\n(Peter Capaldi)"
         sleepnomore.length = ""
         sleepnomore.producer = ""
         let facetheraven = FaceTheRavenClass(context: viewContext)
@@ -2330,7 +2330,7 @@ struct PersistenceController {
         facetheraven.broadcast = ""
         facetheraven.companions = ""
         facetheraven.director = ""
-        facetheraven.doctor = ""
+        facetheraven.doctor = "12th Doctor\n(Peter Capaldi)"
         facetheraven.length = ""
         facetheraven.producer = ""
         let heavensent = HeavenSentClass(context: viewContext)
@@ -2338,7 +2338,7 @@ struct PersistenceController {
         heavensent.broadcast = ""
         heavensent.companions = ""
         heavensent.director = ""
-        heavensent.doctor = ""
+        heavensent.doctor = "12th Doctor\n(Peter Capaldi)"
         heavensent.length = ""
         heavensent.producer = ""
         let hellbent = HellBentClass(context: viewContext)
@@ -2346,7 +2346,7 @@ struct PersistenceController {
         hellbent.broadcast = ""
         hellbent.companions = ""
         hellbent.director = ""
-        hellbent.doctor = ""
+        hellbent.doctor = "12th Doctor\n(Peter Capaldi)"
         hellbent.length = ""
         hellbent.producer = ""
         let thehusbandsofriversong = TheHusbandsOfRiverSongClass(context: viewContext)
@@ -2354,7 +2354,7 @@ struct PersistenceController {
         thehusbandsofriversong.broadcast = ""
         thehusbandsofriversong.companions = ""
         thehusbandsofriversong.director = ""
-        thehusbandsofriversong.doctor = ""
+        thehusbandsofriversong.doctor = "12th Doctor\n(Peter Capaldi)"
         thehusbandsofriversong.length = ""
         thehusbandsofriversong.producer = ""
         //New Series 10
@@ -2363,7 +2363,7 @@ struct PersistenceController {
         thereturnofdoctormysterio.broadcast = ""
         thereturnofdoctormysterio.companions = ""
         thereturnofdoctormysterio.director = ""
-        thereturnofdoctormysterio.doctor = ""
+        thereturnofdoctormysterio.doctor = "12th Doctor\n(Peter Capaldi)"
         thereturnofdoctormysterio.length = ""
         thereturnofdoctormysterio.producer = ""
         let thepilot = ThePilotClass(context: viewContext)
@@ -2371,7 +2371,7 @@ struct PersistenceController {
         thepilot.broadcast = ""
         thepilot.companions = ""
         thepilot.director = ""
-        thepilot.doctor = ""
+        thepilot.doctor = "12th Doctor\n(Peter Capaldi)"
         thepilot.length = ""
         thepilot.producer = ""
         let smile = SmileClass(context: viewContext)
@@ -2379,7 +2379,7 @@ struct PersistenceController {
         smile.broadcast = ""
         smile.companions = ""
         smile.director = ""
-        smile.doctor = ""
+        smile.doctor = "12th Doctor\n(Peter Capaldi)"
         smile.length = ""
         smile.producer = ""
         let thinice = ThinIceClass(context: viewContext)
@@ -2387,7 +2387,7 @@ struct PersistenceController {
         thinice.broadcast = ""
         thinice.companions = ""
         thinice.director = ""
-        thinice.doctor = ""
+        thinice.doctor = "12th Doctor\n(Peter Capaldi)"
         thinice.length = ""
         thinice.producer = ""
         let knockknock = KnockKnockClass(context: viewContext)
@@ -2395,7 +2395,7 @@ struct PersistenceController {
         knockknock.broadcast = ""
         knockknock.companions = ""
         knockknock.director = ""
-        knockknock.doctor = ""
+        knockknock.doctor = "12th Doctor\n(Peter Capaldi)"
         knockknock.length = ""
         knockknock.producer = ""
         let oxygen = OxygenClass(context: viewContext)
@@ -2403,7 +2403,7 @@ struct PersistenceController {
         oxygen.broadcast = ""
         oxygen.companions = ""
         oxygen.director = ""
-        oxygen.doctor = ""
+        oxygen.doctor = "12th Doctor\n(Peter Capaldi)"
         oxygen.length = ""
         oxygen.producer = ""
         let extremis = ExtremisClass(context: viewContext)
@@ -2411,7 +2411,7 @@ struct PersistenceController {
         extremis.broadcast = ""
         extremis.companions = ""
         extremis.director = ""
-        extremis.doctor = ""
+        extremis.doctor = "12th Doctor\n(Peter Capaldi)"
         extremis.length = ""
         extremis.producer = ""
         let thepyramidattheendoftheworld = ThePyramidAtTheEndOfTheWorldClass(context: viewContext)
@@ -2419,7 +2419,7 @@ struct PersistenceController {
         thepyramidattheendoftheworld.broadcast = ""
         thepyramidattheendoftheworld.companions = ""
         thepyramidattheendoftheworld.director = ""
-        thepyramidattheendoftheworld.doctor = ""
+        thepyramidattheendoftheworld.doctor = "12th Doctor\n(Peter Capaldi)"
         thepyramidattheendoftheworld.length = ""
         thepyramidattheendoftheworld.producer = ""
         let thelieoftheland = TheLieOfTheLandClass(context: viewContext)
@@ -2427,7 +2427,7 @@ struct PersistenceController {
         thelieoftheland.broadcast = ""
         thelieoftheland.companions = ""
         thelieoftheland.director = ""
-        thelieoftheland.doctor = ""
+        thelieoftheland.doctor = "12th Doctor\n(Peter Capaldi)"
         thelieoftheland.length = ""
         thelieoftheland.producer = ""
         let empressofmars = EmpressOfMarsClass(context: viewContext)
@@ -2435,7 +2435,7 @@ struct PersistenceController {
         empressofmars.broadcast = ""
         empressofmars.companions = ""
         empressofmars.director = ""
-        empressofmars.doctor = ""
+        empressofmars.doctor = "12th Doctor\n(Peter Capaldi)"
         empressofmars.length = ""
         empressofmars.producer = ""
         let theeatersoflight = TheEatersOfLight(context: viewContext)
@@ -2443,7 +2443,7 @@ struct PersistenceController {
         theeatersoflight.broadcast = ""
         theeatersoflight.companions = ""
         theeatersoflight.director = ""
-        theeatersoflight.doctor = ""
+        theeatersoflight.doctor = "12th Doctor\n(Peter Capaldi)"
         theeatersoflight.length = ""
         theeatersoflight.producer = ""
         let worldenoughandtime = WorldEnoughAndTime(context: viewContext)
@@ -2451,7 +2451,7 @@ struct PersistenceController {
         worldenoughandtime.broadcast = ""
         worldenoughandtime.companions = ""
         worldenoughandtime.director = ""
-        worldenoughandtime.doctor = ""
+        worldenoughandtime.doctor = "12th Doctor\n(Peter Capaldi)"
         worldenoughandtime.length = ""
         worldenoughandtime.producer = ""
         let thedoctorfalls = TheDoctorFallsClass(context: viewContext)
@@ -2459,7 +2459,7 @@ struct PersistenceController {
         thedoctorfalls.broadcast = ""
         thedoctorfalls.companions = ""
         thedoctorfalls.director = ""
-        thedoctorfalls.doctor = ""
+        thedoctorfalls.doctor = "12th Doctor\n(Peter Capaldi)"
         thedoctorfalls.length = ""
         thedoctorfalls.producer = ""
         let twiceuponatime = TwiceUponATimeClass(context: viewContext)
@@ -2467,7 +2467,7 @@ struct PersistenceController {
         twiceuponatime.broadcast = ""
         twiceuponatime.companions = ""
         twiceuponatime.director = ""
-        twiceuponatime.doctor = ""
+        twiceuponatime.doctor = "12th Doctor\n(Peter Capaldi)"
         twiceuponatime.length = ""
         twiceuponatime.producer = ""
         //New Series 11
@@ -2476,7 +2476,7 @@ struct PersistenceController {
         thewomanwhofelltoearth.broadcast = ""
         thewomanwhofelltoearth.companions = ""
         thewomanwhofelltoearth.director = ""
-        thewomanwhofelltoearth.doctor = ""
+        thewomanwhofelltoearth.doctor = "13th Doctor\n(Jodie Whittaker)"
         thewomanwhofelltoearth.length = ""
         thewomanwhofelltoearth.producer = ""
         let theghostmonument = TheGhostMonumentClass(context: viewContext)
@@ -2484,7 +2484,7 @@ struct PersistenceController {
         theghostmonument.broadcast = ""
         theghostmonument.companions = ""
         theghostmonument.director = ""
-        theghostmonument.doctor = ""
+        theghostmonument.doctor = "13th Doctor\n(Jodie Whittaker)"
         theghostmonument.length = ""
         theghostmonument.producer = ""
         let rosa = RosaClass(context: viewContext)
@@ -2492,7 +2492,7 @@ struct PersistenceController {
         rosa.broadcast = ""
         rosa.companions = ""
         rosa.director = ""
-        rosa.doctor = ""
+        rosa.doctor = "13th Doctor\n(Jodie Whittaker)"
         rosa.length = ""
         rosa.producer = ""
         let arachnidsintheuk = ArachnidsInTheUKClass(context: viewContext)
@@ -2500,7 +2500,7 @@ struct PersistenceController {
         arachnidsintheuk.broadcast = ""
         arachnidsintheuk.companions = ""
         arachnidsintheuk.director = ""
-        arachnidsintheuk.doctor = ""
+        arachnidsintheuk.doctor = "13th Doctor\n(Jodie Whittaker)"
         arachnidsintheuk.length = ""
         arachnidsintheuk.producer = ""
         let thetsurangaconudrum = TheTsurangaConudrumClass(context: viewContext)
@@ -2508,7 +2508,7 @@ struct PersistenceController {
         thetsurangaconudrum.broadcast = ""
         thetsurangaconudrum.companions = ""
         thetsurangaconudrum.director = ""
-        thetsurangaconudrum.doctor = ""
+        thetsurangaconudrum.doctor = "13th Doctor\n(Jodie Whittaker)"
         thetsurangaconudrum.length = ""
         thetsurangaconudrum.producer = ""
         let demonsofthepunjab = DemonsOfThePunjabClass(context: viewContext)
@@ -2516,7 +2516,7 @@ struct PersistenceController {
         demonsofthepunjab.broadcast = ""
         demonsofthepunjab.companions = ""
         demonsofthepunjab.director = ""
-        demonsofthepunjab.doctor = ""
+        demonsofthepunjab.doctor = "13th Doctor\n(Jodie Whittaker)"
         demonsofthepunjab.length = ""
         demonsofthepunjab.producer = ""
         let kerblam = KerblamClass(context: viewContext)
@@ -2524,7 +2524,7 @@ struct PersistenceController {
         kerblam.broadcast = ""
         kerblam.companions = ""
         kerblam.director = ""
-        kerblam.doctor = ""
+        kerblam.doctor = "13th Doctor\n(Jodie Whittaker)"
         kerblam.length = ""
         kerblam.producer = ""
         let thewitchfinders = TheWitchfindersClass(context: viewContext)
@@ -2532,7 +2532,7 @@ struct PersistenceController {
         thewitchfinders.broadcast = ""
         thewitchfinders.companions = ""
         thewitchfinders.director = ""
-        thewitchfinders.doctor = ""
+        thewitchfinders.doctor = "13th Doctor\n(Jodie Whittaker)"
         thewitchfinders.length = ""
         thewitchfinders.producer = ""
         let ittakesyouaway = ItTakesYouAwayClass(context: viewContext)
@@ -2540,7 +2540,7 @@ struct PersistenceController {
         ittakesyouaway.broadcast = ""
         ittakesyouaway.companions = ""
         ittakesyouaway.director = ""
-        ittakesyouaway.doctor = ""
+        ittakesyouaway.doctor = "13th Doctor\n(Jodie Whittaker)"
         ittakesyouaway.length = ""
         ittakesyouaway.producer = ""
         let thebattleofranskooravkolos = TheBattleOfRanskoorAvKolosClass(context: viewContext)
@@ -2548,7 +2548,7 @@ struct PersistenceController {
         thebattleofranskooravkolos.broadcast = ""
         thebattleofranskooravkolos.companions = ""
         thebattleofranskooravkolos.director = ""
-        thebattleofranskooravkolos.doctor = ""
+        thebattleofranskooravkolos.doctor = "13th Doctor\n(Jodie Whittaker)"
         thebattleofranskooravkolos.length = ""
         thebattleofranskooravkolos.producer = ""
         let resolution = ResolutionClass(context: viewContext)
@@ -2556,7 +2556,7 @@ struct PersistenceController {
         resolution.broadcast = ""
         resolution.companions = ""
         resolution.director = ""
-        resolution.doctor = ""
+        resolution.doctor = "13th Doctor\n(Jodie Whittaker)"
         resolution.length = ""
         resolution.producer = ""
         //New Series 12
@@ -2565,7 +2565,7 @@ struct PersistenceController {
         spyfallpart1.broadcast = ""
         spyfallpart1.companions = ""
         spyfallpart1.director = ""
-        spyfallpart1.doctor = ""
+        spyfallpart1.doctor = "13th Doctor\n(Jodie Whittaker)"
         spyfallpart1.length = ""
         spyfallpart1.producer = ""
         let spyfallpart2 = SpyfallPart2Class(context: viewContext)
@@ -2573,7 +2573,7 @@ struct PersistenceController {
         spyfallpart2.broadcast = ""
         spyfallpart2.companions = ""
         spyfallpart2.director = ""
-        spyfallpart2.doctor = ""
+        spyfallpart2.doctor = "13th Doctor\n(Jodie Whittaker)"
         spyfallpart2.length = ""
         spyfallpart2.producer = ""
         let orphan55 = Orphan55Class(context: viewContext)
@@ -2581,7 +2581,7 @@ struct PersistenceController {
         orphan55.broadcast = ""
         orphan55.companions = ""
         orphan55.director = ""
-        orphan55.doctor = ""
+        orphan55.doctor = "13th Doctor\n(Jodie Whittaker)"
         orphan55.length = ""
         orphan55.producer = ""
         let nikolateslasnightofterror = NikolaTeslasNightOfTerrorClass(context: viewContext)
@@ -2589,7 +2589,7 @@ struct PersistenceController {
         nikolateslasnightofterror.broadcast = ""
         nikolateslasnightofterror.companions = ""
         nikolateslasnightofterror.director = ""
-        nikolateslasnightofterror.doctor = ""
+        nikolateslasnightofterror.doctor = "13th Doctor\n(Jodie Whittaker)"
         nikolateslasnightofterror.length = ""
         nikolateslasnightofterror.producer = ""
         let fugitiveofthejudoon = FugitiveOfTheJudoonClass(context: viewContext)
@@ -2597,7 +2597,7 @@ struct PersistenceController {
         fugitiveofthejudoon.broadcast = ""
         fugitiveofthejudoon.companions = ""
         fugitiveofthejudoon.director = ""
-        fugitiveofthejudoon.doctor = ""
+        fugitiveofthejudoon.doctor = "13th Doctor\n(Jodie Whittaker)"
         fugitiveofthejudoon.length = ""
         fugitiveofthejudoon.producer = ""
         let praxeus = PraxeusClass(context: viewContext)
@@ -2605,7 +2605,7 @@ struct PersistenceController {
         praxeus.broadcast = ""
         praxeus.companions = ""
         praxeus.director = ""
-        praxeus.doctor = ""
+        praxeus.doctor = "13th Doctor\n(Jodie Whittaker)"
         praxeus.length = ""
         praxeus.producer = ""
         let canyouhearme = CanYouHearMeClass(context: viewContext)
@@ -2613,7 +2613,7 @@ struct PersistenceController {
         canyouhearme.broadcast = ""
         canyouhearme.companions = ""
         canyouhearme.director = ""
-        canyouhearme.doctor = ""
+        canyouhearme.doctor = "13th Doctor\n(Jodie Whittaker)"
         canyouhearme.length = ""
         canyouhearme.producer = ""
         let thehauntingofvilladiodati = TheHauntingOfVillaDiodatiClass(context: viewContext)
@@ -2621,7 +2621,7 @@ struct PersistenceController {
         thehauntingofvilladiodati.broadcast = ""
         thehauntingofvilladiodati.companions = ""
         thehauntingofvilladiodati.director = ""
-        thehauntingofvilladiodati.doctor = ""
+        thehauntingofvilladiodati.doctor = "13th Doctor\n(Jodie Whittaker)"
         thehauntingofvilladiodati.length = ""
         thehauntingofvilladiodati.producer = ""
         let ascentionofthecybermen = AscentionOfTheCybermenClass(context: viewContext)
@@ -2629,7 +2629,7 @@ struct PersistenceController {
         ascentionofthecybermen.broadcast = ""
         ascentionofthecybermen.companions = ""
         ascentionofthecybermen.director = ""
-        ascentionofthecybermen.doctor = ""
+        ascentionofthecybermen.doctor = "13th Doctor\n(Jodie Whittaker)"
         ascentionofthecybermen.length = ""
         ascentionofthecybermen.producer = ""
         let thetimelesschildren = TheTimelessChildrenClass(context: viewContext)
@@ -2637,7 +2637,7 @@ struct PersistenceController {
         thetimelesschildren.broadcast = ""
         thetimelesschildren.companions = ""
         thetimelesschildren.director = ""
-        thetimelesschildren.doctor = ""
+        thetimelesschildren.doctor = "13th Doctor\n(Jodie Whittaker)"
         thetimelesschildren.length = ""
         thetimelesschildren.producer = ""
         let revolutionofthedaleks = RevolutionOfTheDaleksClass(context: viewContext)
@@ -2645,7 +2645,7 @@ struct PersistenceController {
         revolutionofthedaleks.broadcast = ""
         revolutionofthedaleks.companions = ""
         revolutionofthedaleks.director = ""
-        revolutionofthedaleks.doctor = ""
+        revolutionofthedaleks.doctor = "13th Doctor\n(Jodie Whittaker)"
         revolutionofthedaleks.length = ""
         revolutionofthedaleks.producer = ""
         //New Series 13
@@ -2654,7 +2654,7 @@ struct PersistenceController {
         thehalloweenapocalypse.broadcast = ""
         thehalloweenapocalypse.companions = ""
         thehalloweenapocalypse.director = ""
-        thehalloweenapocalypse.doctor = ""
+        thehalloweenapocalypse.doctor = "13th Doctor\n(Jodie Whittaker)"
         thehalloweenapocalypse.length = ""
         thehalloweenapocalypse.producer = ""
         let warofthesontarans = WarOfTheSontaransClass(context: viewContext)
@@ -2662,7 +2662,7 @@ struct PersistenceController {
         warofthesontarans.broadcast = ""
         warofthesontarans.companions = ""
         warofthesontarans.director = ""
-        warofthesontarans.doctor = ""
+        warofthesontarans.doctor = "13th Doctor\n(Jodie Whittaker)"
         warofthesontarans.length = ""
         warofthesontarans.producer = ""
         let onceupontime = OnceUponTimeClass(context: viewContext)
@@ -2670,7 +2670,7 @@ struct PersistenceController {
         onceupontime.broadcast = ""
         onceupontime.companions = ""
         onceupontime.director = ""
-        onceupontime.doctor = ""
+        onceupontime.doctor = "13th Doctor\n(Jodie Whittaker)"
         onceupontime.length = ""
         onceupontime.producer = ""
         let villageoftheangels = VillageOfTheAngelsClass(context: viewContext)
@@ -2678,7 +2678,7 @@ struct PersistenceController {
         villageoftheangels.broadcast = ""
         villageoftheangels.companions = ""
         villageoftheangels.director = ""
-        villageoftheangels.doctor = ""
+        villageoftheangels.doctor = "13th Doctor\n(Jodie Whittaker)"
         villageoftheangels.length = ""
         villageoftheangels.producer = ""
         let survivorsoftheflux = SurvivorsOfTheFluxClass(context: viewContext)
@@ -2686,7 +2686,7 @@ struct PersistenceController {
         survivorsoftheflux.broadcast = ""
         survivorsoftheflux.companions = ""
         survivorsoftheflux.director = ""
-        survivorsoftheflux.doctor = ""
+        survivorsoftheflux.doctor = "13th Doctor\n(Jodie Whittaker)"
         survivorsoftheflux.length = ""
         survivorsoftheflux.producer = ""
         let thevanquishers = TheVanquishersClass(context: viewContext)
@@ -2694,7 +2694,7 @@ struct PersistenceController {
         thevanquishers.broadcast = ""
         thevanquishers.companions = ""
         thevanquishers.director = ""
-        thevanquishers.doctor = ""
+        thevanquishers.doctor = "13th Doctor\n(Jodie Whittaker)"
         thevanquishers.length = ""
         thevanquishers.producer = ""
         let eveofthedaleks = EveOfTheDaleksClass(context: viewContext)
@@ -2702,7 +2702,7 @@ struct PersistenceController {
         eveofthedaleks.broadcast = ""
         eveofthedaleks.companions = ""
         eveofthedaleks.director = ""
-        eveofthedaleks.doctor = ""
+        eveofthedaleks.doctor = "13th Doctor\n(Jodie Whittaker)"
         eveofthedaleks.length = ""
         eveofthedaleks.producer = ""
         do {
