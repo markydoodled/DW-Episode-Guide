@@ -15,11 +15,19 @@ A SwiftUI App That Will Show Information On Each Doctor Who Episode With The Abi
 
 - iOS App
 - iPadOS App
+- watchOS App
+- tvOS App
 - Widget Support
 - SJA Info
 - Torchwood Info
 - Class Info
+- Amazon DVD Links
+- Apple TV App Links
+- Video Clips
 - User Feedback Button
+- Search To Find Episodes
+- TouchBar Buttons
+- Episode Air Date Notifications
 
 ## Images
 
