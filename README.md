@@ -27,6 +27,7 @@ A SwiftUI App That Will Show Information On Each Doctor Who Episode With The Abi
 - User Feedback Button
 - Search To Find Episodes
 - TouchBar Buttons
+- Keyboard Shortcuts
 - Episode Air Date Notifications
 
 ## Images
