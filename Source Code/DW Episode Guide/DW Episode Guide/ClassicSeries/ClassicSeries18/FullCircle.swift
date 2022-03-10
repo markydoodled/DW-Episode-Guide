@@ -21,7 +21,7 @@ struct FullCircle: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("FullCircle")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

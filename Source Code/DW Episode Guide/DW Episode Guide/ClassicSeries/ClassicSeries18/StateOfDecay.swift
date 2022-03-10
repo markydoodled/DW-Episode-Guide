@@ -21,7 +21,7 @@ struct StateOfDecay: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("StateOfDecay")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

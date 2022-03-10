@@ -21,7 +21,7 @@ struct Survival: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Survival")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

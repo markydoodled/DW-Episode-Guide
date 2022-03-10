@@ -21,7 +21,7 @@ struct TheWebPlanet: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheWebPlanet")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheWebPlanet: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheWebPlanet")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheWebPlanet: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 13")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Bill Strutton")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheWebPlanet: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Web_Planet")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

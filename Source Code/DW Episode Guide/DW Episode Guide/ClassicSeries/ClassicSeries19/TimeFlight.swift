@@ -21,7 +21,7 @@ struct TimeFlight: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("TimeFlight")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

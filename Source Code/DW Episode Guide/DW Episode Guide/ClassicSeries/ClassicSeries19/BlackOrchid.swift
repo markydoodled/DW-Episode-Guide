@@ -21,7 +21,7 @@ struct BlackOrchid: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("BlackOrchid")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

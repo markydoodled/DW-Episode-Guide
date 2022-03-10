@@ -21,7 +21,7 @@ struct ArcOfInfinity: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("ArcOfInfinity")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

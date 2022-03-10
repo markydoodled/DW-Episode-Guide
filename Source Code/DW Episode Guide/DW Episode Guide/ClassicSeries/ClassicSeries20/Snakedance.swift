@@ -21,7 +21,7 @@ struct Snakedance: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Snakedance")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

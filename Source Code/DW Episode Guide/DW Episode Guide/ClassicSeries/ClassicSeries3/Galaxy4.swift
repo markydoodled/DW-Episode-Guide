@@ -21,7 +21,7 @@ struct Galaxy4: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Galaxy4")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Galaxy4: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "Galaxy4")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct Galaxy4: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 18")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - William Emms")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct Galaxy4: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Galaxy_4")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

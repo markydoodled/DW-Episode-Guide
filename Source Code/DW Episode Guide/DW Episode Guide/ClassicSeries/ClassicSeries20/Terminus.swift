@@ -21,7 +21,7 @@ struct Terminus: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Terminus")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

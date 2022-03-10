@@ -21,7 +21,7 @@ struct TheChase: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheChase")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheChase: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheChase")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheChase: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 16")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Terry Nation")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheChase: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Chase_(Doctor_Who)")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

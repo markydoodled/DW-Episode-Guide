@@ -21,7 +21,7 @@ struct TheCrusade: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheCrusade")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheCrusade: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheCrusade")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheCrusade: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 14")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - David Whitaker")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheCrusade: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Crusade_(Doctor_Who)")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

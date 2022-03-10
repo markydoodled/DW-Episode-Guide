@@ -1,27 +1,27 @@
 //
-//  TheInvasion.swift
+//  EveOfTheDaleks.swift
 //  DW Episode Guide
 //
-//  Created by Mark Howard on 09/11/2021.
+//  Created by Mark Howard on 09/03/2022.
 //
 
 import SwiftUI
 
-struct TheInvasion: View {
+struct EveOfTheDaleks: View {
     @Environment(\.managedObjectContext) private var viewContext
 
-        @FetchRequest(entity: TheInvasionClass.entity(),
-            sortDescriptors: [],
-            animation: .default)
-        private var items: FetchedResults<TheInvasionClass>
-        @State var showingShare = false
-        @AppStorage("TheInvasionNotes") var notes = ""
+            @FetchRequest(entity: EveOfTheDaleksClass.entity(),
+                sortDescriptors: [],
+                animation: .default)
+            private var items: FetchedResults<EveOfTheDaleksClass>
+            @State var showingShare = false
+            @AppStorage("EveOfTheDaleksNotes") var notes = ""
     var body: some View {
         ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("TheInvasion")
+                    Image("")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -159,8 +159,8 @@ struct TheInvasion: View {
     }
 }
 
-struct TheInvasion_Previews: PreviewProvider {
+struct EveOfTheDaleks_Previews: PreviewProvider {
     static var previews: some View {
-        TheInvasion()
+        EveOfTheDaleks()
     }
 }

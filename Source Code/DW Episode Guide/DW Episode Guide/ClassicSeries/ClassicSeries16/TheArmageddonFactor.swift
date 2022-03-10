@@ -15,13 +15,13 @@ struct TheArmageddonFactor: View {
             animation: .default)
         private var items: FetchedResults<TheArmageddonFactorClass>
         @State var showingShare = false
-        @AppStorage("TheArmageddonFactoraNotes") var notes = ""
+        @AppStorage("TheArmageddonFactorNotes") var notes = ""
     var body: some View {
         ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheArmageddonFactor")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

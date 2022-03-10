@@ -21,7 +21,7 @@ struct PlanetOfFire: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("PlanetOfFire")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

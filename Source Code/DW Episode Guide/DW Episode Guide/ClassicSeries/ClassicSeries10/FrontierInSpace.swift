@@ -21,7 +21,7 @@ struct FrontierInSpace: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("FrontierInSpace")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

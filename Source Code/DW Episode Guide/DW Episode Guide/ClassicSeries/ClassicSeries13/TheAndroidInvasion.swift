@@ -21,7 +21,7 @@ struct TheAndroidInvasion: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheAndroidInvasion")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

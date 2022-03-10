@@ -21,7 +21,7 @@ struct ColonyInSpace: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("ColonyInSpace")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

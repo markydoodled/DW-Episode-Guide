@@ -21,7 +21,7 @@ ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheRobotsOfDeath")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

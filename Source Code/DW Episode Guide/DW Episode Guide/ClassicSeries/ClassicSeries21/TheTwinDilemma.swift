@@ -21,7 +21,7 @@ struct TheTwinDilemma: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("TheTwinDilemma")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

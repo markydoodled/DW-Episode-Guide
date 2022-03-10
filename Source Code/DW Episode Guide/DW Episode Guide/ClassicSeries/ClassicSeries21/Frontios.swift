@@ -21,7 +21,7 @@ struct Frontios: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Frontios")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

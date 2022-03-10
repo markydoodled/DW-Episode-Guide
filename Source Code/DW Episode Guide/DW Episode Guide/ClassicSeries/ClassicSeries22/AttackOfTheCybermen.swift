@@ -21,7 +21,7 @@ struct AttackOfTheCybermen: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("AttackOfTheCybermen")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

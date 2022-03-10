@@ -21,7 +21,7 @@ struct TheDeadlyAssassin: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheDeadlyAssassin")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

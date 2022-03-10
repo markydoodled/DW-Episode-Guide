@@ -21,7 +21,7 @@ struct TheSontaranExperiment: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheSontaranExperiment")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

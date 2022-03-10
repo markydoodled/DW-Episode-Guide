@@ -21,7 +21,7 @@ struct Mindwarp: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Mindwarp")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

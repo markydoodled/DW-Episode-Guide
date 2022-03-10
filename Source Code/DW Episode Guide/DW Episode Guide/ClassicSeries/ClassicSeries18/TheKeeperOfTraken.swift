@@ -21,7 +21,7 @@ struct TheKeeperOfTraken: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheKeeperOfTraken")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

@@ -21,7 +21,7 @@ struct Inferno: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Inferno")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

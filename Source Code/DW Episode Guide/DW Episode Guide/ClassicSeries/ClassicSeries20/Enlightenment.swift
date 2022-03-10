@@ -21,7 +21,7 @@ struct Enlightenment: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Enlightenment")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

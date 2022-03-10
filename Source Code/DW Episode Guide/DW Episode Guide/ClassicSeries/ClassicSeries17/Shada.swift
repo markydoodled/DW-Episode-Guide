@@ -21,7 +21,7 @@ struct Shada: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Shada")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

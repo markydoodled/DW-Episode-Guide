@@ -21,7 +21,7 @@ struct Timelash: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Timelash")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

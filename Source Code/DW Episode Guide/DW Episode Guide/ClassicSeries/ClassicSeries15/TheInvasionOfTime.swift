@@ -21,7 +21,7 @@ struct TheInvasionOfTime: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheInvasionOfTime")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

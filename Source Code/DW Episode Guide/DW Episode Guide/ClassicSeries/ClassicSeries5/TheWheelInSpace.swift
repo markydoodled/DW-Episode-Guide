@@ -21,7 +21,7 @@ struct TheWheelInSpace: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheWheelInSpace")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

@@ -21,7 +21,7 @@ struct Earthshock: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Earthshock")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

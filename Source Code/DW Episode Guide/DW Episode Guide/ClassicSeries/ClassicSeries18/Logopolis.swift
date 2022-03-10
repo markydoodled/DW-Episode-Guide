@@ -21,7 +21,7 @@ struct Logopolis: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Logopolis")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

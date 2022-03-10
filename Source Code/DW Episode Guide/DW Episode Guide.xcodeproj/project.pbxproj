@@ -385,6 +385,7 @@
 		D57EB1EE27495ACA0032DF75 /* VillageOfTheAngels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */; };
 		D57EB1F027495ADA0032DF75 /* SurvivorsOfTheFlux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */; };
 		D57EB1F227495AE50032DF75 /* TheVanquishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1F127495AE50032DF75 /* TheVanquishers.swift */; };
+		D5AD102727D92D22002B7238 /* EveOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -768,6 +769,7 @@
 		D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillageOfTheAngels.swift; sourceTree = "<group>"; };
 		D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivorsOfTheFlux.swift; sourceTree = "<group>"; };
 		D57EB1F127495AE50032DF75 /* TheVanquishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheVanquishers.swift; sourceTree = "<group>"; };
+		D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveOfTheDaleks.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1515,6 +1517,7 @@
 				D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */,
 				D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */,
 				D57EB1F127495AE50032DF75 /* TheVanquishers.swift */,
+				D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */,
 			);
 			path = NewSeries13;
 			sourceTree = "<group>";
@@ -1771,6 +1774,7 @@
 				D57EB12C274458AA0032DF75 /* TheBigBang.swift in Sources */,
 				D578331E27382052007CD57E /* ClassicSeries25.swift in Sources */,
 				D57EB09627419F360032DF75 /* ThePiratePlanet.swift in Sources */,
+				D5AD102727D92D22002B7238 /* EveOfTheDaleks.swift in Sources */,
 				D57EB1CC2745B4870032DF75 /* ItTakesYouAway.swift in Sources */,
 				D57EB01A273D9B260032DF75 /* TheRibosOperation.swift in Sources */,
 				D57EB0D4274441660032DF75 /* TheShakespeareCode.swift in Sources */,

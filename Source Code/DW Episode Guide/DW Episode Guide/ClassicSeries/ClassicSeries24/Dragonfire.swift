@@ -21,7 +21,7 @@ struct Dragonfire: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Dragonfire")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

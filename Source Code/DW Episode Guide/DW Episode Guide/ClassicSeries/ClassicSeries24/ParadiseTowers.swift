@@ -21,7 +21,7 @@ struct ParadiseTowers: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("ParadiseTowers")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

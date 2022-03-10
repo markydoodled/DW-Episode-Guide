@@ -396,6 +396,15 @@
         <attribute name="producer" optional="YES" attributeType="String"/>
         <attribute name="title" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="EveOfTheDaleksClass" representedClassName="EveOfTheDaleksClass" syncable="YES" codeGenerationType="class">
+        <attribute name="broadcast" optional="YES" attributeType="String"/>
+        <attribute name="companions" optional="YES" attributeType="String"/>
+        <attribute name="director" optional="YES" attributeType="String"/>
+        <attribute name="doctor" optional="YES" attributeType="String"/>
+        <attribute name="length" optional="YES" attributeType="String"/>
+        <attribute name="producer" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
     <entity name="EvolutionOfTheDaleksClass" representedClassName="EvolutionOfTheDaleksClass" syncable="YES" codeGenerationType="class">
         <attribute name="broadcast" optional="YES" attributeType="String"/>
         <attribute name="companions" optional="YES" attributeType="String"/>
@@ -3147,6 +3156,7 @@
         <element name="TheArmageddonFactorClass" positionX="-45" positionY="171" width="128" height="134"/>
         <element name="TheAwakeningClass" positionX="-27" positionY="189" width="128" height="134"/>
         <element name="TheAztecsClass" positionX="18" positionY="135" width="128" height="134"/>
+        <element name="TheBattleOfRanskoorAvKolosClass" positionX="-63" positionY="153" width="128" height="134"/>
         <element name="TheBeastBelowClass" positionX="-9" positionY="207" width="128" height="134"/>
         <element name="TheBellsOfSaintJohnClass" positionX="-27" positionY="189" width="128" height="134"/>
         <element name="TheBigBangClass" positionX="-36" positionY="180" width="128" height="134"/>
@@ -3325,6 +3335,6 @@
         <element name="WarriorsOfTheDeepClass" positionX="-36" positionY="180" width="128" height="134"/>
         <element name="WorldEnoughAndTimeClass" positionX="-36" positionY="180" width="128" height="134"/>
         <element name="WorldWarThreeClass" positionX="-27" positionY="189" width="128" height="134"/>
-        <element name="TheBattleOfRanskoorAvKolosClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="EveOfTheDaleksClass" positionX="-63" positionY="153" width="128" height="134"/>
     </elements>
 </model>

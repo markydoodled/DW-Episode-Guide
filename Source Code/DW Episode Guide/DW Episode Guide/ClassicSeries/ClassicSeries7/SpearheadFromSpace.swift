@@ -21,7 +21,7 @@ struct SpearheadFromSpace: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("SpearheadFromSpace")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

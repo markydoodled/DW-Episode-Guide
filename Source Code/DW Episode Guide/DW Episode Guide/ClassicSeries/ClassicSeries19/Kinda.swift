@@ -21,7 +21,7 @@ struct Kinda: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Kinda")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

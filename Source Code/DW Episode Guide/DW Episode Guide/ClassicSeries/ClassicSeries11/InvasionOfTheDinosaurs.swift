@@ -21,7 +21,7 @@ struct InvasionOfTheDinosaurs: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("InvasionOfTheDinosaurs")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

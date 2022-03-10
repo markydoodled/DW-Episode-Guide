@@ -21,7 +21,7 @@ struct ThePowerOfKroll: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("ThePowerOfKroll")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

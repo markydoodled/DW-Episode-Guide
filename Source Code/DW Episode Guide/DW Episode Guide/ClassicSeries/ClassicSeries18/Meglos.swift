@@ -21,7 +21,7 @@ struct Meglos: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Meglos")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)

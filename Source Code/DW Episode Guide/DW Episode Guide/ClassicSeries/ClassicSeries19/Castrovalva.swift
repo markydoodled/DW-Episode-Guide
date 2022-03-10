@@ -21,7 +21,7 @@ struct Castrovalva: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Castrovalva")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)

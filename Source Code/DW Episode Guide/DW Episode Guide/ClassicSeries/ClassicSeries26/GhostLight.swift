@@ -21,7 +21,7 @@ struct GhostLight: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("GhostLight")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
