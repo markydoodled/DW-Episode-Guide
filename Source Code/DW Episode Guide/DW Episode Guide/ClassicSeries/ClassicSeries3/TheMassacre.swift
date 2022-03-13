@@ -44,6 +44,7 @@ struct TheMassacre: View {
                             .font(.title3)
                         Text("Written By - John Lucarotti\nAnd Donald Tosh")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }

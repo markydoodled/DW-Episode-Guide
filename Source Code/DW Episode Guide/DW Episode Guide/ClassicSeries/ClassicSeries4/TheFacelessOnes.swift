@@ -29,7 +29,7 @@ struct TheFacelessOnes: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheFacelessOnes")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct TheFacelessOnes: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 35")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - David Ellis\nAnd Malcolm Hulke")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct TheFacelessOnes: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Faceless_Ones")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

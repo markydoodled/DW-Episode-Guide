@@ -44,6 +44,7 @@ struct TheWarMachines: View {
                             .font(.title3)
                         Text("Written By - Ian Stuart Black\nAnd Kit Pedler")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }

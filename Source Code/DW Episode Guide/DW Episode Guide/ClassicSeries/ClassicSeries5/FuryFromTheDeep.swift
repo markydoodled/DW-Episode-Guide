@@ -29,7 +29,7 @@ struct FuryFromTheDeep: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "FuryFromTheDeep")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct FuryFromTheDeep: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 42")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Victor Pemberton")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct FuryFromTheDeep: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Fury_from_the_Deep")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

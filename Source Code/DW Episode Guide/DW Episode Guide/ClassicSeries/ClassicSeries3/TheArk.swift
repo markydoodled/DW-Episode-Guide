@@ -44,6 +44,7 @@ struct TheArk: View {
                             .font(.title3)
                         Text("Written By - Paul Erickson\nAnd Lesley Scott")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }

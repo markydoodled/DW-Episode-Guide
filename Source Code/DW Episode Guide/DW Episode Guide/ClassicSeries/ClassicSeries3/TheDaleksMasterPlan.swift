@@ -44,6 +44,7 @@ struct TheDaleksMasterPlan: View {
                             .font(.title3)
                         Text("Written By - Terry Nation\nAnd Dennis Spooner")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
