@@ -29,7 +29,7 @@ struct ThePowerOfKroll: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "ThePowerOfKroll")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct ThePowerOfKroll: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 102")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Robert Holmes")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct ThePowerOfKroll: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Power_of_Kroll")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

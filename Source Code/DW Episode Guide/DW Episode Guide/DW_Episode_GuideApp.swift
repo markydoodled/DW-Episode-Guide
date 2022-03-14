@@ -15,7 +15,6 @@ struct DW_Episode_GuideApp: App {
         WindowGroup {
             ContentView()
                 .frame(minWidth: 950, maxWidth: .infinity, minHeight: 480, maxHeight: .infinity)
-                //.environment(\.managedObjectContext, persistenceController.container.viewContext)
                 .environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
         }
         .windowToolbarStyle(UnifiedWindowToolbarStyle(showsTitle: true))

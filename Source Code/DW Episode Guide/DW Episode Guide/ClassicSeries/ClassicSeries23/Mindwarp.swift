@@ -29,7 +29,7 @@ struct Mindwarp: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "Mindwarp")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct Mindwarp: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 143b")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Philip Martin")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct Mindwarp: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Mindwarp")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

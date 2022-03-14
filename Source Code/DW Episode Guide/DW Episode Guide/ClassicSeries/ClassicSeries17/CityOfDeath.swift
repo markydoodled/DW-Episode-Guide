@@ -29,7 +29,7 @@ struct CityOfDeath: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "CityOfDeath")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct CityOfDeath: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 105")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - 'David Agnew'\n(Pseudonym For\nDavid Fisher,\nDouglas Adams\nAnd Graham Williams)")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct CityOfDeath: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/City_of_Death")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

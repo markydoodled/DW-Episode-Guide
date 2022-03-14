@@ -29,7 +29,7 @@ struct TheUltimateFoe: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "TheUltimateFoe")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,10 +40,11 @@ struct TheUltimateFoe: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 143d")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Robert Holmes\nAnd Pip And\nJane Baker")
                                     .font(.title3)
+                                    .multilineTextAlignment(.center)
                         }
                             Spacer()
                         }
@@ -151,7 +152,7 @@ struct TheUltimateFoe: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Ultimate_Foe")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

@@ -29,7 +29,7 @@ struct TerrorOfTheAutons: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TerrorOfTheAutons")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TerrorOfTheAutons: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 55")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Robert Holmes")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TerrorOfTheAutons: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Terror_of_the_Autons")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

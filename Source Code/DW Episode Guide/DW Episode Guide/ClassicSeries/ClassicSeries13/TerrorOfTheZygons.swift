@@ -29,7 +29,7 @@ struct TerrorOfTheZygons: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TerrorOfTheZygons")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TerrorOfTheZygons: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 80")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Robert Banks Stewart")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TerrorOfTheZygons: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Terror_of_the_Zygons")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

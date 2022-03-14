@@ -29,7 +29,7 @@ struct TheArmageddonFactor: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheArmageddonFactor")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct TheArmageddonFactor: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 103")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Bob Baker\nAnd Dave Martin")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct TheArmageddonFactor: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Armageddon_Factor")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

@@ -29,7 +29,7 @@ struct HorrorOfFangRock: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "HorrorOfFangRock")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct HorrorOfFangRock: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 92")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Terrance Dicks")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct HorrorOfFangRock: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Horror_of_Fang_Rock")!]))
                 }
             }
             .navigationTitle("\(item.title!)")
