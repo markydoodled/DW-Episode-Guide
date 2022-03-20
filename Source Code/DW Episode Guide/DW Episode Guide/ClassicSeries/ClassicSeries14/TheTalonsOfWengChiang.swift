@@ -8,16 +8,16 @@
 import SwiftUI
 
 struct TheTalonsOfWengChiang: View {
-@Environment(\.managedObjectContext) private var viewContext
+/*@Environment(\.managedObjectContext) private var viewContext
 
         @FetchRequest(entity: TheTalonsOfWengChiangClass.entity(),
             sortDescriptors: [],
             animation: .default)
-        private var items: FetchedResults<TheTalonsOfWengChiangClass>
+        private var items: FetchedResults<TheTalonsOfWengChiangClass>*/
         @State var showingShare = false
         @AppStorage("TheTalonsOfWengChiangNotes") var notes = ""
     var body: some View {
-        ForEach(items) { item in
+        //ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
@@ -36,7 +36,7 @@ struct TheTalonsOfWengChiang: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                    Text("The Talons Of Weng Chiang")
                             .bold()
                             .font(.title)
                             .padding()
@@ -56,7 +56,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("\(item.broadcast!)")
+                        Text("26 February 1977\n2 April 1977")
                                 Spacer()
                             }
                             Spacer()
@@ -68,7 +68,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("\(item.companions!)")
+                        Text("Leela (Louise Jameson)")
                                 Spacer()
                             }
                             Spacer()
@@ -85,7 +85,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("\(item.director!)")
+                        Text("David Maloney")
                                 Spacer()
                             }
                             Spacer()
@@ -97,7 +97,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("\(item.producer!)")
+                        Text("Philip Hinchcliffe")
                                 Spacer()
                         }
                             Spacer()
@@ -114,7 +114,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("\(item.doctor!)")
+                        Text("4th Doctor\n(Tom Baker)")
                                 Spacer()
                         }
                             Spacer()
@@ -126,7 +126,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("\(item.length!)")
+                        Text("6 Episodes\n25 Minutes Each")
                                 Spacer()
                             }
                             Spacer()
@@ -154,8 +154,8 @@ struct TheTalonsOfWengChiang: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Talons_of_Weng-Chiang")!]))
                 }
             }
-            .navigationTitle("\(item.title!)")
-    }
+            .navigationTitle("The Talons Of Weng Chiang")
+    //}
     }
 }
 

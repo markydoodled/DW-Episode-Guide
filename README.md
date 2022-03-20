@@ -3,39 +3,36 @@
 **About**
 A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franchise, That Collects Together All Key Information, Images And Links To Purchase, Along With Other Features Like Notes For Each Episode. Hopefully, This Will Become The Definitive Doctor Who App Soon.
 
+## **Features**
+
+- [x] macOS App
+- [x] Info On Classic Episodes
+- [x] Info On New Episodes
+- [x] Add Notes
+- [x] Share Wiki Link
+- [x] Copy Images
+- [] iOS App
+- [] iPadOS App
+- [] watchOS App
+- [] tvOS App
+- [] Widget Support
+- [] SJA Info
+- [] Torchwood Info
+- [] Class Info
+- [] Amazon DVD Links
+- [] Apple TV App Links
+- [] Video Clips
+- [] User Feedback Button
+- [] Search To Find Episodes
+- [] TouchBar Buttons
+- [] Keyboard Shortcuts
+- [] Episode Air Date Notifications
+- [] Drag And Drop Support
+- [] Copy Info To Clipboard
+
 ## **Releases**
 
 Coming Soon...
-
-## **Features**
-
-- macOS App
-- Info On Classic Episodes
-- Info On New Episodes
-- Add Notes
-- Share Wiki Link
-- Copy Images
-
-## **Features To Be Implemented**
-
-- iOS App
-- iPadOS App
-- watchOS App
-- tvOS App
-- Widget Support
-- SJA Info
-- Torchwood Info
-- Class Info
-- Amazon DVD Links
-- Apple TV App Links
-- Video Clips
-- User Feedback Button
-- Search To Find Episodes
-- TouchBar Buttons
-- Keyboard Shortcuts
-- Episode Air Date Notifications
-- Drag And Drop Support
-- Copy Info To Clipboard
 
 ## **Images**
 

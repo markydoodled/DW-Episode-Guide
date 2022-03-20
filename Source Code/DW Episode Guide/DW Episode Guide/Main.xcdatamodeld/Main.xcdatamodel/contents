@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21A559" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19461" systemVersion="21E230" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
     <entity name="AChristmasCarolClass" representedClassName="AChristmasCarolClass" syncable="YES" codeGenerationType="class">
         <attribute name="broadcast" optional="YES" attributeType="String"/>
         <attribute name="companions" optional="YES" attributeType="String"/>
@@ -3046,6 +3046,7 @@
         <element name="EarthshockClass" positionX="-63" positionY="153" width="128" height="134"/>
         <element name="EmpressOfMarsClass" positionX="-54" positionY="162" width="128" height="134"/>
         <element name="EnlightenmentClass" positionX="-63" positionY="153" width="128" height="134"/>
+        <element name="EveOfTheDaleksClass" positionX="-63" positionY="153" width="128" height="134"/>
         <element name="EvolutionOfTheDaleksClass" positionX="-18" positionY="198" width="128" height="134"/>
         <element name="ExtremisClass" positionX="-18" positionY="198" width="128" height="134"/>
         <element name="FaceTheRavenClass" positionX="-45" positionY="171" width="128" height="134"/>
@@ -3280,7 +3281,7 @@
         <element name="TheStolenEarthClass" positionX="-18" positionY="198" width="128" height="134"/>
         <element name="TheStonesOfBloodClass" positionX="-9" positionY="207" width="128" height="134"/>
         <element name="TheSunMakersClass" positionX="-54" positionY="162" width="128" height="134"/>
-        <element name="TheTalonsOfWengChiangClass" positionX="-27" positionY="189" width="128" height="134"/>
+        <element name="TheTalonsOfWengChiangClass" positionX="-63" positionY="153" width="128" height="134"/>
         <element name="TheTenthPlanetClass" positionX="-18" positionY="198" width="128" height="134"/>
         <element name="TheThreeDoctorsClass" positionX="-9" positionY="207" width="128" height="134"/>
         <element name="TheTimelessChildrenClass" positionX="-18" positionY="198" width="128" height="134"/>
@@ -3335,6 +3336,5 @@
         <element name="WarriorsOfTheDeepClass" positionX="-36" positionY="180" width="128" height="134"/>
         <element name="WorldEnoughAndTimeClass" positionX="-36" positionY="180" width="128" height="134"/>
         <element name="WorldWarThreeClass" positionX="-27" positionY="189" width="128" height="134"/>
-        <element name="EveOfTheDaleksClass" positionX="-63" positionY="153" width="128" height="134"/>
     </elements>
 </model>

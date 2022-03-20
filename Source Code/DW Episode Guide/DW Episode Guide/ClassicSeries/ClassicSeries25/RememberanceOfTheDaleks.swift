@@ -21,7 +21,7 @@ struct RememberanceOfTheDaleks: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("RememberanceOfTheDaleks")
+                            Image("RemembranceOfTheDaleks")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct RememberanceOfTheDaleks: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "RememberanceOfTheDaleks")!])
+                                        pasteboard.writeObjects([NSImage(named: "RemembranceOfTheDaleks")!])
                                     }) {
                                         Text("Copy")
                                     }
