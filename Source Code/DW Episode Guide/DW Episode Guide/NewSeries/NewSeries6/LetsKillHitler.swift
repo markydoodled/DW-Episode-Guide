@@ -21,7 +21,7 @@ struct LetsKillHitler: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("LetsKillHitler")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct LetsKillHitler: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "LetsKillHitler")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct LetsKillHitler: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 219")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Steven Moffat")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct LetsKillHitler: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Let%27s_Kill_Hitler")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

@@ -21,7 +21,7 @@ struct TheDoctorFalls: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheDoctorFalls")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheDoctorFalls: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheDoctorFalls")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheDoctorFalls: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 275b")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Steven Moffat")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheDoctorFalls: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Doctor_Falls")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

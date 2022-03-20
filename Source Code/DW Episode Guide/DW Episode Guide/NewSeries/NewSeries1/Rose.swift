@@ -21,7 +21,7 @@ struct Rose: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Rose")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Rose: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "Rose")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct Rose: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 157")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Russell T Davies")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct Rose: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Rose_(Doctor_Who_episode)")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

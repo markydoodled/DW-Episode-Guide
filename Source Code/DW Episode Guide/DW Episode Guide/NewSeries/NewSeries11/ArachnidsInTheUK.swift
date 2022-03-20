@@ -21,7 +21,7 @@ struct ArachnidsInTheUK: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("ArachnidsInTheUK")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct ArachnidsInTheUK: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "ArachnidsInTheUK")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct ArachnidsInTheUK: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 280")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Chris Chibnall")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct ArachnidsInTheUK: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Arachnids_in_the_UK")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

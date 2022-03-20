@@ -21,7 +21,7 @@ struct TheCurseOfTheBlackSpot: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheCurseOfTheBlackSpot")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheCurseOfTheBlackSpot: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheCurseOfTheBlackSpot")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheCurseOfTheBlackSpot: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 215")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Stephen Thompson")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheCurseOfTheBlackSpot: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Curse_of_the_Black_Spot")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

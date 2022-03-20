@@ -21,7 +21,7 @@ struct FugitiveOfTheJudoon: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("FugitiveOfTheJudoon")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct FugitiveOfTheJudoon: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "FugitiveOfTheJudoon")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct FugitiveOfTheJudoon: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 291")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Vinay Patel\nAnd Chris Chibnall")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct FugitiveOfTheJudoon: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Fugitive_of_the_Judoon")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

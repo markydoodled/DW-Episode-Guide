@@ -21,7 +21,7 @@ struct Doomsday: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("Doomsday")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Doomsday: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "Doomsday")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct Doomsday: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 177b")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Russell T Davies")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct Doomsday: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Doomsday_(Doctor_Who)")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

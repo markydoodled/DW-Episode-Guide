@@ -21,7 +21,7 @@ struct TheZygonInvasion: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheZygonInvasion")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheZygonInvasion: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheZygonInvasion")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheZygonInvasion: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 258a")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Peter Harness")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheZygonInvasion: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Zygon_Invasion")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

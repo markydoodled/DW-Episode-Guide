@@ -21,7 +21,7 @@ struct TheWitchsFamiliar: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheWitchsFamiliar")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheWitchsFamiliar: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheWitchsFamiliar")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheWitchsFamiliar: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 254b")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Steven Moffat")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheWitchsFamiliar: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Witch%27s_Familiar")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

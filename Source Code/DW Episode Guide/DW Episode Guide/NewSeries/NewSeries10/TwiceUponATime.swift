@@ -21,7 +21,7 @@ struct TwiceUponATime: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TwiceUponATime")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TwiceUponATime: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TwiceUponATime")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TwiceUponATime: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 276")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Steven Moffat")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TwiceUponATime: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Twice_Upon_a_Time_(Doctor_Who)")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

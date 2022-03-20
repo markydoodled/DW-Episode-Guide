@@ -21,7 +21,7 @@ struct FleshAndStone: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("FleshAndStone")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct FleshAndStone: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "FleshAndStone")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct FleshAndStone: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 206b")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Steven Moffat")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct FleshAndStone: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Flesh_and_Stone")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

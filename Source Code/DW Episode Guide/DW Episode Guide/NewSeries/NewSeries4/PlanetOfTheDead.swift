@@ -21,7 +21,7 @@ struct PlanetOfTheDead: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("PlanetOfTheDead")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct PlanetOfTheDead: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "PlanetOfTheDead")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,10 +40,11 @@ struct PlanetOfTheDead: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 200")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Russell T Davies\nAnd Gareth Roberts")
                                     .font(.title3)
+                                    .multilineTextAlignment(.center)
                         }
                             Spacer()
                         }
@@ -151,7 +152,7 @@ struct PlanetOfTheDead: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Planet_of_the_Dead")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

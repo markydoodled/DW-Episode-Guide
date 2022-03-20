@@ -21,7 +21,7 @@ struct TheLieOfTheLand: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheLieOfTheLand")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheLieOfTheLand: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheLieOfTheLand")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheLieOfTheLand: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 272")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Toby Whithouse")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheLieOfTheLand: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Lie_of_the_Land")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

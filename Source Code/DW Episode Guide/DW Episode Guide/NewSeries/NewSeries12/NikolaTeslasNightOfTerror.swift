@@ -21,7 +21,7 @@ struct NikolaTeslasNightOfTerror: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("NikolaTeslasNightOfTerror")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct NikolaTeslasNightOfTerror: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "NikolaTeslasNightOfTerror")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct NikolaTeslasNightOfTerror: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 290")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Nina Metivier")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct NikolaTeslasNightOfTerror: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Nikola_Tesla%27s_Night_of_Terror")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

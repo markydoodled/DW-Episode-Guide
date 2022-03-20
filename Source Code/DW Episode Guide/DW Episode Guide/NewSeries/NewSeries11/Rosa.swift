@@ -21,7 +21,7 @@ struct Rosa: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Rosa")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Rosa: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "Rosa")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct Rosa: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 279")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Malorie Blackman\nAnd Chris Chibnall")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct Rosa: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Rosa_(Doctor_Who)")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

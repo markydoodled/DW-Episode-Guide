@@ -21,7 +21,7 @@ struct SchoolReunion: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("SchoolReunion")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct SchoolReunion: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "SchoolReunion")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct SchoolReunion: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 170")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Toby Whithouse")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct SchoolReunion: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/School_Reunion_(Doctor_Who)")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

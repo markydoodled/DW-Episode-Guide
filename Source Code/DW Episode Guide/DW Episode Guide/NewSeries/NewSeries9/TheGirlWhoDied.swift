@@ -21,7 +21,7 @@ struct TheGirlWhoDied: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheGirlWhoDied")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheGirlWhoDied: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheGirlWhoDied")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct TheGirlWhoDied: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 256")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Jamie Mathieson\nAnd Steven Moffat")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct TheGirlWhoDied: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Girl_Who_Died")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

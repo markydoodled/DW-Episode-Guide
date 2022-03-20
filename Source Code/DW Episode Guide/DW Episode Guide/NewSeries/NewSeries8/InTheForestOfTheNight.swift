@@ -21,7 +21,7 @@ struct InTheForestOfTheNight: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("InTheForestOfTheNight")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct InTheForestOfTheNight: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "InTheForestOfTheNight")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct InTheForestOfTheNight: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 251")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Frank Cottrell-Boyce")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct InTheForestOfTheNight: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/In_the_Forest_of_the_Night")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

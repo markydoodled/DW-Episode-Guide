@@ -1338,8 +1338,8 @@
 				D57EB10527444AC10032DF75 /* TheStolenEarth.swift */,
 				D57EB10727444AEB0032DF75 /* JourneysEnd.swift */,
 				D57EB10927444AF30032DF75 /* TheNextDoctor.swift */,
-				D57EB10D27444B040032DF75 /* TheWatersOfMars.swift */,
 				D57EB10B27444AFB0032DF75 /* PlanetOfTheDead.swift */,
+				D57EB10D27444B040032DF75 /* TheWatersOfMars.swift */,
 				D57EB10F27444B100032DF75 /* TheEndOfTimePart1.swift */,
 				D57EB11127444B1D0032DF75 /* TheEndOfTimePart2.swift */,
 			);

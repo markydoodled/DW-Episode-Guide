@@ -21,7 +21,7 @@ struct DemonsOfThePunjab: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("DemonsOfThePunjab")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct DemonsOfThePunjab: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "DemonsOfThePunjab")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct DemonsOfThePunjab: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 282")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Vinay Patel")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct DemonsOfThePunjab: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Demons_of_the_Punjab")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

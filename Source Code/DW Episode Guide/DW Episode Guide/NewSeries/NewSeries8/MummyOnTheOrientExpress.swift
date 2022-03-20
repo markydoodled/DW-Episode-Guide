@@ -21,7 +21,7 @@ struct MummyOnTheOrientExpress: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("MummyOnTheOrientExpress")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct MummyOnTheOrientExpress: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "MummyOnTheOrientExpress")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct MummyOnTheOrientExpress: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 249")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Jamie Mathieson")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct MummyOnTheOrientExpress: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Mummy_on_the_Orient_Express")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

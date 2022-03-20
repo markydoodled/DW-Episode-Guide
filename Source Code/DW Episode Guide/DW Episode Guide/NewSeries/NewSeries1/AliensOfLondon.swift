@@ -21,7 +21,7 @@ struct AliensOfLondon: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("AliensOfLondon")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct AliensOfLondon: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "AliensOfLondon")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct AliensOfLondon: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 160a")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Russell T Davies")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct AliensOfLondon: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Aliens_of_London")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

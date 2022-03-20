@@ -21,7 +21,7 @@ struct PartnersInCrime: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("PartnersInCrime")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct PartnersInCrime: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "PartnersInCrime")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct PartnersInCrime: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 189")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Russell T Davies")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct PartnersInCrime: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Partners_in_Crime_(Doctor_Who)")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

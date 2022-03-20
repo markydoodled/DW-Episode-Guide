@@ -21,7 +21,7 @@ struct TheUnicornAndTheWasp: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("TheUnicornAndTheWasp")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheUnicornAndTheWasp: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "TheUnicornAndTheWasp")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct TheUnicornAndTheWasp: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 194")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Gareth Roberts")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct TheUnicornAndTheWasp: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Unicorn_and_the_Wasp")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

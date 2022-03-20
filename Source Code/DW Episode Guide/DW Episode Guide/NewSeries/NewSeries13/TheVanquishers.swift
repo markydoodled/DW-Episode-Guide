@@ -21,7 +21,7 @@ struct TheVanquishers: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("TheVanquishers")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheVanquishers: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "TheVanquishers")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct TheVanquishers: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 297f")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Chris Chibnall")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct TheVanquishers: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Vanquishers")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

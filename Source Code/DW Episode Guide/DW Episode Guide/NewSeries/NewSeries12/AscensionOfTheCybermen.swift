@@ -15,13 +15,13 @@ struct AscensionOfTheCybermen: View {
             animation: .default)
         private var items: FetchedResults<AscensionOfTheCybermenClass>
         @State var showingShare = false
-        @AppStorage("AscensionOfTheCybermanNotes") var notes = ""
+        @AppStorage("AscensionOfTheCybermenNotes") var notes = ""
     var body: some View {
         ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("AscensionOfTheCybermen")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct AscensionOfTheCybermen: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "AscensionOfTheCybermen")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct AscensionOfTheCybermen: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 295a")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Chris Chibnall")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct AscensionOfTheCybermen: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Ascension_of_the_Cybermen")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

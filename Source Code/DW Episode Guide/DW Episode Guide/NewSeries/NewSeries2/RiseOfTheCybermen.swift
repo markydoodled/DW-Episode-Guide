@@ -21,7 +21,7 @@ struct RiseOfTheCybermen: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("")
+                            Image("RiseOfTheCybermen")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct RiseOfTheCybermen: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "")!])
+                                        pasteboard.writeObjects([NSImage(named: "RiseOfTheCybermen")!])
                                     }) {
                                         Text("Copy")
                                     }
@@ -40,9 +40,9 @@ struct RiseOfTheCybermen: View {
                                     .bold()
                                     .font(.title)
                                     .padding()
-                            Text("Story No. ")
+                            Text("Story No. 172a")
                                     .font(.title3)
-                                Text("Written By - ")
+                                Text("Written By - Tom MacRae")
                                     .font(.title3)
                         }
                             Spacer()
@@ -151,7 +151,7 @@ struct RiseOfTheCybermen: View {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
                             }
-                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                            .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Rise_of_the_Cybermen")!]))
                         }
                     }
                     .navigationTitle("\(item.title!)")

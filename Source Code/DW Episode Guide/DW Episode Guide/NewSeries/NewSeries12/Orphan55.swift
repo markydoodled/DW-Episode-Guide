@@ -21,7 +21,7 @@ struct Orphan55: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Orphan55")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Orphan55: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "Orphan55")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct Orphan55: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 289")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Ed Hime")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct Orphan55: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Orphan_55")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

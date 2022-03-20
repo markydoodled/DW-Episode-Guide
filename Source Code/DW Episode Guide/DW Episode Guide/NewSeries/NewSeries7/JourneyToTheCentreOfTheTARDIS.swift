@@ -21,7 +21,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("JourneyToTheCentreOfTheTARDIS")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "JourneyToTheCentreOfTheTARDIS")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,9 +40,9 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 236")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Stephen Thompson")
                             .font(.title3)
                 }
                     Spacer()
@@ -151,7 +151,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_TARDIS")!]))
                 }
             }
             .navigationTitle("\(item.title!)")

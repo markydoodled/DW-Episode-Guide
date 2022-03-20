@@ -21,7 +21,7 @@ struct Praxeus: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("")
+                    Image("Praxeus")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Praxeus: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "")!])
+                                pasteboard.writeObjects([NSImage(named: "Praxeus")!])
                             }) {
                                 Text("Copy")
                             }
@@ -40,10 +40,11 @@ struct Praxeus: View {
                             .bold()
                             .font(.title)
                             .padding()
-                    Text("Story No. ")
+                    Text("Story No. 292")
                             .font(.title3)
-                        Text("Written By - ")
+                        Text("Written By - Pete McTighe\nAnd Chris Chibnall")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -151,7 +152,7 @@ struct Praxeus: View {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Praxeus")!]))
                 }
             }
             .navigationTitle("\(item.title!)")
