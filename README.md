@@ -1,6 +1,5 @@
 # DW Episode Guide
 
-**About**
 A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franchise, That Collects Together All Key Information, Images And Links To Purchase, Along With Other Features Like Notes For Each Episode. Hopefully, This Will Become The Definitive Doctor Who App Soon.
 
 ## **Features**
