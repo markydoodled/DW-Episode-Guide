@@ -11,24 +11,24 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [x] Add Notes
 - [x] Share Wiki Link
 - [x] Copy Images
-- [] iOS App
-- [] iPadOS App
-- [] watchOS App
-- [] tvOS App
-- [] Widget Support
-- [] SJA Info
-- [] Torchwood Info
-- [] Class Info
-- [] Amazon DVD Links
-- [] Apple TV App Links
-- [] Video Clips
-- [] User Feedback Button
-- [] Search To Find Episodes
-- [] TouchBar Buttons
-- [] Keyboard Shortcuts
-- [] Episode Air Date Notifications
-- [] Drag And Drop Support
-- [] Copy Info To Clipboard
+- [ ] iOS App
+- [ ] iPadOS App
+- [ ] watchOS App
+- [ ] tvOS App
+- [ ] Widget Support (iOS, iPadOS And macOS)
+- [ ] SJA Info
+- [ ] Torchwood Info
+- [ ] Class Info
+- [ ] Amazon DVD Links (iOS, iPadOS And macOS)
+- [ ] Apple TV App Links (iOS, iPadOS, macOS And tvOS)
+- [ ] Video Clips (iOS, iPadOS, macOS, tvOS)
+- [ ] User Feedback Button (iOS, iPadOS, macOS)
+- [ ] Search To Find Episodes
+- [ ] TouchBar Buttons (macOS)
+- [ ] Keyboard Shortcuts (iPadOS And macOS)
+- [ ] Episode Air Date Notifications
+- [ ] Drag And Drop Support (iOS, iPadOS And macOS)
+- [ ] Copy Info To Clipboard
 
 ## **Releases**
 
