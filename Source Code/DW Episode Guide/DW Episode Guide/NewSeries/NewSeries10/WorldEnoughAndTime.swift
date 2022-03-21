@@ -36,10 +36,11 @@ struct WorldEnoughAndTime: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("World Enough\nAnd Time")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 275a")
                             .font(.title3)
                         Text("Written By - Steven Moffat")

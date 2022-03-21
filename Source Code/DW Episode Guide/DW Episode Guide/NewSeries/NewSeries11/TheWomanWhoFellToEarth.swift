@@ -25,7 +25,7 @@ struct TheWomanWhoFellToEarth: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 130, height: 130)
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
@@ -36,10 +36,11 @@ struct TheWomanWhoFellToEarth: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Woman Who\nFell To Earth")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 277")
                             .font(.title3)
                         Text("Written By - Chris Chibnall")

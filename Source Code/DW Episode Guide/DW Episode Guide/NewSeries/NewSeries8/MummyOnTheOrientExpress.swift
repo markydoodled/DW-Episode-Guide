@@ -36,10 +36,11 @@ struct MummyOnTheOrientExpress: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("Mummy On The\nOrient Express")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 249")
                             .font(.title3)
                         Text("Written By - Jamie Mathieson")

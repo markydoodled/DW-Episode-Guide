@@ -36,10 +36,11 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Pyramid\nAt The End\nOf The World")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 271")
                             .font(.title3)
                         Text("Written By - Peter Harness\nAnd Steven Moffat")

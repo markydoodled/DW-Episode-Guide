@@ -36,10 +36,11 @@ struct ThePartingOfTheWays: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("The Parting Of\nThe Ways")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 166b")
                                     .font(.title3)
                                 Text("Written By - Russell T Davies")

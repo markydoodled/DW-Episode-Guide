@@ -21,7 +21,7 @@ struct TheLazarusExperiment: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("TheLararusExperiment")
+                            Image("TheLazarusExperiment")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,17 +29,18 @@ struct TheLazarusExperiment: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "TheLararusExperiment")!])
+                                        pasteboard.writeObjects([NSImage(named: "TheLazarusExperiment")!])
                                     }) {
                                         Text("Copy")
                                     }
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("The Lazarus\nExperiment")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 183")
                                     .font(.title3)
                                 Text("Written By - Stephen Greenhorn")

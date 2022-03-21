@@ -36,10 +36,11 @@ struct TheCurseOfTheBlackSpot: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Curse Of\nThe Black Spot")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 215")
                             .font(.title3)
                         Text("Written By - Stephen Thompson")

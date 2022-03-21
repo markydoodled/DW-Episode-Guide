@@ -25,7 +25,7 @@ struct TheTsurangaConundrum: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 130, height: 130)
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
@@ -36,10 +36,11 @@ struct TheTsurangaConundrum: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Tsuranga\nConundrum")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 281")
                             .font(.title3)
                         Text("Written By - Chris Chibnall")

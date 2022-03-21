@@ -36,10 +36,11 @@ struct TheTimeOfTheDoctor: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Time Of\nThe Doctor")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 241")
                             .font(.title3)
                         Text("Written By - Steven Moffat")

@@ -36,10 +36,11 @@ struct DinosaursOnASpaceship: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("Dinosaurs On\nA Spaceship")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 227")
                             .font(.title3)
                         Text("Written By - Chris Chibnall")

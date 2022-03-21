@@ -21,7 +21,7 @@ struct TheLieOfTheLand: View {
             ScrollView {
                 HStack {
                     Spacer()
-                    Image("TheLieOfTheLand")
+                    Image("LieOfTheLand")
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
@@ -29,7 +29,7 @@ struct TheLieOfTheLand: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "TheLieOfTheLand")!])
+                                pasteboard.writeObjects([NSImage(named: "LieOfTheLand")!])
                             }) {
                                 Text("Copy")
                             }

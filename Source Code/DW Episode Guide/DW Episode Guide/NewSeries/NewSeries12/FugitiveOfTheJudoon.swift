@@ -25,7 +25,7 @@ struct FugitiveOfTheJudoon: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 130, height: 130)
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
@@ -36,10 +36,11 @@ struct FugitiveOfTheJudoon: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("Fugitive Of\nThe Judoon")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 291")
                             .font(.title3)
                         Text("Written By - Vinay Patel\nAnd Chris Chibnall")

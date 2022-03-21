@@ -36,10 +36,11 @@ struct TheUnicornAndTheWasp: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("The Unicorn\nAnd The Wasp")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 194")
                                     .font(.title3)
                                 Text("Written By - Gareth Roberts")

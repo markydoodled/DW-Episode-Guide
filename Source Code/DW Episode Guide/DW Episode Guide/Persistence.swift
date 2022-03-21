@@ -1416,6 +1416,14 @@ struct PersistenceController {
         badwolf.doctor = "9th Doctor\n(Christopher Eccleston)"
         badwolf.length = ""
         badwolf.producer = ""
+        let thepartingoftheways = ThePartingOfTheWaysClass(context: viewContext)
+        thepartingoftheways.title = "The Parting Of The Ways"
+        thepartingoftheways.broadcast = ""
+        thepartingoftheways.companions = ""
+        thepartingoftheways.director = ""
+        thepartingoftheways.doctor = "9th Doctor\n(Christopher Eccleston)"
+        thepartingoftheways.length = ""
+        thepartingoftheways.producer = ""
         //New Series 2
         let thechristmasinvasion = TheChristmasInvasionClass(context: viewContext)
         thechristmasinvasion.title = "The Christmas Invasion"
@@ -1462,7 +1470,7 @@ struct PersistenceController {
         riseofthecybermen.broadcast = ""
         riseofthecybermen.companions = ""
         riseofthecybermen.director = ""
-        riseofthecybermen.doctor = ""
+        riseofthecybermen.doctor = "10th Doctor\n(David Tennant)"
         riseofthecybermen.length = ""
         riseofthecybermen.producer = ""
         let theageofsteel = TheAgeOfSteelClass(context: viewContext)
@@ -1546,6 +1554,14 @@ struct PersistenceController {
         smithandjones.doctor = "10th Doctor\n(David Tennant)"
         smithandjones.length = ""
         smithandjones.producer = ""
+        let theshakespearecode = TheShakespeareCodeClass(context: viewContext)
+        theshakespearecode.title = "The Shakespeare Code"
+        theshakespearecode.broadcast = ""
+        theshakespearecode.companions = ""
+        theshakespearecode.director = ""
+        theshakespearecode.doctor = "10th Doctor\n(David Tennant)"
+        theshakespearecode.length = ""
+        theshakespearecode.producer = ""
         let gridlock = GridlockClass(context: viewContext)
         gridlock.title = "Gridlock"
         gridlock.broadcast = ""

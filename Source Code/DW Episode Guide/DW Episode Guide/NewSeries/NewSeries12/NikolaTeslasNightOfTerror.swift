@@ -36,10 +36,11 @@ struct NikolaTeslasNightOfTerror: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("Nikola Tesla's\nNight Of Terror")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 290")
                             .font(.title3)
                         Text("Written By - Nina Metivier")

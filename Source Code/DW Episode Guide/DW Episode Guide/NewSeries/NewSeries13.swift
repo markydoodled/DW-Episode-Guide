@@ -28,6 +28,9 @@ struct NewSeries13: View {
             NavigationLink(destination: TheVanquishers()) {
                 Text("The Vanquishers")
             }
+            NavigationLink(destination: EveOfTheDaleks()) {
+                Text("Eve Of The Daleks")
+            }
         }
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
         .navigationTitle("New Series 13")

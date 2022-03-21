@@ -36,10 +36,11 @@ struct TheSontaranStratagem: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("The Sontaran\nStratagem")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 192a")
                                     .font(.title3)
                                 Text("Written By - Helen Raynor")

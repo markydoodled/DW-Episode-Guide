@@ -36,10 +36,11 @@ struct TheHalloweenApocalypse: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Halloween\nApocalypse")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 297a")
                             .font(.title3)
                         Text("Written By - Chris Chibnall")

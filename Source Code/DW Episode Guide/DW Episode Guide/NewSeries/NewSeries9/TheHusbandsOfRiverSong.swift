@@ -36,10 +36,11 @@ struct TheHusbandsOfRiverSong: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Husbands\nOf River Song")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 263")
                             .font(.title3)
                         Text("Written By - Steven Moffat")

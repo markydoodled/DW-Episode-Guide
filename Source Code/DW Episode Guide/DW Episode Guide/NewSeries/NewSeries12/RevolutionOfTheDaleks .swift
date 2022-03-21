@@ -25,7 +25,7 @@ struct RevolutionOfTheDaleks_: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 130, height: 130)
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
@@ -36,10 +36,11 @@ struct RevolutionOfTheDaleks_: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("Revolution Of\nThe Daleks")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 296")
                             .font(.title3)
                         Text("Written By - Chris Chibnall")

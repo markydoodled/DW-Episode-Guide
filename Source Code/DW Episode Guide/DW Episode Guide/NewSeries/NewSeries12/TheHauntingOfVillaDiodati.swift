@@ -36,10 +36,11 @@ struct TheHauntingOfVillaDiodati: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Haunting Of\nVilla Diodati")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 294")
                             .font(.title3)
                         Text("Written By - Maxine Alderton")

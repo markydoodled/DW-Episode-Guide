@@ -36,10 +36,11 @@ struct TheGirlInTheFireplace: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("The Girl In\nThe Fireplace")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 171")
                                     .font(.title3)
                                 Text("Written By - Steven Moffat")

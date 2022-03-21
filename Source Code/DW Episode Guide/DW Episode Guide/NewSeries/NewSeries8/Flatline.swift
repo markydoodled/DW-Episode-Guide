@@ -25,7 +25,7 @@ struct Flatline: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 130, height: 130)
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()

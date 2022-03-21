@@ -36,10 +36,11 @@ struct LastOfTheTimeLords: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("Last Of The\nTime Lords")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 187c")
                                     .font(.title3)
                                 Text("Written By - Russell T Davies")

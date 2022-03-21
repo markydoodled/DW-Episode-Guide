@@ -36,10 +36,11 @@ struct AGoodManGoesToWar: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("A Good Man\nGoes To War")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 218")
                             .font(.title3)
                         Text("Written By - Steven Moffat")

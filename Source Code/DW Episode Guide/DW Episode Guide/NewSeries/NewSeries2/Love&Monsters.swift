@@ -21,7 +21,7 @@ struct Love_Monsters: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("LoveAndMonsters")
+                            Image("Love&Monsters")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -29,7 +29,7 @@ struct Love_Monsters: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "LoveAndMonsters")!])
+                                        pasteboard.writeObjects([NSImage(named: "Love&Monsters")!])
                                     }) {
                                         Text("Copy")
                                     }

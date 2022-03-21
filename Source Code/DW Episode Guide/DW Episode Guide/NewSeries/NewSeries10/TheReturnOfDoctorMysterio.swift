@@ -36,10 +36,11 @@ struct TheReturnOfDoctorMysterio: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Return Of\nDoctor Mysterio")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 264")
                             .font(.title3)
                         Text("Written By - Steven Moffat")

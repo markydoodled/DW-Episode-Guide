@@ -36,10 +36,11 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("Journey To The\nCentre Of\nThe TARDIS")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 236")
                             .font(.title3)
                         Text("Written By - Stephen Thompson")

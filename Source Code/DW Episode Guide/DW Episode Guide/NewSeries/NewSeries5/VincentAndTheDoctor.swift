@@ -36,10 +36,11 @@ struct VincentAndTheDoctor: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("Vincent And\nThe Doctor")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 210")
                                     .font(.title3)
                                 Text("Written By - Richard Curtis")

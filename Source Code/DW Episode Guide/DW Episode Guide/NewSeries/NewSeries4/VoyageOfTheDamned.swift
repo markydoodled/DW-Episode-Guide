@@ -25,7 +25,7 @@ struct VoyageOfTheDamned: View {
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
-                                .frame(width: 150, height: 150)
+                                .frame(width: 130, height: 130)
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
@@ -36,10 +36,11 @@ struct VoyageOfTheDamned: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                                Text("Voyage Of\nThe Damned")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 188")
                                     .font(.title3)
                                 Text("Written By - Russell T Davies")

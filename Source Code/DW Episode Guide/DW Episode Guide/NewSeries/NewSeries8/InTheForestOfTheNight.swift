@@ -25,7 +25,7 @@ struct InTheForestOfTheNight: View {
                         .resizable()
                         .scaledToFill()
                         .cornerRadius(25)
-                        .frame(width: 150, height: 150)
+                        .frame(width: 130, height: 130)
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
@@ -36,10 +36,11 @@ struct InTheForestOfTheNight: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("In The Forest\nOf The Night")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 251")
                             .font(.title3)
                         Text("Written By - Frank Cottrell-Boyce")

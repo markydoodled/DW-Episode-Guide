@@ -36,10 +36,11 @@ struct TheAngelsTakeManhattan: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                        Text("The Angels\nTake Manhattan")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 230")
                             .font(.title3)
                         Text("Written By - Steven Moffat")
