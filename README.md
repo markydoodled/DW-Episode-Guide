@@ -5,8 +5,8 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 ## **Features**
 
 - [x] macOS App
-- [x] Info On Classic Episodes
-- [x] Info On New Episodes
+- [x] Info On Classic Series Episodes
+- [x] Info On New Series Episodes
 - [x] Add Notes
 - [x] Share Wiki Link
 - [x] Copy Images
