@@ -36,10 +36,11 @@ struct TheShakespeareCode: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                            Text("The Shakespeare\nCode")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 180")
                                     .font(.title3)
                                 Text("Written By - Gareth Roberts")

@@ -1794,7 +1794,7 @@ struct PersistenceController {
         theendoftimepart1.director = "Euros Lyn"
         theendoftimepart1.doctor = "10th Doctor\n(David Tennant)"
         theendoftimepart1.length = "60 Minutes"
-        theendoftimepart1.producer = ""
+        theendoftimepart1.producer = "Tracie Simpson"
         let theendoftimepart2 = TheEndOfTimePart2Class(context: viewContext)
         theendoftimepart2.title = "The End Of Time - Part 2"
         theendoftimepart2.broadcast = "1 January 2010"

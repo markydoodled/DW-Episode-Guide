@@ -39,12 +39,6 @@ Coming Soon...
 
 ## **Things To Note**
 
- 1. This Project Is Free To Be Added To By The Community, If You Wish To Help, File A Issue With The Enhancement Tag
+ 1. This Project Is Free To Be Added To By The Community, Please Fork This Project To Add Your Own Enhancements. If You Wish To Help With This Branch, File A Issue With The Enhancement Tag
  2. Any And All Feedback Will Be Helpful For Future Development
  3. If You Wish To Report A Bug, Please Use Either The Feedback Button In The App Or Use GitHub Issues
-
-## **Credits**
- 
- Thanks To These People Who Developed These Packages, Who Without This Project Would Not Be Possible:
- 
- - 

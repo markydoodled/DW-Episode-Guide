@@ -17,7 +17,6 @@ struct SettingsView: View {
                                    Spacer()
                                    Text("1.0")
                                }
-                               .padding(.bottom)
                                HStack {
                                    Text("Build")
                                        .bold()

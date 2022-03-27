@@ -36,10 +36,11 @@ struct TheBellsOfSaintJohn: View {
                         }
                     Spacer()
                     VStack {
-                    Text("\(item.title!)")
+                    Text("The Bells Of\nSaint John")
                             .bold()
                             .font(.title)
                             .padding()
+                            .multilineTextAlignment(.center)
                     Text("Story No. 232")
                             .font(.title3)
                         Text("Written By - Steven Moffat")

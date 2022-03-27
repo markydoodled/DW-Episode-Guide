@@ -36,10 +36,11 @@ struct TheChristmasInvasion: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                            Text("The Christmas\nInvasion")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 167")
                                     .font(.title3)
                                 Text("Written By - Russell T Davies")

@@ -36,10 +36,11 @@ struct RiseOfTheCybermen: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                            Text("Rise Of The\nCybermen")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 172a")
                                     .font(.title3)
                                 Text("Written By - Tom MacRae")

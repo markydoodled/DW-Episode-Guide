@@ -36,10 +36,11 @@ struct TheEndOfTimePart2: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                            Text("The End Of\nTime - Part 2")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 202b")
                                     .font(.title3)
                                 Text("Written By - Russell T Davies")

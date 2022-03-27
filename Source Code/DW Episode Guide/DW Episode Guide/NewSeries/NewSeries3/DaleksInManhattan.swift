@@ -36,10 +36,11 @@ struct DaleksInManhattan: View {
                                 }
                             Spacer()
                             VStack {
-                            Text("\(item.title!)")
+                            Text("Daleks In\nManhattan")
                                     .bold()
                                     .font(.title)
                                     .padding()
+                                    .multilineTextAlignment(.center)
                             Text("Story No. 182a")
                                     .font(.title3)
                                 Text("Written By - Helen Raynor")
