@@ -31,11 +31,11 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 
 ## **Releases**
 
-Coming Soon...
+[Click Here...](https://github.com/markydoodled/DW-Episode-Guide/releases)
 
 ## **Images**
 
-Coming Soon...
+[Click Here...](https://github.com/markydoodled/DW-Episode-Guide/tree/main/Images)
 
 ## **Things To Note**
 
