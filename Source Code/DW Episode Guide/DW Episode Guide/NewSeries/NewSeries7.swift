@@ -66,7 +66,11 @@ struct NewSeries7: View {
             }
         }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("New Series 7")
     }
 }

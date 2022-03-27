@@ -16,6 +16,7 @@ struct Snakedance: View {
         private var items: FetchedResults<SnakedanceClass>
         @State var showingShare = false
         @AppStorage("SnakedanceNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

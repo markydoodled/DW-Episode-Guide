@@ -16,6 +16,7 @@ struct TheAndroidInvasion: View {
         private var items: FetchedResults<TheAndroidInvasionClass>
         @State var showingShare = false
         @AppStorage("TheAndroidInvasionNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

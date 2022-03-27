@@ -16,6 +16,7 @@ struct TheRescue: View {
     private var items: FetchedResults<TheRescueClass>
     @State var showingShare = false
     @AppStorage("TheRescueNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

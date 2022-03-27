@@ -16,6 +16,7 @@ struct Enlightenment: View {
         private var items: FetchedResults<EnlightenmentClass>
         @State var showingShare = false
         @AppStorage("EnlightenmentNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

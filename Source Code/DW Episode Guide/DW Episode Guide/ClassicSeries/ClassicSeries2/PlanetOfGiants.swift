@@ -16,6 +16,7 @@ struct PlanetOfGiants: View {
     private var items: FetchedResults<PlanetOfGiantsClass>
     @State var showingShare = false
     @AppStorage("PlanetOfGiantsNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

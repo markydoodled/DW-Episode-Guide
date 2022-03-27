@@ -32,7 +32,11 @@ struct ClassicSeries5: View {
                 Text("The Wheel In Space")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 5")
     }
 }

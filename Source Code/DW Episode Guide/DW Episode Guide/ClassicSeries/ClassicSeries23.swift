@@ -23,7 +23,11 @@ struct ClassicSeries23: View {
                 Text("The Ultimate Foe")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 23")
     }
 }

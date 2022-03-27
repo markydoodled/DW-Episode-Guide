@@ -16,6 +16,7 @@ struct TheDalekInvasionOfEarth: View {
     private var items: FetchedResults<TheDalekInvasionOfEarthClass>
     @State var showingShare = false
     @AppStorage("TheDalekInvasionOfEarthNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

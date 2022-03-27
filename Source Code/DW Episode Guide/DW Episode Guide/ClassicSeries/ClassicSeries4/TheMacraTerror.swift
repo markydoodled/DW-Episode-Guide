@@ -16,6 +16,7 @@ struct TheMacraTerror: View {
         private var items: FetchedResults<TheMacraTerrorClass>
         @State var showingShare = false
         @AppStorage("TheMacraTerrorNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

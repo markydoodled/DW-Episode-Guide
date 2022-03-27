@@ -29,7 +29,11 @@ struct ClassicSeries22: View {
                 Text("Revelation Of The Daleks")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 22")
     }
 }

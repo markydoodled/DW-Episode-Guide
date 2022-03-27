@@ -38,7 +38,11 @@ struct ClassicSeries2: View {
                 Text("The Time Meddler")
             }
         }
-        .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #if os(macOS)
+            .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 2")
     }
 }

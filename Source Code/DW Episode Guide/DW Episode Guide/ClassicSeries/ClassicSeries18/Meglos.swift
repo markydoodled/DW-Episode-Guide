@@ -16,6 +16,7 @@ struct Meglos: View {
         private var items: FetchedResults<MeglosClass>
         @State var showingShare = false
         @AppStorage("MeglosNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

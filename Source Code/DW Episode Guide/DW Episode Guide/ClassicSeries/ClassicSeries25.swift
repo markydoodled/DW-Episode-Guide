@@ -23,7 +23,11 @@ struct ClassicSeries25: View {
                 Text("The Greatest Show In The Galaxy")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 25")
     }
 }

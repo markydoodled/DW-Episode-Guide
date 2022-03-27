@@ -26,7 +26,11 @@ struct ClassicSeries11: View {
                 Text("Planet Of The Spiders")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 11")
     }
 }

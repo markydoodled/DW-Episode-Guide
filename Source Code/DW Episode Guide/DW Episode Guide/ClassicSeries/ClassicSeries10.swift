@@ -26,7 +26,11 @@ struct ClassicSeries10: View {
                 Text("The Green Death")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 10")
     }
 }

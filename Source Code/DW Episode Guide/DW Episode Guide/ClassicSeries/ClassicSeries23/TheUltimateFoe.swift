@@ -16,6 +16,7 @@ struct TheUltimateFoe: View {
         private var items: FetchedResults<TheUltimateFoeClass>
         @State var showingShare = false
         @AppStorage("TheUltimateFoeNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

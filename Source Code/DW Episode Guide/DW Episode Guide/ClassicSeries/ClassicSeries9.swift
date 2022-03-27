@@ -26,7 +26,11 @@ struct ClassicSeries9: View {
                 Text("The Time Monster")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 9")
     }
 }

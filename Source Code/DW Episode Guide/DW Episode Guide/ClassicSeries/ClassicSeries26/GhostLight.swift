@@ -16,6 +16,7 @@ struct GhostLight: View {
         private var items: FetchedResults<GhostLightClass>
         @State var showingShare = false
         @AppStorage("GhostLightNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

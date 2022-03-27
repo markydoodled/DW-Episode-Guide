@@ -16,6 +16,7 @@ struct TheArkInSpace: View {
         private var items: FetchedResults<TheArkInSpaceClass>
         @State var showingShare = false
         @AppStorage("TheArkInSpaceNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

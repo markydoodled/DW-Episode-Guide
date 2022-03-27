@@ -15,16 +15,24 @@ struct SettingsView: View {
                                    Text("Version")
                                        .bold()
                                    Spacer()
-                                   Text("1.0")
+                                   Text("1.1")
                                }
                                HStack {
                                    Text("Build")
                                        .bold()
                                    Spacer()
-                                   Text("1")
+                                   Text("3")
                                }
                            }
                            .padding()
+            HStack {
+                Text("Feedback")
+                Spacer()
+                Button(action: {SendEmail.send()}) {
+                    Text("Send Feedback")
+                }
+            }
+            .padding([.horizontal, .bottom])
                        }
                        .padding()
                        .frame(width: 300, height: 150)
@@ -34,5 +42,15 @@ struct SettingsView: View {
 struct SettingsView_Previews: PreviewProvider {
     static var previews: some View {
         SettingsView()
+    }
+}
+
+class SendEmail: NSObject {
+    static func send() {
+        let service = NSSharingService(named: NSSharingService.Name.composeEmail)!
+        service.recipients = ["markhoward2005@gmail.com"]
+        service.subject = "DW Episode Guide Feedback"
+
+        service.perform(withItems: ["Please Fill Out All Applicable Sections:", "Report A Bug - ", "Rate The App - ", "Suggest An Improvment - "])
     }
 }

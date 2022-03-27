@@ -16,6 +16,7 @@ struct StateOfDecay: View {
         private var items: FetchedResults<StateOfDecayClass>
         @State var showingShare = false
         @AppStorage("StateOfDecayNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,6 +16,7 @@ struct BlackOrchid: View {
         private var items: FetchedResults<BlackOrchidClass>
         @State var showingShare = false
         @AppStorage("BlackOrchidNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

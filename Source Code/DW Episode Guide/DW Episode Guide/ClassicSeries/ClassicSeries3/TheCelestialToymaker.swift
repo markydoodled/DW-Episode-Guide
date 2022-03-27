@@ -16,6 +16,7 @@ struct TheCelestialToymaker: View {
         private var items: FetchedResults<TheCelestialToymakerClass>
         @State var showingShare = false
         @AppStorage("TheCelestialToymakerNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

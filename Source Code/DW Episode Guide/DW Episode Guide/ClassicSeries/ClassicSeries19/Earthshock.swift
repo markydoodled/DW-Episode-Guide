@@ -16,6 +16,7 @@ struct Earthshock: View {
         private var items: FetchedResults<EarthshockClass>
         @State var showingShare = false
         @AppStorage("EarthshockNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

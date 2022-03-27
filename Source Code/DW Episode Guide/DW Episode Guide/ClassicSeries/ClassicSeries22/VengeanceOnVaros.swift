@@ -16,6 +16,7 @@ struct VengeanceOnVaros: View {
         private var items: FetchedResults<VengeanceOnVarosClass>
         @State var showingShare = false
         @AppStorage("VengeanceOnVarosNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

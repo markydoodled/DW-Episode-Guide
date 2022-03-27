@@ -32,7 +32,11 @@ struct ClassicSeries19: View {
                 Text("Time-Flight")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 19")
     }
 }

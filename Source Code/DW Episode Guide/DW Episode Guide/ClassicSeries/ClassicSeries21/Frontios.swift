@@ -16,6 +16,7 @@ struct Frontios: View {
         private var items: FetchedResults<FrontiosClass>
         @State var showingShare = false
         @AppStorage("FrontiosNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

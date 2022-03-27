@@ -26,7 +26,11 @@ struct ClassicSeries26: View {
                 Text("TV Movie")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 26")
     }
 }

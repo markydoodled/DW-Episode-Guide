@@ -16,6 +16,7 @@ struct InvasionOfTheDinosaurs: View {
         private var items: FetchedResults<InvasionOfTheDinosaursClass>
         @State var showingShare = false
         @AppStorage("InvasionOfTheDinosaursNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

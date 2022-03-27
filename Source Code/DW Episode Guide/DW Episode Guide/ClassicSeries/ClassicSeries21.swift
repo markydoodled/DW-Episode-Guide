@@ -32,7 +32,11 @@ struct ClassicSeries21: View {
                 Text("The Twin Dilemma")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 21")
     }
 }

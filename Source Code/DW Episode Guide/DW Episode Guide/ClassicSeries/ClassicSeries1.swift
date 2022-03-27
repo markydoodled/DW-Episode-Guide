@@ -35,7 +35,11 @@ struct ClassicSeries1: View {
                 Text("The Reign Of Terror")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 1")
     }
 }

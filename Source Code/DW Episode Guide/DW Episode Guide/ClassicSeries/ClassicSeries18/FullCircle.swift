@@ -16,6 +16,7 @@ struct FullCircle: View {
         private var items: FetchedResults<FullCircleClass>
         @State var showingShare = false
         @AppStorage("FullCircleNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,6 +16,7 @@ struct TheClawsOfAxos: View {
         private var items: FetchedResults<TheClawsOfAxosClass>
         @State var showingShare = false
         @AppStorage("TheClawsOfAxosNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

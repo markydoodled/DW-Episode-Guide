@@ -29,7 +29,11 @@ struct ClassicSeries13: View {
                 Text("The Seeds Of Doom")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 13")
     }
 }

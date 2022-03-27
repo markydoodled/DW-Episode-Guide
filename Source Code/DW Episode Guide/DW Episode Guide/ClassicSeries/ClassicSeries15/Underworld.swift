@@ -16,6 +16,7 @@ struct Underworld: View {
         private var items: FetchedResults<UnderworldClass>
         @State var showingShare = false
         @AppStorage("UnderworldNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

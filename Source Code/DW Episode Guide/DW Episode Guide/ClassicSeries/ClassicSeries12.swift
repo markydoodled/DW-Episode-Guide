@@ -26,7 +26,11 @@ struct ClassicSeries12: View {
                 Text("Revenge Of The Cybermen")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 12")
     }
 }

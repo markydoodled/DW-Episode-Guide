@@ -16,6 +16,7 @@ struct TheTwinDilemma: View {
         private var items: FetchedResults<TheTwinDilemmaClass>
         @State var showingShare = false
         @AppStorage("TheTwinDilemmaNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

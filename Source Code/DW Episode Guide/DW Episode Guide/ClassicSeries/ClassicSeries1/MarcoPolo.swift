@@ -16,6 +16,7 @@ struct MarcoPolo: View {
     private var items: FetchedResults<MarcoPoloClass>
     @State var showingShare = false
     @AppStorage("MarcoPoloNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -41,7 +41,11 @@ struct ClassicSeries3: View {
                 Text("The War Machines")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 3")
     }
 }

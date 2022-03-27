@@ -38,7 +38,11 @@ struct ClassicSeries4: View {
                 Text("The Evil Of The Daleks")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 4")
     }
 }

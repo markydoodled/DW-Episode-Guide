@@ -16,6 +16,7 @@ struct Robot: View {
         private var items: FetchedResults<RobotClass>
         @State var showingShare = false
         @AppStorage("RobotNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

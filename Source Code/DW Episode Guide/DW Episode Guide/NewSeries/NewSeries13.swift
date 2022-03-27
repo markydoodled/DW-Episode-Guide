@@ -32,7 +32,11 @@ struct NewSeries13: View {
                 Text("Eve Of The Daleks")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("New Series 13")
     }
 }

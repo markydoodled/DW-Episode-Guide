@@ -16,6 +16,7 @@ struct Castrovalva: View {
         private var items: FetchedResults<CastrovalvaClass>
         @State var showingShare = false
         @AppStorage("CastrovalvaNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

@@ -16,6 +16,7 @@ struct FrontierInSpace: View {
         private var items: FetchedResults<FrontierInSpaceClass>
         @State var showingShare = false
         @AppStorage("FrontierInSpaceNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,6 +16,7 @@ struct TheInvisibleEnemy: View {
         private var items: FetchedResults<TheInvisibleEnemyClass>
         @State var showingShare = false
         @AppStorage("TheInvisibleEnemyNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -29,7 +29,11 @@ struct ClassicSeries14: View {
                 Text("The Talons Of Weng Chiang")
             }
         }
+        #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))
+        #elseif os(iOS)
+        .listStyle(InsetListStyle())
+        #endif
         .navigationTitle("Classic Series 14")
     }
 }

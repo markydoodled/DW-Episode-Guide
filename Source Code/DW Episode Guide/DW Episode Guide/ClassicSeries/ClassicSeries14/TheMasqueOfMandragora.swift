@@ -16,6 +16,7 @@ struct TheMasqueOfMandragora: View {
         private var items: FetchedResults<TheMasqueOfMandragoraClass>
         @State var showingShare = false
         @AppStorage("TheMasqueOfMandragoraNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

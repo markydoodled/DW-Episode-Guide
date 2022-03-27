@@ -16,6 +16,7 @@ struct ArcOfInfinity: View {
         private var items: FetchedResults<ArcOfInfinityClass>
         @State var showingShare = false
         @AppStorage("ArcOfInfinityNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {
