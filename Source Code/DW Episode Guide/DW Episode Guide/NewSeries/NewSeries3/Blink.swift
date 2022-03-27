@@ -16,6 +16,7 @@ struct Blink: View {
         private var items: FetchedResults<BlinkClass>
         @State var showingShare = false
         @AppStorage("BlinkNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

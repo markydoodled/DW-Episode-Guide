@@ -16,6 +16,7 @@ struct SleepNoMore: View {
         private var items: FetchedResults<SleepNoMoreClass>
         @State var showingShare = false
         @AppStorage("SleepNoMoreNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

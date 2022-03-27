@@ -16,6 +16,7 @@ struct HeavenSent: View {
         private var items: FetchedResults<HeavenSentClass>
         @State var showingShare = false
         @AppStorage("HeavenSentNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

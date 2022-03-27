@@ -16,6 +16,7 @@ struct HumanNature: View {
         private var items: FetchedResults<HumanNatureClass>
         @State var showingShare = false
         @AppStorage("HumanNatureNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

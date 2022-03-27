@@ -16,6 +16,7 @@ struct TheBigBang: View {
         private var items: FetchedResults<TheBigBangClass>
         @State var showingShare = false
         @AppStorage("TheBigBangNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

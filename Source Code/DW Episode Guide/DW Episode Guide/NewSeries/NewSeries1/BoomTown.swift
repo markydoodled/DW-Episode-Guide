@@ -16,6 +16,7 @@ struct BoomTown: View {
         private var items: FetchedResults<BoomTownClass>
         @State var showingShare = false
         @AppStorage("BoomTownNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

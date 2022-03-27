@@ -16,6 +16,7 @@ struct TheRebelFlesh: View {
         private var items: FetchedResults<TheRebelFleshClass>
         @State var showingShare = false
         @AppStorage("TheRebelFleshNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

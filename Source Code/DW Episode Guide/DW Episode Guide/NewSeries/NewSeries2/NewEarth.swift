@@ -16,6 +16,7 @@ struct NewEarth: View {
         private var items: FetchedResults<NewEarthClass>
         @State var showingShare = false
         @AppStorage("NewEarthNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

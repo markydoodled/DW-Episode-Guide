@@ -16,6 +16,7 @@ struct Flatline: View {
         private var items: FetchedResults<FlatlineClass>
         @State var showingShare = false
         @AppStorage("FlatlineNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

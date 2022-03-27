@@ -16,6 +16,7 @@ struct BadWolf: View {
         private var items: FetchedResults<BadWolfClass>
         @State var showingShare = false
         @AppStorage("BadWolfNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

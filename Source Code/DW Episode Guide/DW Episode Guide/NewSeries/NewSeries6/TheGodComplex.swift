@@ -16,6 +16,7 @@ struct TheGodComplex: View {
         private var items: FetchedResults<TheGodComplexClass>
         @State var showingShare = false
         @AppStorage("TheGodComplexNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
     ForEach(items) { item in
             ScrollView {

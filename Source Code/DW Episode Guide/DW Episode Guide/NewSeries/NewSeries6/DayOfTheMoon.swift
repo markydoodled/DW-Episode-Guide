@@ -16,6 +16,7 @@ struct DayOfTheMoon: View {
         private var items: FetchedResults<DayOfTheMoonClass>
         @State var showingShare = false
         @AppStorage("DayOfTheMoonNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

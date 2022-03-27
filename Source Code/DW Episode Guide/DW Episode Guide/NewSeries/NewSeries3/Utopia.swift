@@ -16,6 +16,7 @@ struct Utopia: View {
         private var items: FetchedResults<UtopiaClass>
         @State var showingShare = false
         @AppStorage("UtopiaNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

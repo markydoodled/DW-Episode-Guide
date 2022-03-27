@@ -16,6 +16,7 @@ struct TheZygonInversion: View {
         private var items: FetchedResults<TheZygonInversionClass>
         @State var showingShare = false
         @AppStorage("TheZygonInversionNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

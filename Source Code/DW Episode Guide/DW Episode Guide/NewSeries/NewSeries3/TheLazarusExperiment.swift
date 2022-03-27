@@ -16,6 +16,7 @@ struct TheLazarusExperiment: View {
         private var items: FetchedResults<TheLazarusExperimentClass>
         @State var showingShare = false
         @AppStorage("TheLararusExperimentNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

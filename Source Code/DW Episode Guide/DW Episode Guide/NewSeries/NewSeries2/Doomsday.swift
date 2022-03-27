@@ -16,6 +16,7 @@ struct Doomsday: View {
         private var items: FetchedResults<DoomsdayClass>
         @State var showingShare = false
         @AppStorage("DoomsdayNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

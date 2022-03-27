@@ -16,6 +16,7 @@ struct TheBeastBelow: View {
         private var items: FetchedResults<TheBeastBelowClass>
         @State var showingShare = false
         @AppStorage("TheBeastBelowNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

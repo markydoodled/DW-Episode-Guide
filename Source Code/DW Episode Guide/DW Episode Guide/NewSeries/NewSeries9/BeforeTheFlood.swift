@@ -16,6 +16,7 @@ struct BeforeTheFlood: View {
         private var items: FetchedResults<BeforeTheFloodClass>
         @State var showingShare = false
         @AppStorage("BeforeTheFloodNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

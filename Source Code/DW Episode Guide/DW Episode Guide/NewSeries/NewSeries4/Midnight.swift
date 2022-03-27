@@ -16,6 +16,7 @@ struct Midnight: View {
         private var items: FetchedResults<MidnightClass>
         @State var showingShare = false
         @AppStorage("MidnightNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

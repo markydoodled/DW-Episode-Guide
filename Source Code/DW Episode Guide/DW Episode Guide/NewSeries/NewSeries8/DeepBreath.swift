@@ -16,6 +16,7 @@ struct DeepBreath: View {
         private var items: FetchedResults<DeepBreathClass>
         @State var showingShare = false
         @AppStorage("DeepBreathNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

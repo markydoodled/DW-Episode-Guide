@@ -16,6 +16,7 @@ struct SchoolReunion: View {
         private var items: FetchedResults<SchoolReunionClass>
         @State var showingShare = false
         @AppStorage("SchoolReunionNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

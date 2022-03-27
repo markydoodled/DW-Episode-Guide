@@ -16,6 +16,7 @@ struct KnockKnock: View {
         private var items: FetchedResults<KnockKnockClass>
         @State var showingShare = false
         @AppStorage("KnockKnockNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

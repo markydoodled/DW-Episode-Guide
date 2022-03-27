@@ -16,6 +16,7 @@ struct ClosingTime: View {
         private var items: FetchedResults<ClosingTimeClass>
         @State var showingShare = false
         @AppStorage("ClosingTimeNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

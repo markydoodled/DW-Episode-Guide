@@ -16,6 +16,7 @@ struct CanYouHearMe: View {
         private var items: FetchedResults<CanYouHearMeClass>
         @State var showingShare = false
         @AppStorage("CanYouHearMeNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,6 +16,7 @@ struct Oxygen: View {
         private var items: FetchedResults<OxygenClass>
         @State var showingShare = false
         @AppStorage("OxygenNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

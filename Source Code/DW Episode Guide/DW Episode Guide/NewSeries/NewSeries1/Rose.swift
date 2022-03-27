@@ -16,6 +16,7 @@ struct Rose: View {
         private var items: FetchedResults<RoseClass>
         @State var showingShare = false
         @AppStorage("RoseNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

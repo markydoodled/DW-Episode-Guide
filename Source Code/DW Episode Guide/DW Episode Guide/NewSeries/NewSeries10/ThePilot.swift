@@ -16,6 +16,7 @@ struct ThePilot: View {
         private var items: FetchedResults<ThePilotClass>
         @State var showingShare = false
         @AppStorage("ThePilotNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

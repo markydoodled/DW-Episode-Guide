@@ -16,6 +16,7 @@ struct DeathInHeaven: View {
         private var items: FetchedResults<DeathInHeavenClass>
         @State var showingShare = false
         @AppStorage("DeathInHeavenNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,6 +16,7 @@ struct TurnLeft: View {
         private var items: FetchedResults<TurnLeftClass>
         @State var showingShare = false
         @AppStorage("TurnLeftNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

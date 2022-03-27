@@ -16,6 +16,7 @@ struct Orphan55: View {
         private var items: FetchedResults<Orphan55Class>
         @State var showingShare = false
         @AppStorage("Orphan55Notes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,6 +16,7 @@ struct Hide: View {
         private var items: FetchedResults<HideClass>
         @State var showingShare = false
         @AppStorage("HideNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

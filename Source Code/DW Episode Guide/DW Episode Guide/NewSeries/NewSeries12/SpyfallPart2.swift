@@ -16,6 +16,7 @@ struct SpyfallPart2: View {
         private var items: FetchedResults<SpyfallPart2Class>
         @State var showingShare = false
         @AppStorage("SpyfallPart2Notes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

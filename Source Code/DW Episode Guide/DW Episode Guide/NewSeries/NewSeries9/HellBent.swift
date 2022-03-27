@@ -16,6 +16,7 @@ struct HellBent: View {
         private var items: FetchedResults<HellBentClass>
         @State var showingShare = false
         @AppStorage("HellBentNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {

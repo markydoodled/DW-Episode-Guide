@@ -16,6 +16,7 @@ struct TheStolenEarth: View {
         private var items: FetchedResults<TheStolenEarthClass>
         @State var showingShare = false
         @AppStorage("TheStolenEarthNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

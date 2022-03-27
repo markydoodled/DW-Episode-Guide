@@ -16,6 +16,7 @@ struct WorldEnoughAndTime: View {
         private var items: FetchedResults<WorldEnoughAndTimeClass>
         @State var showingShare = false
         @AppStorage("WorldEnoughAndTimeNotes") var notes = ""
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     var body: some View {
         ForEach(items) { item in
             ScrollView {
