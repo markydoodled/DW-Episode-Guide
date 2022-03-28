@@ -385,6 +385,7 @@
 		D513C6B927F0B888006505A9 /* WorldWarThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB09F2744218D0032DF75 /* WorldWarThree.swift */; };
 		D513C6BA27F0B888006505A9 /* TheEndOfTheWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0992744216E0032DF75 /* TheEndOfTheWorld.swift */; };
 		D513C6BB27F0B888006505A9 /* FathersDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A5274422E40032DF75 /* FathersDay.swift */; };
+		D513C6BD27F0FA7B006505A9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D513C6BC27F0FA7B006505A9 /* Settings.bundle */; };
 		D57832DB27381A18007CD57E /* DW_Episode_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */; };
 		D57832DD27381A18007CD57E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DC27381A18007CD57E /* ContentView.swift */; };
 		D57832DF27381A1C007CD57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57832DE27381A1C007CD57E /* Assets.xcassets */; };
@@ -772,6 +773,7 @@
 		D513C53C27F0B209006505A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D513C53E27F0B210006505A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D513C54127F0B210006505A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D513C6BC27F0FA7B006505A9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D57832D727381A18007CD57E /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_Episode_GuideApp.swift; sourceTree = "<group>"; };
 		D57832DC27381A18007CD57E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1180,6 +1182,7 @@
 				D513C53C27F0B209006505A9 /* ContentView.swift */,
 				D513C53E27F0B210006505A9 /* Assets.xcassets */,
 				D513C54027F0B210006505A9 /* Preview Content */,
+				D513C6BC27F0FA7B006505A9 /* Settings.bundle */,
 			);
 			path = "DW Episode Guide iOS";
 			sourceTree = "<group>";
@@ -2017,6 +2020,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D513C54227F0B210006505A9 /* Preview Assets.xcassets in Resources */,
+				D513C6BD27F0FA7B006505A9 /* Settings.bundle in Resources */,
 				D513C53F27F0B210006505A9 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
