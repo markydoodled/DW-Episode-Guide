@@ -9,7 +9,10 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @State var tabSelection = 1
     var body: some View {
+    if horizontalSizeClass == .regular {
         NavigationView {
             List {
                 Section(header: Text("Classic Series")) {
@@ -37,7 +40,40 @@ struct ContentView: View {
                     .font(.title2)
                     .bold()
                     .padding()
-            }
+                    }
+                }
+            } else {
+                TabView(selection: $tabSelection) {
+                NavigationView {
+                        List {
+                            classicSeriesBlock1
+                            classicSeriesBlock2
+                            classicSeriesBlock3
+                        }
+                    }
+                    .tag(1)
+                    .tabItem {
+                        Image(systemName: "c.circle")
+                        Text("Classic")
+                    }
+                    NavigationView {
+                        List {
+                            newSeriesBlock1
+                            newSeriesBlock2
+                        } 
+                    }
+                    .tag(2)
+                    .tabItem {
+                        Image(systemName: "n.circle")
+                        Text("New")
+                    }
+                    settings
+                    .tag(3)
+                    .tabItem {
+                        Image(systemName: "gearshape")
+                        Text("Settings")
+                    } 
+                }
         }
     }
     var classicSeriesBlock1: some View {
@@ -172,6 +208,43 @@ struct ContentView: View {
         NavigationLink(destination: NewSeries13()) {
             Label("Series 13", systemImage: "13.circle")
         }
+        }
+    }
+    var settings: some View {
+        if horizontalSizeClass == .regular {
+            NavigationView {
+                Form {
+                    Section(header: Label("Misc.", systemImage: "") {
+                    HStack {
+                        Text("Version")
+                        Spacer()
+                        Text("1.1") 
+                    }
+                    HStack {
+                        Text("Build")
+                        Spacer()
+                        Text("3")
+                    }
+                    }
+                }
+            }
+        } else {
+            NavigationView {
+                Form {
+                    Section(header: Label("Misc.", systemImage: "")) {
+                     HStack {
+                        Text("Version")
+                        Spacer()
+                        Text("1.1")
+                     }   
+                     HStack {
+                        Text("Build")
+                        Spacer()
+                        Text("3")
+                     }
+                    }
+                }
+            } 
         }
     }
 }

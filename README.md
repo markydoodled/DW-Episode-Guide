@@ -28,6 +28,8 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Episode Air Date Notifications
 - [ ] Drag And Drop Support (iOS, iPadOS And macOS)
 - [ ] Copy Info To Clipboard (iOS, iPadOS And macOS)
+- [ ] Watched Indicator (iOS, iPadOS And macOS)
+- [ ] Per Episode Ratings
 
 ## **Releases**
 
