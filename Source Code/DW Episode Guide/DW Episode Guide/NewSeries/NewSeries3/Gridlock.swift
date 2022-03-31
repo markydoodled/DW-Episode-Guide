@@ -16,7 +16,9 @@ struct Gridlock: View {
         private var items: FetchedResults<GridlockClass>
         @State var showingShare = false
         @AppStorage("GridlockNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

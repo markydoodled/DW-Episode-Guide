@@ -16,7 +16,9 @@ struct TheLeisureHive: View {
         private var items: FetchedResults<TheLeisureHiveClass>
         @State var showingShare = false
         @AppStorage("TheLeisureHiveNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

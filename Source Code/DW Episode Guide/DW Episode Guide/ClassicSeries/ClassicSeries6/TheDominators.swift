@@ -16,7 +16,9 @@ struct TheDominators: View {
         private var items: FetchedResults<TheDominatorsClass>
         @State var showingShare = false
         @AppStorage("TheDominatorsNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

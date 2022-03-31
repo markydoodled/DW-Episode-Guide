@@ -16,7 +16,9 @@ struct SilenceInTheLibrary: View {
         private var items: FetchedResults<SilenceInTheLibraryClass>
         @State var showingShare = false
         @AppStorage("SilenceInTheLibraryNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

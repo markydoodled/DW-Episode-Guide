@@ -16,7 +16,9 @@ struct TheArmageddonFactor: View {
         private var items: FetchedResults<TheArmageddonFactorClass>
         @State var showingShare = false
         @AppStorage("TheArmageddonFactorNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

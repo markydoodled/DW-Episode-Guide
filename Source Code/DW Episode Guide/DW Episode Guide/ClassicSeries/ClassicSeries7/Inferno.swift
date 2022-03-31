@@ -16,7 +16,9 @@ struct Inferno: View {
         private var items: FetchedResults<InfernoClass>
         @State var showingShare = false
         @AppStorage("InfernoNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

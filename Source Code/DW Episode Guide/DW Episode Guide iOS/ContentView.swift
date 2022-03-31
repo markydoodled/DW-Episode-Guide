@@ -6,11 +6,14 @@
 //
 
 import SwiftUI
+import MessageUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) private var viewContext
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @State var tabSelection = 1
+    @State var result: Result<MFMailComposeResult, Error>? = nil
+    @State var isShowingMailView = false
     var body: some View {
     if horizontalSizeClass == .regular {
         NavigationView {
@@ -50,6 +53,7 @@ struct ContentView: View {
                             classicSeriesBlock2
                             classicSeriesBlock3
                         }
+                        .navigationTitle("Classic Series")
                     }
                     .tag(1)
                     .tabItem {
@@ -60,7 +64,8 @@ struct ContentView: View {
                         List {
                             newSeriesBlock1
                             newSeriesBlock2
-                        } 
+                        }
+                        .navigationTitle("New Series")
                     }
                     .tag(2)
                     .tabItem {
@@ -214,7 +219,7 @@ struct ContentView: View {
         if horizontalSizeClass == .regular {
             NavigationView {
                 Form {
-                    Section(header: Label("Misc.", systemImage: "") {
+                    Section(header: Label("Misc.", systemImage: "")) {
                     HStack {
                         Text("Version")
                         Spacer()
@@ -225,8 +230,17 @@ struct ContentView: View {
                         Spacer()
                         Text("3")
                     }
+                        HStack {
+                            Button(action: {self.isShowingMailView.toggle()}) {
+                                Text("Send Feeback")
+                            }
+                            .sheet(isPresented: $isShowingMailView) {
+                                MailView(isShowing: self.$isShowingMailView, result: self.$result)
+                            }
+                        }
                     }
                 }
+                .navigationTitle("Settings")
             }
         } else {
             NavigationView {
@@ -242,8 +256,17 @@ struct ContentView: View {
                         Spacer()
                         Text("3")
                      }
+                        HStack {
+                            Button(action: {self.isShowingMailView.toggle()}) {
+                                Text("Send Feeback")
+                            }
+                            .sheet(isPresented: $isShowingMailView) {
+                                MailView(isShowing: self.$isShowingMailView, result: self.$result)
+                            }
+                        }
                     }
                 }
+                .navigationTitle("Settings")
             } 
         }
     }
@@ -252,5 +275,52 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView().environment(\.managedObjectContext, PersistenceController.preview.container.viewContext)
+    }
+}
+
+struct MailView: UIViewControllerRepresentable {
+
+    @Binding var isShowing: Bool
+    @Binding var result: Result<MFMailComposeResult, Error>?
+
+    class Coordinator: NSObject, MFMailComposeViewControllerDelegate {
+
+        @Binding var isShowing: Bool
+        @Binding var result: Result<MFMailComposeResult, Error>?
+
+        init(isShowing: Binding<Bool>,
+             result: Binding<Result<MFMailComposeResult, Error>?>) {
+            _isShowing = isShowing
+            _result = result
+        }
+
+        func mailComposeController(_ controller: MFMailComposeViewController,
+                                   didFinishWith result: MFMailComposeResult,
+                                   error: Error?) {
+            defer {
+                isShowing = false
+            }
+            guard error == nil else {
+                self.result = .failure(error!)
+                return
+            }
+            self.result = .success(result)
+        }
+    }
+
+    func makeCoordinator() -> Coordinator {
+        return Coordinator(isShowing: $isShowing,
+                           result: $result)
+    }
+
+    func makeUIViewController(context: UIViewControllerRepresentableContext<MailView>) -> MFMailComposeViewController {
+        let vc = MFMailComposeViewController()
+        vc.mailComposeDelegate = context.coordinator
+        return vc
+    }
+
+    func updateUIViewController(_ uiViewController: MFMailComposeViewController,
+                                context: UIViewControllerRepresentableContext<MailView>) {
+
     }
 }

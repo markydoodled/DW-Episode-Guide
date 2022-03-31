@@ -16,7 +16,9 @@ struct FleshAndStone: View {
         private var items: FetchedResults<FleshAndStoneClass>
         @State var showingShare = false
         @AppStorage("FleshAndStoneNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

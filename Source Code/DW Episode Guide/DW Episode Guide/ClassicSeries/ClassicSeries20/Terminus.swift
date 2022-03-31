@@ -16,7 +16,9 @@ struct Terminus: View {
         private var items: FetchedResults<TerminusClass>
         @State var showingShare = false
         @AppStorage("TerminusNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

@@ -16,7 +16,9 @@ struct TheInvasion: View {
         private var items: FetchedResults<TheInvasionClass>
         @State var showingShare = false
         @AppStorage("TheInvasionNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

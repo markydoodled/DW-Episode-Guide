@@ -16,7 +16,9 @@ struct SilverNemesis: View {
         private var items: FetchedResults<SilverNemesisClass>
         @State var showingShare = false
         @AppStorage("SilverNemesisNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

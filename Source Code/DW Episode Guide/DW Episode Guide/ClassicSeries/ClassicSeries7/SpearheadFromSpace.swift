@@ -16,7 +16,9 @@ struct SpearheadFromSpace: View {
         private var items: FetchedResults<SpearheadFromSpaceClass>
         @State var showingShare = false
         @AppStorage("SpearheadFromSpaceNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

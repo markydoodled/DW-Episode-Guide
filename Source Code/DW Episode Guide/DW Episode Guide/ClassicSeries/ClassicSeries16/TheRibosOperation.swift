@@ -16,7 +16,9 @@ struct TheRibosOperation: View {
         private var items: FetchedResults<TheRibosOperationClass>
         @State var showingShare = false
         @AppStorage("TheRibosOperationNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

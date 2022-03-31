@@ -16,7 +16,9 @@ struct Praxeus: View {
         private var items: FetchedResults<PraxeusClass>
         @State var showingShare = false
         @AppStorage("PraxeusNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

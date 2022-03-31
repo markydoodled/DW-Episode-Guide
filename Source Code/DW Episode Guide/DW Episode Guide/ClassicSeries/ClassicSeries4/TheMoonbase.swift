@@ -16,7 +16,9 @@ struct TheMoonbase: View {
         private var items: FetchedResults<TheMoonbaseClass>
         @State var showingShare = false
         @AppStorage("TheMoonbaseNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

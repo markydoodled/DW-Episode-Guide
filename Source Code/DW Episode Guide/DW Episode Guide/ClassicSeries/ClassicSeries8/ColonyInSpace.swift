@@ -16,7 +16,9 @@ struct ColonyInSpace: View {
         private var items: FetchedResults<ColonyInSpaceClass>
         @State var showingShare = false
         @AppStorage("ColonyInSpaceNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

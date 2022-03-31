@@ -16,7 +16,9 @@ struct ThePowerOfThree: View {
         private var items: FetchedResults<ThePowerOfThreeClass>
         @State var showingShare = false
         @AppStorage("ThePowerOfThreeNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

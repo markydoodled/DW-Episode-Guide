@@ -16,7 +16,9 @@ struct TheKeeperOfTraken: View {
         private var items: FetchedResults<TheKeeperOfTrakenClass>
         @State var showingShare = false
         @AppStorage("TheKeeperOfTrakenNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

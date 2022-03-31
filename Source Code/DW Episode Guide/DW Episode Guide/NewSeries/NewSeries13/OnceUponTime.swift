@@ -16,7 +16,9 @@ struct OnceUponTime: View {
         private var items: FetchedResults<OnceUponTimeClass>
         @State var showingShare = false
         @AppStorage("OnceUponTimeNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

@@ -16,7 +16,9 @@ struct ParadiseTowers: View {
         private var items: FetchedResults<ParadiseTowersClass>
         @State var showingShare = false
         @AppStorage("ParadiseTowersNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
                     ScrollView {

@@ -16,7 +16,9 @@ struct TheEdgeOfDestruction: View {
     private var items: FetchedResults<TheEdgeOfDestructionClass>
     @State var showingShare = false
     @AppStorage("TheEdgeOfDestructionNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

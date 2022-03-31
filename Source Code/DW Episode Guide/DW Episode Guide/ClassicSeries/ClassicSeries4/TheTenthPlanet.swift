@@ -16,7 +16,9 @@ struct TheTenthPlanet: View {
         private var items: FetchedResults<TheTenthPlanetClass>
         @State var showingShare = false
         @AppStorage("TheTenthPlanetNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {

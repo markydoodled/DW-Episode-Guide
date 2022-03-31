@@ -16,7 +16,9 @@ struct Resolution: View {
         private var items: FetchedResults<ResolutionClass>
         @State var showingShare = false
         @AppStorage("ResolutionNotes") var notes = ""
+    #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    #endif
     var body: some View {
         ForEach(items) { item in
             ScrollView {
