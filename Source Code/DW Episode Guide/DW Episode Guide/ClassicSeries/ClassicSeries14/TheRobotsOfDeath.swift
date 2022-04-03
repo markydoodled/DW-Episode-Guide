@@ -20,7 +20,8 @@ struct TheRobotsOfDeath: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     #endif
     var body: some View {
-ForEach(items) { item in
+        #if os(macOS)
+        ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
@@ -159,6 +160,9 @@ ForEach(items) { item in
             }
             .navigationTitle("\(item.title!)")
     }
+    #elseif os(iOS)
+
+    #endif
         }
 }
 
