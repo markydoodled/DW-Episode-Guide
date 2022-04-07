@@ -20,6 +20,7 @@ struct TheLazarusExperiment: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     #endif
     var body: some View {
+        #if os(macOS)
         ForEach(items) { item in
                     ScrollView {
                         HStack {
@@ -160,7 +161,9 @@ struct TheLazarusExperiment: View {
                     }
                     .navigationTitle("\(item.title!)")
             }
+    #elseif os(iOS)
 
+    #endif
     }
 }
 

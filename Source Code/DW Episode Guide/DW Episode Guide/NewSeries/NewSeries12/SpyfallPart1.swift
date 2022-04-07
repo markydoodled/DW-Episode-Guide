@@ -20,6 +20,7 @@ struct SpyfallPart1: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     #endif
     var body: some View {
+    #if os(macOS)
         ForEach(items) { item in
             ScrollView {
                 HStack {
@@ -159,6 +160,9 @@ struct SpyfallPart1: View {
             }
             .navigationTitle("\(item.title!)")
     }
+    #elseif os(iOS)
+
+    #endif
     }
 }
 
