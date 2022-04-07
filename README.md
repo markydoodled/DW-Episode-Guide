@@ -20,8 +20,8 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Class Info
 - [ ] Amazon DVD Links (iOS, iPadOS And macOS)
 - [ ] Apple TV App Links (iOS, iPadOS, macOS And tvOS)
-- [ ] Video Clips (iOS, iPadOS, macOS, tvOS)
-- [ ] User Feedback Button (iOS, iPadOS, macOS)
+- [ ] Video Clips (iOS, iPadOS, macOS And tvOS)
+- [ ] User Feedback Button (iOS, iPadOS And macOS)
 - [ ] Search To Find Episodes
 - [ ] TouchBar Buttons (macOS)
 - [ ] Keyboard Shortcuts (iPadOS And macOS)

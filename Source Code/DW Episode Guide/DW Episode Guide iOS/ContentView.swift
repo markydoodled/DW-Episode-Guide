@@ -72,7 +72,7 @@ struct ContentView: View {
                         Image(systemName: "n.circle")
                         Text("New")
                     }
-                    settings
+                    setting
                     .tag(3)
                     .tabItem {
                         Image(systemName: "gearshape")
@@ -215,11 +215,27 @@ struct ContentView: View {
         }
         }
     }
-    var settings: some View {
+    var setting: some View {
+        NavigationView {
+        if horizontalSizeClass == .regular {
+                Form {
+                    HStack {
+                        Text("Version")
+                        Spacer()
+                        Text("1.0")
+                    }
+                }
+                .navigationTitle("Settings")
+        } else {
+            Text("Test")
+        }
+        }
+    }
+    /*var settings: some View {
         if horizontalSizeClass == .regular {
             NavigationView {
                 Form {
-                    Section(header: Label("Misc.", systemImage: "")) {
+                    Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
                     HStack {
                         Text("Version")
                         Spacer()
@@ -245,7 +261,7 @@ struct ContentView: View {
         } else {
             NavigationView {
                 Form {
-                    Section(header: Label("Misc.", systemImage: "")) {
+                    Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
                      HStack {
                         Text("Version")
                         Spacer()
@@ -269,7 +285,7 @@ struct ContentView: View {
                 .navigationTitle("Settings")
             } 
         }
-    }
+    }*/
 }
 
 struct ContentView_Previews: PreviewProvider {

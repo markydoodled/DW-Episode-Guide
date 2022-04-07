@@ -15,8 +15,11 @@ struct TVMovie: View {
                 animation: .default)
             private var items: FetchedResults<TVMovieClass>
             @State var showingShare = false
+    #if os(iOS)
             @AppStorage("TVMovieNotes") var notes = ""
+    #endif
     var body: some View {
+        #if os(macOS)
         ForEach(items) { item in
                     ScrollView {
                         HStack {
@@ -156,7 +159,9 @@ struct TVMovie: View {
                     }
                     .navigationTitle("\(item.title!)")
             }
+#elseif os(iOS)
 
+#endif
     }
 }
 
