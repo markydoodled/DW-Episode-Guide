@@ -159,6 +159,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_TARDIS")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("\(item.title!)")
     }
     #elseif os(iOS)
