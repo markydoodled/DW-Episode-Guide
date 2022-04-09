@@ -158,6 +158,7 @@ struct Inferno: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Inferno_(Doctor_Who)")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("\(item.title!)")
     }
     #elseif os(iOS)

@@ -158,6 +158,7 @@ struct FourToDoomsday: View {
                             .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Four_to_Doomsday")!]))
                         }
                     }
+                    .textSelection(.enabled)
                     .navigationTitle("\(item.title!)")
             }
     #elseif os(iOS)

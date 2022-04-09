@@ -158,6 +158,7 @@ struct TheMasqueOfMandragora: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Masque_of_Mandragora")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("\(item.title!)")
     }
     #elseif os(iOS)

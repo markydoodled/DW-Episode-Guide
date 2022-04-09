@@ -158,6 +158,7 @@ struct TheFaceOfEvil: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Face_of_Evil")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("\(item.title!)")
     }
     #elseif os(iOS)

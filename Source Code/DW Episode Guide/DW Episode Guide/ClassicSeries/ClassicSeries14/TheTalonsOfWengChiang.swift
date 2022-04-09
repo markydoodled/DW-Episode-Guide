@@ -158,6 +158,7 @@ struct TheTalonsOfWengChiang: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Talons_of_Weng-Chiang")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("The Talons Of Weng Chiang")
     //}
     #elseif os(iOS)

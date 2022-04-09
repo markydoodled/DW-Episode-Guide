@@ -158,6 +158,7 @@ struct VengeanceOnVaros: View {
                             .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Vengeance_on_Varos")!]))
                         }
                     }
+                    .textSelection(.enabled)
                     .navigationTitle("\(item.title!)")
             }
     #elseif os(iOS)

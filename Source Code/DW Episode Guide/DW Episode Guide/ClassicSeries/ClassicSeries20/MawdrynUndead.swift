@@ -158,6 +158,7 @@ struct MawdrynUndead: View {
                             .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Mawdryn_Undead")!]))
                         }
                     }
+                    .textSelection(.enabled)
                     .navigationTitle("\(item.title!)")
             }
     #elseif os(iOS)

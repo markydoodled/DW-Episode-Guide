@@ -158,6 +158,7 @@ struct ResurrectionOfTheDaleks: View {
                             .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Resurrection_of_the_Daleks")!]))
                         }
                     }
+                    .textSelection(.enabled)
                     .navigationTitle("\(item.title!)")
             }
     #elseif os(iOS)

@@ -158,6 +158,7 @@ struct TheThreeDoctors: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Three_Doctors_(Doctor_Who)")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("\(item.title!)")
     }
     #elseif os(iOS)

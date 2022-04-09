@@ -158,6 +158,7 @@ struct FuryFromTheDeep: View {
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Fury_from_the_Deep")!]))
                 }
             }
+            .textSelection(.enabled)
             .navigationTitle("\(item.title!)")
     }
     #elseif os(iOS)

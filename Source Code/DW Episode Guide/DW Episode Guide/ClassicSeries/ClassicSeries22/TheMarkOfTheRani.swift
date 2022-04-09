@@ -159,6 +159,7 @@ struct TheMarkOfTheRani: View {
                             .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Mark_of_the_Rani")!]))
                         }
                     }
+                    .textSelection(.enabled)
                     .navigationTitle("\(item.title!)")
             }
     #elseif os(iOS)

@@ -15,8 +15,9 @@ struct TVMovie: View {
                 animation: .default)
             private var items: FetchedResults<TVMovieClass>
             @State var showingShare = false
+    @AppStorage("TVMovieNotes") var notes = ""
     #if os(iOS)
-            @AppStorage("TVMovieNotes") var notes = ""
+        @Environment(\.horizontalSizeClass) var horizontalSizeClass
     #endif
     var body: some View {
         #if os(macOS)
@@ -157,6 +158,7 @@ struct TVMovie: View {
                             .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Doctor_Who_(film)")!]))
                         }
                     }
+                    .textSelection(.enabled)
                     .navigationTitle("\(item.title!)")
             }
 #elseif os(iOS)

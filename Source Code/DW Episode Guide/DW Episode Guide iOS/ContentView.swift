@@ -14,6 +14,7 @@ struct ContentView: View {
     @State var tabSelection = 1
     @State var result: Result<MFMailComposeResult, Error>? = nil
     @State var isShowingMailView = false
+    @State var showingSettings = false
     var body: some View {
     if horizontalSizeClass == .regular {
         NavigationView {
@@ -30,10 +31,21 @@ struct ContentView: View {
             }
             .listStyle(SidebarListStyle())
             .navigationTitle("DW Episode Guide")
+            .toolbar {
+                ToolbarItem(placement: .navigationBarTrailing) {
+                    Button(action: {self.showingSettings = true}) {
+                        Image(systemName: "gearshape")
+                    }
+                    .sheet(isPresented: $showingSettings) {
+                        setting
+                    }
+                }
+            }
             List {
                 Text("Please Select A Series...")
             }
             .listStyle(InsetListStyle())
+            .navigationBarTitle("Select")
             VStack {
                 Image("AppsIcon")
                     .resizable()
@@ -53,6 +65,7 @@ struct ContentView: View {
                             classicSeriesBlock2
                             classicSeriesBlock3
                         }
+                        .listStyle(InsetListStyle())
                         .navigationTitle("Classic Series")
                     }
                     .tag(1)
@@ -65,6 +78,7 @@ struct ContentView: View {
                             newSeriesBlock1
                             newSeriesBlock2
                         }
+                        .listStyle(InsetListStyle())
                         .navigationTitle("New Series")
                     }
                     .tag(2)
@@ -222,70 +236,55 @@ struct ContentView: View {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.0")
-                    }
-                }
-                .navigationTitle("Settings")
-        } else {
-            Text("Test")
-        }
-        }
-    }
-    /*var settings: some View {
-        if horizontalSizeClass == .regular {
-            NavigationView {
-                Form {
-                    Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
-                    HStack {
-                        Text("Version")
-                        Spacer()
-                        Text("1.1") 
+                        Text("1.1")
                     }
                     HStack {
                         Text("Build")
                         Spacer()
                         Text("3")
                     }
-                        HStack {
-                            Button(action: {self.isShowingMailView.toggle()}) {
-                                Text("Send Feeback")
-                            }
-                            .sheet(isPresented: $isShowingMailView) {
-                                MailView(isShowing: self.$isShowingMailView, result: self.$result)
-                            }
+                    HStack {
+                        Button(action: {self.isShowingMailView.toggle()}) {
+                            Text("Send Feedback")
+                        }
+                        .sheet(isPresented: $isShowingMailView) {
+                            MailView(isShowing: self.$isShowingMailView, result: self.$result)
                         }
                     }
                 }
                 .navigationTitle("Settings")
-            }
+                .toolbar {
+                    ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {self.showingSettings = false}) {
+                            Text("Done")
+                        }
+                    }
+                }
         } else {
-            NavigationView {
                 Form {
-                    Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
-                     HStack {
+                    HStack {
                         Text("Version")
                         Spacer()
                         Text("1.1")
-                     }   
-                     HStack {
+                    }
+                    HStack {
                         Text("Build")
                         Spacer()
                         Text("3")
-                     }
-                        HStack {
-                            Button(action: {self.isShowingMailView.toggle()}) {
-                                Text("Send Feeback")
-                            }
-                            .sheet(isPresented: $isShowingMailView) {
-                                MailView(isShowing: self.$isShowingMailView, result: self.$result)
-                            }
+                    }
+                    HStack {
+                        Button(action: {self.isShowingMailView.toggle()}) {
+                            Text("Send Feedback")
+                        }
+                        .sheet(isPresented: $isShowingMailView) {
+                            MailView(isShowing: self.$isShowingMailView, result: self.$result)
                         }
                     }
-                }
-                .navigationTitle("Settings")
-            } 
+            }
+            .navigationTitle("Settings")
         }
-    }*/
+    }
+    }
 }
 
 struct ContentView_Previews: PreviewProvider {
