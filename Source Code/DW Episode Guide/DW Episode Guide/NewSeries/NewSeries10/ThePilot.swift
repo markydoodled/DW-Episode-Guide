@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct ThePilot: View {
 @Environment(\.managedObjectContext) private var viewContext
@@ -37,6 +38,14 @@ struct ThePilot: View {
                             }) {
                                 Text("Copy")
                             }
+                        }
+                        .onDrag {
+                            let data = NSImage(named: "ThePilot")?.tiffRepresentation
+                            let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
+                            provider.previewImageHandler = { (handler, _, _) -> Void in
+                            handler?(data as NSSecureCoding?, nil)
+                            }
+                            return provider
                         }
                     Spacer()
                     VStack {

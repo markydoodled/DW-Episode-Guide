@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct Kerblam: View {
 @Environment(\.managedObjectContext) private var viewContext
@@ -37,6 +38,14 @@ struct Kerblam: View {
                             }) {
                                 Text("Copy")
                             }
+                        }
+                        .onDrag {
+                            let data = NSImage(named: "Kerblam")?.tiffRepresentation
+                            let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
+                            provider.previewImageHandler = { (handler, _, _) -> Void in
+                            handler?(data as NSSecureCoding?, nil)
+                            }
+                            return provider
                         }
                     Spacer()
                     VStack {

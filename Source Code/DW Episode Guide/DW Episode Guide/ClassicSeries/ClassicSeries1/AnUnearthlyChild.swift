@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct AnUnearthlyChild: View {
     @Environment(\.managedObjectContext) private var viewContext
@@ -37,6 +38,14 @@ struct AnUnearthlyChild: View {
                             }) {
                                 Text("Copy")
                             }
+                        }
+                        .onDrag {
+                            let data = NSImage(named: "AnUnearthlyChild")?.tiffRepresentation
+                            let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
+                            provider.previewImageHandler = { (handler, _, _) -> Void in
+                            handler?(data as NSSecureCoding?, nil)
+                            }
+                            return provider
                         }
                     Spacer()
                     VStack {
@@ -163,7 +172,6 @@ struct AnUnearthlyChild: View {
     }
         #elseif os(iOS)
         if horizontalSizeClass == .compact {
-            NavigationView {
                 ForEach(items) { item in
                 Form {
                     HStack {
@@ -171,7 +179,6 @@ struct AnUnearthlyChild: View {
                         Image("AnUnearthlyChild")
                             .resizable()
                             .scaledToFill()
-                            .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
@@ -180,27 +187,54 @@ struct AnUnearthlyChild: View {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
+                            .onDrag {
+                                return NSItemProvider(object: UIImage(named: "AnUnearthlyChild")! as UIImage)
+                            }
                         Spacer()
                     }
                     Text("Story No. 1")
+                    .onDrag {
+                        return NSItemProvider(object: String("Story No. 1") as NSString)
+                    }
                     Text("Written By - Anthony Coburn")
+                        .onDrag {
+                            return NSItemProvider(object: String("Written By - Anthony Coburn") as NSString)
+                        }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
+                            .onDrag {
+                                return NSItemProvider(object: String("\(item.broadcast!)") as NSString)
+                            }
                     }
                     Section(header: Label("Companions", systemImage: "person.2.fill")) {
                         Text("\(item.companions!)")
+                            .onDrag {
+                                return NSItemProvider(object: String("\(item.companions!)") as NSString)
+                            }
                     }
                     Section(header: Label("Director", systemImage: "camera.fill")) {
                         Text("\(item.director!)")
+                            .onDrag {
+                                return NSItemProvider(object: String("\(item.director!)") as NSString)
+                            }
                     }
                     Section(header: Label("Producer", systemImage: "person.text.rectangle")) {
                         Text("\(item.producer!)")
+                            .onDrag {
+                                return NSItemProvider(object: String("\(item.producer!)") as NSString)
+                            }
                     }
                     Section(header: Label("Doctor", systemImage: "person.crop.square.filled.and.at.rectangle")) {
                         Text("\(item.doctor!)")
+                            .onDrag {
+                                return NSItemProvider(object: String("\(item.doctor!)") as NSString)
+                            }
                     }
                     Section(header: Label("Length", systemImage: "clock.arrow.circlepath")) {
                         Text("\(item.length!)")
+                            .onDrag {
+                                return NSItemProvider(object: String("\(item.length!)") as NSString)
+                            }
                     }
                     Section(header: Label("Notes", systemImage: "note.text")) {
                         TextEditor(text: $notes)
@@ -221,7 +255,6 @@ struct AnUnearthlyChild: View {
                     }
                 }
             }
-            }
         } else {
             ForEach(items) { item in
                 ScrollView {
@@ -239,6 +272,9 @@ struct AnUnearthlyChild: View {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
+                            .onDrag {
+                                return NSItemProvider(object: UIImage(named: "AnUnearthlyChild")! as UIImage)
+                            }
                         Spacer()
                         VStack {
                         Text("\(item.title!)")
@@ -247,8 +283,14 @@ struct AnUnearthlyChild: View {
                                 .padding()
                         Text("Story No. 1")
                                 .font(.title3)
+                                .onDrag {
+                                    return NSItemProvider(object: String("Story No. 1") as NSString)
+                                }
                             Text("Written By - Anthony Coburn")
                                 .font(.title3)
+                                .onDrag {
+                                    return NSItemProvider(object: String("Written By - Anthony Coburn") as NSString)
+                                }
                     }
                         Spacer()
                     }
@@ -267,6 +309,9 @@ struct AnUnearthlyChild: View {
                                 Spacer()
                             }
                         }
+                        .onDrag {
+                            return NSItemProvider(object: String("\(item.broadcast!)") as NSString)
+                        }
                         Spacer()
                         GroupBox(label: Label("Companions", systemImage: "person.2.fill")) {
                             VStack {
@@ -278,6 +323,9 @@ struct AnUnearthlyChild: View {
                                 }
                                 Spacer()
                             }
+                        }
+                        .onDrag {
+                            return NSItemProvider(object: String("\(item.companions!)") as NSString)
                         }
                         Spacer()
                     }
@@ -296,6 +344,9 @@ struct AnUnearthlyChild: View {
                                 Spacer()
                             }
                         }
+                        .onDrag {
+                            return NSItemProvider(object: String("\(item.director!)") as NSString)
+                        }
                         Spacer()
                         GroupBox(label: Label("Producer", systemImage: "person.text.rectangle")) {
                             VStack {
@@ -307,6 +358,9 @@ struct AnUnearthlyChild: View {
                             }
                                 Spacer()
                             }
+                        }
+                        .onDrag {
+                            return NSItemProvider(object: String("\(item.producer!)") as NSString)
                         }
                         Spacer()
                     }
@@ -325,6 +379,9 @@ struct AnUnearthlyChild: View {
                                 Spacer()
                             }
                         }
+                        .onDrag {
+                            return NSItemProvider(object: String("\(item.doctor!)") as NSString)
+                        }
                         Spacer()
                         GroupBox(label: Label("Length", systemImage: "clock.arrow.circlepath")) {
                             VStack {
@@ -336,6 +393,9 @@ struct AnUnearthlyChild: View {
                                 }
                                 Spacer()
                             }
+                        }
+                        .onDrag {
+                            return NSItemProvider(object: String("\(item.length!)") as NSString)
                         }
                         Spacer()
                     }
@@ -361,7 +421,9 @@ struct AnUnearthlyChild: View {
                         }
                     }
                 }
+                .textSelection(.enabled)
                 .navigationTitle("\(item.title!)")
+                .navigationBarTitleDisplayMode(.inline)
         }
         }
         #endif

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct VoyageOfTheDamned: View {
 @Environment(\.managedObjectContext) private var viewContext
@@ -37,6 +38,14 @@ struct VoyageOfTheDamned: View {
                                     }) {
                                         Text("Copy")
                                     }
+                                }
+                                .onDrag {
+                                    let data = NSImage(named: "VoyageOfTheDamned")?.tiffRepresentation
+                                    let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
+                                    provider.previewImageHandler = { (handler, _, _) -> Void in
+                                    handler?(data as NSSecureCoding?, nil)
+                                    }
+                                    return provider
                                 }
                             Spacer()
                             VStack {

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct TheEndOfTimePart2: View {
 @Environment(\.managedObjectContext) private var viewContext
@@ -37,6 +38,14 @@ struct TheEndOfTimePart2: View {
                                     }) {
                                         Text("Copy")
                                     }
+                                }
+                                .onDrag {
+                                    let data = NSImage(named: "TheEndOfTimePart2")?.tiffRepresentation
+                                    let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
+                                    provider.previewImageHandler = { (handler, _, _) -> Void in
+                                    handler?(data as NSSecureCoding?, nil)
+                                    }
+                                    return provider
                                 }
                             Spacer()
                             VStack {

@@ -6,6 +6,7 @@
 //
 
 import SwiftUI
+import UniformTypeIdentifiers
 
 struct TheDoctorsWife: View {
 @Environment(\.managedObjectContext) private var viewContext
@@ -33,10 +34,18 @@ struct TheDoctorsWife: View {
                         .contextMenu {
                             Button(action: {let pasteboard = NSPasteboard.general
                                 pasteboard.clearContents()
-                                pasteboard.writeObjects([NSImage(named: "TheDoctorsWif")!])
+                                pasteboard.writeObjects([NSImage(named: "TheDoctorsWife")!])
                             }) {
                                 Text("Copy")
                             }
+                        }
+                        .onDrag {
+                            let data = NSImage(named: "TheDoctorsWife")?.tiffRepresentation
+                            let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
+                            provider.previewImageHandler = { (handler, _, _) -> Void in
+                            handler?(data as NSSecureCoding?, nil)
+                            }
+                            return provider
                         }
                     Spacer()
                     VStack {
