@@ -19,6 +19,7 @@ struct AnUnearthlyChild: View {
     @AppStorage("AnUnearthlyChildNotes") var notes = ""
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @FocusState private var isFocused: Bool
     #endif
     var body: some View {
         #if os(macOS)
@@ -239,6 +240,7 @@ struct AnUnearthlyChild: View {
                     Section(header: Label("Notes", systemImage: "note.text")) {
                         TextEditor(text: $notes)
                             .frame(height: 200)
+                            .focused($isFocused)
                     }
                 }
                 .textSelection(.enabled)
@@ -253,6 +255,12 @@ struct AnUnearthlyChild: View {
                             ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/An_Unearthly_Child")!], applicationActivities: nil)
                         }
                     }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isFocused = false
+                        }
+                        }
                 }
             }
         } else {
@@ -406,6 +414,7 @@ struct AnUnearthlyChild: View {
                         GroupBox(label: Label("Notes", systemImage: "note.text")) {
                         TextEditor(text: $notes)
                                 .frame(height: 200)
+                                .focused($isFocused)
                         }
                         Spacer()
                     }
@@ -420,6 +429,12 @@ struct AnUnearthlyChild: View {
                             ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/An_Unearthly_Child")!], applicationActivities: nil)
                         }
                     }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isFocused = false
+                        }
+                        }
                 }
                 .textSelection(.enabled)
                 .navigationTitle("\(item.title!)")
