@@ -16,9 +16,10 @@ struct TimeAndTheRani: View {
             animation: .default)
         private var items: FetchedResults<TimeAndTheRaniClass>
         @State var showingShare = false
-        @AppStorage("MindwarpNotes") var notes = ""
+        @AppStorage("TimeAndTheRaniNotes") var notes = ""
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @FocusState private var isFocused: Bool
     #endif
     var body: some View {
         #if os(macOS)
