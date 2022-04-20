@@ -19,6 +19,7 @@ struct TheIdiotsLantern: View {
         @AppStorage("TheIdiotsLanternNotes") var notes = ""
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
+    @FocusState private var isFocused: Bool
     #endif
     var body: some View {
         #if os(macOS)
