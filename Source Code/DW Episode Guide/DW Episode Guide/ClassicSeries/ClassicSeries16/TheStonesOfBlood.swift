@@ -239,7 +239,8 @@ struct TheStonesOfBlood: View {
                     }
                     Section(header: Label("Notes", systemImage: "note.text")) {
                         TextEditor(text: $notes)
-                            .frame(height: 200)
+                                .frame(height: 200)
+                                .focused($isFocused)
                     }
                 }
                 .textSelection(.enabled)
@@ -407,6 +408,7 @@ struct TheStonesOfBlood: View {
                         GroupBox(label: Label("Notes", systemImage: "note.text")) {
                         TextEditor(text: $notes)
                                 .frame(height: 200)
+                                .focused($isFocused)
                         }
                         Spacer()
                     }
