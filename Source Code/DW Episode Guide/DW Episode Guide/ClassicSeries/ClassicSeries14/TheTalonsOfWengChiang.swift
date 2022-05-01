@@ -255,6 +255,12 @@ struct TheTalonsOfWengChiang: View {
                             ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Talons_of_Weng-Chiang")!], applicationActivities: nil)
                         }
                     }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isFocused = false
+                        }
+                        }
                 }
             //}
         } else {
@@ -423,6 +429,12 @@ struct TheTalonsOfWengChiang: View {
                             ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
                         }
                     }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isFocused = false
+                        }
+                        }
                 }
                 .textSelection(.enabled)
                 .navigationTitle("The Talons Of Weng Chiang")

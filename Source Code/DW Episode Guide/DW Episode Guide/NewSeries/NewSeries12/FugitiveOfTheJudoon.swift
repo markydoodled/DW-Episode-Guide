@@ -257,6 +257,12 @@ struct FugitiveOfTheJudoon: View {
                             ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
                         }
                     }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isFocused = false
+                        }
+                        }
                 }
             }
         } else {
@@ -425,6 +431,12 @@ struct FugitiveOfTheJudoon: View {
                             ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
                         }
                     }
+                    ToolbarItemGroup(placement: .keyboard) {
+                        Spacer()
+                        Button("Done") {
+                            isFocused = false
+                        }
+                        }
                 }
                 .textSelection(.enabled)
                 .navigationTitle("\(item.title!)")
