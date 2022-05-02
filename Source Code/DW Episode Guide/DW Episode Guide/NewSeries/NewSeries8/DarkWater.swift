@@ -18,7 +18,7 @@ struct DarkWater: View {
         @State var showingShare = false
         @AppStorage("DarkWaterNotes") var notes = ""
     #if os(iOS)
-    @Environment(\.horizontalSizeClass) var horizontalSizeClassm
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool
     #endif
     var body: some View {
