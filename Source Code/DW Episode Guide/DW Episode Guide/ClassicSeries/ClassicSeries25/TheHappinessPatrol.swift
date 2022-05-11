@@ -177,19 +177,19 @@ struct TheHappinessPatrol: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheHappinessPatrol")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheHappinessPatrol")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheHappinessPatrol")! as UIImage)
                             }
                         Spacer()
                     }
@@ -268,20 +268,20 @@ struct TheHappinessPatrol: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheHappinessPatrol")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheHappinessPatrol")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheHappinessPatrol")! as UIImage)
                             }
                         Spacer()
                         VStack {

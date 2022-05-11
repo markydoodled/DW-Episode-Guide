@@ -177,29 +177,29 @@ struct TheDalekInvasionOfEarth: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheDalekInvasionOfEarth")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheDalekInvasionOfEarth")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheDalekInvasionOfEarth")! as UIImage)
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 10")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 10") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Terry Nation")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Terry Nation") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +252,7 @@ struct TheDalekInvasionOfEarth: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Dalek_Invasion_of_Earth")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -268,20 +268,20 @@ struct TheDalekInvasionOfEarth: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheDalekInvasionOfEarth")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheDalekInvasionOfEarth")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheDalekInvasionOfEarth")! as UIImage)
                             }
                         Spacer()
                         VStack {
@@ -289,15 +289,15 @@ struct TheDalekInvasionOfEarth: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 10")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 10") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Terry Nation")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Terry Nation") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +426,7 @@ struct TheDalekInvasionOfEarth: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Dalek_Invasion_of_Earth")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

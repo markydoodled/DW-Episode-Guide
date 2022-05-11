@@ -177,19 +177,19 @@ struct PlanetOfFire: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("PlanetOfFire")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "PlanetOfFire")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "PlanetOfFire")! as UIImage)
                             }
                         Spacer()
                     }
@@ -268,20 +268,20 @@ struct PlanetOfFire: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("PlanetOfFire")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "PlanetOfFire")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "PlanetOfFire")! as UIImage)
                             }
                         Spacer()
                         VStack {

@@ -178,19 +178,19 @@ struct TheEndOfTimePart1: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheEndOfTimePart1")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheEndOfTimePart1")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheEndOfTimePart1")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct TheEndOfTimePart1: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheEndOfTimePart1")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheEndOfTimePart1")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheEndOfTimePart1")! as UIImage)
                             }
                         Spacer()
                         VStack {

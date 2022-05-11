@@ -177,27 +177,27 @@ struct TheChase: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheChase")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheChase")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheChase")! as UIImage)
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 16")
                     .onDrag {
                         return NSItemProvider(object: String("Story No. ") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Terry Nation")
                         .onDrag {
                             return NSItemProvider(object: String("Written By - ") as NSString)
                         }
@@ -252,7 +252,7 @@ struct TheChase: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Chase_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -268,20 +268,20 @@ struct TheChase: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheChase")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheChase")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheChase")! as UIImage)
                             }
                         Spacer()
                         VStack {
@@ -289,12 +289,12 @@ struct TheChase: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 16")
                                 .font(.title3)
                                 .onDrag {
                                     return NSItemProvider(object: String("Story No. ") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Terry Nation")
                                 .font(.title3)
                                 .onDrag {
                                     return NSItemProvider(object: String("Written By - ") as NSString)
@@ -426,7 +426,7 @@ struct TheChase: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Chase_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

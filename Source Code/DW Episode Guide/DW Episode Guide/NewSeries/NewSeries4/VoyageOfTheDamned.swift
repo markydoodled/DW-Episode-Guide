@@ -178,19 +178,19 @@ struct VoyageOfTheDamned: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("VoyageOfTheDamned")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "VoyageOfTheDamned")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "VoyageOfTheDamned")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct VoyageOfTheDamned: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("VoyageOfTheDamned")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "VoyageOfTheDamned")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "VoyageOfTheDamned")! as UIImage)
                             }
                         Spacer()
                         VStack {

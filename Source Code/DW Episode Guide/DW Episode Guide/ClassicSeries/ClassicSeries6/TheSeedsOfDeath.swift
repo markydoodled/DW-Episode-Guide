@@ -178,19 +178,19 @@ struct TheSeedsOfDeath: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheSeedsOfDeath")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheSeedsOfDeath")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheSeedsOfDeath")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct TheSeedsOfDeath: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheSeedsOfDeath")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheSeedsOfDeath")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheSeedsOfDeath")! as UIImage)
                             }
                         Spacer()
                         VStack {

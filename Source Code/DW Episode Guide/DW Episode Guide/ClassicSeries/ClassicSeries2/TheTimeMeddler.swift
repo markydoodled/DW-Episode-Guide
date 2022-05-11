@@ -177,27 +177,27 @@ struct TheTimeMeddler: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheTimeMeddler")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheTimeMeddler")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheTimeMeddler")! as UIImage)
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 17")
                     .onDrag {
                         return NSItemProvider(object: String("Story No. ") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Dennis Spooner")
                         .onDrag {
                             return NSItemProvider(object: String("Written By - ") as NSString)
                         }
@@ -252,7 +252,7 @@ struct TheTimeMeddler: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Time_Meddler")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -268,20 +268,20 @@ struct TheTimeMeddler: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheTimeMeddler")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheTimeMeddler")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheTimeMeddler")! as UIImage)
                             }
                         Spacer()
                         VStack {
@@ -289,12 +289,12 @@ struct TheTimeMeddler: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 17")
                                 .font(.title3)
                                 .onDrag {
                                     return NSItemProvider(object: String("Story No. ") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Dennis Spooner")
                                 .font(.title3)
                                 .onDrag {
                                     return NSItemProvider(object: String("Written By - ") as NSString)
@@ -426,7 +426,7 @@ struct TheTimeMeddler: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Time_Meddler")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

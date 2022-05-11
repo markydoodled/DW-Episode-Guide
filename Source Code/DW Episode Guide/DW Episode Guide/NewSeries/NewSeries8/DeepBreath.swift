@@ -177,19 +177,19 @@ struct DeepBreath: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("DeepBreath")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "DeepBreath")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "DeepBreath")! as UIImage)
                             }
                         Spacer()
                     }
@@ -268,20 +268,20 @@ struct DeepBreath: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("DeepBreath")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "DeepBreath")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "DeepBreath")! as UIImage)
                             }
                         Spacer()
                         VStack {

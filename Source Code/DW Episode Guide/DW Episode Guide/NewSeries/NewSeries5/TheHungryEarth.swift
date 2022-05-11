@@ -177,19 +177,19 @@ struct TheHungryEarth: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheHungryEarth")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheHungryEarth")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheHungryEarth")! as UIImage)
                             }
                         Spacer()
                     }
@@ -268,20 +268,20 @@ struct TheHungryEarth: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheHungryEarth")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheHungryEarth")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheHungryEarth")! as UIImage)
                             }
                         Spacer()
                         VStack {

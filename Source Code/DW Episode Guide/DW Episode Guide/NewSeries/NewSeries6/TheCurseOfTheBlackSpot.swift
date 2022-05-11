@@ -178,19 +178,19 @@ struct TheCurseOfTheBlackSpot: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheCurseOfTheBlackSpot")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheCurseOfTheBlackSpot")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheCurseOfTheBlackSpot")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct TheCurseOfTheBlackSpot: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheCurseOfTheBlackSpot")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheCurseOfTheBlackSpot")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheCurseOfTheBlackSpot")! as UIImage)
                             }
                         Spacer()
                         VStack {

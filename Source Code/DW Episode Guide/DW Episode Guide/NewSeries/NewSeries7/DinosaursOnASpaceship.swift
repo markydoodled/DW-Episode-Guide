@@ -178,19 +178,19 @@ struct DinosaursOnASpaceship: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("DinosaursOnASpaceship")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "DinosaursOnASpaceship")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "DinosaursOnASpaceship")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct DinosaursOnASpaceship: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("DinosaursOnASpaceship")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "DinosaursOnASpaceship")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "DinosaursOnASpaceship")! as UIImage)
                             }
                         Spacer()
                         VStack {

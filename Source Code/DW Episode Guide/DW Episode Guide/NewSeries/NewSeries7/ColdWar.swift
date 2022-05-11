@@ -177,19 +177,19 @@ struct ColdWar: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("ColdWar")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "ColdWar")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "ColdWar")! as UIImage)
                             }
                         Spacer()
                     }
@@ -268,20 +268,20 @@ struct ColdWar: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("ColdWar")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "ColdWar")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "ColdWar")! as UIImage)
                             }
                         Spacer()
                         VStack {

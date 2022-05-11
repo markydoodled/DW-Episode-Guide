@@ -178,19 +178,19 @@ struct VillageOfTheAngels: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("VillageOfTheAngels")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "VillageOfTheAngels")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "VillageOfTheAngels")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct VillageOfTheAngels: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("VillageOfTheAngels")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "VillageOfTheAngels")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "VillageOfTheAngels")! as UIImage)
                             }
                         Spacer()
                         VStack {

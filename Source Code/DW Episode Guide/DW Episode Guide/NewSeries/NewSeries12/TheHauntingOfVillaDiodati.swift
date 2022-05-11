@@ -178,19 +178,19 @@ struct TheHauntingOfVillaDiodati: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheHauntingOfVillaDiodati")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheHauntingOfVillaDiodati")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheHauntingOfVillaDiodati")! as UIImage)
                             }
                         Spacer()
                     }
@@ -269,20 +269,20 @@ struct TheHauntingOfVillaDiodati: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheHauntingOfVillaDiodati")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheHauntingOfVillaDiodati")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheHauntingOfVillaDiodati")! as UIImage)
                             }
                         Spacer()
                         VStack {

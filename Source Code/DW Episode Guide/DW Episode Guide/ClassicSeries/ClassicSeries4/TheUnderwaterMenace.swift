@@ -177,19 +177,19 @@ struct TheUnderwaterMenace: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheUnderwaterMenace")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheUnderwaterMenace")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheUnderwaterMenace")! as UIImage)
                             }
                         Spacer()
                     }
@@ -268,20 +268,20 @@ struct TheUnderwaterMenace: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheUnderwaterMenace")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheUnderwaterMenace")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheUnderwaterMenace")! as UIImage)
                             }
                         Spacer()
                         VStack {

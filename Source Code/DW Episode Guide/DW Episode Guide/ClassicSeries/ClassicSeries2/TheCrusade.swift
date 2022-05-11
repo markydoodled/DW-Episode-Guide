@@ -177,27 +177,27 @@ struct TheCrusade: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheCrusade")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheCrusade")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheCrusade")! as UIImage)
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 14")
                     .onDrag {
                         return NSItemProvider(object: String("Story No. ") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - David Whitaker")
                         .onDrag {
                             return NSItemProvider(object: String("Written By - ") as NSString)
                         }
@@ -252,7 +252,7 @@ struct TheCrusade: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Crusade_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -268,20 +268,20 @@ struct TheCrusade: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TheCrusade")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TheCrusade")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TheCrusade")! as UIImage)
                             }
                         Spacer()
                         VStack {
@@ -289,12 +289,12 @@ struct TheCrusade: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 14")
                                 .font(.title3)
                                 .onDrag {
                                     return NSItemProvider(object: String("Story No. ") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - David Whitaker")
                                 .font(.title3)
                                 .onDrag {
                                     return NSItemProvider(object: String("Written By - ") as NSString)
@@ -426,7 +426,7 @@ struct TheCrusade: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Crusade_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
