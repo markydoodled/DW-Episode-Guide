@@ -194,13 +194,13 @@ struct DemonsOfThePunjab: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 282")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 282") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Vinay Patel")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Vinay Patel") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct DemonsOfThePunjab: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Demons_of_the_Punjab")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct DemonsOfThePunjab: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("Demons Of\nThe Punjab")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 282")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 282") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Vinay Patel")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Vinay Patel") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct DemonsOfThePunjab: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Demons_of_the_Punjab")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

@@ -194,13 +194,13 @@ struct TheChristmasInvasion: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 167")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 167") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Russell T Davies")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Russell T Davies") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct TheChristmasInvasion: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Christmas_Invasion")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct TheChristmasInvasion: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("The Christmas\nInvasion")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 167")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 167") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Russell T Davies")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Russell T Davies") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct TheChristmasInvasion: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Christmas_Invasion")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

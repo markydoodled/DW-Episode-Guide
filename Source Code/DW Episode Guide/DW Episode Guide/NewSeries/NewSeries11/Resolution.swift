@@ -193,13 +193,13 @@ struct Resolution: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 287")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 287") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Chris Chibnall")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Chris Chibnall") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +252,7 @@ struct Resolution: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Resolution_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -289,15 +289,15 @@ struct Resolution: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 287")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 287") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Chris Chibnall")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Chris Chibnall") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +426,7 @@ struct Resolution: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Resolution_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

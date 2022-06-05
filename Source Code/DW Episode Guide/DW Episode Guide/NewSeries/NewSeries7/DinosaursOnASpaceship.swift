@@ -194,13 +194,13 @@ struct DinosaursOnASpaceship: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 227")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 227") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Chris Chibnall")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Chris Chibnall") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct DinosaursOnASpaceship: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Dinosaurs_on_a_Spaceship")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct DinosaursOnASpaceship: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("Dinosaurs On\nA Spaceship")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 227")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 227") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Chris Chibnall")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Chris Chibnall") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct DinosaursOnASpaceship: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Dinosaurs_on_a_Spaceship")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

@@ -193,13 +193,13 @@ struct FathersDay: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 163")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 163") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Paul Cornell")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Paul Cornell") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +252,7 @@ struct FathersDay: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Father%27s_Day_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -289,15 +289,15 @@ struct FathersDay: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 163")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 163") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Paul Cornell")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Paul Cornell") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +426,7 @@ struct FathersDay: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Father%27s_Day_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

@@ -194,13 +194,13 @@ struct CityOfDeath: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 105")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 105") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - 'David Agnew'\n(Pseudonym For\nDavid Fisher,\nDouglas Adams\nAnd Graham Williams)")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - 'David Agnew'\n(Pseudonym For\nDavid Fisher,\nDouglas Adams\nAnd Graham Williams)") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct CityOfDeath: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/City_of_Death")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -290,15 +290,16 @@ struct CityOfDeath: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 105")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 105") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - 'David Agnew'\n(Pseudonym For\nDavid Fisher,\nDouglas Adams\nAnd Graham Williams)")
                                 .font(.title3)
+                                .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - 'David Agnew'\n(Pseudonym For\nDavid Fisher,\nDouglas Adams\nAnd Graham Williams)") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct CityOfDeath: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/City_of_Death")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

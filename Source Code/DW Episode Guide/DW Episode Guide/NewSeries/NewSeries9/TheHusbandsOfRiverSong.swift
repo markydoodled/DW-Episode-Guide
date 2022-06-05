@@ -194,13 +194,13 @@ struct TheHusbandsOfRiverSong: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 263")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 263") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Steven Moffat")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Steven Moffat") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct TheHusbandsOfRiverSong: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Husbands_of_River_Song")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct TheHusbandsOfRiverSong: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("The Husbands\nOf River Song")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 263")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 263") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Steven Moffat")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Steven Moffat") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct TheHusbandsOfRiverSong: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Husbands_of_River_Song")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

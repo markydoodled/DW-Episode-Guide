@@ -193,13 +193,13 @@ struct Galaxy4: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 18")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 18") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - William Emms")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - William Emms") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +252,7 @@ struct Galaxy4: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Galaxy_4")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -289,15 +289,15 @@ struct Galaxy4: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 18")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 18") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - William Emms")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - William Emms") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +426,7 @@ struct Galaxy4: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Galaxy_4")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

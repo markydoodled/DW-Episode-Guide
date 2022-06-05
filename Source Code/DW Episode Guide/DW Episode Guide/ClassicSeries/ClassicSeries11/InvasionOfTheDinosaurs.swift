@@ -193,13 +193,13 @@ struct InvasionOfTheDinosaurs: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 71")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 71") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Malcolm Hulke")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Malcolm Hulke") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +252,7 @@ struct InvasionOfTheDinosaurs: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Invasion_of_the_Dinosaurs")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -289,15 +289,15 @@ struct InvasionOfTheDinosaurs: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 71")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 71") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Malcolm Hulke")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Malcolm Hulke") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +426,7 @@ struct InvasionOfTheDinosaurs: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Invasion_of_the_Dinosaurs")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

@@ -194,13 +194,13 @@ struct TheArmageddonFactor: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 103")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 103") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Bob Baker\nAnd Dave Martin")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Bob Baker\nAnd Dave Martin") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct TheArmageddonFactor: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Armageddon_Factor")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -290,15 +290,16 @@ struct TheArmageddonFactor: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 103")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 103") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Bob Baker\nAnd Dave Martin")
                                 .font(.title3)
+                                .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Bob Baker\nAnd Dave Martin") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct TheArmageddonFactor: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Armageddon_Factor")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

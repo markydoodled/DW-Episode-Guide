@@ -194,13 +194,13 @@ struct TheUltimateFoe: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 143d")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 143d") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Robert Holmes\nAnd Pip And\nJane Baker")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Robert Holmes\nAnd Pip And\nJane Baker") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct TheUltimateFoe: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Ultimate_Foe")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -290,15 +290,16 @@ struct TheUltimateFoe: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 143d")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 143d") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Robert Holmes\nAnd Pip And\nJane Baker")
                                 .font(.title3)
+                                .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Robert Holmes\nAnd Pip And\nJane Baker") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct TheUltimateFoe: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Ultimate_Foe")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

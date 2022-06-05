@@ -194,13 +194,13 @@ struct TheMagiciansApprentice: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 254a")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 254a") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Steven Moffat")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Steven Moffat") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct TheMagiciansApprentice: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Magician%27s_Apprentice_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct TheMagiciansApprentice: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("The Magician's\nApprentice")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 254a")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 254a") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Steven Moffat")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Steven Moffat") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct TheMagiciansApprentice: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Magician%27s_Apprentice_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

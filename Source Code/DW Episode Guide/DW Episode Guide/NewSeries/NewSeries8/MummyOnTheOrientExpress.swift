@@ -194,13 +194,13 @@ struct MummyOnTheOrientExpress: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 249")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 249") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Jamie Mathieson")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Jamie Mathieson") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct MummyOnTheOrientExpress: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Mummy_on_the_Orient_Express")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct MummyOnTheOrientExpress: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("Mummy On The\nOrient Express")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 249")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 249") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Jamie Mathieson")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Jamie Mathieson") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct MummyOnTheOrientExpress: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Mummy_on_the_Orient_Express")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

@@ -194,13 +194,13 @@ struct InTheForestOfTheNight: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 251")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 251") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Frank Cottrell-Boyce")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Frank Cottrell-Boyce") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct InTheForestOfTheNight: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/In_the_Forest_of_the_Night")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct InTheForestOfTheNight: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("In The Forest\nOf The Night")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 251")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 251") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Frank Cottrell-Boyce")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Frank Cottrell-Boyce") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct InTheForestOfTheNight: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/In_the_Forest_of_the_Night")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

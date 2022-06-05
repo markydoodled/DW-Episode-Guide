@@ -195,13 +195,13 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 271")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 271") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Peter Harness\nAnd Steven Moffat")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Peter Harness\nAnd Steven Moffat") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -254,7 +254,7 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Pyramid_at_the_End_of_the_World")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -287,19 +287,21 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("The Pyramid\nAt The End\nOf The World")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 271")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 271") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Peter Harness\nAnd Steven Moffat")
                                 .font(.title3)
+                                .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Peter Harness\nAnd Steven Moffat") as NSString)
                                 }
                     }
                         Spacer()
@@ -428,7 +430,7 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Pyramid_at_the_End_of_the_World")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

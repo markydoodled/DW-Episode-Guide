@@ -195,11 +195,11 @@ struct TheWebPlanet: View {
                     }
                     Text("Story No. 13")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 13") as NSString)
                     }
                     Text("Written By - Bill Strutton")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Bill Strutton") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -292,12 +292,12 @@ struct TheWebPlanet: View {
                         Text("Story No. 13")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 13") as NSString)
                                 }
                             Text("Written By - Bill Strutton")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Bill Strutton") as NSString)
                                 }
                     }
                         Spacer()

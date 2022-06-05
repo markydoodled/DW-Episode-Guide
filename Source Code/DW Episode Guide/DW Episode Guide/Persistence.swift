@@ -540,7 +540,7 @@ struct PersistenceController {
         thethreedoctors.broadcast = "30 December 1972\n20 January 1973"
         thethreedoctors.companions = "Jo Grant (Katy Manning)"
         thethreedoctors.director = "Lennie Mayne"
-        thethreedoctors.doctor = "1st Doctor\n(William Hartnell)\n2nd Doctor\n(Patrick Troughton)3rd Doctor\n(Jon Pertwee)"
+        thethreedoctors.doctor = "1st Doctor\n(William Hartnell)\n2nd Doctor\n(Patrick Troughton)\n3rd Doctor\n(Jon Pertwee)"
         thethreedoctors.length = "4 Episodes\n25 Minutes Each"
         thethreedoctors.producer = "Barry Letts"
         let carnivalofmonsters = CarnivalOfMonstersClass(context: viewContext)
@@ -748,13 +748,13 @@ struct PersistenceController {
         therobotsofdeath.length = "4 Episodes\n25 Minutes Each"
         therobotsofdeath.producer = "Philip Hinchcliffe"
         let thetalonsofwengchiang = TheTalonsOfWengChiangClass(context: viewContext)
-        therobotsofdeath.title = "The Talons Of Weng Chiang"
-        therobotsofdeath.broadcast = "26 February 1977\n2 April 1977"
-        therobotsofdeath.companions = "Leela (Louise Jameson)"
-        therobotsofdeath.director = "David Maloney"
-        therobotsofdeath.doctor = "4th Doctor\n(Tom Baker)"
-        therobotsofdeath.length = "6 Episodes\n25 Minutes Each"
-        therobotsofdeath.producer = "Philip Hinchcliffe"
+        thetalonsofwengchiang.title = "The Talons Of Weng Chiang"
+        thetalonsofwengchiang.broadcast = "26 February 1977\n2 April 1977"
+        thetalonsofwengchiang.companions = "Leela (Louise Jameson)"
+        thetalonsofwengchiang.director = "David Maloney"
+        thetalonsofwengchiang.doctor = "4th Doctor\n(Tom Baker)"
+        thetalonsofwengchiang.length = "6 Episodes\n25 Minutes Each"
+        thetalonsofwengchiang.producer = "Philip Hinchcliffe"
         //Classic Series 15
         let horroroffangrock = HorrorOfFangRockClass(context: viewContext)
         horroroffangrock.title = "Horror Of Fang Rock"

@@ -195,11 +195,11 @@ struct TheCrusade: View {
                     }
                     Text("Story No. 14")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 14") as NSString)
                     }
                     Text("Written By - David Whitaker")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - David Whitaker") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -292,12 +292,12 @@ struct TheCrusade: View {
                         Text("Story No. 14")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 14") as NSString)
                                 }
                             Text("Written By - David Whitaker")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - David Whitaker") as NSString)
                                 }
                     }
                         Spacer()

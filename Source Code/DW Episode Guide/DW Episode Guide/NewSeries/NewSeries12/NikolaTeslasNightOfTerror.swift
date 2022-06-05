@@ -194,13 +194,13 @@ struct NikolaTeslasNightOfTerror: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 290")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 290") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Nina Metivier")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Nina Metivier") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct NikolaTeslasNightOfTerror: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Nikola_Tesla%27s_Night_of_Terror")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct NikolaTeslasNightOfTerror: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("Nikola Tesla's\nNight Of Terror")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 290")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 290") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Nina Metivier")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Nina Metivier") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct NikolaTeslasNightOfTerror: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Nikola_Tesla%27s_Night_of_Terror")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

@@ -27,6 +27,7 @@ struct SettingsView: View {
                            .padding()
             HStack {
                 Text("Feedback")
+                    .bold()
                 Spacer()
                 Button(action: {SendEmail.send()}) {
                     Text("Send Feedback")

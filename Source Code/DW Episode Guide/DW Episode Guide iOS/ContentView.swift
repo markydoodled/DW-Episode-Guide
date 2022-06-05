@@ -158,6 +158,9 @@ struct ContentView: View {
         NavigationLink(destination: ClassicSeries19()) {
             Label("Series 19", systemImage: "19.circle")
         }
+            NavigationLink(destination: ClassicSeries20()) {
+                Label("Series 20", systemImage: "20.circle")
+            }
         }
     }
     var classicSeriesBlock3: some View {

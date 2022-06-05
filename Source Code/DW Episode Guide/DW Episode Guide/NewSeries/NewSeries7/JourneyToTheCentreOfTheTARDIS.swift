@@ -194,13 +194,13 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 236")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 236") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Stephen Thompson")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Stephen Thompson") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_TARDIS")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -286,19 +286,20 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             }
                         Spacer()
                         VStack {
-                        Text("\(item.title!)")
+                        Text("Journey To The\nCentre Of\nThe TARDIS")
                                 .bold()
                                 .font(.title)
+                                .multilineTextAlignment(.center)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 236")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 236") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Stephen Thompson")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Stephen Thompson") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Journey_to_the_Centre_of_the_TARDIS")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

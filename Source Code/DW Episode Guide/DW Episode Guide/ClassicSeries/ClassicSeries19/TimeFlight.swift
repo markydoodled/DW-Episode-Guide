@@ -27,7 +27,7 @@ struct TimeFlight: View {
                     ScrollView {
                         HStack {
                             Spacer()
-                            Image("TimeFlight")
+                            Image("Timeflight")
                                 .resizable()
                                 .scaledToFill()
                                 .cornerRadius(25)
@@ -35,13 +35,13 @@ struct TimeFlight: View {
                                 .contextMenu {
                                     Button(action: {let pasteboard = NSPasteboard.general
                                         pasteboard.clearContents()
-                                        pasteboard.writeObjects([NSImage(named: "TimeFlight")!])
+                                        pasteboard.writeObjects([NSImage(named: "Timeflight")!])
                                     }) {
                                         Text("Copy")
                                     }
                                 }
                                 .onDrag {
-                                    let data = NSImage(named: "TimeFlight")?.tiffRepresentation
+                                    let data = NSImage(named: "Timeflight")?.tiffRepresentation
                                     let provider = NSItemProvider(item: data as NSSecureCoding?, typeIdentifier: UTType.tiff.identifier as String)
                                     provider.previewImageHandler = { (handler, _, _) -> Void in
                                     handler?(data as NSSecureCoding?, nil)
@@ -177,29 +177,29 @@ struct TimeFlight: View {
                 Form {
                     HStack {
                         Spacer()
-                        Image("TimeFlight")
+                        Image("Timeflight")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "TimeFlight")
+                                    pasteboard.image = UIImage(named: "Timeflight")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "TimeFlight")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "Timeflight")! as UIImage)
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 122")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 122") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Peter Grimwade")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Peter Grimwade") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +252,7 @@ struct TimeFlight: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Time-Flight")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -268,20 +268,20 @@ struct TimeFlight: View {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("TimeFlight")
+                        Image("Timeflight")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "TimeFlight")
+                                    pasteboard.image = UIImage(named: "Timeflight")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "TimeFlight")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "Timeflight")! as UIImage)
                             }
                         Spacer()
                         VStack {
@@ -289,15 +289,15 @@ struct TimeFlight: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 122")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 122") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Peter Grimwade")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Peter Grimwade") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +426,7 @@ struct TimeFlight: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Time-Flight")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

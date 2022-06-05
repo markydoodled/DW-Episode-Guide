@@ -58,6 +58,7 @@ struct TheThreeDoctors: View {
                             .font(.title3)
                         Text("Written By - Bob Baker\nAnd Dave Martin")
                             .font(.title3)
+                            .multilineTextAlignment(.center)
                 }
                     Spacer()
                 }
@@ -193,13 +194,13 @@ struct TheThreeDoctors: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 65")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 65") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Bob Baker\nAnd Dave Martin")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Bob Baker\nAnd Dave Martin") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -252,7 +253,7 @@ struct TheThreeDoctors: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Three_Doctors_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -289,15 +290,15 @@ struct TheThreeDoctors: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 65")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 65") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Bob Baker\nAnd Dave Martin")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Bob Baker\nAnd Dave Martin") as NSString)
                                 }
                     }
                         Spacer()
@@ -426,7 +427,7 @@ struct TheThreeDoctors: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Three_Doctors_(Doctor_Who)")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

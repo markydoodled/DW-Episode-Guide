@@ -168,29 +168,29 @@ if horizontalSizeClass == .compact {
                 Form {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TVMovie")
                             .resizable()
                             .scaledToFill()
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TVMovie")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TVMovie")! as UIImage)
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 156")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 156") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - Matthew Jacobs")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Matthew Jacobs") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -242,7 +242,7 @@ if horizontalSizeClass == .compact {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Doctor_Who_(film)")!], applicationActivities: nil)
                         }
                     }
                 }
@@ -252,20 +252,20 @@ if horizontalSizeClass == .compact {
                 ScrollView {
                     HStack {
                         Spacer()
-                        Image("")
+                        Image("TVMovie")
                             .resizable()
                             .scaledToFill()
                             .cornerRadius(25)
                             .frame(width: 150, height: 150)
                             .contextMenu {
                                 Button(action: {let pasteboard = UIPasteboard.general
-                                    pasteboard.image = UIImage(named: "")
+                                    pasteboard.image = UIImage(named: "TVMovie")
                                 }) {
                                     Label("Copy", systemImage: "doc.on.doc")
                                 }
                             }
                             .onDrag {
-                                return NSItemProvider(object: UIImage(named: "")! as UIImage)
+                                return NSItemProvider(object: UIImage(named: "TVMovie")! as UIImage)
                             }
                         Spacer()
                         VStack {
@@ -273,15 +273,15 @@ if horizontalSizeClass == .compact {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 156")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 156") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - Matthew Jacobs")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Matthew Jacobs") as NSString)
                                 }
                     }
                         Spacer()
@@ -409,7 +409,7 @@ if horizontalSizeClass == .compact {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Doctor_Who_(film)")!], applicationActivities: nil)
                         }
                     }
                 }

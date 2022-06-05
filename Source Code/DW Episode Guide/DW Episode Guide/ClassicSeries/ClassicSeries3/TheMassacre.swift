@@ -194,13 +194,13 @@ struct TheMassacre: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 22")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 22") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - John Lucarotti\nAnd Donald Tosh")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - John Lucarotti\nAnd Donald Tosh") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct TheMassacre: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Massacre_of_St_Bartholomew%27s_Eve")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -290,15 +290,16 @@ struct TheMassacre: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 22")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 22") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - John Lucarotti\nAnd Donald Tosh")
                                 .font(.title3)
+                                .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - John Lucarotti\nAnd Donald Tosh") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct TheMassacre: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Massacre_of_St_Bartholomew%27s_Eve")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

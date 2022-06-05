@@ -194,13 +194,13 @@ struct PyramidsOfMars: View {
                             }
                         Spacer()
                     }
-                    Text("Story No. ")
+                    Text("Story No. 82")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 82") as NSString)
                     }
-                    Text("Written By - ")
+                    Text("Written By - 'Stephen Harris' (Robert Holmes\nAnd Lewis Greifer)")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - 'Stephen Harris' (Robert Holmes\nAnd Lewis Greifer)") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -253,7 +253,7 @@ struct PyramidsOfMars: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Pyramids_of_Mars")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -290,15 +290,16 @@ struct PyramidsOfMars: View {
                                 .bold()
                                 .font(.title)
                                 .padding()
-                        Text("Story No. ")
+                        Text("Story No. 82")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 82") as NSString)
                                 }
-                            Text("Written By - ")
+                            Text("Written By - 'Stephen Harris' (Robert Holmes\nAnd Lewis Greifer)")
                                 .font(.title3)
+                                .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - 'Stephen Harris' (Robert Holmes\nAnd Lewis Greifer)") as NSString)
                                 }
                     }
                         Spacer()
@@ -427,7 +428,7 @@ struct PyramidsOfMars: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Pyramids_of_Mars")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {

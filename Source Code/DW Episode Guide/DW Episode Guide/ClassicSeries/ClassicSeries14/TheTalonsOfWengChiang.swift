@@ -9,12 +9,12 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 struct TheTalonsOfWengChiang: View {
-/*@Environment(\.managedObjectContext) private var viewContext
+@Environment(\.managedObjectContext) private var viewContext
 
         @FetchRequest(entity: TheTalonsOfWengChiangClass.entity(),
             sortDescriptors: [],
             animation: .default)
-        private var items: FetchedResults<TheTalonsOfWengChiangClass>*/
+        private var items: FetchedResults<TheTalonsOfWengChiangClass>
         @State var showingShare = false
         @AppStorage("TheTalonsOfWengChiangNotes") var notes = ""
     #if os(iOS)
@@ -23,7 +23,7 @@ struct TheTalonsOfWengChiang: View {
     #endif
     var body: some View {
         #if os(macOS)
-        //ForEach(items) { item in
+        ForEach(items) { item in
             ScrollView {
                 HStack {
                     Spacer()
@@ -50,7 +50,7 @@ struct TheTalonsOfWengChiang: View {
                         }
                     Spacer()
                     VStack {
-                    Text("The Talons Of Weng Chiang")
+                        Text("\(item.title!)")
                             .bold()
                             .font(.title)
                             .padding()
@@ -70,7 +70,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("26 February 1977\n2 April 1977")
+                                Text("\(item.broadcast!)")
                                 Spacer()
                             }
                             Spacer()
@@ -82,7 +82,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("Leela (Louise Jameson)")
+                                Text("\(item.companions!)")
                                 Spacer()
                             }
                             Spacer()
@@ -99,7 +99,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("David Maloney")
+                                Text("\(item.director!)")
                                 Spacer()
                             }
                             Spacer()
@@ -111,7 +111,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("Philip Hinchcliffe")
+                                Text("\(item.producer!)")
                                 Spacer()
                         }
                             Spacer()
@@ -128,7 +128,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("4th Doctor\n(Tom Baker)")
+                                Text("\(item.doctor!)")
                                 Spacer()
                         }
                             Spacer()
@@ -140,7 +140,7 @@ struct TheTalonsOfWengChiang: View {
                             Spacer()
                             HStack {
                                 Spacer()
-                        Text("6 Episodes\n25 Minutes Each")
+                                Text("\(item.length!)")
                                 Spacer()
                             }
                             Spacer()
@@ -169,11 +169,11 @@ struct TheTalonsOfWengChiang: View {
                 }
             }
             .textSelection(.enabled)
-            .navigationTitle("The Talons Of Weng Chiang")
-    //}
+            .navigationTitle("\(item.title!)")
+    }
     #elseif os(iOS)
         if horizontalSizeClass == .compact {
-                //ForEach(items) { item in
+                ForEach(items) { item in
                 Form {
                     HStack {
                         Spacer()
@@ -202,39 +202,39 @@ struct TheTalonsOfWengChiang: View {
                             return NSItemProvider(object: String("Written By - Robert Holmes") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
-                        Text("26 February 1977\n2 April 1977")
+                        Text("\(item.broadcast!)")
                             .onDrag {
-                                return NSItemProvider(object: String("26 February 1977\n2 April 1977") as NSString)
+                                return NSItemProvider(object: String("\(item.broadcast!)") as NSString)
                             }
                     }
                     Section(header: Label("Companions", systemImage: "person.2.fill")) {
-                        Text("Leela (Louise Jameson)")
+                        Text("\(item.companions!)")
                             .onDrag {
-                                return NSItemProvider(object: String("Leela (Louise Jameson)") as NSString)
+                                return NSItemProvider(object: String("\(item.companions!)") as NSString)
                             }
                     }
                     Section(header: Label("Director", systemImage: "camera.fill")) {
-                        Text("David Maloney")
+                        Text("\(item.director!)")
                             .onDrag {
-                                return NSItemProvider(object: String("David Maloney") as NSString)
+                                return NSItemProvider(object: String("\(item.director!)") as NSString)
                             }
                     }
                     Section(header: Label("Producer", systemImage: "person.text.rectangle")) {
-                        Text("Philip Hinchcliffe")
+                        Text("\(item.producer!)")
                             .onDrag {
-                                return NSItemProvider(object: String("Philip Hinchcliffe") as NSString)
+                                return NSItemProvider(object: String("\(item.producer!)") as NSString)
                             }
                     }
                     Section(header: Label("Doctor", systemImage: "person.crop.square.filled.and.at.rectangle")) {
-                        Text("4th Doctor\n(Tom Baker)")
+                        Text("\(item.doctor!)")
                             .onDrag {
-                                return NSItemProvider(object: String("4th Doctor\n(Tom Baker)") as NSString)
+                                return NSItemProvider(object: String("\(item.doctor!)") as NSString)
                             }
                     }
                     Section(header: Label("Length", systemImage: "clock.arrow.circlepath")) {
-                        Text("6 Episodes\n25 Minutes Each")
+                        Text("\(item.length!)")
                             .onDrag {
-                                return NSItemProvider(object: String("6 Episodes\n25 Minutes Each") as NSString)
+                                return NSItemProvider(object: String("\(item.length!)") as NSString)
                             }
                     }
                     Section(header: Label("Notes", systemImage: "note.text")) {
@@ -244,7 +244,7 @@ struct TheTalonsOfWengChiang: View {
                     }
                 }
                 .textSelection(.enabled)
-                .navigationTitle("The Talons Of Weng Chiang")
+                .navigationTitle("\(item.title!)")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar {
                     ToolbarItem(placement: .navigationBarTrailing) {
@@ -262,9 +262,9 @@ struct TheTalonsOfWengChiang: View {
                         }
                         }
                 }
-            //}
+            }
         } else {
-            //ForEach(items) { item in
+            ForEach(items) { item in
                 ScrollView {
                     HStack {
                         Spacer()
@@ -285,7 +285,7 @@ struct TheTalonsOfWengChiang: View {
                             }
                         Spacer()
                         VStack {
-                        Text("The Talons Of Weng Chiang")
+                            Text("\(item.title!)")
                                 .bold()
                                 .font(.title)
                                 .padding()
@@ -311,14 +311,14 @@ struct TheTalonsOfWengChiang: View {
                                 Spacer()
                                 HStack {
                                     Spacer()
-                            Text("26 February 1977\n2 April 1977")
+                                    Text("\(item.broadcast!)")
                                     Spacer()
                                 }
                                 Spacer()
                             }
                         }
                         .onDrag {
-                            return NSItemProvider(object: String("26 February 1977\n2 April 1977") as NSString)
+                            return NSItemProvider(object: String("\(item.broadcast!)") as NSString)
                         }
                         Spacer()
                         GroupBox(label: Label("Companions", systemImage: "person.2.fill")) {
@@ -326,14 +326,14 @@ struct TheTalonsOfWengChiang: View {
                                 Spacer()
                                 HStack {
                                     Spacer()
-                            Text("Leela (Louise Jameson)")
+                                    Text("\(item.companions!)")
                                     Spacer()
                                 }
                                 Spacer()
                             }
                         }
                         .onDrag {
-                            return NSItemProvider(object: String("Leela (Louise Jameson)") as NSString)
+                            return NSItemProvider(object: String("\(item.companions!)") as NSString)
                         }
                         Spacer()
                     }
@@ -346,14 +346,14 @@ struct TheTalonsOfWengChiang: View {
                                 Spacer()
                                 HStack {
                                     Spacer()
-                            Text("David Maloney")
+                                    Text("\(item.director!)")
                                     Spacer()
                                 }
                                 Spacer()
                             }
                         }
                         .onDrag {
-                            return NSItemProvider(object: String("David Maloney") as NSString)
+                            return NSItemProvider(object: String("\(item.director!)") as NSString)
                         }
                         Spacer()
                         GroupBox(label: Label("Producer", systemImage: "person.text.rectangle")) {
@@ -361,14 +361,14 @@ struct TheTalonsOfWengChiang: View {
                                 Spacer()
                                 HStack {
                                     Spacer()
-                            Text("Philip Hinchcliffe")
+                                    Text("\(item.producer!)")
                                     Spacer()
                             }
                                 Spacer()
                             }
                         }
                         .onDrag {
-                            return NSItemProvider(object: String("Philip Hinchcliffe") as NSString)
+                            return NSItemProvider(object: String("\(item.producer!)") as NSString)
                         }
                         Spacer()
                     }
@@ -381,14 +381,14 @@ struct TheTalonsOfWengChiang: View {
                                 Spacer()
                                 HStack {
                                     Spacer()
-                            Text("4th Doctor\n(Tom Baker)")
+                                    Text("\(item.doctor!)")
                                     Spacer()
                             }
                                 Spacer()
                             }
                         }
                         .onDrag {
-                            return NSItemProvider(object: String("4th Doctor\n(Tom Baker)") as NSString)
+                            return NSItemProvider(object: String("\(item.doctor!)") as NSString)
                         }
                         Spacer()
                         GroupBox(label: Label("Length", systemImage: "clock.arrow.circlepath")) {
@@ -396,14 +396,14 @@ struct TheTalonsOfWengChiang: View {
                                 Spacer()
                                 HStack {
                                     Spacer()
-                            Text("6 Episodes\n25 Minutes Each")
+                                    Text("\(item.length!)")
                                     Spacer()
                                 }
                                 Spacer()
                             }
                         }
                         .onDrag {
-                            return NSItemProvider(object: String("6 Episodes\n25 Minutes Each") as NSString)
+                            return NSItemProvider(object: String("\(item.length!)") as NSString)
                         }
                         Spacer()
                     }
@@ -426,7 +426,7 @@ struct TheTalonsOfWengChiang: View {
                             Image(systemName: "square.and.arrow.up")
                         }
                         .sheet(isPresented: $showingShare) {
-                            ActivityView(activityItems: [URL(string: "")!], applicationActivities: nil)
+                            ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Talons_of_Weng-Chiang")!], applicationActivities: nil)
                         }
                     }
                     ToolbarItemGroup(placement: .keyboard) {
@@ -437,9 +437,9 @@ struct TheTalonsOfWengChiang: View {
                         }
                 }
                 .textSelection(.enabled)
-                .navigationTitle("The Talons Of Weng Chiang")
+                .navigationTitle("\(item.title!)")
                 .navigationBarTitleDisplayMode(.inline)
-        //}
+        }
         }
     #endif
     }

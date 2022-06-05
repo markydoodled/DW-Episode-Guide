@@ -195,11 +195,11 @@ struct TheTimeMeddler: View {
                     }
                     Text("Story No. 17")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 17") as NSString)
                     }
                     Text("Written By - Dennis Spooner")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Dennis Spooner") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -292,12 +292,12 @@ struct TheTimeMeddler: View {
                         Text("Story No. 17")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 17") as NSString)
                                 }
                             Text("Written By - Dennis Spooner")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Dennis Spooner") as NSString)
                                 }
                     }
                         Spacer()

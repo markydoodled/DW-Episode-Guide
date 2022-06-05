@@ -195,11 +195,11 @@ struct TheSpaceMuseum: View {
                     }
                     Text("Story No. 15")
                     .onDrag {
-                        return NSItemProvider(object: String("Story No. ") as NSString)
+                        return NSItemProvider(object: String("Story No. 15") as NSString)
                     }
                     Text("Written By - Glyn Jones")
                         .onDrag {
-                            return NSItemProvider(object: String("Written By - ") as NSString)
+                            return NSItemProvider(object: String("Written By - Glyn Jones") as NSString)
                         }
                     Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                         Text("\(item.broadcast!)")
@@ -292,12 +292,12 @@ struct TheSpaceMuseum: View {
                         Text("Story No. 15")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Story No. ") as NSString)
+                                    return NSItemProvider(object: String("Story No. 15") as NSString)
                                 }
                             Text("Written By - Glyn Jones")
                                 .font(.title3)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - ") as NSString)
+                                    return NSItemProvider(object: String("Written By - Glyn Jones") as NSString)
                                 }
                     }
                         Spacer()
