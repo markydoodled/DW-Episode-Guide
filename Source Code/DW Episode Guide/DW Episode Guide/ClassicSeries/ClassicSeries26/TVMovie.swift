@@ -181,7 +181,7 @@ if horizontalSizeClass == .compact {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TVMovie")! as UIImage)
-                            }
+                            } preview: {Image("TVMovie")}
                         Spacer()
                     }
                     Text("Story No. 156")
@@ -266,7 +266,7 @@ if horizontalSizeClass == .compact {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TVMovie")! as UIImage)
-                            }
+                            } preview: {Image("TVMovie")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

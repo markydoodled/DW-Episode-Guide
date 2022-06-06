@@ -190,7 +190,7 @@ struct PlanetOfFire: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "PlanetOfFire")! as UIImage)
-                            }
+                            } preview: {Image("PlanetOfFire")}
                         Spacer()
                     }
                     Text("Story No. 134")
@@ -282,7 +282,7 @@ struct PlanetOfFire: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "PlanetOfFire")! as UIImage)
-                            }
+                            } preview: {Image("PlanetOfFire")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

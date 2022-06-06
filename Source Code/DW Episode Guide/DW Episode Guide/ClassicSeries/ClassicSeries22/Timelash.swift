@@ -190,7 +190,7 @@ struct Timelash: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Timelash")! as UIImage)
-                            }
+                            } preview: {Image("Timelash")}
                         Spacer()
                     }
                     Text("Story No. 141")
@@ -282,7 +282,7 @@ struct Timelash: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Timelash")! as UIImage)
-                            }
+                            } preview: {Image("Timelash")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")
