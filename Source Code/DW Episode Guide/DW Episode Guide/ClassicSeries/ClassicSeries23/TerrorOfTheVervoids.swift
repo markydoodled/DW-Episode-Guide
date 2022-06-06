@@ -191,7 +191,7 @@ struct TerrorOfTheVervoids: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TerrorOfTheVervoids")! as UIImage)
-                            }
+                            } preview: {Image("TerrorOfTheVervoids")}
                         Spacer()
                     }
                     Text("Story No. 143c")
@@ -283,7 +283,7 @@ struct TerrorOfTheVervoids: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TerrorOfTheVervoids")! as UIImage)
-                            }
+                            } preview: {Image("TerrorOfTheVervoids")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

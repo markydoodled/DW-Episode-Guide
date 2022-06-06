@@ -190,7 +190,7 @@ struct TheCavesOfAndrozani: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCavesOfAndrozani")! as UIImage)
-                            }
+                            } preview: {Image("TheCavesOfAndrozani")}
                         Spacer()
                     }
                     Text("Story No. 135")
@@ -282,7 +282,7 @@ struct TheCavesOfAndrozani: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCavesOfAndrozani")! as UIImage)
-                            }
+                            } preview: {Image("TheCavesOfAndrozani")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

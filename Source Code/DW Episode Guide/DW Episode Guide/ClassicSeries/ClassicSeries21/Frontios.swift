@@ -190,7 +190,7 @@ struct Frontios: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Frontios")! as UIImage)
-                            }
+                            } preview: {Image("Frontios")}
                         Spacer()
                     }
                     Text("Story No. 132")
@@ -282,7 +282,7 @@ struct Frontios: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Frontios")! as UIImage)
-                            }
+                            } preview: {Image("Frontios")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

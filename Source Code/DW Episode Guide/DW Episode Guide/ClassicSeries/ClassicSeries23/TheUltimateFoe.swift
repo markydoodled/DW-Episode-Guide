@@ -191,7 +191,7 @@ struct TheUltimateFoe: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheUltimateFoe")! as UIImage)
-                            }
+                            } preview: {Image("TheUltimateFoe")}
                         Spacer()
                     }
                     Text("Story No. 143d")
@@ -283,7 +283,7 @@ struct TheUltimateFoe: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheUltimateFoe")! as UIImage)
-                            }
+                            } preview: {Image("TheUltimateFoe")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

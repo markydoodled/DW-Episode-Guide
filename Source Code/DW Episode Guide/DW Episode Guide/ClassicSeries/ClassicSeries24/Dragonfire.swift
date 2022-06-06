@@ -190,7 +190,7 @@ struct Dragonfire: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Dragonfire")! as UIImage)
-                            }
+                            } preview: {Image("Dragonfire")}
                         Spacer()
                     }
                     Text("Story No. 147")
@@ -282,7 +282,7 @@ struct Dragonfire: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Dragonfire")! as UIImage)
-                            }
+                            } preview: {Image("Dragonfire")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")
