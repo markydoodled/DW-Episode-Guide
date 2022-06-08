@@ -191,7 +191,7 @@ struct TheArmageddonFactor: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheArmageddonFactor")! as UIImage)
-                            }
+                            } preview: {Image("TheArmageddonFactor")}
                         Spacer()
                     }
                     Text("Story No. 103")
@@ -283,7 +283,7 @@ struct TheArmageddonFactor: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheArmageddonFactor")! as UIImage)
-                            }
+                            } preview: {Image("TheArmageddonFactor")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

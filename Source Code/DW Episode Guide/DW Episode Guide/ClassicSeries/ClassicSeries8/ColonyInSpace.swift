@@ -190,7 +190,7 @@ struct ColonyInSpace: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ColonyInSpace")! as UIImage)
-                            }
+                            } preview: {Image("ColonyInSpace")}
                         Spacer()
                     }
                     Text("Story No. 58")
@@ -282,7 +282,7 @@ struct ColonyInSpace: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ColonyInSpace")! as UIImage)
-                            }
+                            } preview: {Image("ColonyInSpace")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

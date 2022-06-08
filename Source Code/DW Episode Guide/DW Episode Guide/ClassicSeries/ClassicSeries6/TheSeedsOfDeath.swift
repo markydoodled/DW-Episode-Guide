@@ -191,7 +191,7 @@ struct TheSeedsOfDeath: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheSeedsOfDeath")! as UIImage)
-                            }
+                            } preview: {Image("TheSeedsOfDeath")}
                         Spacer()
                     }
                     Text("Story No. 48")
@@ -283,7 +283,7 @@ struct TheSeedsOfDeath: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheSeedsOfDeath")! as UIImage)
-                            }
+                            } preview: {Image("TheSeedsOfDeath")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

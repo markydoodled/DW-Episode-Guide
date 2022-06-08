@@ -191,7 +191,7 @@ struct PyramidsOfMars: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "PyramidsOfMars")! as UIImage)
-                            }
+                            } preview: {Image("PyramidsOfMars")}
                         Spacer()
                     }
                     Text("Story No. 82")
@@ -283,7 +283,7 @@ struct PyramidsOfMars: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "PyramidsOfMars")! as UIImage)
-                            }
+                            } preview: {Image("PyramidsOfMars")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

@@ -190,7 +190,7 @@ struct SpearheadFromSpace: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "SpearheadFromSpace")! as UIImage)
-                            }
+                            } preview: {Image("SpearheadFromSpace")}
                         Spacer()
                     }
                     Text("Story No. 51")
@@ -282,7 +282,7 @@ struct SpearheadFromSpace: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "SpearheadFromSpace")! as UIImage)
-                            }
+                            } preview: {Image("SpearheadFromSpace")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

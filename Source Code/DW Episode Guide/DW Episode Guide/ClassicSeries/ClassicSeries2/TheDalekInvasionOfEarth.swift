@@ -190,7 +190,7 @@ struct TheDalekInvasionOfEarth: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheDalekInvasionOfEarth")! as UIImage)
-                            }
+                            } preview: {Image("TheDalekInvasionOfEarth")}
                         Spacer()
                     }
                     Text("Story No. 10")
@@ -282,7 +282,7 @@ struct TheDalekInvasionOfEarth: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheDalekInvasionOfEarth")! as UIImage)
-                            }
+                            } preview: {Image("TheDalekInvasionOfEarth")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

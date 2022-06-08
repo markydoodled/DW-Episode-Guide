@@ -190,7 +190,7 @@ struct Earthshock: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Earthshock")! as UIImage)
-                            }
+                            } preview: {Image("Earthshock")}
                         Spacer()
                     }
                     Text("Story No. 121")
@@ -282,7 +282,7 @@ struct Earthshock: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Earthshock")! as UIImage)
-                            }
+                            } preview: {Image("Earthshock")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

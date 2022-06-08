@@ -190,7 +190,7 @@ struct InvasionOfTheDinosaurs: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "InvasionOfTheDinosaurs")! as UIImage)
-                            }
+                            } preview: {Image("InvasionOfTheDinosaurs")}
                         Spacer()
                     }
                     Text("Story No. 71")
@@ -282,7 +282,7 @@ struct InvasionOfTheDinosaurs: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "InvasionOfTheDinosaurs")! as UIImage)
-                            }
+                            } preview: {Image("InvasionOfTheDinosaurs")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

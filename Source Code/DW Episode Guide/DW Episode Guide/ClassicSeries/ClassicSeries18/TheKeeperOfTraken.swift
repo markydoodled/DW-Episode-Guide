@@ -190,7 +190,7 @@ struct TheKeeperOfTraken: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheKeeperOfTraken")! as UIImage)
-                            }
+                            } preview: {Image("TheKeeperOfTraken")}
                         Spacer()
                     }
                     Text("Story No. 114")
@@ -282,7 +282,7 @@ struct TheKeeperOfTraken: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheKeeperOfTraken")! as UIImage)
-                            }
+                            } preview: {Image("TheKeeperOfTraken")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

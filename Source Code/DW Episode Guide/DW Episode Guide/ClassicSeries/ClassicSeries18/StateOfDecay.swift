@@ -190,7 +190,7 @@ struct StateOfDecay: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "StateOfDecay")! as UIImage)
-                            }
+                            } preview: {Image("StateOfDecay")}
                         Spacer()
                     }
                     Text("Story No. 112")
@@ -282,7 +282,7 @@ struct StateOfDecay: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "StateOfDecay")! as UIImage)
-                            }
+                            } preview: {Image("StateOfDecay")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

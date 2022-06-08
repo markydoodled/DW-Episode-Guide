@@ -190,7 +190,7 @@ struct ThePowerOfKroll: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePowerOfKroll")! as UIImage)
-                            }
+                            } preview: {Image("ThePowerOfKroll")}
                         Spacer()
                     }
                     Text("Story No. 102")
@@ -282,7 +282,7 @@ struct ThePowerOfKroll: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePowerOfKroll")! as UIImage)
-                            }
+                            } preview: {Image("ThePowerOfKroll")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

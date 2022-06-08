@@ -190,7 +190,7 @@ struct TheCurseOfPeladon: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCurseOfPeladon")! as UIImage)
-                            }
+                            } preview: {Image("TheCurseOfPeladon")}
                         Spacer()
                     }
                     Text("Story No. 61")
@@ -282,7 +282,7 @@ struct TheCurseOfPeladon: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCurseOfPeladon")! as UIImage)
-                            }
+                            } preview: {Image("TheCurseOfPeladon")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

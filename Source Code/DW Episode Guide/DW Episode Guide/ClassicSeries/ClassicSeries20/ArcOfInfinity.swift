@@ -190,7 +190,7 @@ struct ArcOfInfinity: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ArcOfInfinity")! as UIImage)
-                            }
+                            } preview: {Image("ArcOfInfinity")}
                         Spacer()
                     }
                     Text("Story No. 123")
@@ -282,7 +282,7 @@ struct ArcOfInfinity: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ArcOfInfinity")! as UIImage)
-                            }
+                            } preview: {Image("ArcOfInfinity")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

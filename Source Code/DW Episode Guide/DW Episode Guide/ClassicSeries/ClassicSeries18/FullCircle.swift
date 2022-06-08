@@ -190,7 +190,7 @@ struct FullCircle: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FullCircle")! as UIImage)
-                            }
+                            } preview: {Image("FullCircle")}
                         Spacer()
                     }
                     Text("Story No. 111")
@@ -282,7 +282,7 @@ struct FullCircle: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FullCircle")! as UIImage)
-                            }
+                            } preview: {Image("FullCircle")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

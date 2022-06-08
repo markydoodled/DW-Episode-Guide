@@ -191,7 +191,7 @@ struct TheWebOfFear: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheWebOfFear")! as UIImage)
-                            }
+                            } preview: {Image("TheWebOfFear")}
                         Spacer()
                     }
                     Text("Story No. 41")
@@ -283,7 +283,7 @@ struct TheWebOfFear: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheWebOfFear")! as UIImage)
-                            }
+                            } preview: {Image("TheWebOfFear")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

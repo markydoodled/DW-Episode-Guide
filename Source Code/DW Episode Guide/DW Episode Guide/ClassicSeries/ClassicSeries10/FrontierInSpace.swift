@@ -190,7 +190,7 @@ struct FrontierInSpace: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FrontierInSpace")! as UIImage)
-                            }
+                            } preview: {Image("FrontierInSpace")}
                         Spacer()
                     }
                     Text("Story No. 67")
@@ -282,7 +282,7 @@ struct FrontierInSpace: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FrontierInSpace")! as UIImage)
-                            }
+                            } preview: {Image("FrontierInSpace")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

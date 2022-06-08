@@ -190,7 +190,7 @@ struct TheCreatureFromThePit: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCreatureFromThePit")! as UIImage)
-                            }
+                            } preview: {Image("TheCreatureFromThePit")}
                         Spacer()
                     }
                     Text("Story No. 106")
@@ -282,7 +282,7 @@ struct TheCreatureFromThePit: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCreatureFromThePit")! as UIImage)
-                            }
+                            } preview: {Image("TheCreatureFromThePit")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

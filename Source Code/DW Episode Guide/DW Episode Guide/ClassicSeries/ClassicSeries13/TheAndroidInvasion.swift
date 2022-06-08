@@ -190,7 +190,7 @@ struct TheAndroidInvasion: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAndroidInvasion")! as UIImage)
-                            }
+                            } preview: {Image("TheAndroidInvasion")}
                         Spacer()
                     }
                     Text("Story No. 83")
@@ -282,7 +282,7 @@ struct TheAndroidInvasion: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAndroidInvasion")! as UIImage)
-                            }
+                            } preview: {Image("TheAndroidInvasion")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

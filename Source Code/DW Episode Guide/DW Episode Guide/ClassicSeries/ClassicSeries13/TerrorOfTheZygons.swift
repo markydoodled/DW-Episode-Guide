@@ -190,7 +190,7 @@ struct TerrorOfTheZygons: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TerrorOfTheZygons")! as UIImage)
-                            }
+                            } preview: {Image("TerrorOfTheZygons")}
                         Spacer()
                     }
                     Text("Story No. 80")
@@ -282,7 +282,7 @@ struct TerrorOfTheZygons: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TerrorOfTheZygons")! as UIImage)
-                            }
+                            } preview: {Image("TerrorOfTheZygons")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

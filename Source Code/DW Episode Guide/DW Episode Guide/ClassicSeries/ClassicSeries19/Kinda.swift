@@ -190,7 +190,7 @@ struct Kinda: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Kinda")! as UIImage)
-                            }
+                            } preview: {Image("Kinda")}
                         Spacer()
                     }
                     Text("Story No. 118")
@@ -282,7 +282,7 @@ struct Kinda: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Kinda")! as UIImage)
-                            }
+                            } preview: {Image("Kinda")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

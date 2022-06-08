@@ -191,7 +191,7 @@ struct TheClawsOfAxos: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheClawsOfAxos")! as UIImage)
-                            }
+                            } preview: {Image("TheClawsOfAxos")}
                         Spacer()
                     }
                     Text("Story No. 57")
@@ -283,7 +283,7 @@ struct TheClawsOfAxos: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheClawsOfAxos")! as UIImage)
-                            }
+                            } preview: {Image("TheClawsOfAxos")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

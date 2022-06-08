@@ -190,7 +190,7 @@ struct TheCelestialToymaker: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCelestialToymaker")! as UIImage)
-                            }
+                            } preview: {Image("TheCelestialToymaker")}
                         Spacer()
                     }
                     Text("Story No. 24")
@@ -282,7 +282,7 @@ struct TheCelestialToymaker: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCelestialToymaker")! as UIImage)
-                            }
+                            } preview: {Image("TheCelestialToymaker")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

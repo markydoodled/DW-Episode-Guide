@@ -190,7 +190,7 @@ struct MissionToTheUnknown: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "MissionToTheUnknown")! as UIImage)
-                            }
+                            } preview: {Image("MissionToTheUnknown")}
                         Spacer()
                     }
                     Text("Story No. 19")
@@ -282,7 +282,7 @@ struct MissionToTheUnknown: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "MissionToTheUnknown")! as UIImage)
-                            }
+                            } preview: {Image("MissionToTheUnknown")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

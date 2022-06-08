@@ -191,7 +191,7 @@ struct Meglos: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Meglos")! as UIImage)
-                            }
+                            } preview: {Image("Meglos")}
                         Spacer()
                     }
                     Text("Story No. 110")
@@ -283,7 +283,7 @@ struct Meglos: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Meglos")! as UIImage)
-                            }
+                            } preview: {Image("Meglos")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

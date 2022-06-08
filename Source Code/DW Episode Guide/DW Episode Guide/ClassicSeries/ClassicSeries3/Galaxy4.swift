@@ -190,7 +190,7 @@ struct Galaxy4: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Galaxy4")! as UIImage)
-                            }
+                            } preview: {Image("Galaxy4")}
                         Spacer()
                     }
                     Text("Story No. 18")
@@ -282,7 +282,7 @@ struct Galaxy4: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Galaxy4")! as UIImage)
-                            }
+                            } preview: {Image("Galaxy4")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

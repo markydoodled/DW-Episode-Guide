@@ -191,7 +191,7 @@ struct TheAbominableSnowmen: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAbominableSnowmen")! as UIImage)
-                            }
+                            } preview: {Image("TheAbominableSnowmen")}
                         Spacer()
                     }
                     Text("Story No. 38")
@@ -283,7 +283,7 @@ struct TheAbominableSnowmen: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAbominableSnowmen")! as UIImage)
-                            }
+                            } preview: {Image("TheAbominableSnowmen")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

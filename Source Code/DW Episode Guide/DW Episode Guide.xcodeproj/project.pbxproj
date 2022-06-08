@@ -38,7 +38,6 @@
 		D513C55E27F0B5BA006505A9 /* ClassicSeries12.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578330327381F69007CD57E /* ClassicSeries12.swift */; };
 		D513C55F27F0B5BA006505A9 /* ClassicSeries24.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578331B27382048007CD57E /* ClassicSeries24.swift */; };
 		D513C56027F0B5BA006505A9 /* ClassicSeries3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832F127381EE3007CD57E /* ClassicSeries3.swift */; };
-		D513C56127F0B5BA006505A9 /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339F2739A041007CD57E /* TVMovie.swift */; };
 		D513C56227F0B5C9006505A9 /* GhostLight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08F2741113A0032DF75 /* GhostLight.swift */; };
 		D513C56327F0B5C9006505A9 /* Battlefield.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB08D2741112D0032DF75 /* Battlefield.swift */; };
 		D513C56427F0B5C9006505A9 /* TheCurseOfFenric.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0912741114F0032DF75 /* TheCurseOfFenric.swift */; };
@@ -386,6 +385,8 @@
 		D513C6BA27F0B888006505A9 /* TheEndOfTheWorld.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0992744216E0032DF75 /* TheEndOfTheWorld.swift */; };
 		D513C6BB27F0B888006505A9 /* FathersDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB0A5274422E40032DF75 /* FathersDay.swift */; };
 		D513C6BD27F0FA7B006505A9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D513C6BC27F0FA7B006505A9 /* Settings.bundle */; };
+		D557539C28510F100001EA53 /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539B28510F100001EA53 /* TVMovie.swift */; };
+		D557539D28510F100001EA53 /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539B28510F100001EA53 /* TVMovie.swift */; };
 		D57832DB27381A18007CD57E /* DW_Episode_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */; };
 		D57832DD27381A18007CD57E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DC27381A18007CD57E /* ContentView.swift */; };
 		D57832DF27381A1C007CD57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57832DE27381A1C007CD57E /* Assets.xcassets */; };
@@ -440,7 +441,6 @@
 		D578339A27387413007CD57E /* TheAztecs.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339927387413007CD57E /* TheAztecs.swift */; };
 		D578339C27387420007CD57E /* TheSensorites.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339B27387420007CD57E /* TheSensorites.swift */; };
 		D578339E27387433007CD57E /* TheReignOfTerror.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339D27387433007CD57E /* TheReignOfTerror.swift */; };
-		D57833A02739A041007CD57E /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D578339F2739A041007CD57E /* TVMovie.swift */; };
 		D57833A2273AE4EF007CD57E /* PlanetOfGiants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A1273AE4EF007CD57E /* PlanetOfGiants.swift */; };
 		D57833A4273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A3273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift */; };
 		D57833A6273AE50D007CD57E /* TheRescue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57833A5273AE50D007CD57E /* TheRescue.swift */; };
@@ -774,6 +774,7 @@
 		D513C53E27F0B210006505A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D513C54127F0B210006505A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D513C6BC27F0FA7B006505A9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
+		D557539B28510F100001EA53 /* TVMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVMovie.swift; sourceTree = "<group>"; };
 		D57832D727381A18007CD57E /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_Episode_GuideApp.swift; sourceTree = "<group>"; };
 		D57832DC27381A18007CD57E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -830,7 +831,6 @@
 		D578339927387413007CD57E /* TheAztecs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheAztecs.swift; sourceTree = "<group>"; };
 		D578339B27387420007CD57E /* TheSensorites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheSensorites.swift; sourceTree = "<group>"; };
 		D578339D27387433007CD57E /* TheReignOfTerror.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheReignOfTerror.swift; sourceTree = "<group>"; };
-		D578339F2739A041007CD57E /* TVMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMovie.swift; sourceTree = "<group>"; };
 		D57833A1273AE4EF007CD57E /* PlanetOfGiants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetOfGiants.swift; sourceTree = "<group>"; };
 		D57833A3273AE4FF007CD57E /* TheDalekInvasionOfEarth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDalekInvasionOfEarth.swift; sourceTree = "<group>"; };
 		D57833A5273AE50D007CD57E /* TheRescue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheRescue.swift; sourceTree = "<group>"; };
@@ -1293,7 +1293,6 @@
 				D578331B27382048007CD57E /* ClassicSeries24.swift */,
 				D578331D27382052007CD57E /* ClassicSeries25.swift */,
 				D578331F2738205C007CD57E /* ClassicSeries26.swift */,
-				D578339F2739A041007CD57E /* TVMovie.swift */,
 			);
 			path = ClassicSeries;
 			sourceTree = "<group>";
@@ -1668,6 +1667,7 @@
 				D57EB08F2741113A0032DF75 /* GhostLight.swift */,
 				D57EB0912741114F0032DF75 /* TheCurseOfFenric.swift */,
 				D57EB093274111570032DF75 /* Survival.swift */,
+				D557539B28510F100001EA53 /* TVMovie.swift */,
 			);
 			path = ClassicSeries26;
 			sourceTree = "<group>";
@@ -2075,6 +2075,7 @@
 				D513C54B27F0B5BA006505A9 /* ClassicSeries5.swift in Sources */,
 				D513C59D27F0B794006505A9 /* TheArk.swift in Sources */,
 				D513C6AA27F0B881006505A9 /* RiseOfTheCybermen.swift in Sources */,
+				D557539D28510F100001EA53 /* TVMovie.swift in Sources */,
 				D513C5CF27F0B794006505A9 /* TheTombOfTheCybermen.swift in Sources */,
 				D513C56D27F0B6F7006505A9 /* Dragonfire.swift in Sources */,
 				D513C62C27F0B86E006505A9 /* TheCrimsonHorror.swift in Sources */,
@@ -2251,7 +2252,6 @@
 				D513C62127F0B86E006505A9 /* DinosaursOnASpaceship.swift in Sources */,
 				D513C5D727F0B794006505A9 /* TheSeaDevils.swift in Sources */,
 				D513C5DF27F0B794006505A9 /* MarcoPolo.swift in Sources */,
-				D513C56127F0B5BA006505A9 /* TVMovie.swift in Sources */,
 				D513C59827F0B728006505A9 /* DestinyOfTheDaleks.swift in Sources */,
 				D513C6BA27F0B888006505A9 /* TheEndOfTheWorld.swift in Sources */,
 				D513C56C27F0B6F7006505A9 /* ParadiseTowers.swift in Sources */,
@@ -2551,6 +2551,7 @@
 				D5783390273873C4007CD57E /* AnUnearthlyChild.swift in Sources */,
 				D57EB076273ED8B40032DF75 /* TheMysteriousPlanet.swift in Sources */,
 				D57EB13427456DFE0032DF75 /* TheCurseOfTheBlackSpot.swift in Sources */,
+				D557539C28510F100001EA53 /* TVMovie.swift in Sources */,
 				D57EB006273D9A820032DF75 /* TheDeadlyAssassin.swift in Sources */,
 				D57833CA273B21E8007CD57E /* TheTenthPlanet.swift in Sources */,
 				D57EB15A2745B0500032DF75 /* TheRingsOfAkhaten.swift in Sources */,
@@ -2610,7 +2611,6 @@
 				D57EB1CC2745B4870032DF75 /* ItTakesYouAway.swift in Sources */,
 				D57EB01A273D9B260032DF75 /* TheRibosOperation.swift in Sources */,
 				D57EB0D4274441660032DF75 /* TheShakespeareCode.swift in Sources */,
-				D57833A02739A041007CD57E /* TVMovie.swift in Sources */,
 				D57EB1B62745B3840032DF75 /* WorldEnoughAndTime.swift in Sources */,
 				D57EB04C273ED5840032DF75 /* ArcOfInfinity.swift in Sources */,
 				D57EB078273ED8BB0032DF75 /* Mindwarp.swift in Sources */,
