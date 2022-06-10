@@ -10,8 +10,11 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [x] Add Notes (iOS, iPadOS And macOS)
 - [x] Share Wiki Link (iOS, iPadOS, macOS And watchOS)
 - [x] Copy Images To Clipboard (iOS, iPadOS And macOS)
-- [ ] iOS App
-- [ ] iPadOS App
+- [x] iOS App
+- [x] iPadOS App
+- [x] Copy Info To Clipboard (iOS, iPadOS And macOS)
+- [x] Drag And Drop Support (iOS, iPadOS And macOS)
+- [x] User Feedback Button (iOS, iPadOS And macOS)
 - [ ] watchOS App
 - [ ] tvOS App
 - [ ] Widget Support (iOS, iPadOS And macOS)
@@ -21,13 +24,10 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Amazon DVD Links (iOS, iPadOS And macOS)
 - [ ] Apple TV App Links (iOS, iPadOS, macOS And tvOS)
 - [ ] Video Clips (iOS, iPadOS, macOS And tvOS)
-- [ ] User Feedback Button (iOS, iPadOS And macOS)
 - [ ] Search To Find Episodes
 - [ ] TouchBar Buttons (macOS)
 - [ ] Keyboard Shortcuts (iPadOS And macOS)
 - [ ] Episode Air Date Notifications
-- [ ] Drag And Drop Support (iOS, iPadOS And macOS)
-- [ ] Copy Info To Clipboard (iOS, iPadOS And macOS)
 - [ ] Watched Indicator (iOS, iPadOS And macOS)
 - [ ] Per Episode Ratings
 
