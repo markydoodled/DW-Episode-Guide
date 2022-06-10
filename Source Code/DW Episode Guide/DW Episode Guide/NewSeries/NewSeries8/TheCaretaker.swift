@@ -191,7 +191,7 @@ struct TheCaretaker: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCaretaker")! as UIImage)
-                            }
+                            } preview: {Image("TheCaretaker")}
                         Spacer()
                     }
                     Text("Story No. 247")
@@ -283,7 +283,7 @@ struct TheCaretaker: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCaretaker")! as UIImage)
-                            }
+                            } preview: {Image("TheCaretaker")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

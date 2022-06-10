@@ -190,7 +190,7 @@ struct ThinIce: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThinIce")! as UIImage)
-                            }
+                            } preview: {Image("ThinIce")}
                         Spacer()
                     }
                     Text("Story No. 267")
@@ -282,7 +282,7 @@ struct ThinIce: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThinIce")! as UIImage)
-                            }
+                            } preview: {Image("ThinIce")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

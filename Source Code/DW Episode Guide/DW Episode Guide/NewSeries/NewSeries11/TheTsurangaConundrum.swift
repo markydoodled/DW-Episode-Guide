@@ -191,7 +191,7 @@ struct TheTsurangaConundrum: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheTsurangaConundrum")! as UIImage)
-                            }
+                            } preview: {Image("TheTsurangaConundrum")}
                         Spacer()
                     }
                     Text("Story No. 281")
@@ -283,7 +283,7 @@ struct TheTsurangaConundrum: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheTsurangaConundrum")! as UIImage)
-                            }
+                            } preview: {Image("TheTsurangaConundrum")}
                         Spacer()
                         VStack {
                         Text("The Tsuranga\nConundrum")

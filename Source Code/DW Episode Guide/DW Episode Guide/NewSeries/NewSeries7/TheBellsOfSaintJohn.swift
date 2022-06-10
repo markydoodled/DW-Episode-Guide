@@ -191,7 +191,7 @@ struct TheBellsOfSaintJohn: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheBellsOfSaintJohn")! as UIImage)
-                            }
+                            } preview: {Image("TheBellsOfSaintJohn")}
                         Spacer()
                     }
                     Text("Story No. 232")
@@ -283,7 +283,7 @@ struct TheBellsOfSaintJohn: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheBellsOfSaintJohn")! as UIImage)
-                            }
+                            } preview: {Image("TheBellsOfSaintJohn")}
                         Spacer()
                         VStack {
                         Text("The Bells Of\nSaint John")

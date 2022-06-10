@@ -191,7 +191,7 @@ struct SurvivorsOfTheFlux: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "SurvivorsOfTheFlux")! as UIImage)
-                            }
+                            } preview: {Image("SurvivorsOfTheFlux")}
                         Spacer()
                     }
                     Text("Story No. 297e")
@@ -283,7 +283,7 @@ struct SurvivorsOfTheFlux: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "SurvivorsOfTheFlux")! as UIImage)
-                            }
+                            } preview: {Image("SurvivorsOfTheFlux")}
                         Spacer()
                         VStack {
                         Text("Survivors Of\nThe Flux")

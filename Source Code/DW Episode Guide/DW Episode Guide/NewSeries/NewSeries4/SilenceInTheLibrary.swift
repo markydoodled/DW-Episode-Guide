@@ -190,7 +190,7 @@ struct SilenceInTheLibrary: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "SilenceInTheLibrary")! as UIImage)
-                            }
+                            } preview: {Image("SilenceInTheLibrary")}
                         Spacer()
                     }
                     Text("Story No. 195a")
@@ -282,7 +282,7 @@ struct SilenceInTheLibrary: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "SilenceInTheLibrary")! as UIImage)
-                            }
+                            } preview: {Image("SilenceInTheLibrary")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

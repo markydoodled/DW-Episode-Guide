@@ -191,7 +191,7 @@ struct TheWeddingOfRiverSong: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheWeddingOfRiverSong")! as UIImage)
-                            }
+                            } preview: {Image("TheWeddingOfRiverSong")}
                         Spacer()
                     }
                     Text("Story No. 224")
@@ -283,7 +283,7 @@ struct TheWeddingOfRiverSong: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheWeddingOfRiverSong")! as UIImage)
-                            }
+                            } preview: {Image("TheWeddingOfRiverSong")}
                         Spacer()
                         VStack {
                         Text("The Wedding\nOf River Song")

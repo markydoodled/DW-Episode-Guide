@@ -191,7 +191,7 @@ struct TheHauntingOfVillaDiodati: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheHauntingOfVillaDiodati")! as UIImage)
-                            }
+                            } preview: {Image("TheHauntingOfVillaDiodati")}
                         Spacer()
                     }
                     Text("Story No. 294")
@@ -283,7 +283,7 @@ struct TheHauntingOfVillaDiodati: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheHauntingOfVillaDiodati")! as UIImage)
-                            }
+                            } preview: {Image("TheHauntingOfVillaDiodati")}
                         Spacer()
                         VStack {
                         Text("The Haunting Of\nVilla Diodati")

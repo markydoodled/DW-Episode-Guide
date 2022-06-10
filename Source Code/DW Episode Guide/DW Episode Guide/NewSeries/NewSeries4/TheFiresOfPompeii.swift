@@ -190,7 +190,7 @@ struct TheFiresOfPompeii: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheFiresOfPompeii")! as UIImage)
-                            }
+                            } preview: {Image("TheFiresOfPompeii")}
                         Spacer()
                     }
                     Text("Story No. 190")
@@ -282,7 +282,7 @@ struct TheFiresOfPompeii: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheFiresOfPompeii")! as UIImage)
-                            }
+                            } preview: {Image("TheFiresOfPompeii")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

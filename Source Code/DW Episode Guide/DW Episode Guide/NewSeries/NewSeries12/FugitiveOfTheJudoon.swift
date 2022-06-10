@@ -192,7 +192,7 @@ struct FugitiveOfTheJudoon: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FugitiveOfTheJudoon")! as UIImage)
-                            }
+                            } preview: {Image("FugitiveOfTheJudoon")}
                         Spacer()
                     }
                     Text("Story No. 291")
@@ -284,7 +284,7 @@ struct FugitiveOfTheJudoon: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FugitiveOfTheJudoon")! as UIImage)
-                            }
+                            } preview: {Image("FugitiveOfTheJudoon")}
                         Spacer()
                         VStack {
                         Text("Fugitive Of\nThe Judoon")

@@ -191,7 +191,7 @@ struct WorldEnoughAndTime: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "WorldEnoughAndTime")! as UIImage)
-                            }
+                            } preview: {Image("WorldEnoughAndTime")}
                         Spacer()
                     }
                     Text("Story No. 275a")
@@ -283,7 +283,7 @@ struct WorldEnoughAndTime: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "WorldEnoughAndTime")! as UIImage)
-                            }
+                            } preview: {Image("WorldEnoughAndTime")}
                         Spacer()
                         VStack {
                         Text("World Enough\nAnd Time")

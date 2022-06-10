@@ -191,7 +191,7 @@ struct RobotOfSherwood: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "RobotOfSherwood")! as UIImage)
-                            }
+                            } preview: {Image("RobotOfSherwood")}
                         Spacer()
                     }
                     Text("Story No. 244")
@@ -283,7 +283,7 @@ struct RobotOfSherwood: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "RobotOfSherwood")! as UIImage)
-                            }
+                            } preview: {Image("RobotOfSherwood")}
                         Spacer()
                         VStack {
                         Text("Robot Of\nSherwood")

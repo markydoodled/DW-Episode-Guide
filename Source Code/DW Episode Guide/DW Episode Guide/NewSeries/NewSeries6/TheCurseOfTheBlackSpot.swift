@@ -191,7 +191,7 @@ struct TheCurseOfTheBlackSpot: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCurseOfTheBlackSpot")! as UIImage)
-                            }
+                            } preview: {Image("TheCurseOfTheBlackSpot")}
                         Spacer()
                     }
                     Text("Story No. 215")
@@ -283,7 +283,7 @@ struct TheCurseOfTheBlackSpot: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheCurseOfTheBlackSpot")! as UIImage)
-                            }
+                            } preview: {Image("TheCurseOfTheBlackSpot")}
                         Spacer()
                         VStack {
                         Text("The Curse Of\nThe Black Spot")

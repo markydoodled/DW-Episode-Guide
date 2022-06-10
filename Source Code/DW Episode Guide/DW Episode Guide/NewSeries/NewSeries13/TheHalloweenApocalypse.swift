@@ -191,7 +191,7 @@ struct TheHalloweenApocalypse: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheHalloweenApocalypse")! as UIImage)
-                            }
+                            } preview: {Image("TheHalloweenApocalypse")}
                         Spacer()
                     }
                     Text("Story No. 297a")
@@ -283,7 +283,7 @@ struct TheHalloweenApocalypse: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheHalloweenApocalypse")! as UIImage)
-                            }
+                            } preview: {Image("TheHalloweenApocalypse")}
                         Spacer()
                         VStack {
                         Text("The Halloween\nApocalypse")

@@ -191,7 +191,7 @@ struct DemonsOfThePunjab: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "DemonsOfThePunjab")! as UIImage)
-                            }
+                            } preview: {Image("DemonsOfThePunjab")}
                         Spacer()
                     }
                     Text("Story No. 282")
@@ -283,7 +283,7 @@ struct DemonsOfThePunjab: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "DemonsOfThePunjab")! as UIImage)
-                            }
+                            } preview: {Image("DemonsOfThePunjab")}
                         Spacer()
                         VStack {
                         Text("Demons Of\nThe Punjab")

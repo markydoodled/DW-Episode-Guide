@@ -190,7 +190,7 @@ struct ThePandoricaOpens: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePandoricaOpens")! as UIImage)
-                            }
+                            } preview: {Image("ThePandoricaOpens")}
                         Spacer()
                     }
                     Text("Story No. 212a")
@@ -282,7 +282,7 @@ struct ThePandoricaOpens: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePandoricaOpens")! as UIImage)
-                            }
+                            } preview: {Image("ThePandoricaOpens")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

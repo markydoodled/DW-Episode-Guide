@@ -191,7 +191,7 @@ struct VillageOfTheAngels: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "VillageOfTheAngels")! as UIImage)
-                            }
+                            } preview: {Image("VillageOfTheAngels")}
                         Spacer()
                     }
                     Text("Story No. 297d")
@@ -283,7 +283,7 @@ struct VillageOfTheAngels: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "VillageOfTheAngels")! as UIImage)
-                            }
+                            } preview: {Image("VillageOfTheAngels")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

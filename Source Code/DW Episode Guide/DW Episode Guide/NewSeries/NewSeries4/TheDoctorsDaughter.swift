@@ -191,7 +191,7 @@ struct TheDoctorsDaughter: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheDoctorsDaughter")! as UIImage)
-                            }
+                            } preview: {Image("TheDoctorsDaughter")}
                         Spacer()
                     }
                     Text("Story No. 193")
@@ -283,7 +283,7 @@ struct TheDoctorsDaughter: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheDoctorsDaughter")! as UIImage)
-                            }
+                            } preview: {Image("TheDoctorsDaughter")}
                         Spacer()
                         VStack {
                         Text("The Doctor's\nDaughter")

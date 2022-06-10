@@ -191,7 +191,7 @@ struct PlanetOfTheDead: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "PlanetOfTheDead")! as UIImage)
-                            }
+                            } preview: {Image("PlanetOfTheDead")}
                         Spacer()
                     }
                     Text("Story No. 200")
@@ -283,7 +283,7 @@ struct PlanetOfTheDead: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "PlanetOfTheDead")! as UIImage)
-                            }
+                            } preview: {Image("PlanetOfTheDead")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

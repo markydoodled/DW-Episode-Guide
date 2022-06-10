@@ -190,7 +190,7 @@ struct Gridlock: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Gridlock")! as UIImage)
-                            }
+                            } preview: {Image("Gridlock")}
                         Spacer()
                     }
                     Text("Story No. 181")
@@ -282,7 +282,7 @@ struct Gridlock: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Gridlock")! as UIImage)
-                            }
+                            } preview: {Image("Gridlock")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

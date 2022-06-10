@@ -190,7 +190,7 @@ struct ArmyOfGhosts: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ArmyOfGhosts")! as UIImage)
-                            }
+                            } preview: {Image("ArmyOfGhosts")}
                         Spacer()
                     }
                     Text("Story No. 177a")
@@ -282,7 +282,7 @@ struct ArmyOfGhosts: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ArmyOfGhosts")! as UIImage)
-                            }
+                            } preview: {Image("ArmyOfGhosts")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

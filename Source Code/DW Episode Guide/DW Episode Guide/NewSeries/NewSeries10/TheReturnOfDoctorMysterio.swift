@@ -191,7 +191,7 @@ struct TheReturnOfDoctorMysterio: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheReturnOfDoctorMysterio")! as UIImage)
-                            }
+                            } preview: {Image("TheReturnOfDoctorMysterio")}
                         Spacer()
                     }
                     Text("Story No. 264")
@@ -283,7 +283,7 @@ struct TheReturnOfDoctorMysterio: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheReturnOfDoctorMysterio")! as UIImage)
-                            }
+                            } preview: {Image("TheReturnOfDoctorMysterio")}
                         Spacer()
                         VStack {
                         Text("The Return Of\nDoctor Mysterio")

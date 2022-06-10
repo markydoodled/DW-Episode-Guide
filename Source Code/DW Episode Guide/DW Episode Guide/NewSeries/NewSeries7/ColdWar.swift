@@ -190,7 +190,7 @@ struct ColdWar: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ColdWar")! as UIImage)
-                            }
+                            } preview: {Image("ColdWar")}
                         Spacer()
                     }
                     Text("Story No. 234")
@@ -282,7 +282,7 @@ struct ColdWar: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ColdWar")! as UIImage)
-                            }
+                            } preview: {Image("ColdWar")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

@@ -191,7 +191,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "JourneyToTheCentreOfTheTARDIS")! as UIImage)
-                            }
+                            } preview: {Image("JourneyToTheCentreOfTheTARDIS")}
                         Spacer()
                     }
                     Text("Story No. 236")
@@ -283,7 +283,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "JourneyToTheCentreOfTheTARDIS")! as UIImage)
-                            }
+                            } preview: {Image("JourneyToTheCentreOfTheTARDIS")}
                         Spacer()
                         VStack {
                         Text("Journey To The\nCentre Of\nThe TARDIS")

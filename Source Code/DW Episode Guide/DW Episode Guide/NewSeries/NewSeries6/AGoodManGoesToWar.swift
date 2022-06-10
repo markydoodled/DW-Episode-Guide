@@ -191,7 +191,7 @@ struct AGoodManGoesToWar: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "AGoodManGoesToWar")! as UIImage)
-                            }
+                            } preview: {Image("AGoodManGoesToWar")}
                         Spacer()
                     }
                     Text("Story No. 218")
@@ -283,7 +283,7 @@ struct AGoodManGoesToWar: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "AGoodManGoesToWar")! as UIImage)
-                            }
+                            } preview: {Image("AGoodManGoesToWar")}
                         Spacer()
                         VStack {
                         Text("A Good Man\nGoes To War")

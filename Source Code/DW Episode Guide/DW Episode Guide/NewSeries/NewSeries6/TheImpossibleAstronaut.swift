@@ -191,7 +191,7 @@ struct TheImpossibleAstronaut: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheImpossibleAstronaut")! as UIImage)
-                            }
+                            } preview: {Image("TheImpossibleAstronaut")}
                         Spacer()
                     }
                     Text("Story No. 214a")
@@ -283,7 +283,7 @@ struct TheImpossibleAstronaut: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheImpossibleAstronaut")! as UIImage)
-                            }
+                            } preview: {Image("TheImpossibleAstronaut")}
                         Spacer()
                         VStack {
                         Text("The Impossible\nAstronaut")

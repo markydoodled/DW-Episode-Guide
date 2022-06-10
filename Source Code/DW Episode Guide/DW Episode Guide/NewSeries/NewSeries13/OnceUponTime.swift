@@ -190,7 +190,7 @@ struct OnceUponTime: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "OnceUponTime")! as UIImage)
-                            }
+                            } preview: {Image("OnceUponTime")}
                         Spacer()
                     }
                     Text("Story No. 297c")
@@ -282,7 +282,7 @@ struct OnceUponTime: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "OnceUponTime")! as UIImage)
-                            }
+                            } preview: {Image("OnceUponTime")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

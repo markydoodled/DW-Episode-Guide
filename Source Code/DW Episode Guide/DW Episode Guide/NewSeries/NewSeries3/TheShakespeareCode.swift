@@ -191,7 +191,7 @@ struct TheShakespeareCode: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheShakespeareCode")! as UIImage)
-                            }
+                            } preview: {Image("TheShakespeareCode")}
                         Spacer()
                     }
                     Text("Story No. 180")
@@ -283,7 +283,7 @@ struct TheShakespeareCode: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheShakespeareCode")! as UIImage)
-                            }
+                            } preview: {Image("TheShakespeareCode")}
                         Spacer()
                         VStack {
                         Text("The Shakespeare\nCode")

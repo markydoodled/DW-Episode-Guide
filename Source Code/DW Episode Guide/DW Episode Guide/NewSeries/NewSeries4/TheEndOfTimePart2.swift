@@ -191,7 +191,7 @@ struct TheEndOfTimePart2: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheEndOfTimePart2")! as UIImage)
-                            }
+                            } preview: {Image("TheEndOfTimePart2")}
                         Spacer()
                     }
                     Text("Story No. 202b")
@@ -283,7 +283,7 @@ struct TheEndOfTimePart2: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheEndOfTimePart2")! as UIImage)
-                            }
+                            } preview: {Image("TheEndOfTimePart2")}
                         Spacer()
                         VStack {
                         Text("The End Of\nTime - Part 2")

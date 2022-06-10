@@ -191,7 +191,7 @@ struct CanYouHearMe: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "CanYouHearMe")! as UIImage)
-                            }
+                            } preview: {Image("CanYouHearMe")}
                         Spacer()
                     }
                     Text("Story No. 293")
@@ -283,7 +283,7 @@ struct CanYouHearMe: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "CanYouHearMe")! as UIImage)
-                            }
+                            } preview: {Image("CanYouHearMe")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

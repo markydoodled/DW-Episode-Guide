@@ -191,7 +191,7 @@ struct VoyageOfTheDamned: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "VoyageOfTheDamned")! as UIImage)
-                            }
+                            } preview: {Image("VoyageOfTheDamned")}
                         Spacer()
                     }
                     Text("Story No. 188")
@@ -283,7 +283,7 @@ struct VoyageOfTheDamned: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "VoyageOfTheDamned")! as UIImage)
-                            }
+                            } preview: {Image("VoyageOfTheDamned")}
                         Spacer()
                         VStack {
                         Text("Voyage Of\nThe Damned")

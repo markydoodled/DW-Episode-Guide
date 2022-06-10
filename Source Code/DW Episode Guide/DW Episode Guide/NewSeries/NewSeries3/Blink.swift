@@ -190,7 +190,7 @@ struct Blink: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Blink")! as UIImage)
-                            }
+                            } preview: {Image("Blink")}
                         Spacer()
                     }
                     Text("Story No. 186")
@@ -282,7 +282,7 @@ struct Blink: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Blink")! as UIImage)
-                            }
+                            } preview: {Image("Blink")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

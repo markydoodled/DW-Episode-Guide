@@ -190,7 +190,7 @@ struct DarkWater: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "DarkWater")! as UIImage)
-                            }
+                            } preview: {Image("DarkWater")}
                         Spacer()
                     }
                     Text("Story No. 252a")
@@ -282,7 +282,7 @@ struct DarkWater: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "DarkWater")! as UIImage)
-                            }
+                            } preview: {Image("DarkWater")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

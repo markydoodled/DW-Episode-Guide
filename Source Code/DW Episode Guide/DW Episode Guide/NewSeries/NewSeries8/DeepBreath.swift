@@ -190,7 +190,7 @@ struct DeepBreath: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "DeepBreath")! as UIImage)
-                            }
+                            } preview: {Image("DeepBreath")}
                         Spacer()
                     }
                     Text("Story No. 242")
@@ -282,7 +282,7 @@ struct DeepBreath: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "DeepBreath")! as UIImage)
-                            }
+                            } preview: {Image("DeepBreath")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

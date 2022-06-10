@@ -190,7 +190,7 @@ struct Kerblam: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Kerblam")! as UIImage)
-                            }
+                            } preview: {Image("Kerblam")}
                         Spacer()
                     }
                     Text("Story No. 283")
@@ -282,7 +282,7 @@ struct Kerblam: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Kerblam")! as UIImage)
-                            }
+                            } preview: {Image("Kerblam")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

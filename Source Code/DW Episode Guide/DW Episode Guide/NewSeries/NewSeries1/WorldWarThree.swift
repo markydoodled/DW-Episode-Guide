@@ -190,7 +190,7 @@ struct WorldWarThree: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "WorldWarThree")! as UIImage)
-                            }
+                            } preview: {Image("WorldWarThree")}
                         Spacer()
                     }
                     Text("Story No. 160b")
@@ -282,7 +282,7 @@ struct WorldWarThree: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "WorldWarThree")! as UIImage)
-                            }
+                            } preview: {Image("WorldWarThree")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

@@ -31,6 +31,9 @@ struct NewSeries13: View {
             NavigationLink(destination: EveOfTheDaleks()) {
                 Text("Eve Of The Daleks")
             }
+            NavigationLink(destination: LegendOfTheSeaDevils()) {
+                Text("Legend Of The Sea Devils")
+            }
         }
         #if os(macOS)
         .listStyle(InsetListStyle(alternatesRowBackgrounds: true))

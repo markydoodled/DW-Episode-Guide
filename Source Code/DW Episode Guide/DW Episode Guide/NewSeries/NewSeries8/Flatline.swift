@@ -190,7 +190,7 @@ struct Flatline: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Flatline")! as UIImage)
-                            }
+                            } preview: {Image("Flatline")}
                         Spacer()
                     }
                     Text("Story No. 250")
@@ -282,7 +282,7 @@ struct Flatline: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Flatline")! as UIImage)
-                            }
+                            } preview: {Image("Flatline")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

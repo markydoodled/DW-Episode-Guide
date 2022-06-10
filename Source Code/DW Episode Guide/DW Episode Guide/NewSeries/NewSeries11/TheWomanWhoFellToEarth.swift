@@ -191,7 +191,7 @@ struct TheWomanWhoFellToEarth: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheWomanWhoFellToEarth")! as UIImage)
-                            }
+                            } preview: {Image("TheWomanWhoFellToEarth")}
                         Spacer()
                     }
                     Text("Story No. 277")
@@ -283,7 +283,7 @@ struct TheWomanWhoFellToEarth: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheWomanWhoFellToEarth")! as UIImage)
-                            }
+                            } preview: {Image("TheWomanWhoFellToEarth")}
                         Spacer()
                         VStack {
                         Text("The Woman Who\nFell To Earth")

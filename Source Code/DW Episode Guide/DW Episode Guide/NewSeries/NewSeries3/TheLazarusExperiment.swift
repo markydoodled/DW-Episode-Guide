@@ -191,7 +191,7 @@ struct TheLazarusExperiment: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheLazarusExperiment")! as UIImage)
-                            }
+                            } preview: {Image("TheLazarusExperiment")}
                         Spacer()
                     }
                     Text("Story No. 183")
@@ -283,7 +283,7 @@ struct TheLazarusExperiment: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheLazarusExperiment")! as UIImage)
-                            }
+                            } preview: {Image("TheLazarusExperiment")}
                         Spacer()
                         VStack {
                         Text("The Lazarus\nExperiment")

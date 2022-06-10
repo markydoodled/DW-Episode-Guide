@@ -192,7 +192,7 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePyramidAtTheEndOfTheWorld")! as UIImage)
-                            }
+                            } preview: {Image("ThePyramidAtTheEndOfTheWorld")}
                         Spacer()
                     }
                     Text("Story No. 271")
@@ -284,7 +284,7 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePyramidAtTheEndOfTheWorld")! as UIImage)
-                            }
+                            } preview: {Image("ThePyramidAtTheEndOfTheWorld")}
                         Spacer()
                         VStack {
                         Text("The Pyramid\nAt The End\nOf The World")

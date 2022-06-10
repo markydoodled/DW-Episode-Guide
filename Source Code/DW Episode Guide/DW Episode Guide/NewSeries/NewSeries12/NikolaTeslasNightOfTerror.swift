@@ -191,7 +191,7 @@ struct NikolaTeslasNightOfTerror: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "NikolaTeslasNightOfTerror")! as UIImage)
-                            }
+                            } preview: {Image("NikolaTeslasNightOfTerror")}
                         Spacer()
                     }
                     Text("Story No. 290")
@@ -283,7 +283,7 @@ struct NikolaTeslasNightOfTerror: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "NikolaTeslasNightOfTerror")! as UIImage)
-                            }
+                            } preview: {Image("NikolaTeslasNightOfTerror")}
                         Spacer()
                         VStack {
                         Text("Nikola Tesla's\nNight Of Terror")

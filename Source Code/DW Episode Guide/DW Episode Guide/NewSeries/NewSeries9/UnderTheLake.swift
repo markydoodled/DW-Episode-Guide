@@ -190,7 +190,7 @@ struct UnderTheLake: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "UnderTheLake")! as UIImage)
-                            }
+                            } preview: {Image("UnderTheLake")}
                         Spacer()
                     }
                     Text("Story No. 255a")
@@ -282,7 +282,7 @@ struct UnderTheLake: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "UnderTheLake")! as UIImage)
-                            }
+                            } preview: {Image("UnderTheLake")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

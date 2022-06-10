@@ -191,7 +191,7 @@ struct ThePartingOfTheWays: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePartingOfTheWays")! as UIImage)
-                            }
+                            } preview: {Image("ThePartingOfTheWays")}
                         Spacer()
                     }
                     Text("Story No. 166b")
@@ -283,7 +283,7 @@ struct ThePartingOfTheWays: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ThePartingOfTheWays")! as UIImage)
-                            }
+                            } preview: {Image("ThePartingOfTheWays")}
                         Spacer()
                         VStack {
                         Text("The Parting Of\nThe Ways")

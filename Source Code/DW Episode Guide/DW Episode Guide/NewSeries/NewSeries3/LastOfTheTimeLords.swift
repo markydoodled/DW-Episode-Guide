@@ -191,7 +191,7 @@ struct LastOfTheTimeLords: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "LastOfTheTimeLords")! as UIImage)
-                            }
+                            } preview: {Image("LastOfTheTimeLords")}
                         Spacer()
                     }
                     Text("Story No. 187c")
@@ -283,7 +283,7 @@ struct LastOfTheTimeLords: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "LastOfTheTimeLords")! as UIImage)
-                            }
+                            } preview: {Image("LastOfTheTimeLords")}
                         Spacer()
                         VStack {
                         Text("Last Of The\nTime Lords")

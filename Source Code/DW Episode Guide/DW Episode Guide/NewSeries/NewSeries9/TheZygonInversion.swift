@@ -191,7 +191,7 @@ struct TheZygonInversion: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheZygonInversion")! as UIImage)
-                            }
+                            } preview: {Image("TheZygonInversion")}
                         Spacer()
                     }
                     Text("Story No. 258b")
@@ -283,7 +283,7 @@ struct TheZygonInversion: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheZygonInversion")! as UIImage)
-                            }
+                            } preview: {Image("TheZygonInversion")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

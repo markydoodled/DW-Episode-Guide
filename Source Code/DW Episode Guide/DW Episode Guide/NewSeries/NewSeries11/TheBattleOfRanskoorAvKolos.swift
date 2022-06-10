@@ -191,7 +191,7 @@ struct TheBattleOfRanskoorAvKolos: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheBattleOfRanskoorAvKolos")! as UIImage)
-                            }
+                            } preview: {Image("TheBattleOfRanskoorAvKolos")}
                         Spacer()
                     }
                     Text("Story No. 286")
@@ -283,7 +283,7 @@ struct TheBattleOfRanskoorAvKolos: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheBattleOfRanskoorAvKolos")! as UIImage)
-                            }
+                            } preview: {Image("TheBattleOfRanskoorAvKolos")}
                         Spacer()
                         VStack {
                         Text("The Battle Of\nRanskoor Av Kolos")

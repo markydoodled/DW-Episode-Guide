@@ -190,7 +190,7 @@ struct TwiceUponATime: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TwiceUponATime")! as UIImage)
-                            }
+                            } preview: {Image("TwiceUponATime")}
                         Spacer()
                     }
                     Text("Story No. 276")
@@ -282,7 +282,7 @@ struct TwiceUponATime: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TwiceUponATime")! as UIImage)
-                            }
+                            } preview: {Image("TwiceUponATime")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

@@ -190,7 +190,7 @@ struct Resolution: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Resolution")! as UIImage)
-                            }
+                            } preview: {Image("Resolution")}
                         Spacer()
                     }
                     Text("Story No. 287")
@@ -282,7 +282,7 @@ struct Resolution: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Resolution")! as UIImage)
-                            }
+                            } preview: {Image("Resolution")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

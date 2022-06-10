@@ -190,7 +190,7 @@ struct TheRingsOfAkhaten: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheRingsOfAkhaten")! as UIImage)
-                            }
+                            } preview: {Image("TheRingsOfAkhaten")}
                         Spacer()
                     }
                     Text("Story No. 233")
@@ -282,7 +282,7 @@ struct TheRingsOfAkhaten: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheRingsOfAkhaten")! as UIImage)
-                            }
+                            } preview: {Image("TheRingsOfAkhaten")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

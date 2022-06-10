@@ -190,7 +190,7 @@ struct HumanNature: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "HumanNature")! as UIImage)
-                            }
+                            } preview: {Image("HumanNature")}
                         Spacer()
                     }
                     Text("Story No. 185a")
@@ -282,7 +282,7 @@ struct HumanNature: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "HumanNature")! as UIImage)
-                            }
+                            } preview: {Image("HumanNature")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

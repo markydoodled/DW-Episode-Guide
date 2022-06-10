@@ -387,6 +387,8 @@
 		D513C6BD27F0FA7B006505A9 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D513C6BC27F0FA7B006505A9 /* Settings.bundle */; };
 		D557539C28510F100001EA53 /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539B28510F100001EA53 /* TVMovie.swift */; };
 		D557539D28510F100001EA53 /* TVMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539B28510F100001EA53 /* TVMovie.swift */; };
+		D557539F2853A2300001EA53 /* LegendOfTheSeaDevils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */; };
+		D55753A02853A2300001EA53 /* LegendOfTheSeaDevils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */; };
 		D57832DB27381A18007CD57E /* DW_Episode_GuideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */; };
 		D57832DD27381A18007CD57E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57832DC27381A18007CD57E /* ContentView.swift */; };
 		D57832DF27381A1C007CD57E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D57832DE27381A1C007CD57E /* Assets.xcassets */; };
@@ -775,6 +777,7 @@
 		D513C54127F0B210006505A9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D513C6BC27F0FA7B006505A9 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 		D557539B28510F100001EA53 /* TVMovie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TVMovie.swift; sourceTree = "<group>"; };
+		D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendOfTheSeaDevils.swift; sourceTree = "<group>"; };
 		D57832D727381A18007CD57E /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D57832DA27381A18007CD57E /* DW_Episode_GuideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_Episode_GuideApp.swift; sourceTree = "<group>"; };
 		D57832DC27381A18007CD57E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -1932,6 +1935,7 @@
 				D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */,
 				D57EB1F127495AE50032DF75 /* TheVanquishers.swift */,
 				D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */,
+				D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */,
 			);
 			path = NewSeries13;
 			sourceTree = "<group>";
@@ -2098,6 +2102,7 @@
 				D513C67427F0B86E006505A9 /* CanYouHearMe.swift in Sources */,
 				D513C67727F0B86E006505A9 /* ArachnidsInTheUK.swift in Sources */,
 				D513C58427F0B714006505A9 /* ArcOfInfinity.swift in Sources */,
+				D55753A02853A2300001EA53 /* LegendOfTheSeaDevils.swift in Sources */,
 				D513C68527F0B86E006505A9 /* RobotOfSherwood.swift in Sources */,
 				D513C5B527F0B794006505A9 /* RevengeOfTheCybermen.swift in Sources */,
 				D513C5EE27F0B794006505A9 /* TheTenthPlanet.swift in Sources */,
@@ -2448,6 +2453,7 @@
 				D57EB0922741114F0032DF75 /* TheCurseOfFenric.swift in Sources */,
 				D57EB024273D9B8A0032DF75 /* DestinyOfTheDaleks.swift in Sources */,
 				D578330627381F72007CD57E /* ClassicSeries13.swift in Sources */,
+				D557539F2853A2300001EA53 /* LegendOfTheSeaDevils.swift in Sources */,
 				D57EB0CC27443F3F0032DF75 /* ArmyOfGhosts.swift in Sources */,
 				D57EB1D2274812FA0032DF75 /* SpyfallPart1.swift in Sources */,
 				D57EB072273ED7730032DF75 /* Timelash.swift in Sources */,

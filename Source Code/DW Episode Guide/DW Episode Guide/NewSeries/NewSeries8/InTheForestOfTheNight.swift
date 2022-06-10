@@ -191,7 +191,7 @@ struct InTheForestOfTheNight: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "InTheForestOfTheNight")! as UIImage)
-                            }
+                            } preview: {Image("InTheForestOfTheNight")}
                         Spacer()
                     }
                     Text("Story No. 251")
@@ -283,7 +283,7 @@ struct InTheForestOfTheNight: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "InTheForestOfTheNight")! as UIImage)
-                            }
+                            } preview: {Image("InTheForestOfTheNight")}
                         Spacer()
                         VStack {
                         Text("In The Forest\nOf The Night")

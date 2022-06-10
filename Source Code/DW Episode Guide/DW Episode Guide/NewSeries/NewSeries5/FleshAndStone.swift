@@ -190,7 +190,7 @@ struct FleshAndStone: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FleshAndStone")! as UIImage)
-                            }
+                            } preview: {Image("FleshAndStone")}
                         Spacer()
                     }
                     Text("Story No. 206b")
@@ -282,7 +282,7 @@ struct FleshAndStone: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "FleshAndStone")! as UIImage)
-                            }
+                            } preview: {Image("FleshAndStone")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

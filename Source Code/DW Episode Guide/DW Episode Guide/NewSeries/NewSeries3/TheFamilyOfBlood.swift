@@ -190,7 +190,7 @@ struct TheFamilyOfBlood: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheFamilyOfBlood")! as UIImage)
-                            }
+                            } preview: {Image("TheFamilyOfBlood")}
                         Spacer()
                     }
                     Text("Story No. 185b")
@@ -282,7 +282,7 @@ struct TheFamilyOfBlood: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheFamilyOfBlood")! as UIImage)
-                            }
+                            } preview: {Image("TheFamilyOfBlood")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

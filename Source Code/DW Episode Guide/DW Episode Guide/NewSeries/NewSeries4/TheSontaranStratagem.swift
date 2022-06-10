@@ -191,7 +191,7 @@ struct TheSontaranStratagem: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheSontaranStratagem")! as UIImage)
-                            }
+                            } preview: {Image("TheSontaranStratagem")}
                         Spacer()
                     }
                     Text("Story No. 192a")
@@ -283,7 +283,7 @@ struct TheSontaranStratagem: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheSontaranStratagem")! as UIImage)
-                            }
+                            } preview: {Image("TheSontaranStratagem")}
                         Spacer()
                         VStack {
                         Text("The Sontaran\nStratagem")

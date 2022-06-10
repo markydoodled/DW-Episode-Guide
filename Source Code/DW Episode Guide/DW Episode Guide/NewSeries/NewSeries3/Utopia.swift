@@ -190,7 +190,7 @@ struct Utopia: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Utopia")! as UIImage)
-                            }
+                            } preview: {Image("Utopia")}
                         Spacer()
                     }
                     Text("Story No. 187a")
@@ -282,7 +282,7 @@ struct Utopia: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "Utopia")! as UIImage)
-                            }
+                            } preview: {Image("Utopia")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

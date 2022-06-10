@@ -190,7 +190,7 @@ struct HellBent: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "HellBent")! as UIImage)
-                            }
+                            } preview: {Image("HellBent")}
                         Spacer()
                     }
                     Text("Story No. 262")
@@ -282,7 +282,7 @@ struct HellBent: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "HellBent")! as UIImage)
-                            }
+                            } preview: {Image("HellBent")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

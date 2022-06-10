@@ -190,7 +190,7 @@ struct TheAgeOfSteel: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAgeOfSteel")! as UIImage)
-                            }
+                            } preview: {Image("TheAgeOfSteel")}
                         Spacer()
                     }
                     Text("Story No. 172b")
@@ -282,7 +282,7 @@ struct TheAgeOfSteel: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAgeOfSteel")! as UIImage)
-                            }
+                            } preview: {Image("TheAgeOfSteel")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")

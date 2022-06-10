@@ -191,7 +191,7 @@ struct TheAngelsTakeManhattan: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAngelsTakeManhattan")! as UIImage)
-                            }
+                            } preview: {Image("TheAngelsTakeManhattan")}
                         Spacer()
                     }
                     Text("Story No. 230")
@@ -283,7 +283,7 @@ struct TheAngelsTakeManhattan: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "TheAngelsTakeManhattan")! as UIImage)
-                            }
+                            } preview: {Image("TheAngelsTakeManhattan")}
                         Spacer()
                         VStack {
                         Text("The Angels\nTake Manhattan")

@@ -190,7 +190,7 @@ struct ForestOfTheDead: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ForestOfTheDead")! as UIImage)
-                            }
+                            } preview: {Image("ForestOfTheDead")}
                         Spacer()
                     }
                     Text("Story No. 195b")
@@ -282,7 +282,7 @@ struct ForestOfTheDead: View {
                             }
                             .onDrag {
                                 return NSItemProvider(object: UIImage(named: "ForestOfTheDead")! as UIImage)
-                            }
+                            } preview: {Image("ForestOfTheDead")}
                         Spacer()
                         VStack {
                         Text("\(item.title!)")
