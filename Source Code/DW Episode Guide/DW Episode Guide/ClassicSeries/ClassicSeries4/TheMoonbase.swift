@@ -17,6 +17,7 @@ struct TheMoonbase: View {
         private var items: FetchedResults<TheMoonbaseClass>
         @State var showingShare = false
         @AppStorage("TheMoonbaseNotes") var notes = ""
+    @AppStorage("TheMoonbaseWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

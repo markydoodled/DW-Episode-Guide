@@ -239,12 +239,12 @@ struct ContentView: View {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.1")
+                        Text("1.2")
                     }
                     HStack {
                         Text("Build")
                         Spacer()
-                        Text("3")
+                        Text("1")
                     }
                     HStack {
                         Button(action: {self.isShowingMailView.toggle()}) {
@@ -265,15 +265,16 @@ struct ContentView: View {
                 }
         } else {
                 Form {
+                    Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.1")
+                        Text("1.2")
                     }
                     HStack {
                         Text("Build")
                         Spacer()
-                        Text("3")
+                        Text("1")
                     }
                     HStack {
                         Button(action: {self.isShowingMailView.toggle()}) {
@@ -283,6 +284,7 @@ struct ContentView: View {
                             MailView(isShowing: self.$isShowingMailView, result: self.$result)
                         }
                     }
+                }
             }
             .navigationTitle("Settings")
         }

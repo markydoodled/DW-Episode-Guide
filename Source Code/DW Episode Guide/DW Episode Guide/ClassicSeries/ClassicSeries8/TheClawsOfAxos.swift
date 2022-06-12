@@ -17,6 +17,7 @@ struct TheClawsOfAxos: View {
         private var items: FetchedResults<TheClawsOfAxosClass>
         @State var showingShare = false
         @AppStorage("TheClawsOfAxosNotes") var notes = ""
+    @AppStorage("TheClawsOfAxosWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

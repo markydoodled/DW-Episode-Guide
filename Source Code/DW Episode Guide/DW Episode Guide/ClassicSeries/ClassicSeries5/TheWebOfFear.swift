@@ -17,6 +17,7 @@ struct TheWebOfFear: View {
         private var items: FetchedResults<TheWebOfFearClass>
         @State var showingShare = false
         @AppStorage("TheWebOfFearNotes") var notes = ""
+    @AppStorage("TheWebOfFearWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

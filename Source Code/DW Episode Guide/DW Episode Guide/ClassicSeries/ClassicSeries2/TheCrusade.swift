@@ -17,6 +17,7 @@ struct TheCrusade: View {
     private var items: FetchedResults<TheCrusadeClass>
     @State var showingShare = false
     @AppStorage("TheCrusadeNotes") var notes = ""
+    @AppStorage("TheCrusadeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

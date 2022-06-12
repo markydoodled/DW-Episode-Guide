@@ -17,6 +17,7 @@ struct CarnivalOfMonsters: View {
         private var items: FetchedResults<CarnivalOfMonstersClass>
         @State var showingShare = false
         @AppStorage("CarnivalOfMonstersNotes") var notes = ""
+    @AppStorage("CarnivalOfMonstersWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

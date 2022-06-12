@@ -17,6 +17,7 @@ struct Inferno: View {
         private var items: FetchedResults<InfernoClass>
         @State var showingShare = false
         @AppStorage("InfernoNotes") var notes = ""
+    @AppStorage("InfernoWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

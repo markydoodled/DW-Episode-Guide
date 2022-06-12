@@ -17,6 +17,7 @@ struct SpearheadFromSpace: View {
         private var items: FetchedResults<SpearheadFromSpaceClass>
         @State var showingShare = false
         @AppStorage("SpearheadFromSpaceNotes") var notes = ""
+    @AppStorage("SpearheadFromSpaceWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

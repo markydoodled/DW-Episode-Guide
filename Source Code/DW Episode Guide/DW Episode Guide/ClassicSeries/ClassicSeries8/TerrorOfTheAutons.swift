@@ -17,6 +17,7 @@ struct TerrorOfTheAutons: View {
         private var items: FetchedResults<TerrorOfTheAutonsClass>
         @State var showingShare = false
         @AppStorage("TerrorOfTheAutonsNotes") var notes = ""
+    @AppStorage("TerrorOfTheAutonsWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

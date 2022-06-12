@@ -17,6 +17,7 @@ struct TheMacraTerror: View {
         private var items: FetchedResults<TheMacraTerrorClass>
         @State var showingShare = false
         @AppStorage("TheMacraTerrorNotes") var notes = ""
+    @AppStorage("TheMacraTerrorWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

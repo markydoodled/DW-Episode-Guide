@@ -17,6 +17,7 @@ struct ColonyInSpace: View {
         private var items: FetchedResults<ColonyInSpaceClass>
         @State var showingShare = false
         @AppStorage("ColonyInSpaceNotes") var notes = ""
+    @AppStorage("ColonyInSpaceWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

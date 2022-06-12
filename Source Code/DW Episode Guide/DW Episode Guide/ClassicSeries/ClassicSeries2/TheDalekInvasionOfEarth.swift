@@ -17,6 +17,7 @@ struct TheDalekInvasionOfEarth: View {
     private var items: FetchedResults<TheDalekInvasionOfEarthClass>
     @State var showingShare = false
     @AppStorage("TheDalekInvasionOfEarthNotes") var notes = ""
+    @AppStorage("TheDalekInvasionOfEarthWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

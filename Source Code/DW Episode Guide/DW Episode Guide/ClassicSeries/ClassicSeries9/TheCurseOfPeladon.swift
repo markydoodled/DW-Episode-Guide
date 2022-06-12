@@ -17,6 +17,7 @@ struct TheCurseOfPeladon: View {
         private var items: FetchedResults<TheCurseOfPeladonClass>
         @State var showingShare = false
         @AppStorage("TheCurseOfPeladonNotes") var notes = ""
+    @AppStorage("TheCurseOfPeladonWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

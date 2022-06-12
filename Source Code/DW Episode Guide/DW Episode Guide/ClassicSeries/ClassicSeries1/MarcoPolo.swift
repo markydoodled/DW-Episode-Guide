@@ -17,6 +17,7 @@ struct MarcoPolo: View {
     private var items: FetchedResults<MarcoPoloClass>
     @State var showingShare = false
     @AppStorage("MarcoPoloNotes") var notes = ""
+    @AppStorage("MarcoPoloWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

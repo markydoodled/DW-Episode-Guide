@@ -17,6 +17,7 @@ struct TheRescue: View {
     private var items: FetchedResults<TheRescueClass>
     @State var showingShare = false
     @AppStorage("TheRescueNotes") var notes = ""
+    @AppStorage("TheRescueWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool
