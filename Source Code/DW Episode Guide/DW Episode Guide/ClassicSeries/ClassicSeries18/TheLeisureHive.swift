@@ -17,6 +17,7 @@ struct TheLeisureHive: View {
         private var items: FetchedResults<TheLeisureHiveClass>
         @State var showingShare = false
         @AppStorage("TheLeisureHiveNotes") var notes = ""
+        @AppStorage("TheLeisureHiveWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

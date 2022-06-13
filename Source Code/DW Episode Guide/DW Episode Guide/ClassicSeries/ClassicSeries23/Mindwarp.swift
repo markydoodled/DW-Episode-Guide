@@ -17,6 +17,7 @@ struct Mindwarp: View {
         private var items: FetchedResults<MindwarpClass>
         @State var showingShare = false
         @AppStorage("MindwarpNotes") var notes = ""
+        @AppStorage("MindwarpWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

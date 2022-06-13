@@ -17,6 +17,7 @@ struct Castrovalva: View {
         private var items: FetchedResults<CastrovalvaClass>
         @State var showingShare = false
         @AppStorage("CastrovalvaNotes") var notes = ""
+        @AppStorage("CastrovalvaWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

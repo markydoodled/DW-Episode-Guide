@@ -17,6 +17,7 @@ struct TheFiveDoctors: View {
         private var items: FetchedResults<TheFiveDoctorsClass>
         @State var showingShare = false
         @AppStorage("TheFiveDoctorsNotes") var notes = ""
+        @AppStorage("TheFiveDoctorsWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

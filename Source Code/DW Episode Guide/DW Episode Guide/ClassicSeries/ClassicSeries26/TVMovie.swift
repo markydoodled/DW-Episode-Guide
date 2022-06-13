@@ -16,6 +16,7 @@ struct TVMovie: View {
             private var items: FetchedResults<TVMovieClass>
             @State var showingShare = false
     @AppStorage("TVMovieNotes") var notes = ""
+    @AppStorage("TVMovieWatched") var watched: Bool = false
     #if os(iOS)
         @Environment(\.horizontalSizeClass) var horizontalSizeClass
         @FocusState private var isFocused: Bool

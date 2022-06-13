@@ -17,6 +17,7 @@ struct ParadiseTowers: View {
         private var items: FetchedResults<ParadiseTowersClass>
         @State var showingShare = false
         @AppStorage("ParadiseTowersNotes") var notes = ""
+        @AppStorage("ParadiseTowersWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

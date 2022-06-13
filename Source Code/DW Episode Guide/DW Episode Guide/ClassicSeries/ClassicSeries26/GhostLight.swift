@@ -17,6 +17,7 @@ struct GhostLight: View {
         private var items: FetchedResults<GhostLightClass>
         @State var showingShare = false
         @AppStorage("GhostLightNotes") var notes = ""
+        @AppStorage("GhostLightWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

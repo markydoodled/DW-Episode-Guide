@@ -17,6 +17,7 @@ struct StateOfDecay: View {
         private var items: FetchedResults<StateOfDecayClass>
         @State var showingShare = false
         @AppStorage("StateOfDecayNotes") var notes = ""
+        @AppStorage("StateOfDecayWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct Frontios: View {
         private var items: FetchedResults<FrontiosClass>
         @State var showingShare = false
         @AppStorage("FrontiosNotes") var notes = ""
+        @AppStorage("FrontiosWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

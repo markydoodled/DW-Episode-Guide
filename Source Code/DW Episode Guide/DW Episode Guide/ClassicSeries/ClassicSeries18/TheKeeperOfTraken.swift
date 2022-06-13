@@ -17,6 +17,7 @@ struct TheKeeperOfTraken: View {
         private var items: FetchedResults<TheKeeperOfTrakenClass>
         @State var showingShare = false
         @AppStorage("TheKeeperOfTrakenNotes") var notes = ""
+        @AppStorage("TheKeeperOfTrakenWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

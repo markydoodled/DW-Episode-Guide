@@ -17,6 +17,7 @@ struct TheAwakening: View {
         private var items: FetchedResults<TheAwakeningClass>
         @State var showingShare = false
         @AppStorage("TheAwakeningNotes") var notes = ""
+        @AppStorage("TheAwakwningWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

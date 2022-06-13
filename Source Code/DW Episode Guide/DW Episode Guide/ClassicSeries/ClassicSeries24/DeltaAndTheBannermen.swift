@@ -17,6 +17,7 @@ struct DeltaAndTheBannermen: View {
         private var items: FetchedResults<DeltaAndTheBannermenClass>
         @State var showingShare = false
         @AppStorage("DeltaAndTheBannermenNotes") var notes = ""
+        @AppStorage("DeltaAndTheBannermenWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

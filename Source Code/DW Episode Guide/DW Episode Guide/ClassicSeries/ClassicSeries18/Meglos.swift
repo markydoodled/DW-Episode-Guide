@@ -17,6 +17,7 @@ struct Meglos: View {
         private var items: FetchedResults<MeglosClass>
         @State var showingShare = false
         @AppStorage("MeglosNotes") var notes = ""
+        @AppStorage("MeglosWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

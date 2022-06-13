@@ -17,6 +17,7 @@ struct TheArmageddonFactor: View {
         private var items: FetchedResults<TheArmageddonFactorClass>
         @State var showingShare = false
         @AppStorage("TheArmageddonFactorNotes") var notes = ""
+        @AppStorage("TheArmageddonFactorWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

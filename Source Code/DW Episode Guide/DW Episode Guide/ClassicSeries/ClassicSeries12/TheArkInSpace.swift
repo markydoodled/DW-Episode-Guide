@@ -17,6 +17,7 @@ struct TheArkInSpace: View {
         private var items: FetchedResults<TheArkInSpaceClass>
         @State var showingShare = false
         @AppStorage("TheArkInSpaceNotes") var notes = ""
+        @AppStorage("TheArkInSpaceWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

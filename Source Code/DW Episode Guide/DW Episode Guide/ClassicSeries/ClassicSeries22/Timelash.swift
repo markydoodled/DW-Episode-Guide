@@ -17,6 +17,7 @@ struct Timelash: View {
         private var items: FetchedResults<TimelashClass>
         @State var showingShare = false
         @AppStorage("TimelashNotes") var notes = ""
+        @AppStorage("TimelashWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

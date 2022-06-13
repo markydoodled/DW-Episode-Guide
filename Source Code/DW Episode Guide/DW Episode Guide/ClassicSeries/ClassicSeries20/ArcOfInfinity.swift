@@ -17,6 +17,7 @@ struct ArcOfInfinity: View {
         private var items: FetchedResults<ArcOfInfinityClass>
         @State var showingShare = false
         @AppStorage("ArcOfInfinityNotes") var notes = ""
+        @AppStorage("ArcOfInfinityWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

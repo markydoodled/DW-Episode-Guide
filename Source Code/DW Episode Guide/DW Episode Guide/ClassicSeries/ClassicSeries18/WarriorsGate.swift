@@ -17,6 +17,7 @@ struct WarriorsGate: View {
         private var items: FetchedResults<WarriorsGateClass>
         @State var showingShare = false
         @AppStorage("WarriorsGateNotes") var notes = ""
+        @AppStorage("WarriorsGateWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

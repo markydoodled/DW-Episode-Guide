@@ -17,6 +17,7 @@ struct VengeanceOnVaros: View {
         private var items: FetchedResults<VengeanceOnVarosClass>
         @State var showingShare = false
         @AppStorage("VengeanceOnVarosNotes") var notes = ""
+        @AppStorage("VengeanceOnVarosWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

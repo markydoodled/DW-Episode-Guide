@@ -17,6 +17,7 @@ struct FullCircle: View {
         private var items: FetchedResults<FullCircleClass>
         @State var showingShare = false
         @AppStorage("FullCircleNotes") var notes = ""
+        @AppStorage("FullCircleWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

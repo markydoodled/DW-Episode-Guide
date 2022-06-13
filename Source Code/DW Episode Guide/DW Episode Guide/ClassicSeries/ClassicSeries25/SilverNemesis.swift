@@ -17,6 +17,7 @@ struct SilverNemesis: View {
         private var items: FetchedResults<SilverNemesisClass>
         @State var showingShare = false
         @AppStorage("SilverNemesisNotes") var notes = ""
+        @AppStorage("SilverNemesisWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

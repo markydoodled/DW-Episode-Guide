@@ -17,6 +17,7 @@ struct Earthshock: View {
         private var items: FetchedResults<EarthshockClass>
         @State var showingShare = false
         @AppStorage("EarthshockNotes") var notes = ""
+        @AppStorage("EarthshockWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
    @FocusState private var isFocused: Bool 

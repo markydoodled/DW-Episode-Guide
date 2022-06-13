@@ -17,6 +17,7 @@ struct Survival: View {
         private var items: FetchedResults<SurvivalClass>
         @State var showingShare = false
         @AppStorage("SurvivalNotes") var notes = ""
+        @AppStorage("SurvivalWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

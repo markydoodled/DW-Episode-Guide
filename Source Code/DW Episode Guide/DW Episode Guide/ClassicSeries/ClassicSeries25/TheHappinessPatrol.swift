@@ -17,6 +17,7 @@ struct TheHappinessPatrol: View {
         private var items: FetchedResults<TheHappinessPatrolClass>
         @State var showingShare = false
         @AppStorage("TheHappinessPatrolNotes") var notes = ""
+        @AppStorage("TheHappinessPatrolWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

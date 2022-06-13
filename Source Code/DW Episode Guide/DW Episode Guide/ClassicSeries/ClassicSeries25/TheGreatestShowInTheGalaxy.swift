@@ -17,6 +17,7 @@ struct TheGreatestShowInTheGalaxy: View {
         private var items: FetchedResults<TheGreatestShowInTheGalaxyClass>
         @State var showingShare = false
         @AppStorage("TheGreatestShowInTheGalaxyNotes") var notes = ""
+        @AppStorage("TheGreatestShowInTheGalaxyWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

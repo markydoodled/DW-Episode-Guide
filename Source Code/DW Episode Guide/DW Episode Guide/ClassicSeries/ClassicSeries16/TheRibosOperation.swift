@@ -17,6 +17,7 @@ struct TheRibosOperation: View {
         private var items: FetchedResults<TheRibosOperationClass>
         @State var showingShare = false
         @AppStorage("TheRibosOperationNotes") var notes = ""
+        @AppStorage("TheRibosOperationWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

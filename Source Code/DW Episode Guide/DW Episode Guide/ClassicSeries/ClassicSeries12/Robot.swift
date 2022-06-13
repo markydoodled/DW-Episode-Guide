@@ -17,6 +17,7 @@ struct Robot: View {
         private var items: FetchedResults<RobotClass>
         @State var showingShare = false
         @AppStorage("RobotNotes") var notes = ""
+        @AppStorage("RobotWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

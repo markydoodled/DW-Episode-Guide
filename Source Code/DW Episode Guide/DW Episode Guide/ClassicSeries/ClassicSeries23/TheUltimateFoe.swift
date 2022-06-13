@@ -17,6 +17,7 @@ struct TheUltimateFoe: View {
         private var items: FetchedResults<TheUltimateFoeClass>
         @State var showingShare = false
         @AppStorage("TheUltimateFoeNotes") var notes = ""
+        @AppStorage("TheUltimateFoeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool
