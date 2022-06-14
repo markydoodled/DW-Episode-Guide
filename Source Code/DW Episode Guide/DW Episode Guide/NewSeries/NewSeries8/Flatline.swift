@@ -17,6 +17,7 @@ struct Flatline: View {
         private var items: FetchedResults<FlatlineClass>
         @State var showingShare = false
         @AppStorage("FlatlineNotes") var notes = ""
+        @AppStorage("FlatlineWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

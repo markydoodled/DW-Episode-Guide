@@ -17,6 +17,7 @@ struct Doomsday: View {
         private var items: FetchedResults<DoomsdayClass>
         @State var showingShare = false
         @AppStorage("DoomsdayNotes") var notes = ""
+        @AppStorage("DoomsdayWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

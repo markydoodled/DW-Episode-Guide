@@ -17,6 +17,7 @@ struct TheNextDoctor: View {
         private var items: FetchedResults<TheNextDoctorClass>
         @State var showingShare = false
         @AppStorage("TheNextDoctorNotes") var notes = ""
+        @AppStorage("TheNextDoctorWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

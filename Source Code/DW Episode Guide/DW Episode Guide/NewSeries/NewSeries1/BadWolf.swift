@@ -17,6 +17,7 @@ struct BadWolf: View {
         private var items: FetchedResults<BadWolfClass>
         @State var showingShare = false
         @AppStorage("BadWolfNotes") var notes = ""
+        @AppStorage("BadWolfWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

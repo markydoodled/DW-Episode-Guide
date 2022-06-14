@@ -17,6 +17,7 @@ struct TheGirlWhoWaited: View {
         private var items: FetchedResults<TheGirlWhoWaitedClass>
         @State var showingShare = false
         @AppStorage("TheGirlWhoWaitedNotes") var notes = ""
+        @AppStorage("TheGirlWhoWaitedWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

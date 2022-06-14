@@ -17,6 +17,7 @@ struct ColdWar: View {
         private var items: FetchedResults<ColdWarClass>
         @State var showingShare = false
         @AppStorage("ColdWarNotes") var notes = ""
+        @AppStorage("ColdWarWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

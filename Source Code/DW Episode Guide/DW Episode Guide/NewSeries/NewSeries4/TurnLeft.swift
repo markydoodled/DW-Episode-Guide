@@ -17,6 +17,7 @@ struct TurnLeft: View {
         private var items: FetchedResults<TurnLeftClass>
         @State var showingShare = false
         @AppStorage("TurnLeftNotes") var notes = ""
+        @AppStorage("TurnLeftWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

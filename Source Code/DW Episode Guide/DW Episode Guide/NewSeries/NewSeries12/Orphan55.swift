@@ -17,6 +17,7 @@ struct Orphan55: View {
         private var items: FetchedResults<Orphan55Class>
         @State var showingShare = false
         @AppStorage("Orphan55Notes") var notes = ""
+        @AppStorage("Orphan55Watched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

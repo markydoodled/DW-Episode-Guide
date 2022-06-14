@@ -17,6 +17,7 @@ struct HumanNature: View {
         private var items: FetchedResults<HumanNatureClass>
         @State var showingShare = false
         @AppStorage("HumanNatureNotes") var notes = ""
+        @AppStorage("HumanNatureWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct BoomTown: View {
         private var items: FetchedResults<BoomTownClass>
         @State var showingShare = false
         @AppStorage("BoomTownNotes") var notes = ""
+        @AppStorage("BoomTownWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

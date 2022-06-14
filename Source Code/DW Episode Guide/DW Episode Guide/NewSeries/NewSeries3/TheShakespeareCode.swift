@@ -17,6 +17,7 @@ struct TheShakespeareCode: View {
         private var items: FetchedResults<TheShakespeareCodeClass>
         @State var showingShare = false
         @AppStorage("TheShakespeareCodeNotes") var notes = ""
+        @AppStorage("TheShakespeareCodeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

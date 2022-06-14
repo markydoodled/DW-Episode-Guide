@@ -17,6 +17,7 @@ struct ColdBlood: View {
         private var items: FetchedResults<ColdBloodClass>
         @State var showingShare = false
         @AppStorage("ColdBloodNotes") var notes = ""
+        @AppStorage("ColdBloodWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

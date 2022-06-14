@@ -17,6 +17,7 @@ struct TwiceUponATime: View {
         private var items: FetchedResults<TwiceUponATimeClass>
         @State var showingShare = false
         @AppStorage("TwiceUponATimeNotes") var notes = ""
+        @AppStorage("TwiceUponATimeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct BeforeTheFlood: View {
         private var items: FetchedResults<BeforeTheFloodClass>
         @State var showingShare = false
         @AppStorage("BeforeTheFloodNotes") var notes = ""
+        @AppStorage("BeforeTheFloodWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

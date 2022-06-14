@@ -17,6 +17,7 @@ struct TheImpossiblePlanet: View {
         private var items: FetchedResults<TheImpossiblePlanetClass>
         @State var showingShare = false
         @AppStorage("TheImpossiblePlanetNotes") var notes = ""
+        @AppStorage("TheImpossiblePlanetWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

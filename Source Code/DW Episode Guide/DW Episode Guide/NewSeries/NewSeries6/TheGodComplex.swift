@@ -17,6 +17,7 @@ struct TheGodComplex: View {
         private var items: FetchedResults<TheGodComplexClass>
         @State var showingShare = false
         @AppStorage("TheGodComplexNotes") var notes = ""
+        @AppStorage("TheGodComplexWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct ThinIce: View {
         private var items: FetchedResults<ThinIceClass>
         @State var showingShare = false
         @AppStorage("ThinIceNotes") var notes = ""
+        @AppStorage("ThinIceWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

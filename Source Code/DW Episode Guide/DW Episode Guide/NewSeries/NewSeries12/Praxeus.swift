@@ -17,6 +17,7 @@ struct Praxeus: View {
         private var items: FetchedResults<PraxeusClass>
         @State var showingShare = false
         @AppStorage("PraxeusNotes") var notes = ""
+        @AppStorage("PraxeusWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

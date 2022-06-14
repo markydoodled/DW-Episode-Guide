@@ -17,6 +17,7 @@ struct Dalek: View {
         private var items: FetchedResults<DalekClass>
         @State var showingShare = false
         @AppStorage("DalekNotes") var notes = ""
+        @AppStorage("DalekWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

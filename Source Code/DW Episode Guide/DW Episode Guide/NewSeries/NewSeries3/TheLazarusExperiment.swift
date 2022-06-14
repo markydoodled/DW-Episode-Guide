@@ -17,6 +17,7 @@ struct TheLazarusExperiment: View {
         private var items: FetchedResults<TheLazarusExperimentClass>
         @State var showingShare = false
         @AppStorage("TheLararusExperimentNotes") var notes = ""
+        @AppStorage("TheLazarusExperimentWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct JourneyToTheCentreOfTheTARDIS: View {
         private var items: FetchedResults<JourneyToTheCentreOfTheTARDISClass>
         @State var showingShare = false
         @AppStorage("JourneyToTheCentreOfTheTARDISNotes") var notes = ""
+        @AppStorage("JourneyToTheCentreOfTheTARDISWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

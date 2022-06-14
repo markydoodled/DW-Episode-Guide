@@ -17,6 +17,7 @@ struct SleepNoMore: View {
         private var items: FetchedResults<SleepNoMoreClass>
         @State var showingShare = false
         @AppStorage("SleepNoMoreNotes") var notes = ""
+        @AppStorage("SleepNoMoreWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct FleshAndStone: View {
         private var items: FetchedResults<FleshAndStoneClass>
         @State var showingShare = false
         @AppStorage("FleshAndStoneNotes") var notes = ""
+        @AppStorage("FleshAndStoneWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

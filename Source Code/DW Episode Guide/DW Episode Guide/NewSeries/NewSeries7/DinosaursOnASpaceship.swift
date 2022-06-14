@@ -17,6 +17,7 @@ struct DinosaursOnASpaceship: View {
         private var items: FetchedResults<DinosaursOnASpaceshipClass>
         @State var showingShare = false
         @AppStorage("DinosaursOnASpaceshipNotes") var notes = ""
+        @AppStorage("DinosaursOnASpaceshipWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -17,6 +17,7 @@ struct SilenceInTheLibrary: View {
         private var items: FetchedResults<SilenceInTheLibraryClass>
         @State var showingShare = false
         @AppStorage("SilenceInTheLibraryNotes") var notes = ""
+        @AppStorage("SilenceInTheLibraryWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

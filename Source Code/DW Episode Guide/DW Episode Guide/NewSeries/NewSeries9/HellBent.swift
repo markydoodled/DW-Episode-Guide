@@ -17,6 +17,7 @@ struct HellBent: View {
         private var items: FetchedResults<HellBentClass>
         @State var showingShare = false
         @AppStorage("HellBentNotes") var notes = ""
+        @AppStorage("HellBentWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

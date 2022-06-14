@@ -17,6 +17,7 @@ struct SpyfallPart1: View {
         private var items: FetchedResults<SpyfallPart1Class>
         @State var showingShare = false
         @AppStorage("SpyfallPart1Notes") var notes = ""
+        @AppStorage("SpyfallPart1Watched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

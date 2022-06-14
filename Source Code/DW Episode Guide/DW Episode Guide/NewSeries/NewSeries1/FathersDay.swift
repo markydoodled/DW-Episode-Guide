@@ -17,6 +17,7 @@ struct FathersDay: View {
         private var items: FetchedResults<FathersDayClass>
         @State var showingShare = false
         @AppStorage("FathersDayNotes") var notes = ""
+        @AppStorage("FathersDayWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

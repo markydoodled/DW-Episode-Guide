@@ -17,6 +17,7 @@ struct CanYouHearMe: View {
         private var items: FetchedResults<CanYouHearMeClass>
         @State var showingShare = false
         @AppStorage("CanYouHearMeNotes") var notes = ""
+        @AppStorage("CanYouHearMeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

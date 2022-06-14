@@ -17,6 +17,7 @@ struct WorldWarThree: View {
         private var items: FetchedResults<WorldWarThreeClass>
         @State var showingShare = false
         @AppStorage("WorldWarThreeNotes") var notes = ""
+        @AppStorage("WorldWarThreeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

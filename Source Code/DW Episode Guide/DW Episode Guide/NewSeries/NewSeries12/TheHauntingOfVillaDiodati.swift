@@ -17,6 +17,7 @@ struct TheHauntingOfVillaDiodati: View {
         private var items: FetchedResults<TheHauntingOfVillaDiodatiClass>
         @State var showingShare = false
         @AppStorage("TheHauntingOfVillaDiodatiNotes") var notes = ""
+        @AppStorage("TheHauntingOfVillaDiodatiWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

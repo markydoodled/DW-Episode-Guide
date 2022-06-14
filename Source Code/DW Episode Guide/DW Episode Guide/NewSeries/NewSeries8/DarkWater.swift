@@ -17,6 +17,7 @@ struct DarkWater: View {
         private var items: FetchedResults<DarkWaterClass>
         @State var showingShare = false
         @AppStorage("DarkWaterNotes") var notes = ""
+        @AppStorage("DarkWaterWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

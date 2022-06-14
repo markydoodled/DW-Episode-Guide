@@ -17,6 +17,7 @@ struct Resolution: View {
         private var items: FetchedResults<ResolutionClass>
         @State var showingShare = false
         @AppStorage("ResolutionNotes") var notes = ""
+        @AppStorage("ResolutionWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
    @FocusState private var isFocused: Bool 

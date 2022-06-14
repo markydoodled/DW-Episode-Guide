@@ -17,6 +17,7 @@ struct DeathInHeaven: View {
         private var items: FetchedResults<DeathInHeavenClass>
         @State var showingShare = false
         @AppStorage("DeathInHeavenNotes") var notes = ""
+        @AppStorage("DeathInHeavenWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

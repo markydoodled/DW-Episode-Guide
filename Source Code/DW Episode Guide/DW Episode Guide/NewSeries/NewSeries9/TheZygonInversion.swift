@@ -17,6 +17,7 @@ struct TheZygonInversion: View {
         private var items: FetchedResults<TheZygonInversionClass>
         @State var showingShare = false
         @AppStorage("TheZygonInversionNotes") var notes = ""
+        @AppStorage("TheZygonInversionWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

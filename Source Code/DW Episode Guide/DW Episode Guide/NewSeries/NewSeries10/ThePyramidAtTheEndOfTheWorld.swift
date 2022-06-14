@@ -17,6 +17,7 @@ struct ThePyramidAtTheEndOfTheWorld: View {
         private var items: FetchedResults<ThePyramidAtTheEndOfTheWorldClass>
         @State var showingShare = false
         @AppStorage("ThePyramidAtTheEndOfTheWorldNotes") var notes = ""
+        @AppStorage("ThePyramidAtTheEndOfTheWorldWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

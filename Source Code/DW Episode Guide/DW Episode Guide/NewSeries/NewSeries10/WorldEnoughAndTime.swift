@@ -17,6 +17,7 @@ struct WorldEnoughAndTime: View {
         private var items: FetchedResults<WorldEnoughAndTimeClass>
         @State var showingShare = false
         @AppStorage("WorldEnoughAndTimeNotes") var notes = ""
+        @AppStorage("WorldEnoughAndTimeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

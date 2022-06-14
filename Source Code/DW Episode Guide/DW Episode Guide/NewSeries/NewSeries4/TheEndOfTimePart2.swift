@@ -17,6 +17,7 @@ struct TheEndOfTimePart2: View {
         private var items: FetchedResults<TheEndOfTimePart2Class>
         @State var showingShare = false
         @AppStorage("TheEndOfTimePart2Notes") var notes = ""
+        @AppStorage("TheEndOfTimePart2Watched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

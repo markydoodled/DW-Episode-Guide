@@ -17,6 +17,7 @@ struct SmithAndJones: View {
         private var items: FetchedResults<SmithAndJonesClass>
         @State var showingShare = false
         @AppStorage("SmithAndJonesNotes") var notes = ""
+        @AppStorage("SmithAndJonesWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

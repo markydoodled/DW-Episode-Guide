@@ -17,6 +17,7 @@ struct TheRebelFlesh: View {
         private var items: FetchedResults<TheRebelFleshClass>
         @State var showingShare = false
         @AppStorage("TheRebelFleshNotes") var notes = ""
+        @AppStorage("TheRebelFleshWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

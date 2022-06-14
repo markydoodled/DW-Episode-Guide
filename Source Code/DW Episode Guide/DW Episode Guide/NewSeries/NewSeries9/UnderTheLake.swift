@@ -17,6 +17,7 @@ struct UnderTheLake: View {
         private var items: FetchedResults<UnderTheLakeClass>
         @State var showingShare = false
         @AppStorage("UnderTheLakeNotes") var notes = ""
+        @AppStorage("UnderTheLakeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

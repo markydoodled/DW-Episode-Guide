@@ -17,6 +17,7 @@ struct ATownCalledMercy: View {
         private var items: FetchedResults<ATownCalledMercyClass>
         @State var showingShare = false
         @AppStorage("ATownCalledMercyNotes") var notes = ""
+        @AppStorage("ATownCalledMercyWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

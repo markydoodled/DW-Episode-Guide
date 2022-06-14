@@ -17,6 +17,7 @@ struct TheCurseOfTheBlackSpot: View {
         private var items: FetchedResults<TheCurseOfTheBlackSpotClass>
         @State var showingShare = false
         @AppStorage("TheCurseOfTheBlackSpotNotes") var notes = ""
+        @AppStorage("TheCurseOfTheBlackSpotWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

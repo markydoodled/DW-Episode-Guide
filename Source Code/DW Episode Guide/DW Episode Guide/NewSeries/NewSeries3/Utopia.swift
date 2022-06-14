@@ -17,6 +17,7 @@ struct Utopia: View {
         private var items: FetchedResults<UtopiaClass>
         @State var showingShare = false
         @AppStorage("UtopiaNotes") var notes = ""
+        @AppStorage("UtopiaWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

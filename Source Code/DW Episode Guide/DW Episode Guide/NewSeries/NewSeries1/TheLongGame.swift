@@ -17,6 +17,7 @@ struct TheLongGame: View {
         private var items: FetchedResults<TheLongGameClass>
         @State var showingShare = false
         @AppStorage("TheLongGameNotes") var notes = ""
+        @AppStorage("TheLongGameWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

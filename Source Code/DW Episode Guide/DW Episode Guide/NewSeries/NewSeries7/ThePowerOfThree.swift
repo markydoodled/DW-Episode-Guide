@@ -17,6 +17,7 @@ struct ThePowerOfThree: View {
         private var items: FetchedResults<ThePowerOfThreeClass>
         @State var showingShare = false
         @AppStorage("ThePowerOfThreeNotes") var notes = ""
+        @AppStorage("ThePowerOfThreeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

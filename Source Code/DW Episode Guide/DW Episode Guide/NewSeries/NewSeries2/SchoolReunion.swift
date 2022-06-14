@@ -17,6 +17,7 @@ struct SchoolReunion: View {
         private var items: FetchedResults<SchoolReunionClass>
         @State var showingShare = false
         @AppStorage("SchoolReunionNotes") var notes = ""
+        @AppStorage("SchoolReunionWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

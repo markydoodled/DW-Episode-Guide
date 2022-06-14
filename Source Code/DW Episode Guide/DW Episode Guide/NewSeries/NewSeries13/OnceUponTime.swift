@@ -17,6 +17,7 @@ struct OnceUponTime: View {
         private var items: FetchedResults<OnceUponTimeClass>
         @State var showingShare = false
         @AppStorage("OnceUponTimeNotes") var notes = ""
+        @AppStorage("OnceUponTimeWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

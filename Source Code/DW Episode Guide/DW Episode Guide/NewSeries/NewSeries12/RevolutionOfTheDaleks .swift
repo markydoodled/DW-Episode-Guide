@@ -17,6 +17,7 @@ struct RevolutionOfTheDaleks_: View {
         private var items: FetchedResults<RevolutionOfTheDaleksClass>
         @State var showingShare = false
         @AppStorage("RevolutionOfTheDaleksNotes") var notes = ""
+        @AppStorage("RevolutionOfTheDaleksWatched") var watched: Bool = false
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool
