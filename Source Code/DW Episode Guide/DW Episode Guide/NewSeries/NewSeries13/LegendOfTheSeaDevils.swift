@@ -250,6 +250,11 @@ if horizontalSizeClass == .compact {
         .navigationTitle("\(item.title!)")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
+        ToolbarItem(placement: .navigationBarTrailing) {
+                        Button(action: {self.watched.toggle()}) {
+                            Image(systemName: self.watched == true ? "checkmark.square.fill" : "square")
+                        }
+                    }
             ToolbarItem(placement: .navigationBarTrailing) {
                 Button(action: {self.showingShare = true}) {
                     Image(systemName: "square.and.arrow.up")
