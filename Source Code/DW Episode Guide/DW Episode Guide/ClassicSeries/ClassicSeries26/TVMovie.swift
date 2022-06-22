@@ -153,6 +153,11 @@ struct TVMovie: View {
                         .padding()
                     }
                     .toolbar {
+                    ToolbarItem(placement: .primaryAction) {
+                        Button(action: {self.watched.toggle()}) {
+                            Image(systemName: self.watched == true ? "checkmark.square.fill" : "square")
+                        }
+                    }
                         ToolbarItem(placement: .primaryAction) {
                             Button(action: {self.showingShare = true}) {
                                 Image(systemName: "square.and.arrow.up")
@@ -410,6 +415,11 @@ if horizontalSizeClass == .compact {
                     .padding()
                 }
                 .toolbar {
+                ToolbarItem(placement: .primaryAction) {
+                        Button(action: {self.watched.toggle()}) {
+                            Image(systemName: self.watched == true ? "checkmark.square.fill" : "square")
+                        }
+                    }
                     ToolbarItem(placement: .primaryAction) {
                         Button(action: {self.showingShare = true}) {
                             Image(systemName: "square.and.arrow.up")
