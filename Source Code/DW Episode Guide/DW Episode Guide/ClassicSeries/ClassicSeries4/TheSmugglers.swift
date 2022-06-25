@@ -457,6 +457,42 @@ struct TheSmugglers: View {
                 .navigationBarTitleDisplayMode(.inline)
         }
         }
+        #elseif os(watchOS)
+        ForEach(items) { item in
+            Form {
+                HStack {
+                   Spacer()
+                    Image("")
+                        .resizable()
+                        .scaledToFit()
+                    Spacer()
+                }
+                Text("Story No. ")
+                Text("Written By - ")
+                Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
+                    Text("\(item.broadcast!)")
+                }
+                Section(header: Label("Companions", systemImage: "person.2.fill")) {
+                    Text("\(item.companions!)")
+                }
+                Section(header: Label("Director", systemImage: "camera.fill")) {
+                    Text("\(item.director!)")
+                }
+                Section(header: Label("Producer", systemImage: "person.text.rectangle")) {
+                    Text("\(item.producer!)")
+                }
+                Section(header: Label("Doctor", systemImage: "person.crop.square.filled.and.at.rectangle")) {
+                    Text("\(item.doctor!)")
+                }
+                Section(header: Label("Length", systemImage: "clock.arrow.circlepath")) {
+                    Text("\(item.length!)")
+                }
+                Button(action: {self.watched.toggle()}) {
+                    Label("Watched", systemImage: self.watched == true ? "checkmark.square.fill" : "square")
+                }
+            }
+            .navigationTitle("\(item.title!)")
+        }
         #endif
     }
 }
