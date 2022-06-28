@@ -462,13 +462,13 @@ struct TheSensorites: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheSensorites")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 7")
+                Text("Written By - Peter R. Newman")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

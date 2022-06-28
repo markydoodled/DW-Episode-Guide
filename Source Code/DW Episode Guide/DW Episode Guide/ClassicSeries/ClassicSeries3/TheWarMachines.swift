@@ -464,13 +464,13 @@ struct TheWarMachines: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheWarMachines")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 27")
+                Text("Written By - Ian Stuart Black\nAnd Kit Pedler")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

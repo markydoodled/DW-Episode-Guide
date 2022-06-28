@@ -175,7 +175,7 @@ struct ContentView: View {
     }
     var setting: some View {
         Form {
-            Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
+            Section(header: Label("Misc.", systemImage: "ellipsis.circle"), footer: Text("© Mark Howard 2022, All Rights And Images Owned By The BBC")) {
                 HStack {
                     Text("Version")
                     Spacer()

@@ -464,13 +464,13 @@ struct TheTenthPlanet: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheTenthPlanet")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 29")
+                Text("Written By - Kit Pedler\nAnd Gerry Davis")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

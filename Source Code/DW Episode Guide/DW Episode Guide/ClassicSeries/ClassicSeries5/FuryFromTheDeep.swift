@@ -462,13 +462,13 @@ struct FuryFromTheDeep: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("FuryFromTheDeep")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 42")
+                Text("Written By - Victor Pemberton")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

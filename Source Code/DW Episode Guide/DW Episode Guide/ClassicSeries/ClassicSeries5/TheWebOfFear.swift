@@ -464,13 +464,13 @@ struct TheWebOfFear: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheWebOfFear")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 41")
+                Text("Written By - Mervyn Haisman\nAnd Henry Lincoln")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

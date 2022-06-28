@@ -464,13 +464,13 @@ struct TheMindRobber: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheMindRobber")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 45")
+                Text("Written By - Derrick Sherwin\nAnd Peter Ling")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

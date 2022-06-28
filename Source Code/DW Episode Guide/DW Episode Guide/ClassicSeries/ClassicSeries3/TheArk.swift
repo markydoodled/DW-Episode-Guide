@@ -464,13 +464,13 @@ struct TheArk: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheArk")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 23")
+                Text("Written By - Paul Erickson\nAnd Lesley Scott")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

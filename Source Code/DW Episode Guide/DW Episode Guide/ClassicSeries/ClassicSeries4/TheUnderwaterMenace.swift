@@ -462,13 +462,13 @@ struct TheUnderwaterMenace: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheUnderwaterMenace")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 32")
+                Text("Written By - Geoffrey Orme")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

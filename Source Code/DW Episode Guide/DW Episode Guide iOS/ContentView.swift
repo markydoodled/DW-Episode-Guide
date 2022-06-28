@@ -236,6 +236,7 @@ struct ContentView: View {
         NavigationView {
         if horizontalSizeClass == .regular {
                 Form {
+                    Section(header: Label("Misc.", systemImage: "ellipsis.circle"), footer: Text("© Mark Howard 2022, All Rights And Images Owned By The BBC")) {
                     HStack {
                         Text("Version")
                         Spacer()
@@ -254,6 +255,7 @@ struct ContentView: View {
                             MailView(isShowing: self.$isShowingMailView, result: self.$result)
                         }
                     }
+            }
                 }
                 .navigationTitle("Settings")
                 .toolbar {
@@ -265,7 +267,7 @@ struct ContentView: View {
                 }
         } else {
                 Form {
-                    Section(header: Label("Misc.", systemImage: "ellipsis.circle")) {
+                    Section(header: Label("Misc.", systemImage: "ellipsis.circle"), footer: Text("© Mark Howard 2022, All Rights And Images Owned By The BBC")) {
                     HStack {
                         Text("Version")
                         Spacer()

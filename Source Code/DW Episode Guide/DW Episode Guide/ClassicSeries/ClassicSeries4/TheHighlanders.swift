@@ -464,13 +464,13 @@ struct TheHighlanders: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheHighlanders")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 31")
+                Text("Written By - Elwyn Jones\nAnd Gerry Davis")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

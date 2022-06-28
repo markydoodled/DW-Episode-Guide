@@ -462,13 +462,13 @@ struct TheWebPlanet: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheWebPlanet")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 13")
+                Text("Written By - Bill Strutton")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

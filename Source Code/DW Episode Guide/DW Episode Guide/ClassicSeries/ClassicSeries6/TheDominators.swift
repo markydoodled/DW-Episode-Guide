@@ -464,13 +464,13 @@ struct TheDominators: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheDominators")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 44")
+                Text("Written By - 'Norman Ashby'\n(Mervyn Haisman\nAnd Henry Lincoln)")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

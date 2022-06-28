@@ -464,13 +464,13 @@ struct TheAbominableSnowmen: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheAbominableSnowmen")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 38")
+                Text("Written By - Mervyn Haisman\nAnd Henry Lincoln")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -464,13 +464,13 @@ struct TheFacelessOnes: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheFacelessOnes")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 35")
+                Text("Written By - David Ellis\nAnd Malcolm Hulke")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }
