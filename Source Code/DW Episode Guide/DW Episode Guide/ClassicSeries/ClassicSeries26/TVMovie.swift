@@ -439,13 +439,13 @@ if horizontalSizeClass == .compact {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TVMovie")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 156")
+                Text("Written By - Matthew Jacobs")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

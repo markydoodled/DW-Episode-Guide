@@ -462,13 +462,13 @@ struct TheSeedsOfDoom: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheSeedsOfDoom")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 85")
+                Text("Written By - Robert Banks Stewart")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

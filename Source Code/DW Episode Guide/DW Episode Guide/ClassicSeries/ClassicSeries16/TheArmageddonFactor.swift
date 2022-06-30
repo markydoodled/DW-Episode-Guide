@@ -464,13 +464,13 @@ struct TheArmageddonFactor: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheArmageddonFactor")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 103")
+                Text("Written By - Bob Baker\nAnd Dave Martin")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

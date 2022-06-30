@@ -464,13 +464,13 @@ struct CityOfDeath: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("CityOfDeath")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 105")
+                Text("Written By - 'David Agnew'\n(Pseudonym For\nDavid Fisher,\nDouglas Adams\nAnd Graham Williams)")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

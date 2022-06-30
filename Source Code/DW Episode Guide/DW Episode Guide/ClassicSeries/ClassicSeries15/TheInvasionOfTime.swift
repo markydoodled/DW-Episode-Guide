@@ -464,13 +464,13 @@ struct TheInvasionOfTime: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheInvasionOfTime")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 97")
+                Text("Written By - 'David Agnew'\n(Graham Williams\nAnd Anthony Read)")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -462,13 +462,13 @@ struct Dragonfire: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Dragonfire")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 147")
+                Text("Written By - Ian Briggs")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

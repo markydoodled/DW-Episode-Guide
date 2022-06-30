@@ -462,13 +462,13 @@ struct TheTwinDilemma: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheTwinDilemma")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 136")
+                Text("Written By - Anthony Steven")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

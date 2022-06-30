@@ -462,13 +462,13 @@ struct FourToDoomsday: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("FourToDoomsday")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 117")
+                Text("Written By - Terence Dudley")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

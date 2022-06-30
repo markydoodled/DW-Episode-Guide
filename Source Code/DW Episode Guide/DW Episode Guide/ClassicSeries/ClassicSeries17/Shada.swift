@@ -462,13 +462,13 @@ struct Shada: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Shada")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 108.5")
+                Text("Written By - Douglas Adams")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

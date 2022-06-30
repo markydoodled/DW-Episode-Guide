@@ -462,13 +462,13 @@ struct AttackOfTheCybermen: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("AttackOfTheCybermen")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 137")
+                Text("Written By - Paula Moore")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

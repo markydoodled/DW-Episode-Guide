@@ -464,13 +464,13 @@ struct PyramidsOfMars: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("PyramidsOfMars")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 82")
+                Text("Written By - 'Stephen Harris' (Robert Holmes\nAnd Lewis Greifer)")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -462,13 +462,13 @@ struct TheCavesOfAndrozani: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheCavesOfAndrozani")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 135")
+                Text("Written By - Robert Holmes")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

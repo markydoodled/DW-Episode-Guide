@@ -462,13 +462,13 @@ struct ThePowerOfKroll: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("ThePowerOfKroll")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 102")
+                Text("Written By - Robert Holmes")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

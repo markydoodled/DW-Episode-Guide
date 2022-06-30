@@ -462,13 +462,13 @@ struct FullCircle: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("FullCircle")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 111")
+                Text("Written By - Andrew Smith")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

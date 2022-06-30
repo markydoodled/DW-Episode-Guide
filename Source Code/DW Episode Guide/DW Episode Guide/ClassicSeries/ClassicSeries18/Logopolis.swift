@@ -462,13 +462,13 @@ struct Logopolis: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Logopolis")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 115")
+                Text("Written By - Christopher H. Bidmead")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -462,13 +462,13 @@ struct Frontios: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Frontios")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 132")
+                Text("Written By - Christopher H. Bidmead")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

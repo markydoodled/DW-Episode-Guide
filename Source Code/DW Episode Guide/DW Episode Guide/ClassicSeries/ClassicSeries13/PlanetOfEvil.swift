@@ -462,13 +462,13 @@ struct PlanetOfEvil: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("PlanetOfEvil")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 81")
+                Text("Written By - Louis Marks")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

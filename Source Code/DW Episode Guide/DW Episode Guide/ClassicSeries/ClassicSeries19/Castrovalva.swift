@@ -462,13 +462,13 @@ struct Castrovalva: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Castrovalva")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 116")
+                Text("Written By - Christopher H. Bidmead")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -462,13 +462,13 @@ struct TheHappinessPatrol: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheHappinessPatrol")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 149")
+                Text("Written By - Graeme Curry")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

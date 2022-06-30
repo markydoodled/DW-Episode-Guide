@@ -464,13 +464,13 @@ struct TheUltimateFoe: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheUltimateFoe")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 143d")
+                Text("Written By - Robert Holmes\nAnd Pip And\nJane Baker")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

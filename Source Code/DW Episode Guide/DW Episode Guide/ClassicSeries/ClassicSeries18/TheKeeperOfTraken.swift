@@ -462,13 +462,13 @@ struct TheKeeperOfTraken: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheKeeperOfTraken")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 114")
+                Text("Written By - Johnny Byrne")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

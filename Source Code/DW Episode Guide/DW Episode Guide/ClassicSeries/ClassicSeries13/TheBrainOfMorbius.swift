@@ -464,13 +464,13 @@ struct TheBrainOfMorbius: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheBrainOfMorbius")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 84")
+                Text("Written By - 'Robin Bland' (Terrance Dicks\nRewritten By\nRobert Holmes)")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

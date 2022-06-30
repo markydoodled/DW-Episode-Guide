@@ -464,13 +464,13 @@ struct Meglos: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Meglos")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 110")
+                Text("Written By - John Flanagan\nAnd Andrew McCulloch")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }
