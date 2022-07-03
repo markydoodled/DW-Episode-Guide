@@ -462,13 +462,13 @@ struct TheZygonInvasion: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheZygonInvasion")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 258a")
+                Text("Written By - Peter Harness")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

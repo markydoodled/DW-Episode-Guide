@@ -462,13 +462,13 @@ struct ClosingTime: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("ClosingTime")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 223")
+                Text("Written By - Gareth Roberts")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

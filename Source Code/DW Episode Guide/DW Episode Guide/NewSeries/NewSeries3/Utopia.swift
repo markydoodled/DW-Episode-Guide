@@ -462,13 +462,13 @@ struct Utopia: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Utopia")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 187a")
+                Text("Written By - Russell T Davies")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

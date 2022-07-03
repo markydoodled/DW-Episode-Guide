@@ -462,13 +462,13 @@ struct TheEatersOfLight: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheEatersOfLight")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 274")
+                Text("Written By - Rona Munro")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

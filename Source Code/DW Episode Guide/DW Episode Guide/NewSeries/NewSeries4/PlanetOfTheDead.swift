@@ -464,13 +464,13 @@ struct PlanetOfTheDead: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("PlanetOfTheDead")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 200")
+                Text("Written By - Russell T Davies\nAnd Gareth Roberts")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

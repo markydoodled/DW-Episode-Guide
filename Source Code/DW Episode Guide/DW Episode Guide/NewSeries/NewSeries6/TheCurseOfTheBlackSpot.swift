@@ -464,13 +464,13 @@ struct TheCurseOfTheBlackSpot: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheCurseOfTheBlackSpot")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 215")
+                Text("Written By - Stephen Thompson")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

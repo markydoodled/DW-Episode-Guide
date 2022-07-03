@@ -462,13 +462,13 @@ struct Listen: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Listen")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 245")
+                Text("Written By - Steven Moffat")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -462,13 +462,13 @@ struct TheVampiresOfVenice: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheVampiresOfVenice")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 207")
+                Text("Written By - Toby Whithouse")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

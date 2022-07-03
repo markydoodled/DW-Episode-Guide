@@ -464,13 +464,13 @@ struct CanYouHearMe: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("CanYouHearMe")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 293")
+                Text("Written By - Charlene James\nAnd Chris Chibnall")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

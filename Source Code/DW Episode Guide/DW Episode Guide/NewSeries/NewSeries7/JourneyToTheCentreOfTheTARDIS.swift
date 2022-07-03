@@ -464,13 +464,13 @@ struct JourneyToTheCentreOfTheTARDIS: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("JourneyToTheCentreOfTheTARDIS")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 236")
+                Text("Written By - Stephen Thompson")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

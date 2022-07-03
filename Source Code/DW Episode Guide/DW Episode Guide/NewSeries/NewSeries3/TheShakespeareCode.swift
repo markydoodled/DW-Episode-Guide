@@ -464,13 +464,13 @@ struct TheShakespeareCode: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheShakespeareCode")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 180")
+                Text("Written By - Gareth Roberts")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

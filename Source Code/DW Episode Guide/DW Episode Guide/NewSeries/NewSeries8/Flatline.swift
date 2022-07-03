@@ -462,13 +462,13 @@ struct Flatline: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Flatline")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 250")
+                Text("Written By - Jamie Mathieson")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

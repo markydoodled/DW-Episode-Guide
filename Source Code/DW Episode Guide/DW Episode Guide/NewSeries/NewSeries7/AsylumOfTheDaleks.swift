@@ -462,13 +462,13 @@ struct AsylumOfTheDaleks: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("AsylumOfTheDaleks")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 226")
+                Text("Written By - Steven Moffat")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

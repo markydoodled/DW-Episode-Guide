@@ -464,13 +464,13 @@ struct InTheForestOfTheNight: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("InTheForestOfTheNight")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 251")
+                Text("Written By - Frank Cottrell-Boyce")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

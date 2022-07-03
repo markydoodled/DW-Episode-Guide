@@ -462,13 +462,13 @@ struct NightmareInSilver: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("NightmareInSilver")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 238")
+                Text("Written By - Neil Gaiman")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -464,13 +464,13 @@ struct RobotOfSherwood: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("RobotOfSherwood")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 244")
+                Text("Written By - Mark Gatiss")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

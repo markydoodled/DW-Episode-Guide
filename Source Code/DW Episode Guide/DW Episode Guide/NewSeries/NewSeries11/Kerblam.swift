@@ -462,13 +462,13 @@ struct Kerblam: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Kerblam")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 283")
+                Text("Written By - Pete McTighe")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

@@ -466,13 +466,13 @@ struct ThePyramidAtTheEndOfTheWorld: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("ThePyramidAtTheEndOfTheWorld")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 271")
+                Text("Written By - Peter Harness\nAnd Steven Moffat")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

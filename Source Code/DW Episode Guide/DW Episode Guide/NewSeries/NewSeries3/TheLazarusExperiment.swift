@@ -464,13 +464,13 @@ struct TheLazarusExperiment: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheLazarusExperiment")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 183")
+                Text("Written By - Stephen Greenhorn")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

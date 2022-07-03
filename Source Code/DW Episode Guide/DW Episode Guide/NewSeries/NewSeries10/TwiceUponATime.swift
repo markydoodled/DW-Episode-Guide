@@ -462,13 +462,13 @@ struct TwiceUponATime: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TwiceUponATime")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 276")
+                Text("Written By - Steven Moffat")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

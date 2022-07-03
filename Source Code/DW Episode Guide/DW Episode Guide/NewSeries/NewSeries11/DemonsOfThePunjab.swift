@@ -464,13 +464,13 @@ struct DemonsOfThePunjab: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("DemonsOfThePunjab")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 282")
+                Text("Written By - Vinay Patel")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

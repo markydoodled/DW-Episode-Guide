@@ -462,13 +462,13 @@ struct ColdWar: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("ColdWar")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 234")
+                Text("Written By - Mark Gatiss")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

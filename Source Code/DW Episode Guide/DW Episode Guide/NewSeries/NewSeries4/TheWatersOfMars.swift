@@ -464,13 +464,13 @@ struct TheWatersOfMars: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("TheWatersOfMars")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 201")
+                Text("Written By - Russell T Davies\nAnd Phil Ford")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

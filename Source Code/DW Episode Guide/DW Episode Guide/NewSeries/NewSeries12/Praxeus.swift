@@ -464,13 +464,13 @@ struct Praxeus: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("Praxeus")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 292")
+                Text("Written By - Pete McTighe\nAnd Chris Chibnall")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }

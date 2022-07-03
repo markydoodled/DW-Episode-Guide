@@ -462,13 +462,13 @@ struct ThePowerOfThree: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("")
+                    Image("ThePowerOfThree")
                         .resizable()
                         .scaledToFit()
                     Spacer()
                 }
-                Text("Story No. ")
-                Text("Written By - ")
+                Text("Story No. 229")
+                Text("Written By - Chris Chibnall")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }
