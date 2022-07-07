@@ -462,7 +462,7 @@ struct RememberanceOfTheDaleks: View {
             Form {
                 HStack {
                    Spacer()
-                    Image("RememberanceOfTheDaleks")
+                    Image("RemembranceOfTheDaleks")
                         .resizable()
                         .scaledToFit()
                     Spacer()

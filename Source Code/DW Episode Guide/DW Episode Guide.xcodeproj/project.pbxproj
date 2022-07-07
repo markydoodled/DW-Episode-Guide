@@ -3876,6 +3876,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = DW_Episode_Guide_watchOS_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -3907,6 +3908,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
 				INFOPLIST_KEY_CLKComplicationPrincipalClass = DW_Episode_Guide_watchOS_WatchKit_Extension.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
