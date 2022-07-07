@@ -15,7 +15,8 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [x] Copy Info To Clipboard (iOS, iPadOS And macOS)
 - [x] Drag And Drop Support (iOS, iPadOS And macOS)
 - [x] User Feedback Button (iOS, iPadOS And macOS)
-- [ ] watchOS App
+- [x] watchOS App
+- [x] Watched Indicator (iOS, iPadOS, watchOS And macOS)
 - [ ] tvOS App
 - [ ] Widget Support (iOS, iPadOS And macOS)
 - [ ] SJA Info
@@ -28,7 +29,6 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] TouchBar Buttons (macOS)
 - [ ] Keyboard Shortcuts (iPadOS And macOS)
 - [ ] Episode Air Date Notifications
-- [ ] Watched Indicator (iOS, iPadOS And macOS)
 - [ ] Per Episode Ratings
 
 ## **Releases**
