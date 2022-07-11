@@ -30,6 +30,7 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Keyboard Shortcuts (iPadOS And macOS)
 - [ ] Episode Air Date Notifications
 - [ ] Per Episode Ratings
+- [ ] Top Shelf Content (tvOS)
 
 ## **Releases**
 

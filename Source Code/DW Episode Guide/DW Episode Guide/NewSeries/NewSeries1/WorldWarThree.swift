@@ -493,6 +493,152 @@ struct WorldWarThree: View {
             }
             .navigationTitle("\(item.title!)")
         }
+#elseif os(tvOS)
+ForEach(items) { item in
+    ScrollView {
+        HStack {
+            Spacer()
+            Image("")
+                .resizable()
+                .scaledToFill()
+                .cornerRadius(25)
+                .frame(width: 450, height: 450)
+            Spacer()
+            VStack {
+            Text("\(item.title!)")
+                    .bold()
+                    .font(.title)
+                    .padding()
+            Text("Story No. ")
+                    .font(.title3)
+                Text("Written By - ")
+                    .font(.title3)
+        }
+            Spacer()
+        }
+        .padding()
+        Divider()
+        HStack {
+            Spacer()
+            Button(action: {}) {
+                VStack {
+                    Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")
+                        .padding()
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            Text("\(item.broadcast!)")
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+                    Spacer()
+                }
+        }
+            Spacer()
+            Button(action: {}) {
+                VStack {
+                    Label("Companions", systemImage: "person.2.fill")
+                        .padding()
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            Text("\(item.companions!)")
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+                    Spacer()
+                }
+            }
+            Spacer()
+        }
+        .padding()
+        Divider()
+        HStack {
+            Spacer()
+            Button(action: {}) {
+                VStack {
+                    Label("Director", systemImage: "camera.fill")
+                        .padding()
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            Text("\(item.director!)")
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+                    Spacer()
+                }
+        }
+            Spacer()
+            Button(action: {}) {
+                VStack {
+                    Label("Producer", systemImage: "person.text.rectangle")
+                        .padding()
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            Text("\(item.producer!)")
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+                    Spacer()
+                }
+            }
+            Spacer()
+        }
+        .padding()
+        Divider()
+        HStack {
+            Spacer()
+            Button(action: {}) {
+                VStack {
+                    Label("Doctor", systemImage: "person.crop.square.filled.and.at.rectangle")
+                        .padding()
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            Text("\(item.doctor!)")
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+                    Spacer()
+                }
+        }
+            Spacer()
+            Button(action: {}) {
+                VStack {
+                    Label("Length", systemImage: "clock.arrow.circlepath")
+                        .padding()
+                    VStack {
+                        Spacer()
+                        HStack {
+                            Spacer()
+                            Text("\(item.length!)")
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+                    Spacer()
+                }
+            }
+            Spacer()
+        }
+        .padding()
+        Button(action: {self.watched.toggle()}) {
+            Label("Watched", systemImage: self.watched == true ? "checkmark.square.fill" : "square")
+        }
+    }
+}
     #endif
     }
 }

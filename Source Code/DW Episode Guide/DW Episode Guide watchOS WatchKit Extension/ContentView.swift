@@ -179,7 +179,7 @@ struct ContentView: View {
                 HStack {
                     Text("Version")
                     Spacer()
-                    Text("1.2")
+                    Text("1.3")
                 }
                 HStack {
                     Text("Build")
