@@ -500,7 +500,7 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("PyramidsOfMars")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
@@ -511,10 +511,11 @@ ForEach(items) { item in
                     .bold()
                     .font(.title)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 82")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - 'Stephen Harris' (Robert Holmes\nAnd Lewis Greifer)")
                     .font(.title3)
+                    .multilineTextAlignment(.center)
         }
             Spacer()
         }

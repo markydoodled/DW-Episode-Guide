@@ -53,400 +53,1249 @@ struct ContentView: View {
             }
         }
     }
-    var columns: [GridItem] = Array(repeating: .init(.flexible()), count: 2)
+    var columns: [GridItem] = Array(repeating: .init(.flexible()), count: 3)
+    var searchResults: [String] {
+            if searchText.isEmpty {
+                return epNames
+            } else {
+                return epNames.filter { $0.contains(searchText) }
+            }
+        }
     var search: some View {
         NavigationView {
             ScrollView {
                 LazyVGrid(columns: columns) {
-                    ForEach(searchResults, id: \.self) { name in
-                        NavigationLink(destination: Text("Test")) {
-                        ZStack {
-                            Image("AnUnearthlyChild")
-                            VStack {
-                                Spacer()
-                            Text("An Unearthly Child")
-                                    .padding()
-                        }
-                        }
-                    }
-                    }
+                        navLink
                 }
             }
-        .searchable(text: $searchText, prompt: Text("Search For Episodes")) {
-            //Classic Series 1
-            Text("An Unearthly Child").searchCompletion("An Unearthly Child")
-            Text("The Daleks").searchCompletion("The Daleks")
-            Text("The Edge Of Destruction").searchCompletion("The Edge Of Destruction")
-            Text("Marco Polo").searchCompletion("Marco Polo")
-            Text("The Keys Of Marinus").searchCompletion("The Keys Of Marinus")
-            Text("The Aztecs").searchCompletion("The Aztecs")
-            Text("The Sensorites").searchCompletion("The Sensorites")
-            Text("The Reign Of Terror").searchCompletion("The Reign Of Terror")
-            //Classic Series 2
-            Text("Planet Of Giants").searchCompletion("Planet Of Giants")
-            Text("The Dalek Invasion Of Earth").searchCompletion("The Dalek Invasion Of Earth")
-            Text("The Rescue").searchCompletion("The Rescue")
-            Text("The Romans").searchCompletion("The Romans")
-            Text("The Web Planet").searchCompletion("The Web Planet")
-            Text("The Crusade").searchCompletion("The Crusade")
-            Text("The Space Museum").searchCompletion("The Space Museum")
-            Text("The Chase").searchCompletion("The Chase")
-            Text("The Time Meddler").searchCompletion("The Time Meddler")
-            //Classic Series 3
-            Text("Galaxy 4").searchCompletion("Galaxy 4")
-            Text("Mission To The Unknown").searchCompletion("Mission To The Unknown")
-            Text("The Myth Makers").searchCompletion("The Myth Makers")
-            Text("The Daleks' Master Plan").searchCompletion("The Daleks' Master Plan")
-            Text("The Massacre").searchCompletion("The Massacre")
-            Text("The Ark").searchCompletion("The Ark")
-            Text("The Celestial Toymaker").searchCompletion("The Celestial Toymaker")
-            Text("The Gunfighters").searchCompletion("The Gunfighters")
-            Text("The Savages").searchCompletion("The Savages")
-            Text("The War Machines").searchCompletion("The War Machines") 
-            //Classic Series 4
-            Text("The Smugglers").searchCompletion("The Smugglers")
-            Text("The Tenth Planet").searchCompletion("The Tenth Planet")
-            Text("The Power Of The Daleks").searchCompletion("The Power Of The Daleks")
-            Text("The Highlanders").searchCompletion("The Highlanders")
-            Text("The Underwater Menace").searchCompletion("The Underwater Menace")
-            Text("The Moonbase").searchCompletion("The Moonbase")
-            Text("The Macra Terror").searchCompletion("The Macra Terror")
-            Text("The Faceless Ones").searchCompletion("The Faceless Ones")
-            Text("The Evil Of The Daleks").searchCompletion("The Evil Of The Daleks")
-            //Classic Series 5
-            Text("The Tomb Of The Cybermen").searchCompletion("The Tomb Of The Cybermen")
-            Text("The Abominable Snowmen").searchCompletion("The Abominable Snowmen")
-            Text("The Ice Warriors").searchCompletion("The Ice Warriors")
-            Text("The Enemy Of The World").searchCompletion("The Enemy Of The World")
-            Text("The Web Of Fear").searchCompletion("The Web Of Fear")
-            Text("Fury From The Deep").searchCompletion("Fury From The Deep")
-            Text("The Wheel In Space").searchCompletion("The Wheel In Space")
-            //Classic Series 6
-            Text("The Dominators").searchCompletion("The Dominators")
-            Text("The Mind Robber").searchCompletion("The Mind Robber")
-            Text("The Invasion").searchCompletion("The Invasion")
-            Text("The Krotons").searchCompletion("The Krotons")
-            Text("The Seeds Of Death").searchCompletion("The Seeds Of Death")
-            Text("The Space Pirates").searchCompletion("The Space Pirates")
-            Text("The War Games").searchCompletion("The War Games")
-            //Classic Series 7
-            Text("Spearhead From Space").searchCompletion("Spearhead From Space")
-            Text("Doctor Who And The Silurians").searchCompletion("Doctor Who And The Silurians")
-            Text("The Ambassadors Of Death").searchCompletion("The Ambassadors Of Death")
-            Text("Inferno").searchCompletion("Inferno")
-            //Classic Series 8
-            Text("Terror Of The Autons").searchCompletion("Terror Of The Autons")
-            Text("The Mind Of Evil").searchCompletion("The Mind Of Evil")
-            Text("The Claws Of Axos").searchCompletion("The Claws Of Axos")
-            Text("Colony In Space").searchCompletion("Colony In Space")
-            Text("The Daemons").searchCompletion("The Daemons")
-            //Classic Series 9
-            Text("Day Of The Daleks").searchCompletion("Day Of The Daleks")
-            Text("The Curse Of Peladon").searchCompletion("The Curse Of Peladon")
-            Text("The Sea Devils").searchCompletion("The Sea Devils")
-            Text("The Mutants").searchCompletion("The Mutants")
-            Text("The Time Monster").searchCompletion("The Time Monster")
-            //Classic Series 10
-            Text("The Three Doctors").searchCompletion("The Three Doctors")
-            Text("Carnival Of Monsters").searchCompletion("Carnival Of Monsters")
-            Text("Frontier In Space").searchCompletion("Frontier In Space")
-            Text("Planet Of The Daleks").searchCompletion("Planet Of The Daleks")
-            Text("The Green Death").searchCompletion("The Green Death")
-            //Classic Series 11
-            Text("The Time Warrior").searchCompletion("The Time Warrior")
-            Text("Invasion Of The Dinosaurs").searchCompletion("Invasion Of The Dinosaurs")
-            Text("Death To The Daleks").searchCompletion("Death To The Daleks")
-            Text("The Monster Of Peladon").searchCompletion("The Monster Of Peladon")
-            Text("Planet Of The Spiders").searchCompletion("Planet Of The Spiders")
-            //Classic Series 12
-            Text("Robot").searchCompletion("Robot")
-            Text("The Ark In Space").searchCompletion("The Ark In Space")
-            Text("The Sontaran Experiment").searchCompletion("The Sontaran Experiment")
-            Text("Genesis Of The Daleks").searchCompletion("Genesis Of The Daleks")
-            Text("Revenge Of The Cybermen").searchCompletion("Revenge Of The Cybermen")
-            //Classic Series 13
-            Text("Terror Of The Zygons").searchCompletion("Terror Of The Zygons")
-            Text("Planet Of Evil").searchCompletion("Planet Of Evil")
-            Text("Pyramids Of Mars").searchCompletion("Pyramids Of Mars")
-            Text("The Android Invasion").searchCompletion("The Android Invasion")
-            Text("The Brain Of Morbius").searchCompletion("The Brain Of Morbius")
-            Text("The Seeds Of Doom").searchCompletion("The Seeds Of Doom")
-            //Classic Series 14
-            Text("The Masque Of Mandragora").searchCompletion("The Masque Of Mandragora")
-            Text("The Hand Of Fear").searchCompletion("The Hand Of Fear")
-            Text("The Deadly Assassin").searchCompletion("The Deadly Assassin")
-            Text("The Face Of Evil").searchCompletion("The Face Of Evil")
-            Text("The Robots Of Death").searchCompletion("The Robots Of Death")
-            Text("The Talons Of Weng-Chiang").searchCompletion("The Talons Of Weng-Chiang")
-            //Classic Series 15
-            Text("Horror Of Fang Rock").searchCompletion("Horror Of Fang Rock")
-            Text("The Invisible Enemy").searchCompletion("The Invisible Enemy")
-            Text("Image Of The Fendahl").searchCompletion("Image Of The Fendahl")
-            Text("The Sun Makers").searchCompletion("The Sun Makers")
-            Text("Underworld").searchCompletion("Underworld")
-            Text("The Invasion Of Time").searchCompletion("The Invasion Of Time")
-            //Classic Series 16
-            Text("The Ribos Operation").searchCompletion("The Ribos Operation")
-            Text("The Pirate Planet").searchCompletion("The Pirate Planet")
-            Text("The Stones Of Blood").searchCompletion("The Stones Of Blood")
-            Text("The Androids Of Tara").searchCompletion("The Androids Of Tara")
-            Text("The Power Of Kroll").searchCompletion("The Power Of Kroll")
-            Text("The Armageddon Factor").searchCompletion("The Armageddon Factor")
-            //Classic Series 17
-            Text("Destiny Of The Daleks").searchCompletion("Destiny Of The Daleks")
-            Text("City Of Death").searchCompletion("City Of Death")
-            Text("The Creature From The Pit").searchCompletion("The Creature From The Pit")
-            Text("Nightmare Of Eden").searchCompletion("Nightmare Of Eden")
-            Text("The Horns Of Nimon").searchCompletion("The Horns Of Nimon")
-            Text("Shada").searchCompletion("Shada")
-            //Classic Series 18
-            Text("The Leisure Hive").searchCompletion("The Leisure Hive")
-            Text("Meglos").searchCompletion("Meglos")
-            Text("Full Circle").searchCompletion("Full Circle")
-            Text("State Of Decay").searchCompletion("State Of Decay")
-            Text("Warriors' Gate").searchCompletion("Warriors' Gate")
-            Text("The Keeper Of Traken").searchCompletion("The Keeper Of Traken")
-            Text("Logopolis").searchCompletion("Logopolis")
-            //Classic Series 19
-            Text("Castrovalva").searchCompletion("Castrovalva")
-            Text("Four To Doomsday").searchCompletion("Four To Doomsday")
-            Text("Kinda").searchCompletion("Kinda")
-            Text("The Visitation").searchCompletion("The Visitation")
-            Text("Black Orchid").searchCompletion("Black Orchid")
-            Text("Earthshock").searchCompletion("Earthshock")
-            Text("Time-Flight").searchCompletion("Time-Flight")
-            //Classic Series 20
-            Text("Arc Of Infinity").searchCompletion("Arc Of Infinity")
-            Text("Snakedance").searchCompletion("Snakedance")
-            Text("Mawdryn Undead").searchCompletion("Mawdryn Undead")
-            Text("Terminus").searchCompletion("Terminus")
-            Text("Enlightenment").searchCompletion("Enlightenment")
-            Text("The King's Demons").searchCompletion("The King's Demons")
-            Text("The Five Doctors").searchCompletion("The Five Doctors")
-            //Classic Series 21
-            Text("Warriors Of The Deep").searchCompletion("Warriors Of The Deep")
-            Text("The Awakening").searchCompletion("The Awakening")
-            Text("Frontios").searchCompletion("Frontios")
-            Text("Resurrection Of The Daleks").searchCompletion("Resurrection Of The Daleks")
-            Text("Planet Of Fire").searchCompletion("Planet Of Fire")
-            Text("The Caves Of Androzani").searchCompletion("The Caves Of Androzani")
-            Text("The Twin Dilemma").searchCompletion("The Twin Dilemma")
-            //Classic Series 22
-            Text("Attack Of The Cybermen").searchCompletion("Attack Of The Cybermen")
-            Text("Vengeance On Varos").searchCompletion("Vengeance On Varos")
-            Text("The Mark Of The Rani").searchCompletion("The Mark Of The Rani")
-            Text("The Two Doctors").searchCompletion("The Two Doctors")
-            Text("Timelash").searchCompletion("Timelash")
-            Text("Revelation Of The Daleks").searchCompletion("Revelation Of The Daleks")
-            //Classic Series 23
-            Text("The Mysterious Planet").searchCompletion("The Mysterious Planet")
-            Text("Mindwarp").searchCompletion("Mindwarp")
-            Text("Terror Of The Vervoids").searchCompletion("Terror Of The Vervoids")
-            Text("The Ultimate Foe").searchCompletion("The Ultimate Foe")
-            //Classic Series 24
-            Text("Time And The Rani").searchCompletion("Time And The Rani")
-            Text("Paradise Towers").searchCompletion("Paradise Towers")
-            Text("Delta And The Bannermen").searchCompletion("Delta And The Bannermen")
-            Text("Dragonfire").searchCompletion("Dragonfire")
-            //Classic Series 25
-            Text("Remembrance Of The Daleks").searchCompletion("Remembrance Of The Daleks")
-            Text("The Happiness Patrol").searchCompletion("The Happiness Patrol")
-            Text("Silver Nemesis").searchCompletion("Silver Nemesis")
-            Text("The Greatest Show In The Galaxy").searchCompletion("The Greatest Show In The Galaxy")
-            //Classic Series 26
-            Text("Battlefield").searchCompletion("Battlefield")
-            Text("Ghost Light").searchCompletion("Ghost Light")
-            Text("The Curse Of Fenric").searchCompletion("The Curse Of Fenric")
-            Text("Survival").searchCompletion("Survival")
-            Text("TV Movie").searchCompletion("TV Movie")
-            //New Series 1
-            Text("Rose").searchCompletion("Rose")
-            Text("The End Of The World").searchCompletion("The End Of The World")
-            Text("The Unquiet Dead").searchCompletion("The Unquiet Dead")
-            Text("Aliens Of London").searchCompletion("Aliens Of London")
-            Text("World War Three").searchCompletion("World War Three")
-            Text("Dalek").searchCompletion("Dalek")
-            Text("The Long Game").searchCompletion("The Long Game")
-            Text("Father's Day").searchCompletion("Father's Day")
-            Text("The Empty Child").searchCompletion("The Empty Child")
-            Text("The Doctor Dances").searchCompletion("The Doctor Dances")
-            Text("Boom Town").searchCompletion("Boom Town")
-            Text("Bad Wolf").searchCompletion("Bad Wolf")
-            Text("The Parting Of The Ways").searchCompletion("The Parting Of The Ways")
-            //New Series 2
-            Text("The Christmas Invasion").searchCompletion("The Christmas Invasion")
-            Text("New Earth").searchCompletion("New Earth")
-            Text("Tooth And Claw").searchCompletion("Tooth And Claw")
-            Text("School Reunion").searchCompletion("School Reunion")
-            Text("The Girl In The Fireplace").searchCompletion("The Girl In The Fireplace")
-            Text("Rise Of The Cybermen").searchCompletion("Rise Of The Cybermen")
-            Text("The Age Of Steel").searchCompletion("The Age Of Steel")
-            Text("The Idiot's Lantern").searchCompletion("The Idiot's Lantern")
-            Text("The Impossible Planet").searchCompletion("The Impossible Planet")
-            Text("The Satan Pit").searchCompletion("The Satan Pit")
-            Text("Love & Monsters").searchCompletion("Love & Monsters")
-            Text("Fear Her").searchCompletion("Fear Her")
-            Text("Army Of Ghosts").searchCompletion("Army Of Ghosts")
-            Text("Doomsday").searchCompletion("Doomsday")
-            //New Series 3
-            Text("The Runaway Bride").searchCompletion("The Runaway Bride")
-            Text("Smith And Jones").searchCompletion("Smith And Jones")
-            Text("The Shakespeare Code").searchCompletion("The Shakespeare Code")
-            Text("Gridlock").searchCompletion("Gridlock")
-            Text("Daleks In Manhattan").searchCompletion("Daleks In Manhattan")
-            Text("Evolution Of The Daleks").searchCompletion("Evolution Of The Daleks")
-            Text("The Lazarus Experiment").searchCompletion("The Lazarus Experiment")
-            Text("42").searchCompletion("42")
-            Text("Human Nature").searchCompletion("Human Nature")
-            Text("The Family Of Blood").searchCompletion("The Family Of Blood")
-            Text("Blink").searchCompletion("Blink")
-            Text("Utopia").searchCompletion("Utopia")
-            Text("The Sound Of Drums").searchCompletion("The Sound Of Drums")
-            Text("Last Of The Time Lords").searchCompletion("Last Of The Time Lords")
-            //New Series 4
-            Text("Voyage Of The Damned").searchCompletion("Voyage Of The Damned")
-            Text("Partners In Crime").searchCompletion("Partners In Crime")
-            Text("The Fires Of Pompeii").searchCompletion("The Fires Of Pompeii")
-            Text("Planet Of The Ood").searchCompletion("Planet Of The Ood")
-            Text("The Sontaran Stratagem").searchCompletion("The Sontaran Stratagem")
-            Text("The Poison Sky").searchCompletion("The Poison Sky")
-            Text("The Doctor's Daughter").searchCompletion("The Doctor's Daughter")
-            Text("The Unicorn And The Wasp").searchCompletion("The Unicorn And The Wasp")
-            Text("Silence In The Library").searchCompletion("Silence In The Library")
-            Text("Forest Of The Dead").searchCompletion("Forest Of The Dead")
-            Text("Midnight").searchCompletion("Midnight")
-            Text("Turn Left").searchCompletion("Turn Left")
-            Text("The Stolen Earth").searchCompletion("The Stolen Earth")
-            Text("Journey's End").searchCompletion("Journey's End")
-            Text("The Next Doctor").searchCompletion("The Next Doctor")
-            Text("Planet Of The Dead").searchCompletion("Planet Of The Dead")
-            Text("The Waters Of Mars").searchCompletion("The Waters Of Mars")
-            Text("The End Of Time - Part 1").searchCompletion("The End Of Time - Part 1")
-            Text("The End Of Time - Part 2").searchCompletion("The End Of Time - Part 2") 
-            //New Series 5
-            Text("The Eleventh Hour").searchCompletion("The Eleventh Hour")
-            Text("The Beast Below").searchCompletion("The Beast Below")
-            Text("Victory Of The Daleks").searchCompletion("Victory Of The Daleks")
-            Text("The Time Of The Angels").searchCompletion("The Time Of The Angels")
-            Text("Flesh And Stone").searchCompletion("Flesh And Stone")
-            Text("The Vampires Of Venice").searchCompletion("The Vampires Of Venice")
-            Text("Amy's Choice").searchCompletion("Amy's Choice")
-            Text("The Hungry Earth").searchCompletion("The Hungry Earth")
-            Text("Cold Blood").searchCompletion("Cold Blood")
-            Text("Vincent And The Doctor").searchCompletion("Vincent And The Doctor")
-            Text("The Lodger").searchCompletion("The Lodger")
-            Text("The Pandorica Opens").searchCompletion("The Pandorica Opens")
-            Text("The Big Bang").searchCompletion("The Big Bang")
-            //New Series 6
-            Text("A Christmas Carol").searchCompletion("A Christmas Carol")
-            Text("The Impossible Astronaut").searchCompletion("The Impossible Astronaut")
-            Text("Day Of The Moon").searchCompletion("Day Of The Moon")
-            Text("The Curse Of The Black Spot").searchCompletion("The Curse Of The Black Spot")
-            Text("The Doctor's Wife").searchCompletion("The Doctor's Wife")
-            Text("The Rebel Flesh").searchCompletion("The Rebel Flesh")
-            Text("The Almost People").searchCompletion("The Almost People")
-            Text("A Good Man Goes To War").searchCompletion("A Good Man Goes To War")
-            Text("Let's Kill Hitler").searchCompletion("Let's Kill Hitler")
-            Text("Night Terrors").searchCompletion("Night Terrors")
-            Text("The Girl Who Waited").searchCompletion("The Girl Who Waited")
-            Text("The God Complex").searchCompletion("The God Complex")
-            Text("Closing Time").searchCompletion("Closing Time")
-            Text("The Wedding Of River Song").searchCompletion("The Wedding Of River Song") 
-            //New Series 7
-            Text("The Doctor, The Widow And The Wardrobe").searchCompletion("The Doctor, The Widow And The Wardrobe")
-            Text("Asylum Of The Daleks").searchCompletion("Asylum Of The Daleks")
-            Text("Dinosaurs On A Spaceship").searchCompletion("Dinosaurs On A Spaceship")
-            Text("A Town Called Mercy").searchCompletion("A Town Called Mercy")
-            Text("The Power Of Three").searchCompletion("The Power Of Three")
-            Text("The Angels Take Manhattan").searchCompletion("The Angels Take Manhattan")
-            Text("The Snowmen").searchCompletion("The Snowmen")
-            Text("The Bells Of Saint John").searchCompletion("The Bells Of Saint John")
-            Text("The Rings Of Akhaten").searchCompletion("The Rings Of Akhaten")
-            Text("Cold War").searchCompletion("Cold War")
-            Text("Hide").searchCompletion("Hide")
-            Text("Journey To The Centre Of The TARDIS").searchCompletion("Journey To The Centre Of The TARDIS")
-            Text("The Crimson Horror").searchCompletion("The Crimson Horror")
-            Text("Nightmare In Silver").searchCompletion("Nightmare In Silver")
-            Text("The Name Of The Doctor").searchCompletion("The Name Of The Doctor")
-            Text("The Day Of The Doctor").searchCompletion("The Day Of The Doctor")
-            Text("The Time Of The Doctor").searchCompletion("The Time Of The Doctor")
-            //New Series 8
-            Text("Deep Breath").searchCompletion("Deep Breath")
-            Text("Into The Dalek").searchCompletion("Into The Dalek")
-            Text("Robot Of Sherwood").searchCompletion("Robot Of Sherwood")
-            Text("Listen").searchCompletion("Listen")
-            Text("Time Heist").searchCompletion("Time Heist")
-            Text("The Caretaker").searchCompletion("The Caretaker")
-            Text("Kill The Moon").searchCompletion("Kill The Moon")
-            Text("Mummy On The Orient Express").searchCompletion("Mummy On The Orient Express")
-            Text("Flatline").searchCompletion("Flatline")
-            Text("In The Forest Of The Night").searchCompletion("In The Forest Of The Night")
-            Text("Dark Water").searchCompletion("Dark Water")
-            Text("Death In Heaven").searchCompletion("Death In Heaven")
-            //New Series 9
-            Text("Last Christmas").searchCompletion("Last Christmas")
-            Text("The Magician's Apprentice").searchCompletion("The Magician's Apprentice")
-            Text("The Witch's Familiar").searchCompletion("The Witch's Familiar")
-            Text("Under The Lake").searchCompletion("Under The Lake")
-            Text("Before The Flood").searchCompletion("Before The Flood")
-            Text("The Girl Who Died").searchCompletion("The Girl Who Died")
-            Text("The Woman Who Lived").searchCompletion("The Woman Who Lived")
-            Text("The Zygon Invasion").searchCompletion("The Zygon Invasion")
-            Text("The Zygon Inversion").searchCompletion("The Zygon Inversion")
-            Text("Sleep No More").searchCompletion("Sleep No More")
-            Text("Face The Raven").searchCompletion("Face The Raven")
-            Text("Heaven Sent").searchCompletion("Heaven Sent")
-            Text("Hell Bent").searchCompletion("Hell Bent")
-            Text("The Husbands Of River Song").searchCompletion("The Husbands Of River Song")
-            //New Series 10
-            Text("The Return Of Doctor Mysterio").searchCompletion("The Return Of Doctor Mysterio")
-            Text("The Pilot").searchCompletion("The Pilot")
-            Text("Smile").searchCompletion("Smile")
-            Text("Thin Ice").searchCompletion("Thin Ice")
-            Text("Knock Knock").searchCompletion("Knock Knock")
-            Text("Oxygen").searchCompletion("Oxygen")
-            Text("Extremis").searchCompletion("Extremis")
-            Text("The Pyramid At The End Of The World").searchCompletion("The Pyramid At The End Of The World")
-            Text("The Lie Of The Land").searchCompletion("The Lie Of The Land")
-            Text("Empress Of Mars").searchCompletion("Empress Of Mars")
-            Text("The Eaters Of Light").searchCompletion("The Eaters Of Light")
-            Text("World Enough And Time").searchCompletion("World Enough And Time")
-            Text("The Doctor Falls").searchCompletion("The Doctor Falls")
-            Text("Twice Upon A Time").searchCompletion("Twice Upon A Time")
-            //New Series 11
-            Text("The Woman Who Fell To Earth").searchCompletion("The Woman Who Fell To Earth")
-            Text("The Ghost Monument").searchCompletion("The Ghost Monument")
-            Text("Rosa").searchCompletion("Rosa")
-            Text("Arachnids In The UK").searchCompletion("Arachnids In The UK")
-            Text("The Tsuranga Conundrum").searchCompletion("The Tsuranga Conundrum")
-            Text("Demons Of The Punjab").searchCompletion("Demons Of The Punjab")
-            Text("Kerblam!").searchCompletion("Kerblam!")
-            Text("The Witchfinders").searchCompletion("The Witchfinders")
-            Text("It Takes You Away").searchCompletion("It Takes You Away")
-            Text("The Battle Of Ranskoor Av Kolos").searchCompletion("The Battle Of Ranskoor Av Kolos")
-            Text("Resolution").searchCompletion("Resolution")
-            //New Series 12
-            Text("Spyfall - Part 1").searchCompletion("Spyfall - Part 1")
-            Text("Spyfall - Part 2").searchCompletion("Spyfall - Part 2")
-            Text("Orphan 55").searchCompletion("Orphan 55")
-            Text("Nikola Tesla's Night Of Terror").searchCompletion("Nikola Tesla's Night Of Terror")
-            Text("Fugitive Of The Judoon").searchCompletion("Fugitive Of The Judoon")
-            Text("Praxeus").searchCompletion("Praxeus")
-            Text("Can You Hear Me?").searchCompletion("Can You Hear Me?")
-            Text("The Haunting Of Villa Diodati").searchCompletion("The Haunting Of Villa Diodati")
-            Text("Ascension Of The Cybermen").searchCompletion("Ascension Of The Cybermen")
-            Text("The Timeless Children").searchCompletion("The Timeless Children")
-            Text("Revolution Of The Daleks").searchCompletion("Revolution Of The Daleks")
-            //New Series 13
-            Text("The Halloween Apocalypse").searchCompletion("The Halloween Apocalypse")
-            Text("War Of The Sontarans").searchCompletion("War Of The Sontarans")
-            Text("Once, Upon Time").searchCompletion("Once, Upon Time")
-            Text("Village Of The Angels").searchCompletion("Village Of The Angels")
-            Text("Survivors Of The Flux").searchCompletion("Survivors Of The Flux")
-            Text("The Vanquishers").searchCompletion("The Vanquishers")
-            Text("Eve Of The Daleks").searchCompletion("Eve Of The Daleks")
-            Text("Legend Of The Sea Devils").searchCompletion("Legend Of The Sea Devils")
+    }
+        .searchable(text: $searchText, placement: .automatic) {
+            ForEach(searchResults, id: \.self) { result in
+                Text("\(result)").searchCompletion("\(result)")
         }
+    }
+    }
+    /*var group1: some View {
+        Group {
+        Group {
+if name == "An Unearthly Child" {
+AnUnearthlyChild()
+}
+if name == "The Daleks" {
+TheDaleks()
+}
+if name == "The Edge Of Destruction" {
+TheEdgeOfDestruction()
+}
+if name == "Marco Polo" {
+MarcoPolo()
+}
+if name == "The Keys Of Marinus" {
+TheKeysOfMarinus()
+}
+if name == "The Aztecs" {
+TheAztecs()
+}
+if name == "The Sensorites" {
+TheSensorites()
+}
+if name == "The Reign Of Terror" {
+TheReignOfTerror()
+}
+if name == "Planet Of Giants" {
+PlanetOfGiants()
+}
+if name == "The Dalek Invasion Of Earth" {
+TheDalekInvasionOfEarth()
+}
+}
+       Group {
+if name == "The Rescue" {
+TheRescue()
+}
+if name == "The Romans" {
+TheRomans()
+}
+if name == "The Web Planet" {
+TheWebPlanet()
+}
+if name == "The Crusade" {
+TheCrusade()
+}
+if name == "The Space Museum" {
+TheSpaceMuseum()
+}
+if name == "The Chase" {
+TheChase()
+}
+if name == "The Time Meddler" {
+TheTimeMeddler()
+}
+if name == "Galaxy 4" {
+Galaxy4()
+}
+if name == "Mission To The Unknown" {
+MissionToTheUnknown()
+}
+if name == "The Myth Makers" {
+TheMythMakers()
+}
+}
+       Group {
+if name == "The Daleks' Master Plan" {
+TheDaleksMasterPlan()
+}
+if name == "The Massacre" {
+TheMassacre()
+}
+if name == "The Ark" {
+TheArk()
+}
+if name == "The Celestial Toymaker" {
+TheCelestialToymaker()
+}
+if name == "The Gunfighters" {
+TheGunfighters()
+}
+if name == "The Savages" {
+TheSavages()
+}
+if name == "The War Machines" {
+TheWarMachines()
+}
+if name == "The Smugglers" {
+TheSmugglers()
+}
+if name == "The Tenth Planet" {
+TheTenthPlanet()
+}
+if name == "The Power Of The Daleks" {
+ThePowerOfTheDaleks()
+}
+}
+       Group {
+if name == "The Highlanders" {
+TheHighlanders()
+}
+if name == "The Underwater Menace" {
+TheUnderwaterMenace()
+}
+if name == "The Moonbase" {
+TheMoonbase()
+}
+if name == "The Macra Terror" {
+TheMacraTerror()
+}
+if name == "The Faceless Ones" {
+TheFacelessOnes()
+}
+if name == "The Evil Of The Daleks" {
+TheEvilOfTheDaleks()
+}
+if name == "The Tomb Of The Cybermen" {
+TheTombOfTheCybermen()
+}
+if name == "The Abominable Snowmen" {
+TheAbominableSnowmen()
+}
+if name == "The Ice Warriors" {
+TheIceWarriors()
+}
+if name == "The Enemy Of The World" {
+TheEnemyOfTheWorld()
+}
+}
+       Group {
+if name == "The Web Of Fear" {
+TheWebOfFear()
+}
+if name == "Fury From The Deep" {
+FuryFromTheDeep()
+}
+if name == "The Wheel In Space" {
+TheWheelInSpace()
+}
+if name == "The Dominators" {
+TheDominators()
+}
+if name == "The Mind Robber" {
+TheMindRobber()
+}
+if name == "The Invasion" {
+TheInvasion()
+}
+if name == "The Krotons" {
+TheKrotons()
+}
+if name == "The Seeds Of Death" {
+TheSeedsOfDeath()
+}
+if name == "The Space Pirates" {
+TheSpacePirates()
+}
+if name == "The War Games" {
+TheWarGames()
+}
+}
+       Group {
+if name == "Spearhead From Space" {
+SpearheadFromSpace()
+}
+if name == "Doctor Who And The Silurians" {
+AndTheSilurians()
+}
+if name == "The Ambassadors Of Death" {
+TheAmbassadorsOfDeath()
+}
+if name == "Inferno" {
+Inferno()
+}
+if name == "Terror Of The Autons" {
+TerrorOfTheAutons()
+}
+if name == "The Mind Of Evil" {
+TheMindOfEvil()
+}
+if name == "The Claws Of Axos" {
+TheClawsOfAxos()
+}
+if name == "Colony In Space" {
+ColonyInSpace()
+}
+if name == "The Daemons" {
+TheDaemons()
+}
+if name == "Day Of The Daleks" {
+DayOfTheDaleks()
+}
+}
+       Group {
+if name == "The Curse Of Peladon" {
+TheCurseOfPeladon()
+}
+if name == "The Sea Devils" {
+TheSeaDevils()
+}
+if name == "The Mutants" {
+TheMutants()
+}
+if name == "The Time Monster" {
+TheTimeMonster()
+}
+if name == "The Three Doctors" {
+TheThreeDoctors()
+}
+if name == "Carnival Of Monsters" {
+CarnivalOfMonsters()
+}
+if name == "Frontier In Space" {
+FrontierInSpace()
+}
+if name == "Planet Of The Daleks" {
+PlanetOfTheDaleks()
+}
+if name == "The Green Death" {
+TheGreenDeath()
+}
+if name == "The Time Warrior" {
+TheTimeWarrior()
+}
+}
+       Group {
+if name == "Invasion Of The Dinosaurs" {
+InvasionOfTheDinosaurs()
+}
+if name == "Death To The Daleks" {
+DeathToTheDaleks()
+}
+if name == "The Monster Of Peladon" {
+TheMonsterOfPeladon()
+}
+if name == "Planet Of The Spiders" {
+PlanetOfTheSpiders()
+}
+if name == "Robot" {
+Robot()
+}
+if name == "The Ark In Space" {
+TheArkInSpace()
+}
+if name == "The Sontaran Experiment" {
+TheSontaranExperiment()
+}
+if name == "Genesis Of The Daleks" {
+GenesisOfTheDaleks()
+}
+if name == "Revenge Of The Cybermen" {
+RevengeOfTheCybermen()
+}
+if name == "Terror Of The Zygons" {
+TerrorOfTheZygons()
+}
+}
+       Group {
+if name == "Planet Of Evil" {
+PlanetOfEvil()
+}
+if name == "Pyramids Of Mars" {
+PyramidsOfMars()
+}
+if name == "The Android Invasion" {
+TheAndroidInvasion()
+}
+if name == "The Brain Of Morbius" {
+TheBrainOfMorbius()
+}
+if name == "The Seeds Of Doom" {
+TheSeedsOfDoom()
+}
+if name == "The Masque Of Mandragora" {
+TheMasqueOfMandragora()
+}
+if name == "The Hand Of Fear" {
+TheHandOfFear()
+}
+if name == "The Deadly Assassin" {
+TheDeadlyAssassin()
+}
+if name == "The Face Of Evil" {
+TheFaceOfEvil()
+}
+if name == "The Robots Of Death" {
+TheRobotsOfDeath()
+}
+}
+       Group {
+if name == "The Talons Of Weng-Chiang" {
+TheTalonsOfWengChiang()
+}
+if name == "Horror Of Fang Rock" {
+HorrorOfFangRock()
+}
+if name == "The Invisible Enemy" {
+TheInvisibleEnemy()
+}
+if name == "Image Of The Fendahl" {
+ImageOfTheFendahl()
+}
+if name == "The Sun Makers" {
+TheSunMakers()
+}
+if name == "Underworld" {
+Underworld()
+}
+if name == "The Invasion Of Time" {
+TheInvasionOfTime()
+}
+if name == "The Ribos Operation" {
+TheRibosOperation()
+}
+if name == "The Pirate Planet" {
+ThePiratePlanet()
+}
+if name == "The Stones Of Blood" {
+TheStonesOfBlood()
+}
+}
+}
+    }
+    var group2: some View {
+        Group {
+        Group {
+if name == "The Androids Of Tara" {
+ TheAndroidsOfTara()
+}
+if name == "The Power Of Kroll" {
+ ThePowerOfKroll()
+}
+if name == "The Armageddon Factor" {
+ TheArmageddonFactor()
+}
+if name == "Destiny Of The Daleks" {
+ DestinyOfTheDaleks()
+}
+if name == "City Of Death" {
+ CityOfDeath()
+}
+if name == "The Creature From The Pit" {
+ TheCreatureFromThePit()
+}
+if name == "Nightmare Of Eden" {
+ NightmareOfEden()
+}
+if name == "The Horns Of Nimon" {
+ TheHornsOfNimon()
+}
+if name == "Shada" {
+ Shada()
+}
+if name == "The Leisure Hive" {
+ TheLeisureHive()
+}
+}
+        Group {
+if name == "Meglos" {
+ Meglos()
+}
+if name == "Full Circle" {
+ FullCircle()
+}
+if name == "State Of Decay" {
+ StateOfDecay()
+}
+if name == "Warriors' Gate" {
+ WarriorsGate()
+}
+if name == "The Keeper Of Traken" {
+ TheKeeperOfTraken()
+}
+if name == "Logopolis" {
+ Logopolis()
+}
+if name == "Castrovalva" {
+ Castrovalva()
+}
+if name == "Four To Doomsday" {
+ FourToDoomsday()
+}
+if name == "Kinda" {
+ Kinda()
+}
+if name == "The Visitation" {
+ TheVisitation()
+}
+}
+        Group {
+if name == "Black Orchid" {
+ BlackOrchid()
+}
+if name == "Earthshock" {
+ Earthshock
+}
+if name == "Time-Flight" {
+ TimeFlight()
+}
+if name == "Arc Of Infinity" {
+ ArcOfInfinity()
+}
+if name == "Snakedance" {
+ Snakedance()
+}
+if name == "Mawdryn Undead" {
+ MawdrynUndead()
+}
+if name == "Terminus" {
+ Terminus()
+}
+if name == "Enlightenment" {
+ Enlightenment()
+}
+if name == "The King's Demons" {
+ TheKingsDemons()
+}
+if name == "The Five Doctors" {
+ TheFiveDoctors()
+}
+}
+        Group {
+if name == "Warriors Of The Deep" {
+ WarriorsOfTheDeep()
+}
+if name == "The Awakening" {
+ TheAwakening()
+}
+if name == "Frontios" {
+ Frontios()
+}
+if name == "Resurrection Of The Daleks" {
+ ResurrectionOfTheDaleks()
+}
+if name == "Planet Of Fire" {
+ PlanetOfFire()
+}
+if name == "The Caves Of Androzani" {
+ TheCavesOfAndrozani()
+}
+if name == "The Twin Dilemma" {
+ TheTwinDilemma()
+}
+if name == "Attack Of The Cybermen" {
+ AttackOfTheCybermen()
+}
+if name == "Vengeance On Varos" {
+ VengeanceOnVaros()
+}
+if name == "The Mark Of The Rani" {
+ TheMarkOfTheRani()
+}
+}
+        Group {
+if name == "The Two Doctors" {
+ TheTwoDoctors()
+}
+if name == "Timelash" {
+ Timelash()
+}
+if name == "Revelation Of The Daleks" {
+ RevelationOfTheDaleks()
+}
+if name == "The Mysterious Planet" {
+ TheMysteriousPlanet()
+}
+if name == "Mindwarp" {
+ Mindwarp()
+}
+if name == "Terror Of The Vervoids" {
+ TerrorOfTheVervoids()
+}
+if name == "The Ultimate Foe" {
+ TheUltimateFoe()
+}
+if name == "Time And The Rani" {
+ TimeAndTheRani()
+}
+if name == "Paradise Towers" {
+ ParadiseTowers()
+}
+if name == "Delta And The Bannermen" {
+ DeltaAndTheBannermen()
+}
+}
+        Group {
+if name == "Dragonfire" {
+ Dragonfire()
+}
+if name == "Remembrance Of The Daleks" {
+ RememberanceOfTheDaleks()
+}
+if name == "The Happiness Patrol" {
+ TheHappinessPatrol()
+}
+if name == "Silver Nemesis" {
+ SilverNemesis()
+}
+if name == "The Greatest Show In The Galaxy" {
+ TheGreatestShowInTheGalaxy()
+}
+if name == "Battlefield" {
+ Battlefield()
+}
+if name == "Ghost Light" {
+ GhostLight()
+}
+if name == "The Curse Of Fenric" {
+ TheCurseOfFenric()
+}
+if name == "Survival" {
+ Survival()
+}
+if name == "TV Movie" {
+ TVMovie()
+}
+}
+        Group {
+if name == "Rose" {
+ Rose()
+}
+if name == "The End Of The World" {
+ TheEndOfTheWorld()
+}
+if name == "The Unquiet Dead" {
+ TheUnquietDead()
+}
+if name == "Aliens Of London" {
+ AliensOfLondon()
+}
+if name == "World War Three" {
+ WorldWarThree()
+}
+if name == "Dalek" {
+ Dalek()
+}
+if name == "The Long Game" {
+ TheLongGame()
+}
+if name == "Father's Day" {
+ FathersDay()
+}
+if name == "The Empty Child" {
+ TheEmptyChild()
+}
+if name == "The Doctor Dances" {
+ TheDoctorDances()
+}
+}
+        Group {
+if name == "Boom Town" {
+ BoomTown()
+}
+if name == "Bad Wolf" {
+ BadWolf()
+}
+if name == "The Parting Of The Ways" {
+ ThePartingOfTheWays()
+}
+if name == "The Christmas Invasion" {
+ TheChristmasInvasion()
+}
+if name == "New Earth" {
+ NewEarth()
+}
+if name == "Tooth And Claw" {
+ ToothAndClaw()
+}
+if name == "School Reunion" {
+ SchoolReunion()
+}
+if name == "The Girl In The Fireplace" {
+ TheGirlInTheFireplace()
+}
+if name == "Rise Of The Cybermen" {
+ RiseOfTheCybermen()
+}
+if name == "The Age Of Steel" {
+ TheAgeOfSteel()
+}
+}
+        Group {
+if name == "The Idiot's Lantern" {
+ TheIdiotsLantern()
+}
+if name == "The Impossible Planet" {
+ TheImpossiblePlanet()
+}
+if name == "The Satan Pit" {
+ TheSatanPit()
+}
+if name == "Love & Monsters" {
+ Love_Monsters()
+}
+if name == "Fear Her" {
+ FearHer()
+}
+if name == "Army Of Ghosts" {
+ ArmyOfGhosts()
+}
+if name == "Doomsday" {
+ Doomsday()
+}
+if name == "The Runaway Bride" {
+ TheRunawayBride()
+}
+if name == "Smith And Jones" {
+ SmithAndJones()
+}
+if name == "The Shakespeare Code" {
+ TheShakespeareCode()
+}
+}
+        Group {
+if name == "Gridlock" {
+ Gridlock()
+}
+if name == "Daleks In Manhattan" {
+ DaleksInManhattan()
+}
+if name == "Evolution Of The Daleks" {
+ EvolutionOfTheDaleks()
+}
+if name == "The Lazarus Experiment" {
+ TheLazarusExperiment()
+}
+if name == "42" {
+ _42()
+}
+if name == "Human Nature" {
+ HumanNature()
+}
+if name == "The Family Of Blood" {
+ TheFamilyOfBlood()
+}
+if name == "Blink" {
+ Blink()
+}
+if name == "Utopia" {
+ Utopia()
+}
+if name == "The Sound Of Drums" {
+ TheSoundOfDrums()
+}
+}
+        }
+    }
+    var group3: some View {
+        Group {
+        Group {
+if name == "Last Of The Time Lords" {
+ LastOfTheTimeLords()
+}
+if name == "Voyage Of The Damned" {
+ VoyageOfTheDamned()
+}
+if name == "Partners In Crime" {
+ PartnersInCrime()
+}
+if name == "The Fires Of Pompeii" {
+ TheFiresOfPompeii()
+}
+if name == "Planet Of The Ood" {
+ PlanetOfTheOod()
+}
+if name == "The Sontaran Stratagem" {
+ TheSontaranStratagem()
+}
+if name == "The Poison Sky" {
+ ThePoisonSky()
+}
+if name == "The Doctor's Daughter" {
+ TheDoctorsDaughter()
+}
+if name == "The Unicorn And The Wasp" {
+ TheUnicornAndTheWasp()
+}
+if name == "Silence In The Library" {
+ SilenceInTheLibrary()
+}
+}
+        Group {
+if name == "Forest Of The Dead" {
+ ForestOfTheDead()
+}
+if name == "Midnight" {
+ Midnight()
+}
+if name == "Turn Left" {
+ TurnLeft()
+}
+if name == "The Stolen Earth" {
+ TheStolenEarth()
+}
+if name == "Journey's End" {
+ JourneysEnd()
+}
+if name == "The Next Doctor" {
+ TheNextDoctor()
+}
+if name == "Planet Of The Dead" {
+ PlanetOfTheDead()
+}
+if name == "The Waters Of Mars" {
+ TheWatersOfMars()
+}
+if name == "The End Of Time - Part 1" {
+ TheEndOfTimePart1()
+}
+if name == "The End Of Time - Part 2" {
+ TheEndOfTimePart2()
+}
+}
+        Group {
+if name == "The Eleventh Hour" {
+ TheEleventhHour()
+}
+if name == "The Beast Below" {
+ TheBeastBelow()
+}
+if name == "Victory Of The Daleks" {
+ VictoryOfTheDaleks()
+}
+if name == "The Time Of Angels" {
+ TheTimeOfAngels()
+}
+if name == "Flesh And Stone" {
+ FleshAndStone()
+}
+if name == "The Vampires Of Venice" {
+ TheVampiresOfVenice()
+}
+if name == "Amy's Choice" {
+ AmysChoice()
+}
+if name == "The Hungry Earth" {
+ TheHungryEarth()
+}
+if name == "Cold Blood" {
+ ColdBlood()
+}
+if name == "Vincent And The Doctor" {
+ VincentAndTheDoctor()
+}
+}
+        Group {
+if name == "The Lodger" {
+ TheLodger()
+}
+if name == "The Pandorica Opens" {
+ ThePandoricaOpens()
+}
+if name == "The Big Bang" {
+ TheBigBang()
+}
+if name == "A Christmas Carol" {
+ AChristmasCarol()
+}
+if name == "The Impossible Astronaut" {
+ TheImpossibleAstronaut()
+}
+if name == "Day Of The Moon" {
+ DayOfTheMoon()
+}
+if name == "The Curse Of The Black Spot" {
+ TheCurseOfTheBlackSpot()
+}
+if name == "The Doctor's Wife" {
+ TheDoctorsWife()
+}
+if name == "The Rebel Flesh" {
+ TheRebelFlesh()
+}
+if name == "The Almost People" {
+ TheAlmostPeople()
+}
+}
+        Group {
+if name == "A Good Man Goes To War" {
+ AGoodManGoesToWar()
+}
+if name == "Let's Kill Hitler" {
+ LetsKillHitler()
+}
+if name == "Night Terrors" {
+ NightTerrors()
+}
+if name == "The Girl Who Waited" {
+ TheGirlWhoWaited()
+}
+if name == "The God Complex" {
+ TheGodComplex()
+}
+if name == "Closing Time" {
+ ClosingTime()
+}
+if name == "The Wedding Of River Song" {
+ TheWeddingOfRiverSong()
+}
+if name == "The Doctor, The Widow And The Wardrobe" {
+ TheDoctorTheWidowAndTheWardrobe()
+}
+if name == "Asylum Of The Daleks" {
+ AsylumOfTheDaleks()
+}
+if name == "Dinosaurs On A Spaceship" {
+ DinosaursOnASpaceship()
+}
+}
+        Group {
+if name == "A Town Called Mercy" {
+ ATownCalledMercy()
+}
+if name == "The Power Of Three" {
+ ThePowerOfThree()
+}
+if name == "The Angels Take Manhattan" {
+ TheAngelsTakeManhattan()
+}
+if name == "The Snowmen" {
+ TheSnowmen()
+}
+if name == "The Bells Of Saint John" {
+ TheBellsOfSaintJohn()
+}
+if name == "The Rings Of Akhaten" {
+ TheRingsOfAkhaten()
+}
+if name == "Cold War" {
+ ColdWar()
+}
+if name == "Hide" {
+ Hide()
+}
+if name == "Journey To The Centre Of The TARDIS" {
+ JourneyToTheCentreOfTheTARDIS()
+}
+if name == "The Crimson Horror" {
+ TheCrimsonHorror()
+}
+}
+        Group {
+if name == "Nightmare In Silver" {
+ NightmareInSilver()
+}
+if name == "The Name Of The Doctor" {
+ TheNameOfTheDoctor()
+}
+if name == "The Day Of The Doctor" {
+ TheDayOfTheDoctor()
+}
+if name == "The Time Of The Doctor" {
+ TheTimeOfTheDoctor()
+}
+if name == "Deep Breath" {
+ DeepBreath()
+}
+if name == "Into The Dalek" {
+ IntoTheDalek()
+}
+if name == "Robot Of Sherwood" {
+ RobotOfSherwood()
+}
+if name == "Listen" {
+ Listen()
+}
+if name == "Time Heist" {
+ TimeHeist()
+}
+if name == "The Caretaker" {
+ TheCaretaker()
+}
+}
+        Group {
+if name == "Kill The Moon" {
+ KillTheMoon()
+}
+if name == "Mummy On The Orient Express" {
+ MummyOnTheOrientExpress()
+}
+if name == "Flatline" {
+ Flatline()
+}
+if name == "In The Forest Of The Night" {
+ InTheForestOfTheNight()
+}
+if name == "Dark Water" {
+ DarkWater()
+}
+if name == "Death In Heaven" {
+ DeathInHeaven()
+}
+if name == "Last Christmas" {
+ LastChristmas()
+}
+if name == "The Magician's Apprentice" {
+ TheMagiciansApprentice()
+}
+if name == "The Witch's Familiar" {
+ TheWitchsFamiliar()
+}
+if name == "Under The Lake" {
+ UnderTheLake()
+}
+}
+        Group {
+if name == "Before The Flood" {
+ BeforeTheFlood()
+}
+if name == "The Girl Who Died" {
+ TheGirlWhoDied()
+}
+if name == "The Woman Who Lived" {
+ TheWomanWhoLived()
+}
+if name == "The Zygon Invasion" {
+ TheZygonInvasion()
+}
+if name == "The Zygon Inversion" {
+ TheZygonInversion()
+}
+if name == "Sleep No More" {
+ SleepNoMore()
+}
+if name == "Face The Raven" {
+ FaceTheRaven()
+}
+if name == "Heaven Sent" {
+ HeavenSent()
+}
+if name == "Hell Bent" {
+ HellBent()
+}
+if name == "The Husbands Of River Song" {
+ TheHusbandsOfRiverSong()
+}
+}
+        Group {
+if name == "The Return Of Doctor Mysterio" {
+ TheReturnOfDoctorMysterio()
+}
+if name == "The Pilot" {
+ ThePilot()
+}
+if name == "Smile" {
+ Smile()
+}
+if name == "Thin Ice" {
+ ThinIce()
+}
+if name == "Knock Knock" {
+ KnockKnock()
+}
+if name == "Oxygen" {
+ Oxygen()
+}
+if name == "Extremis" {
+ Extremis()
+}
+if name == "The Pyramid At The End Of The World" {
+ ThePyramidAtTheEndOfTheWorld()
+}
+if name == "The Lie Of The Land" {
+ TheLieOfTheLand()
+}
+if name == "Empress Of Mars" {
+ EmpressOfMars()
+}
+}
+}
+    }
+    var group4: some View {
+        Group {
+       Group {
+if name == "The Eaters Of Light" {
+TheEatersOfLight()
+}
+if name == "World Enough And Time" {
+WorldEnoughAndTime()
+}
+if name == "The Doctor Falls" {
+TheDoctorFalls()
+}
+if name == "Twice Upon A Time" {
+TwiceUponATime()
+}
+if name == "The Woman Who Fell To Earth" {
+TheWomanWhoFellToEarth()
+}
+if name == "The Ghost Monument" {
+TheGhostMonument()
+}
+if name == "Rosa" {
+Rosa()
+}
+if name == "Arachnids In The UK" {
+ArachnidsInTheUK()
+}
+if name == "The Tsuranga Conundrum" {
+TheTsurangaConundrum()
+}
+if name == "Demons Of The Punjab" {
+DemonsOfThePunjab()
+}
+}
+       Group {
+if name == "Kerblam!" {
+Kerblam()
+}
+if name == "The Witchfinders" {
+TheWitchfinders()
+}
+if name == "It Takes You Away" {
+ItTakesYouAway()
+}
+if name == "The Battle Of Ranskoor Av Kolos" {
+TheBattleOfRanskoorAvKolos()
+}
+if name == "Resolution" {
+Resolution()
+}
+if name == "Spyfall - Part 1" {
+SpyfallPart1()
+}
+if name == "Spyfall - Part 2" {
+SpyfallPart2()
+}
+if name == "Orphan 55" {
+Orphan55()
+}
+if name == "Nikola Tesla's Night Of Terror" {
+NikolaTeslasNightOfTerror()
+}
+if name == "Fugitive Of The Judoon" {
+FugitiveOfTheJudoon()
+}
+}
+       Group {
+if name == "Praxeus" {
+Praxeus()
+}
+if name == "Can You Hear Me?" {
+CanYouHearMe()
+}
+if name == "The Haunting Of Villa Diodati" {
+TheHauntingOfVillaDiodati()
+}
+if name == "Ascension Of The Cybermen" {
+AscensionOfTheCybermen()
+}
+if name == "The Timeless Children" {
+TheTimelessChildren()
+}
+if name == "Revolution Of The Daleks" {
+RevolutionOfTheDaleks_()
+}
+if name == "The Halloween Apocalypse" {
+TheHalloweenApocalypse()
+}
+if name == "War Of The Sontarans" {
+WarOfTheSontarans()
+}
+if name == "Once, Upon Time" {
+OnceUponTime()
+}
+if name == "Village Of The Angels" {
+VillageOfTheAngels()
+}
+}
+       Group {
+if name == "Survivors Of The Flux" {
+SurvivorsOfTheFlux()
+}
+if name == "The Vanquishers" {
+TheVanquishers()
+}
+if name == "Eve Of The Daleks" {
+EveOfTheDaleks()
+}
+if name == "Legend Of The Sea Devils" {
+LegendOfTheSeaDevils()
+}
+}
+       }
+    }*/
+    var navLink: some View {
+        ForEach(searchResults, id: \.self) { name in
+        NavigationLink(destination:
+                       Group {
+                       Group {
+            if name == "An Unearthly Child" {
+            AnUnearthlyChild()
+            }
+            if name == "The Daleks" {
+            TheDaleks()
+            }
+            if name == "The Edge Of Destruction" {
+            TheEdgeOfDestruction()
+            }
+            if name == "Marco Polo" {
+            MarcoPolo()
+            }
+            if name == "The Keys Of Marinus" {
+            TheKeysOfMarinus()
+            }
+            if name == "The Aztecs" {
+            TheAztecs()
+            }
+            if name == "The Sensorites" {
+            TheSensorites()
+            }
+            if name == "The Reign Of Terror" {
+            TheReignOfTerror()
+            }
+            if name == "Planet Of Giants" {
+            PlanetOfGiants()
+            }
+            if name == "The Dalek Invasion Of Earth" {
+            TheDalekInvasionOfEarth()
+            }
+                       }
+                       Group {
+                           if name == "The Rescue" {
+                           TheRescue()
+                           }
+                           if name == "The Romans" {
+                           TheRomans()
+                           }
+                           if name == "The Web Planet" {
+                           TheWebPlanet()
+                           }
+                           if name == "The Crusade" {
+                           TheCrusade()
+                           }
+                           if name == "The Space Museum" {
+                           TheSpaceMuseum()
+                           }
+                           if name == "The Chase" {
+                           TheChase()
+                           }
+                           if name == "The Time Meddler" {
+                           TheTimeMeddler()
+                           }
+                           if name == "Galaxy 4" {
+                           Galaxy4()
+                           }
+                           if name == "Mission To The Unknown" {
+                           MissionToTheUnknown()
+                           }
+                           if name == "The Myth Makers" {
+                           TheMythMakers()
+                           }
+        }
+            Group {
+                if name == "The Daleks' Master Plan" {
+                TheDaleksMasterPlan()
+                }
+                if name == "The Massacre" {
+                TheMassacre()
+                }
+                if name == "The Ark" {
+                TheArk()
+                }
+                if name == "The Celestial Toymaker" {
+                TheCelestialToymaker()
+                }
+                if name == "The Gunfighters" {
+                TheGunfighters()
+                }
+                if name == "The Savages" {
+                TheSavages()
+                }
+                if name == "The War Machines" {
+                TheWarMachines()
+                }
+                if name == "The Smugglers" {
+                TheSmugglers()
+                }
+                if name == "The Tenth Planet" {
+                TheTenthPlanet()
+                }
+                if name == "The Power Of The Daleks" {
+                ThePowerOfTheDaleks()
+                }
+            }
+            Group {
+                
+            }
+            Group {
+                
+            }
+            Group {
+                
+            }
+            Group {
+                
+            }
+            Group {
+                
+            }
+            Group {
+                
+            }
+            Group {
+                
+            }
+                       }
+        ) {
+            VStack {
+                Spacer()
+                HStack {
+                    Spacer()
+            Text("\(name)")
+                    .bold()
+                    .font(.caption)
+                    Spacer()
+            }
+                Spacer()
+        }
+    }
     }
     }
     var classicSeriesBlock1: some View {

@@ -500,7 +500,7 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("TheBrainOfMorbius")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
@@ -511,10 +511,11 @@ ForEach(items) { item in
                     .bold()
                     .font(.title)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 84")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - 'Robin Bland' (Terrance Dicks\nRewritten By\nRobert Holmes)")
                     .font(.title3)
+                    .multilineTextAlignment(.center)
         }
             Spacer()
         }
