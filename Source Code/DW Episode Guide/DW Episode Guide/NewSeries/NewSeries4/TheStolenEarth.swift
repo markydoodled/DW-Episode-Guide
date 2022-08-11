@@ -498,7 +498,7 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("TheStolenEarth")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
@@ -509,9 +509,9 @@ ForEach(items) { item in
                     .bold()
                     .font(.title)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 198a")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - Russell T Davies")
                     .font(.title3)
         }
             Spacer()
@@ -546,6 +546,7 @@ ForEach(items) { item in
                         HStack {
                             Spacer()
                             Text("\(item.companions!)")
+                                .font(.caption)
                             Spacer()
                         }
                         Spacer()

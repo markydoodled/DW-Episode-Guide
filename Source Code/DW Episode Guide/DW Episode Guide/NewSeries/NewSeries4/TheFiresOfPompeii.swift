@@ -498,20 +498,20 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("TheFiresOfPompeii")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
-                .frame(width: 450, height: 450)
+                .frame(width: 350, height: 350)
             Spacer()
             VStack {
             Text("\(item.title!)")
                     .bold()
                     .font(.title)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 190")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - James Moran")
                     .font(.title3)
         }
             Spacer()

@@ -502,21 +502,22 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("ThePyramidAtTheEndOfTheWorld")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
-                .frame(width: 450, height: 450)
+                .frame(width: 350, height: 350)
             Spacer()
             VStack {
             Text("\(item.title!)")
                     .bold()
-                    .font(.title)
+                    .font(.title2)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 271")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - Peter Harness\nAnd Steven Moffat")
                     .font(.title3)
+                    .multilineTextAlignment(.center)
         }
             Spacer()
         }

@@ -546,6 +546,7 @@ ForEach(items) { item in
                         HStack {
                             Spacer()
                             Text("\(item.companions!)")
+                                .font(.caption)
                             Spacer()
                         }
                         Spacer()
@@ -607,6 +608,7 @@ ForEach(items) { item in
                         HStack {
                             Spacer()
                             Text("\(item.doctor!)")
+                                .font(.caption)
                             Spacer()
                         }
                         Spacer()

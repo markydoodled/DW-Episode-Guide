@@ -498,7 +498,7 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("UnderTheLake")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
@@ -509,9 +509,9 @@ ForEach(items) { item in
                     .bold()
                     .font(.title)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 255a")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - Toby Whithouse")
                     .font(.title3)
         }
             Spacer()

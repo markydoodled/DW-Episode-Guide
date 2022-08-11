@@ -500,20 +500,20 @@ ForEach(items) { item in
     ScrollView {
         HStack {
             Spacer()
-            Image("")
+            Image("RevolutionOfTheDaleks")
                 .resizable()
                 .scaledToFill()
                 .cornerRadius(25)
-                .frame(width: 450, height: 450)
+                .frame(width: 350, height: 350)
             Spacer()
             VStack {
             Text("\(item.title!)")
                     .bold()
-                    .font(.title)
+                    .font(.title2)
                     .padding()
-            Text("Story No. ")
+            Text("Story No. 296")
                     .font(.title3)
-                Text("Written By - ")
+                Text("Written By - Chris Chibnall")
                     .font(.title3)
         }
             Spacer()
@@ -548,6 +548,7 @@ ForEach(items) { item in
                         HStack {
                             Spacer()
                             Text("\(item.companions!)")
+                                .font(.caption)
                             Spacer()
                         }
                         Spacer()

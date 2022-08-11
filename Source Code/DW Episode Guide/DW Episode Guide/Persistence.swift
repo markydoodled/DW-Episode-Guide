@@ -32,7 +32,7 @@ struct PersistenceController {
         thedaleks.producer = "Verity Lambert\nMervyn Pinfield"
         let theedgeofdestruction = TheEdgeOfDestructionClass(context: viewContext)
         theedgeofdestruction.title = "The Edge Of Destruction"
-        theedgeofdestruction.broadcast = "8 February 1964\n 15 February 1964"
+        theedgeofdestruction.broadcast = "8 February 1964\n15 February 1964"
         theedgeofdestruction.companions = "Susan Foreman (Carole Ann Ford)\nIan Chesterton (William Russell)\nBarbara Wright (Jacqueline Hill)"
         theedgeofdestruction.director = "Richard Martin\nFrank Cox"
         theedgeofdestruction.doctor = "1st Doctor\n(William Hartnell)"
