@@ -484,6 +484,102 @@ struct ContentView: View {
                     i = 11
                 } else if result == "The Romans" {
                     i = 12
+                } else if result == "" {
+                    i = 13
+                } else if result == "" {
+                    i = 14
+                } else if result == "" {
+                    i = 15
+                } else if result == "" {
+                    i = 16
+                } else if result == "" {
+                    i = 17
+                } else if result == "" {
+                    i = 18
+                } else if result == "" {
+                    i = 19
+                } else if result == "" {
+                    i = 20
+                } else if result == "" {
+                    i = 21
+                } else if result == "" {
+                    i = 22
+                } else if result == "" {
+                    i = 23
+                } else if result == "" {
+                    i = 24
+                } else if result == "" {
+                    i = 25
+                } else if result == "" {
+                    i = 26
+                } else if result == "" {
+                    i = 27
+                } else if result == "" {
+                    i = 28
+                } else if result == "" {
+                    i = 29
+                } else if result == "" {
+                    i = 30
+                } else if result == "" {
+                    i = 31
+                } else if result == "" {
+                    i = 32
+                } else if result == "" {
+                    i = 33
+                } else if result == "" {
+                    i = 34
+                } else if result == "" {
+                    i = 35
+                } else if result == "" {
+                    i = 36
+                } else if result == "" {
+                    i = 37
+                } else if result == "" {
+                    i = 38
+                } else if result == "" {
+                    i = 39
+                } else if result == "" {
+                    i = 40
+                } else if result == "" {
+                    i = 41
+                } else if result == "" {
+                    i = 42
+                } else if result == "" {
+                    i = 43
+                } else if result == "" {
+                    i = 44
+                } else if result == "" {
+                    i = 45
+                } else if result == "" {
+                    i = 46
+                } else if result == "" {
+                    i = 47
+                } else if result == "" {
+                    i = 48
+                } else if result == "" {
+                    i = 49
+                } else if result == "" {
+                    i = 50
+                } else if result == "" {
+                    i = 51
+                } else if result == "" {
+                    i = 52
+                } else if result == "" {
+                    i = 53
+                } else if result == "" {
+                    i = 54
+                } else if result == "" {
+                    i = 55
+                } else if result == "" {
+                    i = 56
+                } else if result == "" {
+                    i = 57
+                } else if result == "" {
+                    i = 58
+                } else if result == "" {
+                    i = 59
+                } else if result == "" {
+                    i = 60
                 }
                 }) {
                     Text("\(result)")
