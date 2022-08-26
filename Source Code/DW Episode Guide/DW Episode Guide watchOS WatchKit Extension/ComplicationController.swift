@@ -152,7 +152,7 @@ struct GraphicRectangular: View {
                 Spacer()
         }
             HStack {
-                Text("Info About Doctor Who")
+                Text("Tap To See Info")
                 Spacer()
             }
         }
