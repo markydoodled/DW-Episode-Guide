@@ -1288,7 +1288,7 @@ struct ContentView: View {
                     HStack {
                         Text("Build")
                         Spacer()
-                        Text("1")
+                        Text("2")
                     }
                     HStack {
                         Button(action: {self.isShowingMailView.toggle()}) {
@@ -1319,7 +1319,7 @@ struct ContentView: View {
                     HStack {
                         Text("Build")
                         Spacer()
-                        Text("1")
+                        Text("2")
                     }
                     HStack {
                         Button(action: {self.isShowingMailView.toggle()}) {
