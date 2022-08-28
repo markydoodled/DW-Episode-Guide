@@ -1214,12 +1214,12 @@ struct ContentView: View {
                 HStack {
                     Text("Version")
                     Spacer()
-                    Text("1.3")
+                    Text("1.3.1")
                 }
                 HStack {
                     Text("Build")
                     Spacer()
-                    Text("2")
+                    Text("1")
                 }
             }
         }

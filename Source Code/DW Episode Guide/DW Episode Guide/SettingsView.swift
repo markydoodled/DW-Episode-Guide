@@ -15,7 +15,7 @@ struct SettingsView: View {
                                    Text("Version")
                                        .bold()
                                    Spacer()
-                                   Text("1.3")
+                                   Text("1.3.1")
                                }
                                HStack {
                                    Text("Build")

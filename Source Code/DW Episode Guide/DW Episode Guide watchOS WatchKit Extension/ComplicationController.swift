@@ -97,7 +97,7 @@ class ComplicationController: NSObject, CLKComplicationDataSource {
             return CLKComplicationTemplateGraphicExtraLargeCircularView(GraphicExtraLarge())
         case .modularLarge:
             let titleText = "DW Episode Guide"
-            let bodyText = "Info About Doctor Who"
+            let bodyText = "Tap To See Info"
             let titleProvider = CLKTextProvider(format: "%@", titleText)
             titleProvider.tintColor = UIColor(.accentColor)
             return CLKComplicationTemplateModularLargeStandardBody(headerTextProvider: titleProvider, body1TextProvider: CLKTextProvider(format: "%@", bodyText))
