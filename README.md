@@ -31,10 +31,10 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Episode Air Date Notifications
 - [ ] Per Episode Ratings
 - [ ] Top Shelf Content (tvOS)
-- [ ] Web App
-- [ ] Android App
-- [ ] Windows App
-- [ ] Linux App
+- [ ] Web App (Hosted On GitHub Pages)
+- [ ] Android App (Built With Jetpack Compose)
+- [ ] Windows App (Built With WinUI 3.0)
+- [ ] Linux App (Built With Electron)
 
 ## **Releases**
 
