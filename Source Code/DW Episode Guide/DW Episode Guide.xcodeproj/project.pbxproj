@@ -1529,6 +1529,13 @@
 		D5A920F1287780F100C8FA0D /* WorldWarThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB09F2744218D0032DF75 /* WorldWarThree.swift */; };
 		D5A920F22877813500C8FA0D /* Main.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D578334427382849007CD57E /* Main.xcdatamodeld */; };
 		D5AD102727D92D22002B7238 /* EveOfTheDaleks.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */; };
+		D5B6B6FA28BBEB9B0095B6AF /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B6B6F928BBEB9B0095B6AF /* WidgetKit.framework */; };
+		D5B6B6FC28BBEB9C0095B6AF /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B6B6FB28BBEB9B0095B6AF /* SwiftUI.framework */; };
+		D5B6B6FF28BBEB9C0095B6AF /* iOS_Widget_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B6B6FE28BBEB9C0095B6AF /* iOS_Widget_Extension.swift */; };
+		D5B6B70228BBEBA00095B6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B6B70128BBEBA00095B6AF /* Assets.xcassets */; };
+		D5B6B70428BBEBA00095B6AF /* iOS_Widget_Extension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5B6B70028BBEB9C0095B6AF /* iOS_Widget_Extension.intentdefinition */; };
+		D5B6B70528BBEBA00095B6AF /* iOS_Widget_Extension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5B6B70028BBEB9C0095B6AF /* iOS_Widget_Extension.intentdefinition */; };
+		D5B6B70828BBEBA00095B6AF /* iOS Widget ExtensionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -1545,6 +1552,13 @@
 			proxyType = 1;
 			remoteGlobalIDString = D55E3C5A2854C7850074DB20;
 			remoteInfo = "DW Episode Guide watchOS";
+		};
+		D5B6B70628BBEBA00095B6AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57832CF27381A18007CD57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B6B6F628BBEB9B0095B6AF;
+			remoteInfo = "iOS Widget ExtensionExtension";
 		};
 /* End PBXContainerItemProxy section */
 
@@ -1567,6 +1581,17 @@
 			dstSubfolderSpec = 13;
 			files = (
 				D55E3C642854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B6B70C28BBEBA00095B6AF /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5B6B70828BBEBA00095B6AF /* iOS Widget ExtensionExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1977,6 +2002,14 @@
 		D5A91F7628777A5700C8FA0D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D5A91F7B28777AEC00C8FA0D /* DW-Episode-Guide-tvOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DW-Episode-Guide-tvOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 		D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EveOfTheDaleks.swift; sourceTree = "<group>"; };
+		D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iOS Widget ExtensionExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5B6B6F928BBEB9B0095B6AF /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		D5B6B6FB28BBEB9B0095B6AF /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		D5B6B6FE28BBEB9C0095B6AF /* iOS_Widget_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_Widget_Extension.swift; sourceTree = "<group>"; };
+		D5B6B70028BBEB9C0095B6AF /* iOS_Widget_Extension.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = iOS_Widget_Extension.intentdefinition; sourceTree = "<group>"; };
+		D5B6B70128BBEBA00095B6AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5B6B70328BBEBA00095B6AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5B6B70D28BBF00B0095B6AF /* DW-Episode-Guide-iOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "DW-Episode-Guide-iOS-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2008,12 +2041,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5B6B6F428BBEB9B0095B6AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B6B6FC28BBEB9C0095B6AF /* SwiftUI.framework in Frameworks */,
+				D5B6B6FA28BBEB9B0095B6AF /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		D513C53927F0B209006505A9 /* DW Episode Guide iOS */ = {
 			isa = PBXGroup;
 			children = (
+				D5B6B70D28BBF00B0095B6AF /* DW-Episode-Guide-iOS-Info.plist */,
 				D513C53A27F0B209006505A9 /* DW_Episode_Guide_iOSApp.swift */,
 				D513C53C27F0B209006505A9 /* ContentView.swift */,
 				D513C53E27F0B210006505A9 /* Assets.xcassets */,
@@ -2068,6 +2111,8 @@
 				D55E3C5C2854C7850074DB20 /* DW Episode Guide watchOS */,
 				D55E3C672854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension */,
 				D5A91F6E28777A5500C8FA0D /* DW Episode Guide tvOS */,
+				D5B6B6FD28BBEB9C0095B6AF /* iOS Widget Extension */,
+				D5B6B6F828BBEB9B0095B6AF /* Frameworks */,
 				D57832D827381A18007CD57E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -2080,6 +2125,7 @@
 				D55E3C5B2854C7850074DB20 /* DW Episode Guide.app */,
 				D55E3C632854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex */,
 				D5A91F6D28777A5500C8FA0D /* DW Episode Guide.app */,
+				D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2828,6 +2874,26 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D5B6B6F828BBEB9B0095B6AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5B6B6F928BBEB9B0095B6AF /* WidgetKit.framework */,
+				D5B6B6FB28BBEB9B0095B6AF /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5B6B6FD28BBEB9C0095B6AF /* iOS Widget Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5B6B6FE28BBEB9C0095B6AF /* iOS_Widget_Extension.swift */,
+				D5B6B70028BBEB9C0095B6AF /* iOS_Widget_Extension.intentdefinition */,
+				D5B6B70128BBEBA00095B6AF /* Assets.xcassets */,
+				D5B6B70328BBEBA00095B6AF /* Info.plist */,
+			);
+			path = "iOS Widget Extension";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2839,11 +2905,13 @@
 				D513C53527F0B209006505A9 /* Frameworks */,
 				D513C53627F0B209006505A9 /* Resources */,
 				D55E3C772854C78C0074DB20 /* Embed Watch Content */,
+				D5B6B70C28BBEBA00095B6AF /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				D55E3C752854C78C0074DB20 /* PBXTargetDependency */,
+				D5B6B70728BBEBA00095B6AF /* PBXTargetDependency */,
 			);
 			name = "DW Episode Guide iOS";
 			productName = "DW Episode Guide iOS";
@@ -2920,6 +2988,23 @@
 			productReference = D5A91F6D28777A5500C8FA0D /* DW Episode Guide.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D5B6B6F628BBEB9B0095B6AF /* iOS Widget ExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5B6B70928BBEBA00095B6AF /* Build configuration list for PBXNativeTarget "iOS Widget ExtensionExtension" */;
+			buildPhases = (
+				D5B6B6F328BBEB9B0095B6AF /* Sources */,
+				D5B6B6F428BBEB9B0095B6AF /* Frameworks */,
+				D5B6B6F528BBEB9B0095B6AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS Widget ExtensionExtension";
+			productName = "iOS Widget ExtensionExtension";
+			productReference = D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -2927,7 +3012,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1330;
+				LastSwiftUpdateCheck = 1340;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
 					D513C53727F0B209006505A9 = {
@@ -2944,6 +3029,9 @@
 					};
 					D5A91F6C28777A5500C8FA0D = {
 						CreatedOnToolsVersion = 13.3;
+					};
+					D5B6B6F628BBEB9B0095B6AF = {
+						CreatedOnToolsVersion = 13.4.1;
 					};
 				};
 			};
@@ -2967,6 +3055,7 @@
 				D55E3C5A2854C7850074DB20 /* DW Episode Guide watchOS */,
 				D55E3C622854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension */,
 				D5A91F6C28777A5500C8FA0D /* DW Episode Guide tvOS */,
+				D5B6B6F628BBEB9B0095B6AF /* iOS Widget ExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -3014,6 +3103,14 @@
 			files = (
 				D5A91F7728777A5700C8FA0D /* Preview Assets.xcassets in Resources */,
 				D5A91F7428777A5700C8FA0D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5B6B6F528BBEB9B0095B6AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B6B70228BBEBA00095B6AF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3286,6 +3383,7 @@
 				D513C62827F0B86E006505A9 /* TheWomanWhoFellToEarth.swift in Sources */,
 				D513C58527F0B714006505A9 /* TheFiveDoctors.swift in Sources */,
 				D513C56E27F0B6FE006505A9 /* Mindwarp.swift in Sources */,
+				D5B6B70528BBEBA00095B6AF /* iOS_Widget_Extension.intentdefinition in Sources */,
 				D513C66327F0B86E006505A9 /* TheDoctorsDaughter.swift in Sources */,
 				D513C64527F0B86E006505A9 /* TheWitchsFamiliar.swift in Sources */,
 				D513C66827F0B86E006505A9 /* DeathInHeaven.swift in Sources */,
@@ -4558,6 +4656,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D5B6B6F328BBEB9B0095B6AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B6B70428BBEBA00095B6AF /* iOS_Widget_Extension.intentdefinition in Sources */,
+				D5B6B6FF28BBEB9C0095B6AF /* iOS_Widget_Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -4571,12 +4678,18 @@
 			target = D55E3C5A2854C7850074DB20 /* DW Episode Guide watchOS */;
 			targetProxy = D55E3C742854C78C0074DB20 /* PBXContainerItemProxy */;
 		};
+		D5B6B70728BBEBA00095B6AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5B6B6F628BBEB9B0095B6AF /* iOS Widget ExtensionExtension */;
+			targetProxy = D5B6B70628BBEBA00095B6AF /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D513C54427F0B210006505A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -4585,6 +4698,8 @@
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DW-Episode-Guide-iOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4609,6 +4724,7 @@
 		D513C54527F0B210006505A9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -4617,6 +4733,8 @@
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "DW-Episode-Guide-iOS-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4695,7 +4813,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide watchOS WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
@@ -4710,7 +4828,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -4727,7 +4845,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 2;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide watchOS WatchKit Extension/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_PREVIEWS = YES;
@@ -4742,7 +4860,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp.watchkitextension";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
@@ -4993,6 +5111,65 @@
 			};
 			name = Release;
 		};
+		D5B6B70A28BBEBA00095B6AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS Widget Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iOS Widget Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.iOS-Widget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D5B6B70B28BBEBA00095B6AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS Widget Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iOS Widget Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.iOS-Widget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -5046,6 +5223,15 @@
 			buildConfigurations = (
 				D5A91F7828777A5700C8FA0D /* Debug */,
 				D5A91F7928777A5700C8FA0D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5B6B70928BBEBA00095B6AF /* Build configuration list for PBXNativeTarget "iOS Widget ExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5B6B70A28BBEBA00095B6AF /* Debug */,
+				D5B6B70B28BBEBA00095B6AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -600,7 +600,7 @@ struct ContentView: View {
                     i = 69
                 } else if result == "The Time Warrior" {
                     i = 70
-                } else if result == "Invasion Of The Daleks" {
+                } else if result == "Invasion Of The Dinosaurs" {
                     i = 71
                 } else if result == "Death To The Daleks" {
                     i = 72
@@ -1283,12 +1283,12 @@ struct ContentView: View {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.3")
+                        Text("1.3.1")
                     }
                     HStack {
                         Text("Build")
                         Spacer()
-                        Text("2")
+                        Text("1")
                     }
                     HStack {
                         Button(action: {self.isShowingMailView.toggle()}) {
