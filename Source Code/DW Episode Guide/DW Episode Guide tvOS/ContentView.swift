@@ -405,7 +405,8 @@ struct ContentView: View {
     var search: some View {
         NavigationView {
             ScrollView {
-                LazyVGrid(columns: columns) {
+                if searchText != "" {
+                    LazyVGrid(columns: columns) {
                     ForEach(searchResults, id: \.self) { result in
                         NavigationLink(destination: chooseDestination().onAppear() {
                             if result == "An Unearthly Child" {
@@ -1077,21 +1078,25 @@ struct ContentView: View {
                             } else if result == "Legend Of The Sea Devils" {
                                 i = 334
                             }
-                            }) {
-                        VStack {
-                            Spacer()
-                            HStack {
+                        }) {
+                            VStack {
                                 Spacer()
-                        Text("\(result)")
-                                .bold()
-                                .font(.caption)
+                                HStack {
+                                    Spacer()
+                                    Text("\(result)")
+                                        .bold()
+                                        .font(.caption)
+                                    Spacer()
+                                }
                                 Spacer()
+                            }
                         }
-                            Spacer()
+                        Button(action: {searchText = ""}) {
+                            Text("Clear Search")
+                        }
                     }
                 }
-                }
-                }
+            }
             }
     }
         .searchable(text: $searchText, placement: .automatic) {
