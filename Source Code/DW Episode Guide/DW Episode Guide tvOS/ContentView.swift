@@ -1092,7 +1092,17 @@ struct ContentView: View {
                             }
                         }
                         Button(action: {searchText = ""}) {
-                            Text("Clear Search")
+                            VStack {
+                                Spacer()
+                                HStack {
+                                    Spacer()
+                                    Text("Clear Search")
+                                        .bold()
+                                        .font(.caption)
+                                    Spacer()
+                                }
+                                Spacer()
+                            }
                         }
                     }
                 }
