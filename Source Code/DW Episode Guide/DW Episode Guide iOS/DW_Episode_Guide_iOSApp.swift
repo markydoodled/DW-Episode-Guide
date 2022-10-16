@@ -585,339 +585,339 @@ struct DW_Episode_Guide_iOSApp: App {
                             i = 109
                         } else if url == URL(string: "dwepisode://theleisurehive") {
                             i = 110
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://meglos") {
                             i = 111
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://fullcircle") {
                             i = 112
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://stateofdecay") {
                             i = 113
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://warriorsgate") {
                             i = 114
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thekeeperoftraken") {
                             i = 115
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://logopolis") {
                             i = 116
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://castrovalva") {
                             i = 117
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://fourtodoomsday") {
                             i = 118
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://kinda") {
                             i = 119
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thevisitation") {
                             i = 120
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://blackorchid") {
                             i = 121
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://earthshock") {
                             i = 122
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://timeflight") {
                             i = 123
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://arcofinfinity") {
                             i = 124
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://snakedance") {
                             i = 125
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://mawdrynundead") {
                             i = 126
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://terminus") {
                             i = 127
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://enlightenment") {
                             i = 128
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thekingsdemons") {
                             i = 129
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thefivedoctors") {
                             i = 130
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://warriorsofthedeep") {
                             i = 131
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theawakening") {
                             i = 132
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://frontios") {
                             i = 133
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://resurrectionofthedaleks") {
                             i = 134
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://planetoffire") {
                             i = 135
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thecavesofandrozani") {
                             i = 136
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thetwindilemma") {
                             i = 137
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://attackofthecybermen") {
                             i = 138
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://vengeanceonvaros") {
                             i = 139
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://themarkoftherani") {
                             i = 140
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thetwodoctors") {
                             i = 141
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://timelash") {
                             i = 142
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://revelationofthedaleks") {
                             i = 143
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://themysteriousplanet") {
                             i = 144
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://mindwarp") {
                             i = 145
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://terrorofthevervoids") {
                             i = 146
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theultimatefoe") {
                             i = 147
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://timeandtherani") {
                             i = 148
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://paradisetowers") {
                             i = 149
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://deltaandthebannermen") {
                             i = 150
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://dragonfire") {
                             i = 151
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://remembranceofthedaleks") {
                             i = 152
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thehappinesspatrol") {
                             i = 153
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://silvernemesis") {
                             i = 154
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thegreatestshowinthegalaxy") {
                             i = 155
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://battlefield") {
                             i = 156
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://ghostlight") {
                             i = 157
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thecurseoffenric") {
                             i = 158
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://survival") {
                             i = 159
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://tvmovie") {
                             i = 160
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://rose") {
                             i = 161
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theendoftheworld") {
                             i = 162
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theunquietdead") {
                             i = 163
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://aliensoflondon") {
                             i = 164
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://worldwarthree") {
                             i = 165
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://dalek") {
                             i = 166
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thelonggame") {
                             i = 167
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://fathersday") {
                             i = 168
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theemptychild") {
                             i = 169
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thedoctordances") {
                             i = 170
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://boomtown") {
                             i = 171
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://badwolf") {
                             i = 172
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thepartingoftheways") {
                             i = 173
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thechristmasinvasion") {
                             i = 174
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://newearth") {
                             i = 175
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://toothandclaw") {
                             i = 176
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://schoolreunion") {
                             i = 177
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thegirlinthefireplace") {
                             i = 178
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://riseofthecybermen") {
                             i = 179
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theageofsteel") {
                             i = 180
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theidiotslantern") {
                             i = 181
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theimpossibleplanet") {
                             i = 182
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thesatanpit") {
                             i = 183
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://loveandmonsters") {
                             i = 184
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://fearher") {
                             i = 185
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://armyofghosts") {
                             i = 186
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://doomsday") {
                             i = 187
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://therunawaybride") {
                             i = 188
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://smithandjones") {
                             i = 189
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theshakespearecode") {
                             i = 190
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://gridlock") {
                             i = 191
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://daleksinmanhattan") {
                             i = 192
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://evolutionofthedaleks") {
                             i = 193
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thelazarusexperment") {
                             i = 194
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://42") {
                             i = 195
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://humannature") {
                             i = 196
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thefamilyofblood") {
                             i = 197
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://blink") {
                             i = 198
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://utopia") {
                             i = 199
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thesoundofdrums") {
                             i = 200
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://lastofthetimelords") {
                             i = 201
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://voyageofthedamned") {
                             i = 202
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://partnersincrime") {
                             i = 203
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thefiresofpompeii") {
                             i = 204
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://planetoftheood") {
                             i = 205
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thesontaranstratagem") {
                             i = 206
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thepoisonsky") {
                             i = 207
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thedoctorsdaughter") {
                             i = 208
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theunicornandthewasp") {
                             i = 209
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://silenceinthelibrary") {
                             i = 210
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://forestofthedead") {
                             i = 211
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://midnight") {
                             i = 212
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://turnleft") {
                             i = 213
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thestolenearth") {
                             i = 214
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://journeysend") {
                             i = 215
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thenextdoctor") {
                             i = 216
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://planetofthedead") {
                             i = 217
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thewatersofmars") {
                             i = 218
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theendoftimepart1") {
                             i = 219
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theendoftimepart2") {
                             i = 220
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theeleventhhour") {
                             i = 221
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thebeastbelow") {
                             i = 222
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://victoryofthedaleks") {
                             i = 223
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thetimeofangels") {
                             i = 224
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://fleshandstone") {
                             i = 225
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thevampiresofvenice") {
                             i = 226
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://amyschoice") {
                             i = 227
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thehungryearth") {
                             i = 228
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://coldblood") {
                             i = 229
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://vincentandthedoctor") {
                             i = 230
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thelodger") {
                             i = 231
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thepandoricaopens") {
                             i = 232
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thebigbang") {
                             i = 233
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://achristmascarol") {
                             i = 234
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theimpossibleastronaut") {
                             i = 235
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://dayofthemoon") {
                             i = 236
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thecurseoftheblackspot") {
                             i = 237
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thedoctorswife") {
                             i = 238
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://therebelflesh") {
                             i = 239
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thealmostpeople") {
                             i = 240
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://agoodmangoestowar") {
                             i = 241
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://letskillhitler") {
                             i = 242
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://nightterrors") {
                             i = 243
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thegirlwhowaited") {
                             i = 244
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thegodcomplex") {
                             i = 245
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://closingtime") {
                             i = 246
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theweddingofriversong") {
                             i = 247
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thedoctorthewidowandthewardrobe") {
                             i = 248
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://asylumofthedaleks") {
                             i = 249
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://dinosaursonaspaceship") {
                             i = 250
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://atowncalledmercy") {
                             i = 251
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thepowerofthree") {
                             i = 252
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theangelstakemanhattan") {
                             i = 253
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thesnowmen") {
                             i = 254
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thebellsofsaintjohn") {
                             i = 255
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://theringsofakhaten") {
                             i = 256
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://coldwar") {
                             i = 257
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://hide") {
                             i = 258
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://journeytothecentreofthetardis") {
                             i = 259
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thecrimsonhorror") {
                             i = 260
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://nightmareinsilver") {
                             i = 261
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thenameofthedoctor") {
                             i = 262
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thedayofthedoctor") {
                             i = 263
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thetimeofthedoctor") {
                             i = 264
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://deepbreath") {
                             i = 265
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://intothedalek") {
                             i = 266
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://robotofsherwood") {
                             i = 267
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://listen") {
                             i = 268
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://timeheist") {
                             i = 269
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://thecaretaker") {
                             i = 270
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://killthemoon") {
                             i = 271
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://mummyontheorientexpress") {
                             i = 272
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://flatline") {
                             i = 273
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://intheforestofthenight") {
                             i = 274
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://darkwater") {
                             i = 275
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://deathinheaven") {
                             i = 276
-                        } else if url == URL(string: "dwepisode://") {
+                        } else if url == URL(string: "dwepisode://lastchristmas") {
                             i = 277
                         } else if url == URL(string: "dwepisode://") {
                             i = 278
