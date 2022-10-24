@@ -748,7 +748,7 @@ struct PersistenceController {
         therobotsofdeath.length = "4 Episodes\n25 Minutes Each"
         therobotsofdeath.producer = "Philip Hinchcliffe"
         let thetalonsofwengchiang = TheTalonsOfWengChiangClass(context: viewContext)
-        thetalonsofwengchiang.title = "The Talons Of Weng Chiang"
+        thetalonsofwengchiang.title = "The Talons Of Weng-Chiang"
         thetalonsofwengchiang.broadcast = "26 February 1977\n2 April 1977"
         thetalonsofwengchiang.companions = "Leela (Louise Jameson)"
         thetalonsofwengchiang.director = "David Maloney"
@@ -1009,7 +1009,7 @@ struct PersistenceController {
         earthshock.length = "4 Episodes\n25 Minutes Each"
         earthshock.producer = "John Nathan-Turner"
         let timeflight = TimeFlightClass(context: viewContext)
-        timeflight.title = "Time Flight"
+        timeflight.title = "Time-Flight"
         timeflight.broadcast = "22 March 1982\n30 March 1982"
         timeflight.companions = "Nyssa (Sarah Sutton)\nTegan Jovanka (Janet Fielding)"
         timeflight.director = "Ron Jones"

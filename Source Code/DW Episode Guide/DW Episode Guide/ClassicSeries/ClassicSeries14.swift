@@ -26,7 +26,7 @@ struct ClassicSeries14: View {
                 Text("The Robots Of Death")
             }
             NavigationLink(destination: TheTalonsOfWengChiang()) {
-                Text("The Talons Of Weng Chiang")
+                Text("The Talons Of Weng-Chiang")
             }
         }
         #if os(macOS)

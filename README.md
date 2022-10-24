@@ -37,18 +37,18 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Handoff Support (iOS, iPadOS, macOS And watchOS)
 - [ ] App Clip Support (iOS, iPadOS)
 - [ ] Home Screen App Context Menu Actions (iOS, iPadOS)
-- [ ] Web App (Built With Bootstrap Studio And Hosted On GitHub Pages)
+- [ ] Web App (Built With ASP.NET Core And Hosted On GitHub Pages)
 - [ ] Android App (Built With Jetpack Compose)
 - [ ] Windows App (Built With WinUI 3.0)
-- [ ] Linux App (Built With Electron)
+- [ ] Linux App (Built With Electron.NET)
 
 ## **Releases**
 
-[Click Here...](https://github.com/markydoodled/DW-Episode-Guide/releases)
+[Click Here For All Releases...](https://github.com/markydoodled/DW-Episode-Guide/releases)
 
 ## **Images**
 
-[Click Here...](https://github.com/markydoodled/DW-Episode-Guide/tree/main/Images)
+[Click Here For All Images...](https://github.com/markydoodled/DW-Episode-Guide/tree/main/Images)
 
 ## **Things To Note**
 
