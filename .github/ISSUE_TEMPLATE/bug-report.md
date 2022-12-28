@@ -1,9 +1,9 @@
 ---
-name: Bug Report
-about: Create A Report To Help Us Improve
-title: Bug
-labels: bug
-assignees: markydoodled
+Name: Bug Report
+About: Create A Report To Help Us Improve
+Title: Bug
+Labels: bug
+Assignees: markydoodled
 
 ---
 
@@ -24,11 +24,11 @@ A Clear And Concise Description Of What You Expected To Happen.
 If Applicable, Add Screenshots To Help Explain Your Problem.
 
 **Desktop (Please Complete The Following Information):**
- - OS: [e.g. iOS]
+ - OS: [e.g. macOS]
  - Version [e.g. 22]
 
 **Smartphone (Please Complete The Following Information):**
- - Device: [e.g. iPhone6]
+ - Device: [e.g. iPhone 6]
  - OS: [e.g. iOS8.1]
  - Version [e.g. 22]
 
