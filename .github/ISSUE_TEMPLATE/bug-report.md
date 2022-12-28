@@ -1,9 +1,9 @@
 ---
-Name: Bug Report
-About: Create A Report To Help Us Improve
-Title: Bug
-Labels: bug
-Assignees: markydoodled
+name: Bug Report
+about: Create A Report To Help Us Improve
+title: Bug
+labels: bug
+assignees: markydoodled
 
 ---
 
@@ -29,7 +29,7 @@ If Applicable, Add Screenshots To Help Explain Your Problem.
 
 **Smartphone (Please Complete The Following Information):**
  - Device: [e.g. iPhone 6]
- - OS: [e.g. iOS8.1]
+ - OS: [e.g. iOS 8.1]
  - Version [e.g. 22]
 
 **Additional Context**
