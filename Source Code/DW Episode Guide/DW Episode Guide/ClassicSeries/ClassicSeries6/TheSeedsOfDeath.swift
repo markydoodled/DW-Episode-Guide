@@ -57,7 +57,7 @@ struct TheSeedsOfDeath: View {
                             .padding()
                     Text("Story No. 48")
                             .font(.title3)
-                        Text("Written By - Brian Hayles\nTerrance Dicks")
+                        Text("Written By - Brian Hayles\nAnd Terrance Dicks")
                             .font(.title3)
                             .multilineTextAlignment(.center)
                 }
@@ -204,7 +204,7 @@ struct TheSeedsOfDeath: View {
                     .onDrag {
                         return NSItemProvider(object: String("Story No. 48") as NSString)
                     }
-                    Text("Written By - Brian Hayles\nTerrance Dicks")
+                    Text("Written By - Brian Hayles\nAnd Terrance Dicks")
                         .onDrag {
                             return NSItemProvider(object: String("Written By - Brian Hayles\nTerrance Dicks") as NSString)
                         }
@@ -310,7 +310,7 @@ struct TheSeedsOfDeath: View {
                                 .font(.title3)
                                 .multilineTextAlignment(.center)
                                 .onDrag {
-                                    return NSItemProvider(object: String("Written By - Brian Hayles\nTerrance Dicks") as NSString)
+                                    return NSItemProvider(object: String("Written By - Brian Hayles\nAnd Terrance Dicks") as NSString)
                                 }
                     }
                         Spacer()
@@ -470,7 +470,7 @@ struct TheSeedsOfDeath: View {
                     Spacer()
                 }
                 Text("Story No. 48")
-                Text("Written By - Brian Hayles\nTerrance Dicks")
+                Text("Written By - Brian Hayles\nAnd Terrance Dicks")
                 Section(header: Label("Broadcast", systemImage: "dot.radiowaves.left.and.right")) {
                     Text("\(item.broadcast!)")
                 }
@@ -513,7 +513,7 @@ ForEach(items) { item in
                     .padding()
             Text("Story No. 48")
                     .font(.title3)
-                Text("Written By - Brian Hayles\nTerrance Dicks")
+                Text("Written By - Brian Hayles\nAnd Terrance Dicks")
                     .font(.title3)
                     .multilineTextAlignment(.center)
         }
