@@ -390,7 +390,6 @@
 		D557539F2853A2300001EA53 /* LegendOfTheSeaDevils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */; };
 		D55753A02853A2300001EA53 /* LegendOfTheSeaDevils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */; };
 		D55E3C5E2854C7890074DB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55E3C5D2854C7890074DB20 /* Assets.xcassets */; };
-		D55E3C642854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D55E3C632854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D55E3C6F2854C78C0074DB20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55E3C6E2854C78C0074DB20 /* Assets.xcassets */; };
 		D55E3C722854C78C0074DB20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D55E3C712854C78C0074DB20 /* Preview Assets.xcassets */; };
 		D55E3C762854C78C0074DB20 /* DW Episode Guide.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = D55E3C5B2854C7850074DB20 /* DW Episode Guide.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -1535,17 +1534,10 @@
 		D5B6B70228BBEBA00095B6AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5B6B70128BBEBA00095B6AF /* Assets.xcassets */; };
 		D5B6B70428BBEBA00095B6AF /* iOS_Widget_Extension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5B6B70028BBEB9C0095B6AF /* iOS_Widget_Extension.intentdefinition */; };
 		D5B6B70528BBEBA00095B6AF /* iOS_Widget_Extension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5B6B70028BBEB9C0095B6AF /* iOS_Widget_Extension.intentdefinition */; };
-		D5B6B70828BBEBA00095B6AF /* iOS Widget ExtensionExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		D5B6B70828BBEBA00095B6AF /* iOS Widget ExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D55E3C652854C78A0074DB20 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D57832CF27381A18007CD57E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D55E3C622854C78A0074DB20;
-			remoteInfo = "DW Episode Guide watchOS WatchKit Extension";
-		};
 		D55E3C742854C78C0074DB20 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D57832CF27381A18007CD57E /* Project object */;
@@ -1574,26 +1566,15 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D55E3C7A2854C78C0074DB20 /* Embed App Extensions */ = {
+		D5B6B70C28BBEBA00095B6AF /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				D55E3C642854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex in Embed App Extensions */,
+				D5B6B70828BBEBA00095B6AF /* iOS Widget ExtensionExtension.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D5B6B70C28BBEBA00095B6AF /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				D5B6B70828BBEBA00095B6AF /* iOS Widget ExtensionExtension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
@@ -1609,7 +1590,6 @@
 		D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegendOfTheSeaDevils.swift; sourceTree = "<group>"; };
 		D55E3C5B2854C7850074DB20 /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55E3C5D2854C7890074DB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D55E3C632854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "DW Episode Guide watchOS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D55E3C6E2854C78C0074DB20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D55E3C712854C78C0074DB20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D55E3C732854C78C0074DB20 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -2123,7 +2103,6 @@
 				D57832D727381A18007CD57E /* DW Episode Guide.app */,
 				D513C53827F0B209006505A9 /* DW Episode Guide.app */,
 				D55E3C5B2854C7850074DB20 /* DW Episode Guide.app */,
-				D55E3C632854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex */,
 				D5A91F6D28777A5500C8FA0D /* DW Episode Guide.app */,
 				D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */,
 			);
@@ -2905,7 +2884,7 @@
 				D513C53527F0B209006505A9 /* Frameworks */,
 				D513C53627F0B209006505A9 /* Resources */,
 				D55E3C772854C78C0074DB20 /* Embed Watch Content */,
-				D5B6B70C28BBEBA00095B6AF /* Embed App Extensions */,
+				D5B6B70C28BBEBA00095B6AF /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
@@ -2923,34 +2902,17 @@
 			buildConfigurationList = D55E3C7E2854C78C0074DB20 /* Build configuration list for PBXNativeTarget "DW Episode Guide watchOS" */;
 			buildPhases = (
 				D55E3C592854C7850074DB20 /* Resources */,
-				D55E3C7A2854C78C0074DB20 /* Embed App Extensions */,
+				D55E3C5F2854C78A0074DB20 /* Sources */,
+				D55E3C602854C78A0074DB20 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D55E3C662854C78A0074DB20 /* PBXTargetDependency */,
 			);
 			name = "DW Episode Guide watchOS";
 			productName = "DW Episode Guide watchOS";
 			productReference = D55E3C5B2854C7850074DB20 /* DW Episode Guide.app */;
-			productType = "com.apple.product-type.application.watchapp2";
-		};
-		D55E3C622854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = D55E3C7D2854C78C0074DB20 /* Build configuration list for PBXNativeTarget "DW Episode Guide watchOS WatchKit Extension" */;
-			buildPhases = (
-				D55E3C5F2854C78A0074DB20 /* Sources */,
-				D55E3C602854C78A0074DB20 /* Frameworks */,
-				D55E3C612854C78A0074DB20 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "DW Episode Guide watchOS WatchKit Extension";
-			productName = "DW Episode Guide watchOS WatchKit Extension";
-			productReference = D55E3C632854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension.appex */;
-			productType = "com.apple.product-type.watchkit2-extension";
+			productType = "com.apple.product-type.application";
 		};
 		D57832D627381A18007CD57E /* DW Episode Guide */ = {
 			isa = PBXNativeTarget;
@@ -3013,15 +2975,12 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1340;
-				LastUpgradeCheck = 1330;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					D513C53727F0B209006505A9 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 					D55E3C5A2854C7850074DB20 = {
-						CreatedOnToolsVersion = 13.3;
-					};
-					D55E3C622854C78A0074DB20 = {
 						CreatedOnToolsVersion = 13.3;
 					};
 					D57832D627381A18007CD57E = {
@@ -3053,7 +3012,6 @@
 				D57832D627381A18007CD57E /* DW Episode Guide */,
 				D513C53727F0B209006505A9 /* DW Episode Guide iOS */,
 				D55E3C5A2854C7850074DB20 /* DW Episode Guide watchOS */,
-				D55E3C622854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension */,
 				D5A91F6C28777A5500C8FA0D /* DW Episode Guide tvOS */,
 				D5B6B6F628BBEB9B0095B6AF /* iOS Widget ExtensionExtension */,
 			);
@@ -3075,16 +3033,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D55E3C5E2854C7890074DB20 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D55E3C612854C78A0074DB20 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 				D55E3C722854C78C0074DB20 /* Preview Assets.xcassets in Resources */,
 				D55E3C6F2854C78C0074DB20 /* Assets.xcassets in Resources */,
+				D55E3C5E2854C7890074DB20 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4668,11 +4619,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D55E3C662854C78A0074DB20 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = D55E3C622854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension */;
-			targetProxy = D55E3C652854C78A0074DB20 /* PBXContainerItemProxy */;
-		};
 		D55E3C752854C78C0074DB20 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D55E3C5A2854C7850074DB20 /* DW Episode Guide watchOS */;
@@ -4700,6 +4646,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DW-Episode-Guide-iOS-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4735,6 +4682,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DW-Episode-Guide-iOS-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -4762,14 +4710,21 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = DW_Episode_Guide_watchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.MSJ.DW-Episode-Guide-iOS";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp";
 				PRODUCT_NAME = "DW Episode Guide";
@@ -4787,82 +4742,24 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				GENERATE_INFOPLIST_FILE = YES;
-				IBSC_MODULE = DW_Episode_Guide_watchOS_WatchKit_Extension;
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.MSJ.DW-Episode-Guide-iOS";
+				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
 				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp";
 				PRODUCT_NAME = "DW Episode Guide";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Release;
-		};
-		D55E3C7B2854C78C0074DB20 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide watchOS WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = ZWASU9HFBU;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DW Episode Guide watchOS WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = DW_Episode_Guide_watchOS_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
-		D55E3C7C2854C78C0074DB20 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide watchOS WatchKit Extension/Preview Content\"";
-				DEVELOPMENT_TEAM = ZWASU9HFBU;
-				ENABLE_PREVIEWS = YES;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "DW Episode Guide watchOS WatchKit Extension/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "DW Episode Guide";
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = DW_Episode_Guide_watchOS_WatchKit_Extension.ComplicationController;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_WKRunsIndependentlyOfCompanionApp = YES;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.3.1;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp.watchkitextension";
-				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -4907,6 +4804,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -4968,6 +4866,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -4998,6 +4897,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -5029,6 +4929,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
@@ -5178,15 +5079,6 @@
 			buildConfigurations = (
 				D513C54427F0B210006505A9 /* Debug */,
 				D513C54527F0B210006505A9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		D55E3C7D2854C78C0074DB20 /* Build configuration list for PBXNativeTarget "DW Episode Guide watchOS WatchKit Extension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D55E3C7B2854C78C0074DB20 /* Debug */,
-				D55E3C7C2854C78C0074DB20 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -3408,23 +3408,145 @@ struct iOS_Widget_ExtensionEntryView : View {
                 VStack {
                 Image(entry.image)
                     .resizable()
-                    .frame(width: 150, height: 110, alignment: .center)
+                    .scaledToFit()
                     .cornerRadius(8)
+                    .padding(.horizontal)
                 VStack(alignment: .leading) {
                     Text(entry.name)
-                        .lineLimit(1)
+                        .multilineTextAlignment(.center)
                         .font(.system(size: 14, weight: .semibold, design: .default))
                         .foregroundColor(.white)
-                        .padding([.bottom])
+                        .padding(.bottom)
                         }
                     }
+                .padding(.vertical)
         }
             .widgetURL(URL(string: entry.url)!)
         case .systemMedium:
-            Text(entry.name)
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.accentColor)
+                HStack {
+                    VStack {
+                        Image(entry.image)
+                            .resizable()
+                            .scaledToFit()
+                            .cornerRadius(8)
+                            .padding(.horizontal)
+                        VStack(alignment: .leading) {
+                            Text(entry.name)
+                                .multilineTextAlignment(.center)
+                                .font(.system(size: 14, weight: .semibold, design: .default))
+                                .foregroundColor(.white)
+                                .padding(.bottom)
+                        }
+                    }
+                    .padding(.vertical)
+                    VStack {
+                        Text("Story No. \(entry.story)")
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 14, weight: .semibold, design: .default))
+                            .foregroundColor(.white)
+                        Divider()
+                        Text(entry.writer)
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 14, weight: .semibold, design: .default))
+                            .foregroundColor(.white)
+                    }
+                    .padding(.vertical)
+                }
+                .padding(.horizontal)
+            }
+            .widgetURL(URL(string: entry.url)!)
         case .systemLarge:
-            Text(entry.name)
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.accentColor)
+                VStack {
+                    Image(entry.image)
+                        .resizable()
+                        .scaledToFit()
+                        .cornerRadius(8)
+                        .padding(.horizontal)
+                    Text(entry.name)
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 14, weight: .semibold, design: .default))
+                        .foregroundColor(.white)
+                    Divider()
+                    Text("Story No. \(entry.story)")
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 14, weight: .semibold, design: .default))
+                        .foregroundColor(.white)
+                    Divider()
+                    Text(entry.writer)
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 14, weight: .semibold, design: .default))
+                        .foregroundColor(.white)
+                    Divider()
+                    Text(entry.doctor)
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 14, weight: .semibold, design: .default))
+                        .foregroundColor(.white)
+                    Divider()
+                    Text(entry.airDate)
+                        .multilineTextAlignment(.center)
+                        .font(.system(size: 14, weight: .semibold, design: .default))
+                        .foregroundColor(.white)
+                }
+                .padding(.vertical)
+            }
+            .widgetURL(URL(string: entry.url)!)
         case .systemExtraLarge:
+            ZStack {
+                Rectangle()
+                    .foregroundColor(.accentColor)
+                HStack {
+                    VStack {
+                        Image(entry.image)
+                            .resizable()
+                            .scaledToFit()
+                            .cornerRadius(8)
+                            .padding(.horizontal)
+                        VStack(alignment: .leading) {
+                            Text(entry.name)
+                                .multilineTextAlignment(.center)
+                                .font(.system(size: 14, weight: .semibold, design: .default))
+                                .foregroundColor(.white)
+                                .padding(.bottom)
+                        }
+                    }
+                    .padding(.vertical)
+                    VStack {
+                        Text("Story No. \(entry.story)")
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 14, weight: .semibold, design: .default))
+                            .foregroundColor(.white)
+                        Divider()
+                        Text(entry.writer)
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 14, weight: .semibold, design: .default))
+                            .foregroundColor(.white)
+                        Divider()
+                        Text(entry.doctor)
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 14, weight: .semibold, design: .default))
+                            .foregroundColor(.white)
+                        Divider()
+                        Text(entry.airDate)
+                            .multilineTextAlignment(.center)
+                            .font(.system(size: 14, weight: .semibold, design: .default))
+                            .foregroundColor(.white)
+                    }
+                    .padding(.vertical)
+                }
+                .padding(.horizontal)
+            }
+            .widgetURL(URL(string: entry.url)!)
+        case .accessoryCircular:
+            Text(entry.name)
+        case .accessoryRectangular:
+            Text(entry.name)
+        case .accessoryInline:
             Text(entry.name)
         @unknown default:
             Text("Unknown Widget Size")
