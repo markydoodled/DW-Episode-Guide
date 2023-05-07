@@ -1148,6 +1148,13 @@
 		D57EB1EE27495ACA0032DF75 /* VillageOfTheAngels.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */; };
 		D57EB1F027495ADA0032DF75 /* SurvivorsOfTheFlux.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */; };
 		D57EB1F227495AE50032DF75 /* TheVanquishers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57EB1F127495AE50032DF75 /* TheVanquishers.swift */; };
+		D5848D212A07CE8A0018E4B5 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B6B6F928BBEB9B0095B6AF /* WidgetKit.framework */; };
+		D5848D222A07CE8A0018E4B5 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5B6B6FB28BBEB9B0095B6AF /* SwiftUI.framework */; };
+		D5848D252A07CE8A0018E4B5 /* macOS_Widget_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5848D242A07CE8A0018E4B5 /* macOS_Widget_Extension.swift */; };
+		D5848D282A07CE8B0018E4B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5848D272A07CE8B0018E4B5 /* Assets.xcassets */; };
+		D5848D2B2A07CE8B0018E4B5 /* macOS_Widget_Extension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5848D262A07CE8A0018E4B5 /* macOS_Widget_Extension.intentdefinition */; };
+		D5848D2C2A07CE8B0018E4B5 /* macOS_Widget_Extension.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = D5848D262A07CE8A0018E4B5 /* macOS_Widget_Extension.intentdefinition */; };
+		D5848D2F2A07CE8B0018E4B5 /* macOS Widget ExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = D5848D202A07CE890018E4B5 /* macOS Widget ExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		D5A91F7028777A5500C8FA0D /* DW_Episode_Guide_tvOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A91F6F28777A5500C8FA0D /* DW_Episode_Guide_tvOSApp.swift */; };
 		D5A91F7228777A5500C8FA0D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5A91F7128777A5500C8FA0D /* ContentView.swift */; };
 		D5A91F7428777A5700C8FA0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5A91F7328777A5700C8FA0D /* Assets.xcassets */; };
@@ -1545,6 +1552,13 @@
 			remoteGlobalIDString = D55E3C5A2854C7850074DB20;
 			remoteInfo = "DW Episode Guide watchOS";
 		};
+		D5848D2D2A07CE8B0018E4B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D57832CF27381A18007CD57E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5848D1F2A07CE890018E4B5;
+			remoteInfo = "macOS Widget ExtensionExtension";
+		};
 		D5B6B70628BBEBA00095B6AF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D57832CF27381A18007CD57E /* Project object */;
@@ -1564,6 +1578,17 @@
 				D55E3C762854C78C0074DB20 /* DW Episode Guide.app in Embed Watch Content */,
 			);
 			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5848D332A07CE8B0018E4B5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				D5848D2F2A07CE8B0018E4B5 /* macOS Widget ExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		D5B6B70C28BBEBA00095B6AF /* Embed Foundation Extensions */ = {
@@ -1975,6 +2000,12 @@
 		D57EB1ED27495ACA0032DF75 /* VillageOfTheAngels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VillageOfTheAngels.swift; sourceTree = "<group>"; };
 		D57EB1EF27495ADA0032DF75 /* SurvivorsOfTheFlux.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurvivorsOfTheFlux.swift; sourceTree = "<group>"; };
 		D57EB1F127495AE50032DF75 /* TheVanquishers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheVanquishers.swift; sourceTree = "<group>"; };
+		D5848D202A07CE890018E4B5 /* macOS Widget ExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "macOS Widget ExtensionExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5848D242A07CE8A0018E4B5 /* macOS_Widget_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = macOS_Widget_Extension.swift; sourceTree = "<group>"; };
+		D5848D262A07CE8A0018E4B5 /* macOS_Widget_Extension.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = macOS_Widget_Extension.intentdefinition; sourceTree = "<group>"; };
+		D5848D272A07CE8B0018E4B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D5848D292A07CE8B0018E4B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5848D2A2A07CE8B0018E4B5 /* macOS_Widget_Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS_Widget_Extension.entitlements; sourceTree = "<group>"; };
 		D5A91F6D28777A5500C8FA0D /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5A91F6F28777A5500C8FA0D /* DW_Episode_Guide_tvOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_Episode_Guide_tvOSApp.swift; sourceTree = "<group>"; };
 		D5A91F7128777A5500C8FA0D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -2011,6 +2042,15 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5848D1D2A07CE890018E4B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5848D222A07CE8A0018E4B5 /* SwiftUI.framework in Frameworks */,
+				D5848D212A07CE8A0018E4B5 /* WidgetKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2092,6 +2132,7 @@
 				D55E3C672854C78A0074DB20 /* DW Episode Guide watchOS WatchKit Extension */,
 				D5A91F6E28777A5500C8FA0D /* DW Episode Guide tvOS */,
 				D5B6B6FD28BBEB9C0095B6AF /* iOS Widget Extension */,
+				D5848D232A07CE8A0018E4B5 /* macOS Widget Extension */,
 				D5B6B6F828BBEB9B0095B6AF /* Frameworks */,
 				D57832D827381A18007CD57E /* Products */,
 			);
@@ -2105,6 +2146,7 @@
 				D55E3C5B2854C7850074DB20 /* DW Episode Guide.app */,
 				D5A91F6D28777A5500C8FA0D /* DW Episode Guide.app */,
 				D5B6B6F728BBEB9B0095B6AF /* iOS Widget ExtensionExtension.appex */,
+				D5848D202A07CE890018E4B5 /* macOS Widget ExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2833,6 +2875,18 @@
 			path = NewSeries13;
 			sourceTree = "<group>";
 		};
+		D5848D232A07CE8A0018E4B5 /* macOS Widget Extension */ = {
+			isa = PBXGroup;
+			children = (
+				D5848D242A07CE8A0018E4B5 /* macOS_Widget_Extension.swift */,
+				D5848D262A07CE8A0018E4B5 /* macOS_Widget_Extension.intentdefinition */,
+				D5848D272A07CE8B0018E4B5 /* Assets.xcassets */,
+				D5848D292A07CE8B0018E4B5 /* Info.plist */,
+				D5848D2A2A07CE8B0018E4B5 /* macOS_Widget_Extension.entitlements */,
+			);
+			path = "macOS Widget Extension";
+			sourceTree = "<group>";
+		};
 		D5A91F6E28777A5500C8FA0D /* DW Episode Guide tvOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -2921,10 +2975,12 @@
 				D57832D327381A18007CD57E /* Sources */,
 				D57832D427381A18007CD57E /* Frameworks */,
 				D57832D527381A18007CD57E /* Resources */,
+				D5848D332A07CE8B0018E4B5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				D5848D2E2A07CE8B0018E4B5 /* PBXTargetDependency */,
 			);
 			name = "DW Episode Guide";
 			packageProductDependencies = (
@@ -2932,6 +2988,23 @@
 			productName = "DW Episode Guide";
 			productReference = D57832D727381A18007CD57E /* DW Episode Guide.app */;
 			productType = "com.apple.product-type.application";
+		};
+		D5848D1F2A07CE890018E4B5 /* macOS Widget ExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5848D302A07CE8B0018E4B5 /* Build configuration list for PBXNativeTarget "macOS Widget ExtensionExtension" */;
+			buildPhases = (
+				D5848D1C2A07CE890018E4B5 /* Sources */,
+				D5848D1D2A07CE890018E4B5 /* Frameworks */,
+				D5848D1E2A07CE890018E4B5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "macOS Widget ExtensionExtension";
+			productName = "macOS Widget ExtensionExtension";
+			productReference = D5848D202A07CE890018E4B5 /* macOS Widget ExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 		D5A91F6C28777A5500C8FA0D /* DW Episode Guide tvOS */ = {
 			isa = PBXNativeTarget;
@@ -2974,7 +3047,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1340;
+				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					D513C53727F0B209006505A9 = {
@@ -2985,6 +3058,9 @@
 					};
 					D57832D627381A18007CD57E = {
 						CreatedOnToolsVersion = 13.1;
+					};
+					D5848D1F2A07CE890018E4B5 = {
+						CreatedOnToolsVersion = 14.3;
 					};
 					D5A91F6C28777A5500C8FA0D = {
 						CreatedOnToolsVersion = 13.3;
@@ -3014,6 +3090,7 @@
 				D55E3C5A2854C7850074DB20 /* DW Episode Guide watchOS */,
 				D5A91F6C28777A5500C8FA0D /* DW Episode Guide tvOS */,
 				D5B6B6F628BBEB9B0095B6AF /* iOS Widget ExtensionExtension */,
+				D5848D1F2A07CE890018E4B5 /* macOS Widget ExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -3045,6 +3122,14 @@
 			files = (
 				D57832E227381A1C007CD57E /* Preview Assets.xcassets in Resources */,
 				D57832DF27381A1C007CD57E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5848D1E2A07CE890018E4B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5848D282A07CE8B0018E4B5 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4181,6 +4266,7 @@
 				D57EB1E0274813550032DF75 /* TheHauntingOfVillaDiodati.swift in Sources */,
 				D57EB1742745B15C0032DF75 /* TimeHeist.swift in Sources */,
 				D57EB0A6274422E40032DF75 /* FathersDay.swift in Sources */,
+				D5848D2C2A07CE8B0018E4B5 /* macOS_Widget_Extension.intentdefinition in Sources */,
 				D57EB13227456DEE0032DF75 /* DayOfTheMoon.swift in Sources */,
 				D57EB0D8274441860032DF75 /* DaleksInManhattan.swift in Sources */,
 				D57832DD27381A18007CD57E /* ContentView.swift in Sources */,
@@ -4220,6 +4306,15 @@
 				D57EB03A273D9C420032DF75 /* TheKeeperOfTraken.swift in Sources */,
 				D57EB19C2745B2950032DF75 /* HellBent.swift in Sources */,
 				D5783404273B2612007CD57E /* ColonyInSpace.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5848D1C2A07CE890018E4B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5848D2B2A07CE8B0018E4B5 /* macOS_Widget_Extension.intentdefinition in Sources */,
+				D5848D252A07CE8A0018E4B5 /* macOS_Widget_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4624,6 +4719,11 @@
 			target = D55E3C5A2854C7850074DB20 /* DW Episode Guide watchOS */;
 			targetProxy = D55E3C742854C78C0074DB20 /* PBXContainerItemProxy */;
 		};
+		D5848D2E2A07CE8B0018E4B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5848D1F2A07CE890018E4B5 /* macOS Widget ExtensionExtension */;
+			targetProxy = D5848D2D2A07CE8B0018E4B5 /* PBXContainerItemProxy */;
+		};
 		D5B6B70728BBEBA00095B6AF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = D5B6B6F628BBEB9B0095B6AF /* iOS Widget ExtensionExtension */;
@@ -4890,6 +4990,7 @@
 		D57832E727381A1C007CD57E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "DW Episode Guide/DW_Episode_Guide.entitlements";
@@ -4922,6 +5023,7 @@
 		D57832E827381A1C007CD57E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = "DW Episode Guide/DW_Episode_Guide.entitlements";
@@ -4946,6 +5048,68 @@
 				MARKETING_VERSION = 1.3.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D5848D312A07CE8B0018E4B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS Widget Extension/macOS_Widget_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS Widget Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "macOS Widget Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide.macOS-Widget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D5848D322A07CE8B0018E4B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = "macOS Widget Extension/macOS_Widget_Extension.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZWASU9HFBU;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS Widget Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "macOS Widget Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.3.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide.macOS-Widget-Extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -5106,6 +5270,15 @@
 			buildConfigurations = (
 				D57832E727381A1C007CD57E /* Debug */,
 				D57832E827381A1C007CD57E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5848D302A07CE8B0018E4B5 /* Build configuration list for PBXNativeTarget "macOS Widget ExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5848D312A07CE8B0018E4B5 /* Debug */,
+				D5848D322A07CE8B0018E4B5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

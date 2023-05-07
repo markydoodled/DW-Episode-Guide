@@ -686,6 +686,7 @@ struct Provider: IntentTimelineProvider {
             return "1"
         }
     }
+    
     func placeholder(in context: Context) -> SelectSimpleEntry {
         SelectSimpleEntry(date: Date(), configuration: ConfigurationIntent(), name: "An Unearthly Child", image: "AnUnearthlyChild", story: "1", writer: "Anthony Coburn", doctor: "1st Doctor", airDate: "23 November 1963", url: "dwepisode://anunearthlychild")
     }
@@ -698,7 +699,7 @@ struct Provider: IntentTimelineProvider {
     func getTimeline(for configuration: ConfigurationIntent, in context: Context, completion: @escaping (Timeline<Entry>) -> ()) {
         var entries: [SelectSimpleEntry] = []
         let selectedEp = episode(for: configuration)
-        // Generate a timeline consisting of 24 entries an hour apart, starting from the current date.
+        // Generate A Timeline Consisting Of 24 Entries An Hour Apart, Starting From The Current Date.
         let currentDate = Date()
         for hourOffset in 0 ..< 24 {
             let entryDate = Calendar.current.date(byAdding: .hour, value: hourOffset, to: currentDate)!
@@ -3396,7 +3397,7 @@ struct SelectSimpleEntry: TimelineEntry {
     var url: String
 }
 
-struct iOS_Widget_ExtensionEntryView : View {
+struct iOS_Widget_ExtensionEntryView: View {
     var entry: Provider.Entry
     @Environment(\.widgetFamily) var family: WidgetFamily
     var body: some View {
