@@ -23,13 +23,12 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] SJA Info
 - [ ] Torchwood Info
 - [ ] Class Info
-- [ ] Amazon DVD Links (iOS, iPadOS And macOS)
 - [ ] Apple TV App Links (iOS, iPadOS, macOS And tvOS)
 - [ ] Video Clips (iOS, iPadOS, macOS And tvOS)
 - [ ] TouchBar Buttons (macOS)
 - [ ] Keyboard Shortcuts (iPadOS And macOS)
-- [ ] Episode Air Date Notifications
-- [ ] Per Episode Ratings
+- [ ] Episode Air Date Notifications (iOS, iPadOS, watchOS, macOS And tvOS)
+- [ ] Per Episode Ratings (iOS, iPadOS, watchOS, macOS And tvOS)
 - [ ] Top Shelf Content (tvOS)
 - [ ] Siri Suggestions (iOS, iPadOS, macOS And watchOS)
 - [ ] Siri Shortcuts (iOS, iPadOS, macOS, watchOS, tvOS And audioOS)
@@ -37,10 +36,6 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [ ] Handoff Support (iOS, iPadOS, macOS And watchOS)
 - [ ] App Clip Support (iOS, iPadOS)
 - [ ] Home Screen App Context Menu Actions (iOS, iPadOS)
-- [ ] Web App (Built With ASP.NET Core And Hosted On GitHub Pages)
-- [ ] Android App (Built With Jetpack Compose)
-- [ ] Windows App (Built With WinUI 3.0)
-- [ ] Linux App (Built With Electron.NET)
 
 ## **Releases**
 
