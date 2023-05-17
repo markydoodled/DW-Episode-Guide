@@ -19,7 +19,7 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [x] Watched Indicator (iOS, iPadOS, watchOS And macOS)
 - [x] tvOS App
 - [x] Search To Find Episodes
-- [ ] Widget Support (iOS, iPadOS And macOS)
+- [x] Widget Support (iOS, iPadOS And macOS)
 - [ ] SJA Info
 - [ ] Torchwood Info
 - [ ] Class Info
