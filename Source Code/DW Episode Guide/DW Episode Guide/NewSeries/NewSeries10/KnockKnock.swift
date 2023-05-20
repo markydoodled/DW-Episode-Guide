@@ -18,6 +18,7 @@ struct KnockKnock: View {
         @State var showingShare = false
         @AppStorage("KnockKnockNotes") var notes = ""
         @AppStorage("KnockKnockWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -18,6 +18,7 @@ struct BadWolf: View {
         @State var showingShare = false
         @AppStorage("BadWolfNotes") var notes = ""
         @AppStorage("BadWolfWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

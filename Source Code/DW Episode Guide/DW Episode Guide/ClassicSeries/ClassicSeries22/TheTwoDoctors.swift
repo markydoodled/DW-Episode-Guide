@@ -18,6 +18,7 @@ struct TheTwoDoctors: View {
         @State var showingShare = false
         @AppStorage("TheTwoDoctorsNotes") var notes = ""
         @AppStorage("TheTwoDoctorsWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -18,6 +18,7 @@ struct RevengeOfTheCybermen: View {
         @State var showingShare = false
         @AppStorage("RevengeOfTheCybermenNotes") var notes = ""
         @AppStorage("RevengeOfTheCybermenWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -350,6 +350,7 @@ struct DW_Episode_Guide_iOSApp: App {
         case 332: TheVanquishers()
         case 333: EveOfTheDaleks()
         case 334: LegendOfTheSeaDevils()
+        case 335: ThePowerOfTheDoctor()
         default: Text("Invalid Selection")
         }
     }
@@ -1033,6 +1034,8 @@ struct DW_Episode_Guide_iOSApp: App {
                             i = 333
                         } else if url == URL(string: "dwepisode://legendoftheseadevils") {
                             i = 334
+                        } else if url == URL(string: "dwepisode://thepowerofthedoctor") {
+                            i = 335
                         }
                     }
                     select()

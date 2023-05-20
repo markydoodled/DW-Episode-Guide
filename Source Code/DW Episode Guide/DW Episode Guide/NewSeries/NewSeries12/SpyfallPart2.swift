@@ -18,6 +18,7 @@ struct SpyfallPart2: View {
         @State var showingShare = false
         @AppStorage("SpyfallPart2Notes") var notes = ""
         @AppStorage("SpyfallPart2Watched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

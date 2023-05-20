@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D50923B02A15734500551B61 /* ThePowerOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50923AF2A15734500551B61 /* ThePowerOfTheDoctor.swift */; };
+		D50923B12A15738F00551B61 /* ThePowerOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50923AF2A15734500551B61 /* ThePowerOfTheDoctor.swift */; };
+		D50923B22A15739000551B61 /* ThePowerOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50923AF2A15734500551B61 /* ThePowerOfTheDoctor.swift */; };
+		D50923B32A15739000551B61 /* ThePowerOfTheDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D50923AF2A15734500551B61 /* ThePowerOfTheDoctor.swift */; };
 		D513C53B27F0B209006505A9 /* DW_Episode_Guide_iOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513C53A27F0B209006505A9 /* DW_Episode_Guide_iOSApp.swift */; };
 		D513C53D27F0B209006505A9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D513C53C27F0B209006505A9 /* ContentView.swift */; };
 		D513C53F27F0B210006505A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D513C53E27F0B210006505A9 /* Assets.xcassets */; };
@@ -1605,6 +1609,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D50923AF2A15734500551B61 /* ThePowerOfTheDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThePowerOfTheDoctor.swift; sourceTree = "<group>"; };
 		D513C53827F0B209006505A9 /* DW Episode Guide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DW Episode Guide.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D513C53A27F0B209006505A9 /* DW_Episode_Guide_iOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DW_Episode_Guide_iOSApp.swift; sourceTree = "<group>"; };
 		D513C53C27F0B209006505A9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -2871,6 +2876,7 @@
 				D57EB1F127495AE50032DF75 /* TheVanquishers.swift */,
 				D5AD102627D92D22002B7238 /* EveOfTheDaleks.swift */,
 				D557539E2853A22F0001EA53 /* LegendOfTheSeaDevils.swift */,
+				D50923AF2A15734500551B61 /* ThePowerOfTheDoctor.swift */,
 			);
 			path = NewSeries13;
 			sourceTree = "<group>";
@@ -3379,6 +3385,7 @@
 				D513C5AC27F0B794006505A9 /* TheMassacre.swift in Sources */,
 				D513C5F027F0B794006505A9 /* TheMythMakers.swift in Sources */,
 				D513C5E027F0B794006505A9 /* TheWebPlanet.swift in Sources */,
+				D50923B12A15738F00551B61 /* ThePowerOfTheDoctor.swift in Sources */,
 				D513C66B27F0B86E006505A9 /* ThePowerOfThree.swift in Sources */,
 				D513C57827F0B70B006505A9 /* TheTwinDilemma.swift in Sources */,
 				D513C67027F0B86E006505A9 /* AChristmasCarol.swift in Sources */,
@@ -3764,6 +3771,7 @@
 				D55E3CD22854CB260074DB20 /* TheAbominableSnowmen.swift in Sources */,
 				D55E3D372854CB260074DB20 /* TheKrotons.swift in Sources */,
 				D55E3DDE2854CCC30074DB20 /* TheChristmasInvasion.swift in Sources */,
+				D50923B22A15739000551B61 /* ThePowerOfTheDoctor.swift in Sources */,
 				D55E3DE22854CCC30074DB20 /* TheCrimsonHorror.swift in Sources */,
 				D55E3CF92854CB260074DB20 /* RevelationOfTheDaleks.swift in Sources */,
 				D55E3D672854CCC30074DB20 /* TheImpossiblePlanet.swift in Sources */,
@@ -4190,6 +4198,7 @@
 				D57832FA27381F22007CD57E /* ClassicSeries7.swift in Sources */,
 				D578331627382029007CD57E /* ClassicSeries21.swift in Sources */,
 				D57833B2273B2011007CD57E /* TheTimeMeddler.swift in Sources */,
+				D50923B02A15734500551B61 /* ThePowerOfTheDoctor.swift in Sources */,
 				D57EB1B42745B3780032DF75 /* TheEatersOfLight.swift in Sources */,
 				D57EB11E27444E420032DF75 /* TheVampiresOfVenice.swift in Sources */,
 				D57833E2273B2398007CD57E /* TheWebOfFear.swift in Sources */,
@@ -4665,6 +4674,7 @@
 				D5A91FE52877805500C8FA0D /* InvasionOfTheDinosaurs.swift in Sources */,
 				D5A9207F287780B000C8FA0D /* DeathInHeaven.swift in Sources */,
 				D5A91FC42877805500C8FA0D /* TheTwoDoctors.swift in Sources */,
+				D50923B32A15739000551B61 /* ThePowerOfTheDoctor.swift in Sources */,
 				D5A920B8287780D200C8FA0D /* PlanetOfTheOod.swift in Sources */,
 				D5A920CD287780DC00C8FA0D /* DaleksInManhattan.swift in Sources */,
 				D5A91FC52877805500C8FA0D /* TheWebOfFear.swift in Sources */,
@@ -4758,7 +4768,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS";
 				PRODUCT_NAME = "DW Episode Guide";
 				SDKROOT = iphoneos;
@@ -4794,7 +4804,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS";
 				PRODUCT_NAME = "DW Episode Guide";
 				SDKROOT = iphoneos;
@@ -4816,7 +4826,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = DW_Episode_Guide.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.MSJ.DW-Episode-Guide-iOS";
@@ -4825,7 +4835,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp";
 				PRODUCT_NAME = "DW Episode Guide";
 				SDKROOT = watchos;
@@ -4848,7 +4858,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CLKComplicationPrincipalClass = "$(PRODUCT_MODULE_NAME).ComplicationController";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = DW_Episode_Guide.ComplicationController;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.MSJ.DW-Episode-Guide-iOS";
@@ -4857,7 +4867,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.watchkitapp";
 				PRODUCT_NAME = "DW Episode Guide";
 				SDKROOT = watchos;
@@ -4922,6 +4932,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -4929,6 +4940,8 @@
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Debug;
 		};
@@ -4978,12 +4991,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TVOS_DEPLOYMENT_TARGET = 15.0;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -4997,7 +5013,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
@@ -5006,13 +5022,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DW-Episode-Guide-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© Mark Howard 2022, All Rights And Images Owned By The BBC";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© Mark Howard 2023, All Rights And Images Owned By The BBC";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -5030,7 +5046,7 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEAD_CODE_STRIPPING = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"DW Episode Guide/Preview Content\"";
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
@@ -5039,13 +5055,13 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "DW-Episode-Guide-Info.plist";
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.reference";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "© Mark Howard 2022, All Rights And Images Owned By The BBC";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "© Mark Howard 2023, All Rights And Images Owned By The BBC";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -5062,7 +5078,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS Widget Extension/macOS_Widget_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -5075,7 +5091,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide.macOS-Widget-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -5093,7 +5109,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS Widget Extension/macOS_Widget_Extension.entitlements";
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = ZWASU9HFBU;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -5106,7 +5122,7 @@
 					"@executable_path/../../../../Frameworks",
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide.macOS-Widget-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -5134,7 +5150,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-tvOS";
 				PRODUCT_NAME = "DW Episode Guide";
 				SDKROOT = appletvos;
@@ -5164,7 +5180,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.3;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-tvOS";
 				PRODUCT_NAME = "DW Episode Guide";
 				SDKROOT = appletvos;
@@ -5194,7 +5210,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.iOS-Widget-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -5223,7 +5239,7 @@
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				MARKETING_VERSION = 1.3.1;
+				MARKETING_VERSION = 1.3.2;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.MSJ.DW-Episode-Guide-iOS.iOS-Widget-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;

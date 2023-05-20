@@ -18,6 +18,7 @@ struct TheTwinDilemma: View {
         @State var showingShare = false
         @AppStorage("TheTwinDilemmaNotes") var notes = ""
         @AppStorage("TheTwinDilemmaWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

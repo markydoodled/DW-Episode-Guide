@@ -15,13 +15,13 @@ struct SettingsView: View {
                                    Text("Version")
                                        .bold()
                                    Spacer()
-                                   Text("1.3.1")
+                                   Text("1.3.2")
                                }
                                HStack {
                                    Text("Build")
                                        .bold()
                                    Spacer()
-                                   Text("1")
+                                   Text("3")
                                }
                            }
                            .padding()

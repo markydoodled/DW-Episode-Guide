@@ -18,6 +18,7 @@ struct ToothAndClaw: View {
         @State var showingShare = false
         @AppStorage("ToothAndClawNotes") var notes = ""
         @AppStorage("ToothAndClawWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

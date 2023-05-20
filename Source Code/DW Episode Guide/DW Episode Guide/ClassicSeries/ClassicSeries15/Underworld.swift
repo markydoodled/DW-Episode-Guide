@@ -18,6 +18,7 @@ struct Underworld: View {
         @State var showingShare = false
         @AppStorage("UnderworldNotes") var notes = ""
         @AppStorage("UnderworldWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

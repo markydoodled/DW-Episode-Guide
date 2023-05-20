@@ -3365,6 +3365,16 @@
 					<key>INEnumValueName</key>
 					<string>legendoftheseadevils</string>
 				</dict>
+				<dict>
+					<key>INEnumValueDisplayName</key>
+					<string>The Power Of The Doctor</string>
+					<key>INEnumValueDisplayNameID</key>
+					<string>rAGasL</string>
+					<key>INEnumValueIndex</key>
+					<integer>335</integer>
+					<key>INEnumValueName</key>
+					<string>thepowerofthedoctor</string>
+				</dict>
 			</array>
 		</dict>
 	</array>

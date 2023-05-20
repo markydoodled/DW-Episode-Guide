@@ -2724,6 +2724,14 @@ struct PersistenceController {
         legendoftheseadevils.doctor = "13th Doctor\n(Jodie Whittaker)"
         legendoftheseadevils.length = "48 Minutes"
         legendoftheseadevils.producer = "Nikki Wilson"
+        let thepowerofthedoctor = ThePowerOfTheDoctorClass(context: viewContext)
+        thepowerofthedoctor.title = "The Power Of The Doctor"
+        thepowerofthedoctor.broadcast = "23 October 2022"
+        thepowerofthedoctor.companions = "Yasmin Khan (Mandip Gill)\nDan Lewis (John Bishop)\nAce (Sophie Aldred)\nTegan Jovanka (Janet Fielding)"
+        thepowerofthedoctor.director = "Jamie Magnus Stone"
+        thepowerofthedoctor.doctor = "13th Doctor\n(Jodie Whittaker)"
+        thepowerofthedoctor.length = "87 Minutes"
+        thepowerofthedoctor.producer = "Nikki Wilson"
         do {
             try viewContext.save()
         } catch {

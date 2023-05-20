@@ -18,6 +18,7 @@ struct TheZygonInversion: View {
         @State var showingShare = false
         @AppStorage("TheZygonInversionNotes") var notes = ""
         @AppStorage("TheZygonInversionWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

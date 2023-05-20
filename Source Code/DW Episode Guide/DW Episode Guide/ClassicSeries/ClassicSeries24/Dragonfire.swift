@@ -18,6 +18,7 @@ struct Dragonfire: View {
         @State var showingShare = false
         @AppStorage("DragonfireNotes") var notes = ""
         @AppStorage("DragonfireWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

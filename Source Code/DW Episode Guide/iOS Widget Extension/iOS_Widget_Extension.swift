@@ -682,6 +682,8 @@ struct Provider: IntentTimelineProvider {
             return "333"
         case .legendoftheseadevils:
             return "334"
+        case .thepowerofthedoctor:
+            return "335"
         default:
             return "1"
         }
@@ -3376,6 +3378,14 @@ struct Provider: IntentTimelineProvider {
                 entry.doctor = "13th Doctor"
                 entry.airDate = "17 April 2022"
                 entry.url = "dwepisode://legendoftheseadevils"
+            } else if selectedEp == "335" {
+                entry.name = "The Power Of The Doctor"
+                entry.image = "ThePowerOfTheDoctor"
+                entry.story = "300"
+                entry.writer = "Chris Chibnall"
+                entry.doctor = "13th Doctor"
+                entry.airDate = "23 October 2022"
+                entry.url = "dwepisode://thepowerofthedoctor"
             }
             entries.append(entry)
         }

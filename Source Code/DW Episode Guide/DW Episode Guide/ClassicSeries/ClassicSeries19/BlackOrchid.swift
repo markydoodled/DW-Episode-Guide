@@ -18,6 +18,7 @@ struct BlackOrchid: View {
         @State var showingShare = false
         @AppStorage("BlackOrchidNotes") var notes = ""
         @AppStorage("BlackOrchidWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

@@ -18,6 +18,7 @@ struct TimeFlight: View {
         @State var showingShare = false
         @AppStorage("TimeFlightNotes") var notes = ""
         @AppStorage("TimeFlightWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool

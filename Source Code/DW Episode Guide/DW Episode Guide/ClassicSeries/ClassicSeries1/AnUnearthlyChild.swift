@@ -18,6 +18,7 @@ struct AnUnearthlyChild: View {
     @State var showingShare = false
     @AppStorage("AnUnearthlyChildNotes") var notes = ""
     @AppStorage("AnUnearthlyChildWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool
@@ -160,6 +161,20 @@ struct AnUnearthlyChild: View {
                     Spacer()
                 }
                 .padding()
+            }
+            .focusable()
+            .focused($isViewFocused)
+            .touchBar {
+                Button(action: {self.watched.toggle()}) {
+                    Label("Watched?", systemImage: self.watched == true ? "checkmark.square.fill" : "square")
+                }
+                Button(action: {self.showingShare = true}) {
+                    Label("Share", systemImage: "square.and.arrow.up")
+                }
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/An_Unearthly_Child")!]))
+            }
+            .onAppear() {
+                self.isViewFocused = true
             }
             .toolbar {
                 ToolbarItem(placement: .primaryAction) {

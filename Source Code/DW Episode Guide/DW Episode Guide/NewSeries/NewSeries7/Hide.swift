@@ -18,6 +18,7 @@ struct Hide: View {
         @State var showingShare = false
         @AppStorage("HideNotes") var notes = ""
         @AppStorage("HideWatched") var watched: Bool = false
+    @FocusState private var isViewFocused: Bool
     #if os(iOS)
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @FocusState private var isFocused: Bool
