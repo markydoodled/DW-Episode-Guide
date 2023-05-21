@@ -16,7 +16,7 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 - [x] Drag And Drop Support (iOS, iPadOS And macOS)
 - [x] User Feedback Button (iOS, iPadOS And macOS)
 - [x] watchOS App
-- [x] Watched Indicator (iOS, iPadOS, watchOS And macOS)
+- [x] Watched Indicator
 - [x] tvOS App
 - [x] Search To Find Episodes
 - [x] Widget Support (iOS, iPadOS And macOS)
