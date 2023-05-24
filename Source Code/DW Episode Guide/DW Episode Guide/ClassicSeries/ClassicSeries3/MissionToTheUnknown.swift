@@ -171,7 +171,7 @@ struct MissionToTheUnknown: View {
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
-                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Mission_to_the_Unknown")!]))
             }
             .onAppear() {
                 self.isViewFocused = true

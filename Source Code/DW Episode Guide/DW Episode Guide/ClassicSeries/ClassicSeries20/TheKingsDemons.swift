@@ -171,7 +171,7 @@ struct TheKingsDemons: View {
                         Button(action: {self.showingShare = true}) {
                             Label("Share", systemImage: "square.and.arrow.up")
                         }
-                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_King%27s_Demons")!]))
                     }
                     .onAppear() {
                         self.isViewFocused = true

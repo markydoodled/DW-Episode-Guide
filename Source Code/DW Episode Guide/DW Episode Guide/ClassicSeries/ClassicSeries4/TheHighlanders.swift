@@ -172,7 +172,7 @@ struct TheHighlanders: View {
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
-                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Highlanders_(Doctor_Who)")!]))
             }
             .onAppear() {
                 self.isViewFocused = true
