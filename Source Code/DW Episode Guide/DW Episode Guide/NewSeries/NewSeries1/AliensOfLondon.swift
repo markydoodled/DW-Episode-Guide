@@ -171,7 +171,7 @@ struct AliensOfLondon: View {
                         Button(action: {self.showingShare = true}) {
                             Label("Share", systemImage: "square.and.arrow.up")
                         }
-                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Aliens_of_London")!]))
                     }
                     .onAppear() {
                         self.isViewFocused = true

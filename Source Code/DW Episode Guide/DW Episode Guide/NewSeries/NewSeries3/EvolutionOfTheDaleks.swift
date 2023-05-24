@@ -162,6 +162,20 @@ struct EvolutionOfTheDaleks: View {
                         }
                         .padding()
                     }
+                    .focusable()
+                    .focused($isViewFocused)
+                    .touchBar {
+                        Button(action: {self.watched.toggle()}) {
+                            Label("Watched?", systemImage: self.watched == true ? "checkmark.square.fill" : "square")
+                        }
+                        Button(action: {self.showingShare = true}) {
+                            Label("Share", systemImage: "square.and.arrow.up")
+                        }
+                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Evolution_of_the_Daleks")!]))
+                    }
+                    .onAppear() {
+                        self.isViewFocused = true
+                    }
                     .toolbar {
                     ToolbarItem(placement: .primaryAction) {
                         Button(action: {self.watched.toggle()}) {
@@ -431,20 +445,6 @@ struct EvolutionOfTheDaleks: View {
                         Spacer()
                     }
                     .padding()
-                }
-                .focusable()
-                .focused($isViewFocused)
-                .touchBar {
-                    Button(action: {self.watched.toggle()}) {
-                        Label("Watched?", systemImage: self.watched == true ? "checkmark.square.fill" : "square")
-                    }
-                    Button(action: {self.showingShare = true}) {
-                        Label("Share", systemImage: "square.and.arrow.up")
-                    }
-                    .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
-                }
-                .onAppear() {
-                    self.isViewFocused = true
                 }
                 .toolbar {
                 ToolbarItem(placement: .primaryAction) {

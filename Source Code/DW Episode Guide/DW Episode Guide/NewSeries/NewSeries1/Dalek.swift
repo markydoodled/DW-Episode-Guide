@@ -171,7 +171,7 @@ struct Dalek: View {
                         Button(action: {self.showingShare = true}) {
                             Label("Share", systemImage: "square.and.arrow.up")
                         }
-                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Dalek_(Doctor_Who_episode)")!]))
                     }
                     .onAppear() {
                         self.isViewFocused = true

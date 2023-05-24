@@ -171,7 +171,7 @@ struct SmithAndJones: View {
                         Button(action: {self.showingShare = true}) {
                             Label("Share", systemImage: "square.and.arrow.up")
                         }
-                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                        .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Smith_and_Jones_(Doctor_Who)")!]))
                     }
                     .onAppear() {
                         self.isViewFocused = true
