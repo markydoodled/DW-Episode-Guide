@@ -173,7 +173,7 @@ struct ThePyramidAtTheEndOfTheWorld: View {
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
-                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Pyramid_at_the_End_of_the_World")!]))
             }
             .onAppear() {
                 self.isViewFocused = true

@@ -172,7 +172,7 @@ struct TheGirlWhoDied: View {
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
-                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Girl_Who_Died")!]))
             }
             .onAppear() {
                 self.isViewFocused = true

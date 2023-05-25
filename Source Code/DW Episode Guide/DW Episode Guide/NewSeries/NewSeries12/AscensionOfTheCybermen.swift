@@ -172,7 +172,7 @@ struct AscensionOfTheCybermen: View {
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
-                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Ascension_of_the_Cybermen")!]))
             }
             .onAppear() {
                 self.isViewFocused = true

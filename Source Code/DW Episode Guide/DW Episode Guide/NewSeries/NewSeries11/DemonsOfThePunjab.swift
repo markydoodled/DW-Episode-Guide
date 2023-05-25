@@ -172,7 +172,7 @@ struct DemonsOfThePunjab: View {
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
-                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "")!]))
+                .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Demons_of_the_Punjab")!]))
             }
             .onAppear() {
                 self.isViewFocused = true
