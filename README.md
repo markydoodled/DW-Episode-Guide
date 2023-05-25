@@ -4,38 +4,23 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 
 ## **Features**
 
-- [x] macOS App
-- [x] Info On Classic Series Episodes
-- [x] Info On New Series Episodes
-- [x] Add Notes (iOS, iPadOS And macOS)
-- [x] Share Wiki Link (iOS, iPadOS And macOS)
-- [x] Copy Images To Clipboard (iOS, iPadOS And macOS)
-- [x] iOS App
-- [x] iPadOS App
-- [x] Copy Info To Clipboard (iOS, iPadOS And macOS)
-- [x] Drag And Drop Support (iOS, iPadOS And macOS)
-- [x] User Feedback Button (iOS, iPadOS And macOS)
-- [x] watchOS App
-- [x] Watched Indicator
-- [x] tvOS App
-- [x] Search To Find Episodes
-- [x] Widget Support (iOS, iPadOS And macOS)
-- [x] TouchBar Buttons (macOS)
-- [ ] SJA Info
-- [ ] Torchwood Info
-- [ ] Class Info
-- [ ] Apple TV App Links (iOS, iPadOS, macOS And tvOS)
-- [ ] Video Clips (iOS, iPadOS, macOS And tvOS)
-- [ ] Keyboard Shortcuts (iPadOS And macOS)
-- [ ] Episode Air Date Notifications (iOS, iPadOS, watchOS, macOS And tvOS)
-- [ ] Per Episode Ratings (iOS, iPadOS, watchOS, macOS And tvOS)
-- [ ] Top Shelf Content (tvOS)
-- [ ] Siri Suggestions (iOS, iPadOS, macOS And watchOS)
-- [ ] Siri Shortcuts (iOS, iPadOS, macOS, watchOS, tvOS And audioOS)
-- [ ] Ask Siri Support (iOS, iPadOS, macOS, watchOS, tvOS And audioOS)
-- [ ] Handoff Support (iOS, iPadOS, macOS And watchOS)
-- [ ] App Clip Support (iOS, iPadOS)
-- [ ] Home Screen App Context Menu Actions (iOS, iPadOS)
+- macOS App
+- Info On Classic Series Episodes
+- Info On New Series Episodes
+- Add Notes (iOS, iPadOS And macOS)
+- Share Wiki Link (iOS, iPadOS And macOS)
+- Copy Images To Clipboard (iOS, iPadOS And macOS)
+- iOS App
+- iPadOS App
+- Copy Info To Clipboard (iOS, iPadOS And macOS)
+- Drag And Drop Support (iOS, iPadOS And macOS)
+- User Feedback Button (iOS, iPadOS And macOS)
+- watchOS App
+- Watched Indicator
+- tvOS App
+- Search To Find Episodes
+- Widget Support (iOS, iPadOS And macOS)
+- TouchBar Buttons (macOS)
 
 ## **Releases**
 
