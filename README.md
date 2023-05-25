@@ -41,10 +41,6 @@ A SwiftUI App That Will Show Information On Each Episode In The Doctor Who Franc
 
 [Click Here For All Releases...](https://github.com/markydoodled/DW-Episode-Guide/releases)
 
-## **Images**
-
-[Click Here For All Images...](https://github.com/markydoodled/DW-Episode-Guide/tree/main/Images)
-
 ## **Things To Note**
 
  1. This Project Is Free To Be Added To By The Community, Please Fork This Project To Add Your Own Enhancements. If You Wish To Help With This Branch, File A Issue With The Enhancement Tag
