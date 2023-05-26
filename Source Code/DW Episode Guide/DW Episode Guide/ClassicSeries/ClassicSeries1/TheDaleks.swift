@@ -168,9 +168,11 @@ struct TheDaleks: View {
                 Button(action: {self.watched.toggle()}) {
                     Label("Watched?", systemImage: self.watched == true ? "checkmark.square.fill" : "square")
                 }
+                .keyboardShortcut("y")
                 Button(action: {self.showingShare = true}) {
                     Label("Share", systemImage: "square.and.arrow.up")
                 }
+                .keyboardShortcut("s", modifiers: [.command, .shift])
                 .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/The_Daleks")!]))
             }
             .onAppear() {
@@ -451,11 +453,13 @@ struct TheDaleks: View {
                         Button(action: {self.watched.toggle()}) {
                             Image(systemName: self.watched == true ? "checkmark.square.fill" : "square")
                         }
+                        .keyboardShortcut("y")
                     }
                     ToolbarItem(placement: .primaryAction) {
                         Button(action: {self.showingShare = true}) {
                             Image(systemName: "square.and.arrow.up")
                         }
+                        .keyboardShortcut("s", modifiers: [.command, .shift])
                         .sheet(isPresented: $showingShare) {
                             ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/The_Daleks")!], applicationActivities: nil)
                         }

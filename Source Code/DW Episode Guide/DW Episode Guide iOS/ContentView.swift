@@ -373,6 +373,7 @@ struct ContentView: View {
                 NavigationLink(destination: search) {
                     Label("Search", systemImage: "magnifyingglass")
                 }
+                .keyboardShortcut("f")
                 Section(header: Text("Classic Series")) {
                     classicSeriesBlock1
                     classicSeriesBlock2
@@ -390,6 +391,7 @@ struct ContentView: View {
                     Button(action: {self.showingSettings = true}) {
                         Image(systemName: "gearshape")
                     }
+                    .keyboardShortcut(",")
                     .sheet(isPresented: $showingSettings) {
                         setting
                     }
@@ -1286,7 +1288,7 @@ struct ContentView: View {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.3.2")
+                        Text("1.4")
                     }
                     HStack {
                         Text("Build")
@@ -1309,6 +1311,7 @@ struct ContentView: View {
                         Button(action: {self.showingSettings = false}) {
                             Text("Done")
                         }
+                        .keyboardShortcut("w")
                     }
                 }
         } else {
@@ -1317,7 +1320,7 @@ struct ContentView: View {
                     HStack {
                         Text("Version")
                         Spacer()
-                        Text("1.3.2")
+                        Text("1.4")
                     }
                     HStack {
                         Text("Build")

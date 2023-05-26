@@ -366,6 +366,7 @@ struct ContentView: View {
                 NavigationLink(destination: search) {
                     Label("Search", systemImage: "magnifyingglass")
                 }
+                .keyboardShortcut("f")
                 Section(header: Text("Classic Series")) {
                     classicSeriesBlock1
                     classicSeriesBlock2
