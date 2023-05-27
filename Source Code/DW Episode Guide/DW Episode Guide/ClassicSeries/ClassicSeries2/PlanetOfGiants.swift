@@ -181,11 +181,13 @@ struct PlanetOfGiants: View {
                         Button(action: {self.watched.toggle()}) {
                             Image(systemName: self.watched == true ? "checkmark.square.fill" : "square")
                         }
+                        .keyboardShortcut("y")
                     }
                 ToolbarItem(placement: .primaryAction) {
                     Button(action: {self.showingShare = true}) {
                         Image(systemName: "square.and.arrow.up")
                     }
+                    .keyboardShortcut("s", modifiers: [.command, .shift])
                     .background(SharingsPicker(isPresented: $showingShare, sharingItems: [URL(string: "https://en.wikipedia.org/wiki/Planet_of_Giants")!]))
                 }
             }
@@ -451,11 +453,13 @@ struct PlanetOfGiants: View {
                         Button(action: {self.watched.toggle()}) {
                             Image(systemName: self.watched == true ? "checkmark.square.fill" : "square")
                         }
+                        .keyboardShortcut("y")
                     }
                     ToolbarItem(placement: .primaryAction) {
                         Button(action: {self.showingShare = true}) {
                             Image(systemName: "square.and.arrow.up")
                         }
+                        .keyboardShortcut("s", modifiers: [.command, .shift])
                         .sheet(isPresented: $showingShare) {
                             ActivityView(activityItems: [URL(string: "https://en.wikipedia.org/wiki/Planet_of_Giants")!], applicationActivities: nil)
                         }
